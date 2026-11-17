@@ -1,0 +1,161 @@
+{
+  "asset_id": "HIL-07",
+  "version": "v02_refined",
+  "asset_name": "Low-rise townhouse and rowhouse",
+  "project": "Project Z: Kaldran City",
+  "source_image": "HIL-07_MultiView_Reference.png",
+  "reference_authority": "Source board is a concept layout, not surveyed CAD or photogrammetric measurements.",
+  "units": 6,
+  "total_building_nominal_m": 52.0,
+  "expected_depth_m": 16.0,
+  "axis": "glTF +Y up, +X along townhouse row, +Z to rear courtyard; meters",
+  "playable_unit": "3rd house from x=0, ground floor only, entrance near X=22.09m",
+  "relative_lod_reductions": {
+    "LOD0": 1.0,
+    "LOD1": 0.40104368270898744,
+    "LOD2": 0.1222528063309105
+  },
+  "render_geometry": {
+    "LOD0": {
+      "lod": 0,
+      "triangles": 279012,
+      "mesh_count": 196,
+      "roundtrip_triangles": 279012,
+      "bounds_m": [
+        [
+          -0.5549,
+          -1.03,
+          -0.2
+        ],
+        [
+          53.2001,
+          10.475,
+          15.55
+        ]
+      ],
+      "file_size_bytes": 44300720,
+      "glb_magic": "676c5446",
+      "roundtrip_verified": true,
+      "materials": 23,
+      "mesh_primitives": 196,
+      "texture_descriptors": 92,
+      "embedded_images": 92,
+      "image_mime_types": [
+        "image/png"
+      ],
+      "uvless_primitive_indices": [],
+      "materials_without_basecolor_texture": [],
+      "sha256": "e99e878f13c3fed1b00f8ab79975f2d287eec97ba76fbb3ad1da3488a82331f0"
+    },
+    "LOD1": {
+      "lod": 1,
+      "triangles": 111896,
+      "mesh_count": 158,
+      "roundtrip_triangles": 111896,
+      "bounds_m": [
+        [
+          -0.515,
+          -1.03,
+          -0.2
+        ],
+        [
+          52.4167,
+          10.475,
+          15.55
+        ]
+      ],
+      "file_size_bytes": 39198596,
+      "glb_magic": "676c5446",
+      "roundtrip_verified": true,
+      "materials": 23,
+      "mesh_primitives": 158,
+      "texture_descriptors": 92,
+      "embedded_images": 92,
+      "image_mime_types": [
+        "image/png"
+      ],
+      "uvless_primitive_indices": [],
+      "materials_without_basecolor_texture": [],
+      "sha256": "9ae2e0369f0031ddeb7b16a12301c6ebc58f53820f7f7a3f29f71d9680c5445a"
+    },
+    "LOD2": {
+      "lod": 2,
+      "triangles": 34110,
+      "mesh_count": 137,
+      "roundtrip_triangles": 34110,
+      "bounds_m": [
+        [
+          -0.29,
+          -1.03,
+          0.0
+        ],
+        [
+          52.4167,
+          10.475,
+          15.55
+        ]
+      ],
+      "file_size_bytes": 33971960,
+      "glb_magic": "676c5446",
+      "roundtrip_verified": true,
+      "materials": 18,
+      "mesh_primitives": 137,
+      "texture_descriptors": 72,
+      "embedded_images": 72,
+      "image_mime_types": [
+        "image/png"
+      ],
+      "uvless_primitive_indices": [],
+      "materials_without_basecolor_texture": [],
+      "sha256": "29d39ed58704330d362b7a2290df953d22ccd578c957a07f86fde5adeaaf8e23"
+    }
+  },
+  "collision": {
+    "asset": "HIL-07_CollisionProxies.glb",
+    "source": "Source/build_collision_proxies.py",
+    "import_roundtrip_verified": true,
+    "godot_in_engine_tested": false
+  },
+  "present": {
+    "editable_gltf_GLBS": true,
+    "procedural_authoring_source": true,
+    "external_PBR_textures": true,
+    "UVs": true,
+    "reference_board": true,
+    "mesh_previews": true,
+    "Blender_creation_script": true,
+    "Godot4_scripts": true
+  },
+  "not_present": {
+    "native_blend": true,
+    "godot_import_screenshot": true,
+    "verified_door_animation_track": true,
+    "verified_pixel_aligned_reference_match": true
+  },
+  "external_dependencies_for_source_build": [
+    "numpy",
+    "trimesh",
+    "Pillow",
+    "scipy"
+  ],
+  "testing": {
+    "trimesh_GLTF_import": true,
+    "GLB_header_json": true,
+    "triangles_per_LOD": true,
+    "UVs_for_each_mesh": true,
+    "embedded_PBR_images": true,
+    "blender_open": false,
+    "Godot4_import": false,
+    "collision_navigation": false,
+    "door_swing_engine": false
+  },
+  "visual_scope": "No airport / mountain background in asset. Preview-only road staging is excluded from GLBs.",
+  "known_gaps": [
+    "Not pixel-identical to supplied reference: fa\u00e7ade proportions, some roof intersections, balcony geometry and courtyard landscape remain approximations.",
+    "Shells for non-playable homes; one furnished ground floor and static open doorway.",
+    "Material images 512/1024px rather than requested preferred 2K/4K; PBR-compatible but not a scanned photoreal material set.",
+    "Leaf geometry and transparency should be inspected under actual Godot shading and hardware.",
+    "Unverified runtime door pivot/clearance, no exported animation channel.",
+    "Viewport render previews are VTK, not Godot 4 and not full photorealistic renderer output."
+  ]
+}

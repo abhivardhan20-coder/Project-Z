@@ -1,0 +1,10 @@
+{
+  "west": -24576,
+  "north": -40960,
+  "size": 49152,
+  "spacing": 32,
+  "tile_size": 4096,
+  "samples": 1537,
+  "dtype": "little-endian Float32 metres ASL",
+  "row_direction": "+Z south"
+}

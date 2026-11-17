@@ -1,0 +1,20 @@
+{
+  "capital_source_samples": 2362369,
+  "capital_source_extent_km2": 2415.919104,
+  "source_min_m": 316.06329345703125,
+  "source_max_m": 3415.0,
+  "tiles": 144,
+  "near_core_km2": 1.048576,
+  "near_source_spacing_m": 2,
+  "thermal_max_deposition_m": 22.666933059692383,
+  "maximum_incision_m": 5.0887885093688965,
+  "d8_downhill_edges": 2362141,
+  "d8_uphill_edges": 0,
+  "interior_closed_cells": 221,
+  "trail_max_grade": 0.0,
+  "trail_length_m": 972.0,
+  "trail_max_earthwork_m": 1.533097528717169,
+  "generation_seconds": 47.57,
+  "height_sha256": "2eed06ec35a06bbc35518747f7e767d4f070a4a114695aec2a07f2f448d374cd",
+  "scope": "geographic plan + central spine/first playable prototype; other regions are planning data only"
+}

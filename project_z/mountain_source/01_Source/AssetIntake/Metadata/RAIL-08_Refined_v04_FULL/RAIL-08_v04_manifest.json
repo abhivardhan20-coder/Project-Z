@@ -1,0 +1,1551 @@
+{
+  "asset_id": "RAIL-08",
+  "revision": "v04 fidelity refinement",
+  "units": "metres",
+  "coordinate_system": "glTF Y-up",
+  "reference": "RAIL-08_MultiView_Reference.png",
+  "span_m": 60.0,
+  "road_clearance_m": 9.0,
+  "width_m": 6.0,
+  "LOD": {
+    "LOD0": {
+      "file": "RAIL-08_LOD0_v04.glb",
+      "triangles": 465840,
+      "mesh_count": 83,
+      "bounds_Y_up_m": [
+        [
+          -40.584999084472656,
+          -2.67891480805032e-16,
+          -5.275000095367432
+        ],
+        [
+          40.584999084472656,
+          12.184000015258789,
+          4.375
+        ]
+      ],
+      "missing_UVs": [],
+      "bytes": 20216996,
+      "sha256": "b82894088610e0b9a5bd4d7b73b8588537d281bfa3b5045e750d3e0e86e2bb9a",
+      "mesh_breakdown": {
+        "Structure__steel": {
+          "triangles": 3000,
+          "vertices": 1608,
+          "material": "steel"
+        },
+        "Interior__concrete": {
+          "triangles": 772,
+          "vertices": 408,
+          "material": "concrete"
+        },
+        "Interior__floor": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "floor"
+        },
+        "Interior__frame": {
+          "triangles": 15480,
+          "vertices": 10000,
+          "material": "frame"
+        },
+        "Structure__frame": {
+          "triangles": 1680,
+          "vertices": 896,
+          "material": "frame"
+        },
+        "Structure__steel_light": {
+          "triangles": 2352,
+          "vertices": 1328,
+          "material": "steel_light"
+        },
+        "Details__silver": {
+          "triangles": 26064,
+          "vertices": 14688,
+          "material": "silver"
+        },
+        "Facade__frame": {
+          "triangles": 20016,
+          "vertices": 10864,
+          "material": "frame"
+        },
+        "Facade__silver": {
+          "triangles": 17704,
+          "vertices": 11032,
+          "material": "silver"
+        },
+        "Facade__glass": {
+          "triangles": 2400,
+          "vertices": 1600,
+          "material": "glass"
+        },
+        "Interior__silver": {
+          "triangles": 7088,
+          "vertices": 3936,
+          "material": "silver"
+        },
+        "Roof__frame": {
+          "triangles": 324,
+          "vertices": 176,
+          "material": "frame"
+        },
+        "Roof__steel_light": {
+          "triangles": 6000,
+          "vertices": 3408,
+          "material": "steel_light"
+        },
+        "Roof__glass_roof": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "glass_roof"
+        },
+        "Roof__silver": {
+          "triangles": 3472,
+          "vertices": 1888,
+          "material": "silver"
+        },
+        "Interior__steel_light": {
+          "triangles": 185520,
+          "vertices": 92824,
+          "material": "steel_light"
+        },
+        "Interior__warm": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "warm"
+        },
+        "Interior__tactile": {
+          "triangles": 2388,
+          "vertices": 1592,
+          "material": "tactile"
+        },
+        "Details__tactile": {
+          "triangles": 78804,
+          "vertices": 42984,
+          "material": "tactile"
+        },
+        "Interior__rubber": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "rubber"
+        },
+        "Details__steel_light": {
+          "triangles": 50880,
+          "vertices": 27840,
+          "material": "steel_light"
+        },
+        "Interior__bench": {
+          "triangles": 1680,
+          "vertices": 1120,
+          "material": "bench"
+        },
+        "Interior__earth": {
+          "triangles": 440,
+          "vertices": 240,
+          "material": "earth"
+        },
+        "Interior__foliage": {
+          "triangles": 3600,
+          "vertices": 2100,
+          "material": "foliage"
+        },
+        "Signage__sign_station": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_station"
+        },
+        "Signage__sign_bus": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_bus"
+        },
+        "Structure__rubber": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "rubber"
+        },
+        "Access_Tower__concrete": {
+          "triangles": 1320,
+          "vertices": 880,
+          "material": "concrete"
+        },
+        "Access_Tower__floor": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "floor"
+        },
+        "Lift__frame": {
+          "triangles": 2208,
+          "vertices": 1312,
+          "material": "frame"
+        },
+        "Lift__glass": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "glass"
+        },
+        "Lift__steel_light": {
+          "triangles": 96,
+          "vertices": 64,
+          "material": "steel_light"
+        },
+        "Lift__silver": {
+          "triangles": 960,
+          "vertices": 512,
+          "material": "silver"
+        },
+        "Lift__sign": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "sign"
+        },
+        "Stairs__concrete": {
+          "triangles": 1440,
+          "vertices": 960,
+          "material": "concrete"
+        },
+        "Stairs__rubber": {
+          "triangles": 1296,
+          "vertices": 864,
+          "material": "rubber"
+        },
+        "Stairs__floor": {
+          "triangles": 144,
+          "vertices": 96,
+          "material": "floor"
+        },
+        "Stairs__steel_light": {
+          "triangles": 1440,
+          "vertices": 768,
+          "material": "steel_light"
+        },
+        "Stairs__silver": {
+          "triangles": 20112,
+          "vertices": 10944,
+          "material": "silver"
+        },
+        "Access_Tower__tactile": {
+          "triangles": 384,
+          "vertices": 256,
+          "material": "tactile"
+        },
+        "Access_Tower__silver": {
+          "triangles": 72,
+          "vertices": 48,
+          "material": "silver"
+        },
+        "Structure__silver": {
+          "triangles": 1200,
+          "vertices": 640,
+          "material": "silver"
+        },
+        "Details__steel": {
+          "triangles": 1760,
+          "vertices": 960,
+          "material": "steel"
+        },
+        "Roof__rubber": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "rubber"
+        },
+        "Access_Tower__frame": {
+          "triangles": 240,
+          "vertices": 128,
+          "material": "frame"
+        },
+        "Access_Tower__steel_light": {
+          "triangles": 168,
+          "vertices": 112,
+          "material": "steel_light"
+        },
+        "Access_Tower__glass_roof": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "glass_roof"
+        },
+        "Roof__concrete": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "concrete"
+        },
+        "Details__concrete": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "concrete"
+        },
+        "Details__earth": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "earth"
+        },
+        "Details__foliage": {
+          "triangles": 960,
+          "vertices": 560,
+          "material": "foliage"
+        },
+        "West_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundHandle_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundHandle_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundHandle_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundHandle_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        }
+      }
+    },
+    "LOD1": {
+      "file": "RAIL-08_LOD1_v04.glb",
+      "triangles": 217256,
+      "mesh_count": 83,
+      "bounds_Y_up_m": [
+        [
+          -40.584999084472656,
+          -2.67891480805032e-16,
+          -5.275000095367432
+        ],
+        [
+          40.584999084472656,
+          12.184000015258789,
+          4.375
+        ]
+      ],
+      "missing_UVs": [],
+      "bytes": 12976152,
+      "sha256": "5d8b58f1d28190ecb34b6547bddad4fe5a7aad11e56686dd1bf71e90ff4e0178",
+      "mesh_breakdown": {
+        "Structure__steel": {
+          "triangles": 1432,
+          "vertices": 824,
+          "material": "steel"
+        },
+        "Interior__concrete": {
+          "triangles": 212,
+          "vertices": 128,
+          "material": "concrete"
+        },
+        "Interior__floor": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "floor"
+        },
+        "Interior__frame": {
+          "triangles": 14200,
+          "vertices": 9360,
+          "material": "frame"
+        },
+        "Structure__frame": {
+          "triangles": 224,
+          "vertices": 128,
+          "material": "frame"
+        },
+        "Structure__steel_light": {
+          "triangles": 1392,
+          "vertices": 848,
+          "material": "steel_light"
+        },
+        "Facade__frame": {
+          "triangles": 5376,
+          "vertices": 3072,
+          "material": "frame"
+        },
+        "Facade__silver": {
+          "triangles": 7680,
+          "vertices": 4864,
+          "material": "silver"
+        },
+        "Facade__glass": {
+          "triangles": 2400,
+          "vertices": 1600,
+          "material": "glass"
+        },
+        "Interior__silver": {
+          "triangles": 2352,
+          "vertices": 1448,
+          "material": "silver"
+        },
+        "Details__silver": {
+          "triangles": 2800,
+          "vertices": 1680,
+          "material": "silver"
+        },
+        "Roof__frame": {
+          "triangles": 164,
+          "vertices": 96,
+          "material": "frame"
+        },
+        "Roof__steel_light": {
+          "triangles": 3240,
+          "vertices": 1968,
+          "material": "steel_light"
+        },
+        "Roof__glass_roof": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "glass_roof"
+        },
+        "Roof__silver": {
+          "triangles": 360,
+          "vertices": 208,
+          "material": "silver"
+        },
+        "Interior__steel_light": {
+          "triangles": 138896,
+          "vertices": 69512,
+          "material": "steel_light"
+        },
+        "Interior__warm": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "warm"
+        },
+        "Interior__tactile": {
+          "triangles": 1200,
+          "vertices": 800,
+          "material": "tactile"
+        },
+        "Details__tactile": {
+          "triangles": 6000,
+          "vertices": 3600,
+          "material": "tactile"
+        },
+        "Interior__rubber": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "rubber"
+        },
+        "Details__steel_light": {
+          "triangles": 9600,
+          "vertices": 5760,
+          "material": "steel_light"
+        },
+        "Interior__bench": {
+          "triangles": 1680,
+          "vertices": 1120,
+          "material": "bench"
+        },
+        "Interior__earth": {
+          "triangles": 200,
+          "vertices": 120,
+          "material": "earth"
+        },
+        "Interior__foliage": {
+          "triangles": 1000,
+          "vertices": 600,
+          "material": "foliage"
+        },
+        "Signage__sign_station": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_station"
+        },
+        "Signage__sign_bus": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_bus"
+        },
+        "Structure__rubber": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "rubber"
+        },
+        "Access_Tower__concrete": {
+          "triangles": 936,
+          "vertices": 624,
+          "material": "concrete"
+        },
+        "Access_Tower__floor": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "floor"
+        },
+        "Lift__frame": {
+          "triangles": 704,
+          "vertices": 416,
+          "material": "frame"
+        },
+        "Lift__glass": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "glass"
+        },
+        "Lift__steel_light": {
+          "triangles": 96,
+          "vertices": 64,
+          "material": "steel_light"
+        },
+        "Lift__silver": {
+          "triangles": 448,
+          "vertices": 256,
+          "material": "silver"
+        },
+        "Lift__sign": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "sign"
+        },
+        "Stairs__concrete": {
+          "triangles": 1440,
+          "vertices": 960,
+          "material": "concrete"
+        },
+        "Stairs__rubber": {
+          "triangles": 1296,
+          "vertices": 864,
+          "material": "rubber"
+        },
+        "Stairs__floor": {
+          "triangles": 144,
+          "vertices": 96,
+          "material": "floor"
+        },
+        "Stairs__steel_light": {
+          "triangles": 672,
+          "vertices": 384,
+          "material": "steel_light"
+        },
+        "Stairs__silver": {
+          "triangles": 6432,
+          "vertices": 3792,
+          "material": "silver"
+        },
+        "Access_Tower__tactile": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "tactile"
+        },
+        "Access_Tower__silver": {
+          "triangles": 72,
+          "vertices": 48,
+          "material": "silver"
+        },
+        "Structure__silver": {
+          "triangles": 560,
+          "vertices": 320,
+          "material": "silver"
+        },
+        "Details__steel": {
+          "triangles": 800,
+          "vertices": 480,
+          "material": "steel"
+        },
+        "Roof__rubber": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "rubber"
+        },
+        "Access_Tower__frame": {
+          "triangles": 112,
+          "vertices": 64,
+          "material": "frame"
+        },
+        "Access_Tower__steel_light": {
+          "triangles": 168,
+          "vertices": 112,
+          "material": "steel_light"
+        },
+        "Access_Tower__glass_roof": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "glass_roof"
+        },
+        "Roof__concrete": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "concrete"
+        },
+        "Details__concrete": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "concrete"
+        },
+        "Details__earth": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "earth"
+        },
+        "Details__foliage": {
+          "triangles": 400,
+          "vertices": 240,
+          "material": "foliage"
+        },
+        "West_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_NegY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_TopRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_BottomRail": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_StileA": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_StileB": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY_Handle": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundHandle_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundHandle_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundHandle_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundHandle_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        }
+      }
+    },
+    "LOD2": {
+      "file": "RAIL-08_LOD2_v04.glb",
+      "triangles": 81360,
+      "mesh_count": 54,
+      "bounds_Y_up_m": [
+        [
+          -40.584999084472656,
+          -2.67891480805032e-16,
+          -5.275000095367432
+        ],
+        [
+          40.584999084472656,
+          12.184000015258789,
+          4.375
+        ]
+      ],
+      "missing_UVs": [],
+      "bytes": 8847268,
+      "sha256": "af1df474ed67e0edadff7a24817fc20362c93fd9290b93c7db65781bcc445b9a",
+      "mesh_breakdown": {
+        "Structure__steel": {
+          "triangles": 648,
+          "vertices": 432,
+          "material": "steel"
+        },
+        "Interior__concrete": {
+          "triangles": 212,
+          "vertices": 128,
+          "material": "concrete"
+        },
+        "Interior__floor": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "floor"
+        },
+        "Interior__frame": {
+          "triangles": 13152,
+          "vertices": 8768,
+          "material": "frame"
+        },
+        "Structure__frame": {
+          "triangles": 96,
+          "vertices": 64,
+          "material": "frame"
+        },
+        "Structure__steel_light": {
+          "triangles": 912,
+          "vertices": 608,
+          "material": "steel_light"
+        },
+        "Facade__frame": {
+          "triangles": 2304,
+          "vertices": 1536,
+          "material": "frame"
+        },
+        "Facade__glass": {
+          "triangles": 2400,
+          "vertices": 1600,
+          "material": "glass"
+        },
+        "Interior__silver": {
+          "triangles": 752,
+          "vertices": 448,
+          "material": "silver"
+        },
+        "Roof__frame": {
+          "triangles": 84,
+          "vertices": 56,
+          "material": "frame"
+        },
+        "Roof__steel_light": {
+          "triangles": 1960,
+          "vertices": 1288,
+          "material": "steel_light"
+        },
+        "Roof__glass_roof": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "glass_roof"
+        },
+        "Roof__silver": {
+          "triangles": 168,
+          "vertices": 112,
+          "material": "silver"
+        },
+        "Interior__steel_light": {
+          "triangles": 46080,
+          "vertices": 23040,
+          "material": "steel_light"
+        },
+        "Interior__warm": {
+          "triangles": 720,
+          "vertices": 480,
+          "material": "warm"
+        },
+        "Interior__tactile": {
+          "triangles": 408,
+          "vertices": 272,
+          "material": "tactile"
+        },
+        "Interior__rubber": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "rubber"
+        },
+        "Interior__bench": {
+          "triangles": 1680,
+          "vertices": 1120,
+          "material": "bench"
+        },
+        "Interior__earth": {
+          "triangles": 200,
+          "vertices": 120,
+          "material": "earth"
+        },
+        "Signage__sign_station": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_station"
+        },
+        "Signage__sign_bus": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "sign_bus"
+        },
+        "Structure__rubber": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "rubber"
+        },
+        "Details__silver": {
+          "triangles": 720,
+          "vertices": 432,
+          "material": "silver"
+        },
+        "Access_Tower__concrete": {
+          "triangles": 936,
+          "vertices": 624,
+          "material": "concrete"
+        },
+        "Access_Tower__floor": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "floor"
+        },
+        "Facade__silver": {
+          "triangles": 720,
+          "vertices": 472,
+          "material": "silver"
+        },
+        "Lift__frame": {
+          "triangles": 384,
+          "vertices": 256,
+          "material": "frame"
+        },
+        "Lift__glass": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "glass"
+        },
+        "Lift__steel_light": {
+          "triangles": 96,
+          "vertices": 64,
+          "material": "steel_light"
+        },
+        "Lift__silver": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "silver"
+        },
+        "Lift__sign": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "sign"
+        },
+        "Stairs__concrete": {
+          "triangles": 1440,
+          "vertices": 960,
+          "material": "concrete"
+        },
+        "Stairs__floor": {
+          "triangles": 144,
+          "vertices": 96,
+          "material": "floor"
+        },
+        "Stairs__steel_light": {
+          "triangles": 288,
+          "vertices": 192,
+          "material": "steel_light"
+        },
+        "Access_Tower__tactile": {
+          "triangles": 192,
+          "vertices": 128,
+          "material": "tactile"
+        },
+        "Access_Tower__silver": {
+          "triangles": 72,
+          "vertices": 48,
+          "material": "silver"
+        },
+        "Structure__silver": {
+          "triangles": 240,
+          "vertices": 160,
+          "material": "silver"
+        },
+        "Details__steel": {
+          "triangles": 800,
+          "vertices": 480,
+          "material": "steel"
+        },
+        "Roof__rubber": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "rubber"
+        },
+        "Stairs__silver": {
+          "triangles": 1776,
+          "vertices": 1056,
+          "material": "silver"
+        },
+        "Access_Tower__frame": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "frame"
+        },
+        "Access_Tower__steel_light": {
+          "triangles": 168,
+          "vertices": 112,
+          "material": "steel_light"
+        },
+        "Access_Tower__glass_roof": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "glass_roof"
+        },
+        "Roof__concrete": {
+          "triangles": 24,
+          "vertices": 16,
+          "material": "concrete"
+        },
+        "Details__concrete": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "concrete"
+        },
+        "Details__earth": {
+          "triangles": 48,
+          "vertices": 32,
+          "material": "earth"
+        },
+        "West_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_DoorLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "West_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_NegY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        },
+        "East_GroundLeaf_PosY": {
+          "triangles": 12,
+          "vertices": 8,
+          "material": "frame"
+        }
+      }
+    }
+  },
+  "materials": [
+    "concrete",
+    "steel",
+    "steel_light",
+    "frame",
+    "glass",
+    "glass_roof",
+    "floor",
+    "tactile",
+    "warm",
+    "foliage",
+    "earth",
+    "rubber",
+    "sign",
+    "bench",
+    "silver",
+    "sign_station",
+    "sign_bus",
+    "sign_tower"
+  ],
+  "texture_files": 48,
+  "refinement": [
+    "glazed dual-height vestibule wings at tower exteriors",
+    "five long-bay V-trusses matching front elevation",
+    "bolted double-rail V-truss nodes",
+    "concrete and glazing bands on stair/elevator towers",
+    "street-facing six-flight stair geometry and handrail reinforcement",
+    "roof gutters, clips, expansion flashings",
+    "cross-deck fire services",
+    "outer ground access leaves with hinge pivots",
+    "tower bearing strengthening"
+  ],
+  "limitations": [
+    "No exact source CAD or orthographic camera calibration supplied; not pixel-perfect.",
+    "No native Blender binary installed. .blend must be saved locally from editable GLB.",
+    "No Godot 4 binary installed; runtime collision and animation still require engine tests.",
+    "The reference elevation is not drawn to engineering scale: 9m road clearance and 12m tower must be prioritized over relative pixel proportions."
+  ],
+  "pivot_nodes": [
+    {
+      "name": "West_DoorLeaf_NegY",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_NegY_TopRail",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_NegY_BottomRail",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_NegY_StileA",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_NegY_StileB",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_NegY_Handle",
+      "pivot_Z_up_m": [
+        -30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY_TopRail",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY_BottomRail",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY_StileA",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY_StileB",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_DoorLeaf_PosY_Handle",
+      "pivot_Z_up_m": [
+        -30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY_TopRail",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY_BottomRail",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY_StileA",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY_StileB",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_NegY_Handle",
+      "pivot_Z_up_m": [
+        30.005,
+        -1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY_TopRail",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY_BottomRail",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY_StileA",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY_StileB",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_DoorLeaf_PosY_Handle",
+      "pivot_Z_up_m": [
+        30.005,
+        1.375,
+        9.49
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_GroundLeaf_NegY",
+      "pivot_Z_up_m": [
+        -36.33,
+        -1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_GroundHandle_NegY",
+      "pivot_Z_up_m": [
+        -36.33,
+        -1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_GroundLeaf_PosY",
+      "pivot_Z_up_m": [
+        -36.33,
+        1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "West_GroundHandle_PosY",
+      "pivot_Z_up_m": [
+        -36.33,
+        1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_GroundLeaf_NegY",
+      "pivot_Z_up_m": [
+        36.33,
+        -1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_GroundHandle_NegY",
+      "pivot_Z_up_m": [
+        36.33,
+        -1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_GroundLeaf_PosY",
+      "pivot_Z_up_m": [
+        36.33,
+        1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    },
+    {
+      "name": "East_GroundHandle_PosY",
+      "pivot_Z_up_m": [
+        36.33,
+        1.115,
+        0.105
+      ],
+      "axis": "Z",
+      "motion": "swing 85 deg, animate in Godot"
+    }
+  ],
+  "gates": {
+    "LOD0_over_150k": true,
+    "LOD0_target_220k_to_500k": true,
+    "LOD1_40_to_55_percent": true,
+    "LOD2_10_to_20_percent": true,
+    "all_imported_uvs": true
+  },
+  "collision": {
+    "file": "RAIL-08_COLLISION_v04.glb",
+    "triangles": 2076,
+    "mesh_count": 6,
+    "runtime_playtest": "Not tested: Godot not installed"
+  }
+}

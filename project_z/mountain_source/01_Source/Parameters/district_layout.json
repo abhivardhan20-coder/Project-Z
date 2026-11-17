@@ -1,0 +1,33 @@
+{
+  "note": "Authored infrastructure in one fixed world. Camera fitting does not move district geometry.",
+  "districts": {
+    "Airport": {
+      "origin_xz": [
+        4100,
+        900
+      ],
+      "heading_rad": 0.1877001962786942
+    },
+    "Hillside": {
+      "origin_xz": [
+        -3100,
+        2100
+      ],
+      "heading_rad": -0.15569611229722632
+    },
+    "Railway": {
+      "origin_xz": [
+        1700,
+        900
+      ],
+      "heading_rad": -0.18694039829034437
+    },
+    "Capitol": {
+      "origin_xz": [
+        0,
+        1600
+      ],
+      "heading_rad": 0.17988753174837424
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "optimized_glbs": 79,
+  "checks": [
+    "SHA-256 against intake record",
+    "glTF 2.0 header and byte length",
+    "unique parent per node",
+    "embedded texture references"
+  ],
+  "failures": []
+}

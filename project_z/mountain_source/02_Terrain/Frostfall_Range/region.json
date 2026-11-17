@@ -1,0 +1,14 @@
+{
+  "id": "Frostfall_Range",
+  "center": [
+    11000,
+    -44000
+  ],
+  "extent": [
+    30000,
+    17000
+  ],
+  "peak_m": 3742,
+  "identity": "glaciated alpine horns, north-draining cirques",
+  "state": "master plan"
+}

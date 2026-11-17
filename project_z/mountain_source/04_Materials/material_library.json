@@ -1,0 +1,124 @@
+[
+  {
+    "name": "granite",
+    "source": "https://polyhaven.com/a/rock_face_03",
+    "metres_per_repeat": 4,
+    "albedo": "granite_albedo.png",
+    "normal_roughness": "granite_normal_roughness.png",
+    "status": "Photographic base color, OpenGL normal and roughness; 1K sources packed to 512px runtime maps",
+    "license": "CC0-1.0"
+  },
+  {
+    "name": "dark_bedrock",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "dark_bedrock_albedo.png",
+    "normal_roughness": "dark_bedrock_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "weathered_rock",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "weathered_rock_albedo.png",
+    "normal_roughness": "weathered_rock_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "sedimentary",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "sedimentary_albedo.png",
+    "normal_roughness": "sedimentary_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "scree",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "scree_albedo.png",
+    "normal_roughness": "scree_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "moss",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "moss_albedo.png",
+    "normal_roughness": "moss_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "soil",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "soil_albedo.png",
+    "normal_roughness": "soil_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "grass",
+    "source": "https://polyhaven.com/a/rocky_terrain",
+    "metres_per_repeat": 4,
+    "albedo": "grass_albedo.png",
+    "normal_roughness": "grass_normal_roughness.png",
+    "status": "Photographic base color, OpenGL normal and roughness; 1K sources packed to 512px runtime maps",
+    "license": "CC0-1.0"
+  },
+  {
+    "name": "subalpine",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "subalpine_albedo.png",
+    "normal_roughness": "subalpine_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "snow",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "snow_albedo.png",
+    "normal_roughness": "snow_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "packed_snow",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "packed_snow_albedo.png",
+    "normal_roughness": "packed_snow_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "ice",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "ice_albedo.png",
+    "normal_roughness": "ice_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "mud",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "mud_albedo.png",
+    "normal_roughness": "mud_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "river_gravel",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "river_gravel_albedo.png",
+    "normal_roughness": "river_gravel_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  },
+  {
+    "name": "basalt_ash",
+    "source": "original procedural prototype",
+    "metres_per_repeat": 4,
+    "albedo": "basalt_ash_albedo.png",
+    "normal_roughness": "basalt_ash_normal_roughness.png",
+    "status": "prototype material; requires photogrammetry/art pass for final AAA target"
+  }
+]

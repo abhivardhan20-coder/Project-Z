@@ -1,0 +1,11 @@
+{
+  "shape": [
+    541,
+    471
+  ],
+  "spacing": 200,
+  "west": -45000,
+  "north": -62000,
+  "dtype": "little-endian Float32 metres ASL",
+  "purpose": "coarse planning only; approximate coastline"
+}

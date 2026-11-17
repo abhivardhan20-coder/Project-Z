@@ -1,0 +1,150 @@
+{
+  "LOD0": {
+    "file": "RAIL-06_LOD0.glb",
+    "bytes": 26944956,
+    "triangles": 304650,
+    "mesh_count": 104,
+    "bounds_gltf_m": [
+      [
+        -9.15,
+        0.0,
+        -3.903
+      ],
+      [
+        9.15,
+        3.569,
+        0.339
+      ]
+    ],
+    "sha256": "9459327bdfeb8650cd64661f00fdf617cdacc3be29942f6ae1c607bbedd75c08"
+  },
+  "LOD1": {
+    "file": "RAIL-06_LOD1.glb",
+    "bytes": 23075568,
+    "triangles": 123242,
+    "mesh_count": 90,
+    "bounds_gltf_m": [
+      [
+        -9.15,
+        0.0,
+        -3.876
+      ],
+      [
+        9.15,
+        3.569,
+        0.339
+      ]
+    ],
+    "sha256": "e5dffb62c8a919fcfdfa1a30a175e045c1105e19864be88a0fd5320a173efd0b"
+  },
+  "LOD2": {
+    "file": "RAIL-06_LOD2.glb",
+    "bytes": 18990996,
+    "triangles": 35578,
+    "mesh_count": 79,
+    "bounds_gltf_m": [
+      [
+        -9.15,
+        0.0,
+        -3.876
+      ],
+      [
+        9.15,
+        3.569,
+        0.339
+      ]
+    ],
+    "sha256": "37956654421d6d1d2213e4e1d31b2c90dcde62ecf4ffb225d5b66f213dd9b8cd"
+  },
+  "Collision": {
+    "file": "RAIL-06_collision.glb",
+    "bytes": 17320,
+    "triangles": 312,
+    "mesh_count": 8,
+    "bounds_min_xyz_gltf": [
+      -9.095000267028809,
+      0.0,
+      -3.619999885559082
+    ],
+    "bounds_max_xyz_gltf": [
+      9.095000267028809,
+      2.9749999046325684,
+      0.0
+    ],
+    "extents_xyz_gltf": [
+      18.190000534057617,
+      2.9749999046325684,
+      3.619999885559082
+    ],
+    "reimport": "passed (trimesh GLB round-trip)",
+    "format": "glTF 2.0 binary",
+    "sha256": "95e4447b7ed51ad843202c235d764d4f1150f6f715edb56e70a34780e467c5af"
+  },
+  "HLOD": {
+    "file": "RAIL-06_HLOD.glb",
+    "bytes": 18397604,
+    "triangles": 12890,
+    "mesh_count": 77,
+    "bounds_min_xyz_gltf": [
+      -9.149999618530273,
+      0.0,
+      -3.875999927520752
+    ],
+    "bounds_max_xyz_gltf": [
+      9.149999618530273,
+      3.569000005722046,
+      0.33899998664855957
+    ],
+    "extents_xyz_gltf": [
+      18.299999237060547,
+      3.569000005722046,
+      4.2149999141693115
+    ],
+    "reimport": "passed (trimesh GLB round-trip)",
+    "format": "glTF 2.0 binary",
+    "sha256": "c39c42c3b261cb45d996380e7420e904208a72d468b21fd12377a812ccaeab43"
+  },
+  "DamagedVariant": {
+    "file": "RAIL-06_damaged_glass_variant.glb",
+    "bytes": 1856944,
+    "triangles": 5172,
+    "mesh_count": 3,
+    "bounds_min_xyz_gltf": [
+      8.901000022888184,
+      0.19499999284744263,
+      -2.1600000858306885
+    ],
+    "bounds_max_xyz_gltf": [
+      8.933799743652344,
+      2.865000009536743,
+      -0.2199999988079071
+    ],
+    "extents_xyz_gltf": [
+      0.032799720764160156,
+      2.6700000166893005,
+      1.9400000870227814
+    ],
+    "reimport": "passed (trimesh GLB round-trip)",
+    "format": "glTF 2.0 binary",
+    "sha256": "1864ae89121ad75a97a6f6ea82606d8455e482a563be916893fd320e63cf4d85"
+  },
+  "source_reference": "RAIL-06_MultiView_Reference.png exact supplied reference board",
+  "version": "2.0 - reference-focused reconstruction",
+  "units": "meters, GLB Y-up; local -Z toward bus curb; original source Z-up",
+  "design_nominal_m": {
+    "length": 18,
+    "shelter_depth": 3.6,
+    "roof_height": 3.55,
+    "pavement_top": 0.2
+  },
+  "reference_assumptions": [
+    "One single bus shelter, no surrounding station mesh",
+    "End section governs canopy curve and open boarding side",
+    "Front/rear elevations govern eight modular 2.25m facade bays",
+    "Hero reference governs silver fascia, bench/case locations and muted PBR finishes",
+    "User board contains artistic stylization and non-orthographic views, so no objective pixel-identical replica possible"
+  ],
+  "materials": "Physically based glTF metallic-roughness; texturing includes embedded image maps and external PNG copies",
+  "engine_test": "Not run; Godot 4 unavailable. Independent GLB import and geometry checks only.",
+  "blender_native": "Not generated; Blender unavailable. Import-and-save helper provided."
+}

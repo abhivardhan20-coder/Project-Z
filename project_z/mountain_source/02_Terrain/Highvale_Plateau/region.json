@@ -1,0 +1,14 @@
+{
+  "id": "Highvale_Plateau",
+  "center": [
+    21500,
+    -35000
+  ],
+  "extent": [
+    15000,
+    15000
+  ],
+  "peak_m": 1850,
+  "identity": "upland grassland and eroded escarpments",
+  "state": "master plan"
+}

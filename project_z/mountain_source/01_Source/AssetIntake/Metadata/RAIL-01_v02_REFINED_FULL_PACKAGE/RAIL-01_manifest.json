@@ -1,0 +1,135 @@
+{
+  "asset_id": "RAIL-01",
+  "name": "Central Arch Station Grand Roof",
+  "version": "v02_reference_refinement",
+  "project": "Project Z: Kaldran City",
+  "source_reference": "RAIL-01_MultiView_Reference.png",
+  "authored_scale": "meters",
+  "pivot": "Y-up conversion of Z-up source. GLB world origin at ground station center, front towards positive glTF Z",
+  "masterplan_fit": "NOT verified; position and yaw must be set in-engine against masterplan P03/D13",
+  "reference_dimensions_m": {
+    "roof_clear_span_approx": 120,
+    "length_approx": 240,
+    "roof_height_approx": 34
+  },
+  "actual_render_bound_m": {
+    "min_yup": [
+      -79.625,
+      -1.24,
+      -125.6
+    ],
+    "max_yup": [
+      79.625,
+      35.17,
+      132.24
+    ],
+    "dimensions": [
+      159.25,
+      36.41,
+      257.84
+    ]
+  },
+  "geometry_stats": {
+    "LOD0": {
+      "triangles": 455808,
+      "meshes": 133,
+      "materials": 13,
+      "embedded_images": 52,
+      "texture_refs": 52,
+      "degenerate_triangles": 0,
+      "meshes_missing_uvs": 0,
+      "bytes": 26758248,
+      "sha256": "196205c039860ddf4d38ee7a8a8e3dbe7cfd2d038b490fdbafc78fbaddf3a3d4"
+    },
+    "LOD1": {
+      "triangles": 193172,
+      "meshes": 121,
+      "materials": 13,
+      "embedded_images": 52,
+      "texture_refs": 52,
+      "degenerate_triangles": 0,
+      "meshes_missing_uvs": 0,
+      "bytes": 15926948,
+      "sha256": "1b7f6cbe3bd5a9ae94c50005b919206cac8853b7cd2d19843f833e06e980d003"
+    },
+    "LOD2": {
+      "triangles": 62424,
+      "meshes": 101,
+      "materials": 11,
+      "embedded_images": 44,
+      "texture_refs": 44,
+      "degenerate_triangles": 0,
+      "meshes_missing_uvs": 0,
+      "bytes": 9061844,
+      "sha256": "17ae0d9ed02ddea1d8ba4a3c99aa5c71ba5baf4cec6058a03442c594089afb06"
+    },
+    "HLOD": {
+      "triangles": 4104,
+      "meshes": 10,
+      "materials": 5,
+      "embedded_images": 20,
+      "texture_refs": 20,
+      "degenerate_triangles": 0,
+      "meshes_missing_uvs": 0,
+      "bytes": 4102740,
+      "sha256": "548fe7799a8cbf928b38c2838c924ecf0d102350803c6701a018eaef6e1f0272"
+    },
+    "collision": {
+      "triangles": 396,
+      "meshes": 4,
+      "materials": 1,
+      "embedded_images": 4,
+      "texture_refs": 4,
+      "degenerate_triangles": 0,
+      "meshes_missing_uvs": 0,
+      "bytes": 395164,
+      "sha256": "989ffcaa77e1d136e58987d7850b68f20a4e2b5653d54f8699437156e4c3ce51"
+    }
+  },
+  "LODs_ratio": {
+    "LOD1_to_LOD0": 0.4238,
+    "LOD2_to_LOD0": 0.137
+  },
+  "materials": "embedded glTF metallic/roughness PBR with normal and ORM maps, 512/1024 base resolution",
+  "geometry_construction": "Actual editable and named meshes; vertex UVs, face triangles, material assignments, glTF hierarchy",
+  "source_scripts": [
+    "RAIL-01_build_refined.py",
+    "RAIL-01_build_hlod.py",
+    "RAIL-01_make_blend.py"
+  ],
+  "engine_setup": "RAIL-01_Godot4.tscn with 48 simplified BoxShape3D colliders (not run in Godot)",
+  "reference_features": {
+    "main_steel_arch_vault": "double-chord steel I sections, diagonals, rivets, longitudinal bracing",
+    "ten_side_arcade_bays": "separate full-height curtain-wall arches with curved scalloped roofs",
+    "facade": "deep end-gable truss, vertical curtain wall grid, glass entrance canopy",
+    "masonry": "end pier towers with ashlar banding, quoins, window trims, side wings",
+    "platforms": "four railway track pairs, five boarding surfaces, tactile paving, benches, gallery balustrades",
+    "details": "glazing clamps, truss splices and fasteners, ridge ventilation, eave gutters, downpipes, column footings"
+  },
+  "checks": {
+    "LOD0_strictly_gt_150000": true,
+    "LOD0_in_target_220000_to_500000": true,
+    "LOD1_ratio_40_to_55_percent": true,
+    "LOD2_ratio_10_to_20_percent": true,
+    "GLBs_have_valid_container_headers": true,
+    "all_GLBS_reimported_trimesh": true,
+    "every_mesh_has_uvs": true,
+    "all_mesh_vertices_finite": true,
+    "zero_detected_degenerate_triangles": true
+  },
+  "app_tests": {
+    "blender_native_blend_exported": false,
+    "godot_import_performed": false,
+    "in_engine_collision_walktest": false,
+    "independent_GLTF_binary_reimport": true,
+    "VTK_geometry_preview": true
+  },
+  "remaining_variances": [
+    "Not proven pixel/geometry identical to artistic collage; roof/facade interpretation is parametric",
+    "No native .blend delivered because Blender not available",
+    "No 4K texture sets",
+    "Rear service doors are closed visual panels against solid wall; not navigable",
+    "Collision is proxy-only and requires interactive fit/walk QA in Godot",
+    "Structure is concept art, not engineering analysis or permit-ready design"
+  ]
+}

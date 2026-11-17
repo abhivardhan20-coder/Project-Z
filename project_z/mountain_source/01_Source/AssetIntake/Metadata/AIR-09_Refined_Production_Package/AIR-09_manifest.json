@@ -1,0 +1,493 @@
+{
+  "asset_id": "AIR-09",
+  "asset_name": "Fuel and ground-service depot",
+  "edition": "Reference-driven geometry reconstruction, v2",
+  "units": "metres",
+  "engineering_coordinate_system": "Z-up",
+  "glTF_coordinate_system": "Y-up",
+  "footprint_m": [
+    52.0,
+    28.0
+  ],
+  "max_elevation_above_grade_m": 8.8,
+  "below_grade_geometry_m": 0.21,
+  "lod_mesh_triangles": {
+    "LOD0": 245008,
+    "LOD1": 103996,
+    "LOD2": 44084
+  },
+  "distant_hlod_tris": 492,
+  "collision_box_count": 53,
+  "trimesh_reimport_test": "PASS",
+  "native_blender_save": "NOT PERFORMED (Blender unavailable)",
+  "godot_engine_import": "NOT PERFORMED (Godot unavailable)",
+  "animation": "Shutter_Open_Close_3p2s per-slat translation, right service bay",
+  "materials": "metallic-roughness PBR, 512px tileable source maps + embedded GLB images",
+  "files": [
+    {
+      "path": "AIR-09_HLOD.glb",
+      "bytes": 5734908,
+      "sha256": "6197f358fbc5b6f2e7208dac54b913d85b160de0f2a3d6bbd64c9f2d2a1ca797"
+    },
+    {
+      "path": "AIR-09_LOD0.glb",
+      "bytes": 22304260,
+      "sha256": "5a3ba45a7f0cd932f039c04538d460f326237b2407b82d0f3eeb08286bc91cb3"
+    },
+    {
+      "path": "AIR-09_LOD1.glb",
+      "bytes": 18128572,
+      "sha256": "53b31024fa471694eff7064f692552c4e2babc8dc37c01cbb50a3317d1618941"
+    },
+    {
+      "path": "AIR-09_LOD2.glb",
+      "bytes": 16269524,
+      "sha256": "e0714251f14ccd7a52c4ba9739dc3fd3be5dc6ffc3152085de342b5da98a2ebf"
+    },
+    {
+      "path": "AIR-09_MultiView_Reference.png",
+      "bytes": 3690569,
+      "sha256": "f3dd8658323d004905b9bbdd265ab6832cccfb9f1e3d77ac8ecb2bd5db329f2a"
+    },
+    {
+      "path": "AIR-09_collision.glb",
+      "bytes": 30508,
+      "sha256": "51caee1da3abf75757eda44303163a42ca39120a649986e18ebdf006ad526949"
+    },
+    {
+      "path": "AIR-09_collision_proxies.json",
+      "bytes": 8101,
+      "sha256": "00b25949d81d36a13a363c00bb9de5a457fb463f50dcae755fd9bd0b977e98a7"
+    },
+    {
+      "path": "AIR-09_validation.json",
+      "bytes": 21730,
+      "sha256": "a71386c7882d253aa53428b00a185a8b3f683e87c25dd689ba24b796a45445ce"
+    },
+    {
+      "path": "AIR-09_validation.md",
+      "bytes": 2418,
+      "sha256": "267295f8851ed5df6146c45722361bbb2110a0982a65d81cd023f7edc87913d6"
+    },
+    {
+      "path": "AIR09_CollisionBuilder.gd",
+      "bytes": 1648,
+      "sha256": "f0d574eff0e2ba2088603365a87fb76697f6b09e878261a6f3b4745d33fc67db"
+    },
+    {
+      "path": "Blender_Import_Save_Source.py",
+      "bytes": 2525,
+      "sha256": "b3c58fc8d89fd19d0858d7f7bd236839cfa4cfb3cc4eba57f5cff953f4927baa"
+    },
+    {
+      "path": "Godot_Import_Smoke_Test.gd",
+      "bytes": 1770,
+      "sha256": "378482cd0829282cedcfdd075fd23aeea99c36f19a4ae434d50eb1d1f0abcae4"
+    },
+    {
+      "path": "Godot_Integration.md",
+      "bytes": 2632,
+      "sha256": "d0b846784365a635e320dd5f214910754d6496e9e0f1d07b4e8af354719dc792"
+    },
+    {
+      "path": "Previews/AIR-09_closeup.png",
+      "bytes": 102349,
+      "sha256": "3bb837d5351126a0827ade9df4ca6683b1eef982eb04314cadc35c5211d0aaa9"
+    },
+    {
+      "path": "Previews/AIR-09_front.png",
+      "bytes": 53126,
+      "sha256": "e140058e8c337a02d160ff64fc5c86cb60a8df7d71165b3810c98e6165f9f228"
+    },
+    {
+      "path": "Previews/AIR-09_hero.png",
+      "bytes": 117783,
+      "sha256": "2cdf14a5f3b2a839dcbd494c51553bb9a48d52e4e9e9ac224e84ef4b0fe3f1e3"
+    },
+    {
+      "path": "Previews/AIR-09_interior.png",
+      "bytes": 39844,
+      "sha256": "8105cb9f7d1a017fc7e4df7257f82b7214a12f589e60b926bfcfb48fadc96db0"
+    },
+    {
+      "path": "Previews/AIR-09_preview_board.png",
+      "bytes": 404085,
+      "sha256": "e1aa568f274413eab8a9bbfebf2f198c4870389147f4f1629da683039fc11f69"
+    },
+    {
+      "path": "Previews/AIR-09_rear.png",
+      "bytes": 69624,
+      "sha256": "42383237f9ec6003ac1dc7c5edc829ac0401b4e947ef9589f2ba1537f8088eb9"
+    },
+    {
+      "path": "Previews/AIR-09_reference_comparison.png",
+      "bytes": 725724,
+      "sha256": "927ddbe99daa075f30eb00d073273f6e53e590112cc753d1a3eb8cf59090ef65"
+    },
+    {
+      "path": "Previews/AIR-09_roof.png",
+      "bytes": 22648,
+      "sha256": "2abb7b20810b36ad7bd89f96361b08d7ceeb0dd3cab1d30ff6d0ee9729ab4c0d"
+    },
+    {
+      "path": "Previews/AIR-09_side.png",
+      "bytes": 155516,
+      "sha256": "4d17f2f436bc2df16c761680e74eedeb5cada37e8b939e0eec271491d5eb7e70"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5072,
+      "sha256": "0b6d2d9ac04b610da0647dfd8160a05159d933bdb3dbc906c7bb2e268ad71d74"
+    },
+    {
+      "path": "Textures/aluminum_albedo.png",
+      "bytes": 360166,
+      "sha256": "d509e6bf8a01d1e49e677355ee11c14f7197cfbf7160bdaa4f7b28476871a22a"
+    },
+    {
+      "path": "Textures/aluminum_normal.png",
+      "bytes": 202464,
+      "sha256": "a9f53f7fb96720b1bb161e5b4487ea7d2003cd9dd7ae250a1590a46d77ce681e"
+    },
+    {
+      "path": "Textures/aluminum_orm.png",
+      "bytes": 159113,
+      "sha256": "c2a9eb2963275bede3e04b08751e1d96e8c29ebf1e67c5f496d7fd3559633b05"
+    },
+    {
+      "path": "Textures/asphalt_albedo.png",
+      "bytes": 513084,
+      "sha256": "f5c800afe4a3130c4f2b2f9188662892875e7e83ffb0cef746198f8b9894eb48"
+    },
+    {
+      "path": "Textures/asphalt_normal.png",
+      "bytes": 291643,
+      "sha256": "2e12d724676d9d97ac5e08ad20759ab1b1aed787214b71f440d5f56abd4c3709"
+    },
+    {
+      "path": "Textures/asphalt_orm.png",
+      "bytes": 206312,
+      "sha256": "ad6605674af1e7460137b02cf997e2bce4bb6b8b3e14d8881ef61289ff56da15"
+    },
+    {
+      "path": "Textures/blue_albedo.png",
+      "bytes": 345554,
+      "sha256": "bc4e0e5f343ca12462166ff5e76b88cc55fdb1f17f8812edaddd042f1bc4775b"
+    },
+    {
+      "path": "Textures/blue_normal.png",
+      "bytes": 201847,
+      "sha256": "469ededc85054d59c895eadcfddf320904b093e3effc87e8b2bb409db909007d"
+    },
+    {
+      "path": "Textures/blue_orm.png",
+      "bytes": 158965,
+      "sha256": "f908ecf843d81de4f1dcb95b64e4ad1245e45b7eff952077f30f2a974c348763"
+    },
+    {
+      "path": "Textures/concrete_albedo.png",
+      "bytes": 454227,
+      "sha256": "955acf0c00f1baf9fb651c1e01e64cb1068931f9aea1eaec51eba6979e6233e1"
+    },
+    {
+      "path": "Textures/concrete_normal.png",
+      "bytes": 282674,
+      "sha256": "0f4875782a58318ee18fcd96e659bf924fc1b4bff786cd7c7f28bc5003e85bc2"
+    },
+    {
+      "path": "Textures/concrete_orm.png",
+      "bytes": 198194,
+      "sha256": "932c6fcbab6c0afed2c708beecacbe8e898a3130d3c5f02157fa52b7c3e1c8ef"
+    },
+    {
+      "path": "Textures/dark_panel_albedo.png",
+      "bytes": 374291,
+      "sha256": "7b0832f92d56268f852f76f7ade6dbc891078b6e123cb5d43479a186d22aaaff"
+    },
+    {
+      "path": "Textures/dark_panel_normal.png",
+      "bytes": 4407,
+      "sha256": "a7904042128cbfb9cad8183fe7f19c4523eb83b2c383e0ccb5ca1c5f28e0308d"
+    },
+    {
+      "path": "Textures/dark_panel_orm.png",
+      "bytes": 4408,
+      "sha256": "41920fbd63dc1465c715ce0531b19f21b9574534bfb07bce750afb741b9b6fe3"
+    },
+    {
+      "path": "Textures/door_albedo.png",
+      "bytes": 322536,
+      "sha256": "719b3a1dc5f5daf460e00e038ddbe59b2a141df96a47038316854022bdc07cb4"
+    },
+    {
+      "path": "Textures/door_normal.png",
+      "bytes": 202199,
+      "sha256": "e3efe0e3e7ddf459ef713788f9b07f09a3ab61fb1734c6bbce00407c5a44cceb"
+    },
+    {
+      "path": "Textures/door_orm.png",
+      "bytes": 158996,
+      "sha256": "9480b676d4a02e1e67b9c4a04735d6796a9f03ca4afbff906ee33560595e27a4"
+    },
+    {
+      "path": "Textures/epoxy_albedo.png",
+      "bytes": 327754,
+      "sha256": "a9496d68903e37230bc2cff491ba93238ecb9697c2e8a7413a72e791335c53e1"
+    },
+    {
+      "path": "Textures/epoxy_normal.png",
+      "bytes": 202480,
+      "sha256": "76eadde20bfb1c472af0d35abde77104135213b2d6265ab5548dac3a11aa3b9d"
+    },
+    {
+      "path": "Textures/epoxy_orm.png",
+      "bytes": 158894,
+      "sha256": "49833327d8731d474d1c913c30bd47b0286df28b2434468a75ca3c1946eeb9e9"
+    },
+    {
+      "path": "Textures/glass_albedo.png",
+      "bytes": 335434,
+      "sha256": "6e4eb6728b35c1ec681a3954132d243f9d4bdef349d3c56fdc74d8c9c29dba93"
+    },
+    {
+      "path": "Textures/glass_lit_albedo.png",
+      "bytes": 295638,
+      "sha256": "e745693bdfaa42df42315e9c5eb35ad729633b0c50712c3d1398cb2f2aec197c"
+    },
+    {
+      "path": "Textures/glass_lit_normal.png",
+      "bytes": 202142,
+      "sha256": "e6103a7721f95df43147b1c064dc5b34869109c61951ef149cde1dd808ee4112"
+    },
+    {
+      "path": "Textures/glass_lit_orm.png",
+      "bytes": 158592,
+      "sha256": "dea74c83de13c1503d02a85b36641ce73edc223972c67548a1ed6d51d80ecb0b"
+    },
+    {
+      "path": "Textures/glass_normal.png",
+      "bytes": 202260,
+      "sha256": "6d30465a50b3a71bf76b9145f10f26a925ce0d37f13177335b827413883ad04b"
+    },
+    {
+      "path": "Textures/glass_orm.png",
+      "bytes": 158519,
+      "sha256": "cbafe0bd684843d7d4bc92c8bb43201f5a7ecdcbe37dad8fc8fe6ccbe382ae59"
+    },
+    {
+      "path": "Textures/light_albedo.png",
+      "bytes": 269297,
+      "sha256": "d1e07b79f9f080a8c3eddb850697fead5987ea71f1ab966f02b6e5f6146d818f"
+    },
+    {
+      "path": "Textures/light_normal.png",
+      "bytes": 4407,
+      "sha256": "a7904042128cbfb9cad8183fe7f19c4523eb83b2c383e0ccb5ca1c5f28e0308d"
+    },
+    {
+      "path": "Textures/light_orm.png",
+      "bytes": 4409,
+      "sha256": "3a00136e566371155caeecc889d6357e7895f73d733f71e8f3acd97bc2b4992d"
+    },
+    {
+      "path": "Textures/orange_albedo.png",
+      "bytes": 302000,
+      "sha256": "28b938ff44698c75de9f1b3bb0201bd468414caf281b216a51853dc9076bee66"
+    },
+    {
+      "path": "Textures/orange_normal.png",
+      "bytes": 202566,
+      "sha256": "9aa566c14cbdb2108d8ce5c5298beb08c370d1272970d585ff2db85e5efa5dc4"
+    },
+    {
+      "path": "Textures/orange_orm.png",
+      "bytes": 159134,
+      "sha256": "9180c1914eb5ecfee919109d2d81240d1c7efff15fe4f85f9aece28a3fa2f039"
+    },
+    {
+      "path": "Textures/precast_albedo.png",
+      "bytes": 467249,
+      "sha256": "b071c64aaaf68c07cebffc983e4439d2459dfb82f96ddf2ece1a4c29976b727b"
+    },
+    {
+      "path": "Textures/precast_normal.png",
+      "bytes": 282415,
+      "sha256": "3fa2deca61f7ac85be3c46a9b910464648c8eaa8a0dcc7486e83c5b1126c5b87"
+    },
+    {
+      "path": "Textures/precast_orm.png",
+      "bytes": 198674,
+      "sha256": "f70c206dc7671df4c6c51abd2ca3cbd31b91d42cd9e4db4c58a01fea402aeba7"
+    },
+    {
+      "path": "Textures/red_albedo.png",
+      "bytes": 353898,
+      "sha256": "b99fded00f8bb342e9a8992aa58f8a8f5ebbeca9e2a5929ad91324b0ceca8eb8"
+    },
+    {
+      "path": "Textures/red_normal.png",
+      "bytes": 202296,
+      "sha256": "a67b8162c856693a8af6fd1beedb292342fde64e12b114eaf800d293ab2f8c0e"
+    },
+    {
+      "path": "Textures/red_orm.png",
+      "bytes": 159051,
+      "sha256": "7e212e6dfd1c82d9e45ba251a3b46745073f2d630da41adcd655a7bb0446ba37"
+    },
+    {
+      "path": "Textures/roof_albedo.png",
+      "bytes": 345024,
+      "sha256": "fd36e450b333e8b7dc11b8cf12f4d5245ebb383d1ebc2029bd991cf561199cc5"
+    },
+    {
+      "path": "Textures/roof_normal.png",
+      "bytes": 202141,
+      "sha256": "cae77580e18b5aba7012be3dd61946d334f9b4ae5346cca4a708bc059ad51823"
+    },
+    {
+      "path": "Textures/roof_orm.png",
+      "bytes": 159127,
+      "sha256": "cc5457b95b160868fbc342564e5274a0036fbe273cdb214ec3d44a0ccb63c58e"
+    },
+    {
+      "path": "Textures/rubber_albedo.png",
+      "bytes": 347436,
+      "sha256": "0d1ac6340e767392d7782c175509ef3ccc39f57413dda496b1a88e72cc782a61"
+    },
+    {
+      "path": "Textures/rubber_normal.png",
+      "bytes": 202318,
+      "sha256": "3766be7f05d045ae0250512be24450a853bf7938d0c0ab2d59522d668c53eac3"
+    },
+    {
+      "path": "Textures/rubber_orm.png",
+      "bytes": 158863,
+      "sha256": "18a96a3632747bf7df557e96314752394e9f421a421727786f86912f744cbad7"
+    },
+    {
+      "path": "Textures/steel_albedo.png",
+      "bytes": 327230,
+      "sha256": "d622edb9b68d188fe3117078a1086a34667a7a181fc14c10ed46ea0463e6c6a3"
+    },
+    {
+      "path": "Textures/steel_dark_albedo.png",
+      "bytes": 356807,
+      "sha256": "c37c6986bc207ee9d61aa6235d5c7ce9257f38f9b0c0ebc53b9c9dc12b4e0af0"
+    },
+    {
+      "path": "Textures/steel_dark_normal.png",
+      "bytes": 202175,
+      "sha256": "21c374f973b1aa8755d6b72ec21fe1dcbeb2b581b97bd0cacbcb710b57e08228"
+    },
+    {
+      "path": "Textures/steel_dark_orm.png",
+      "bytes": 159221,
+      "sha256": "cad72f17d19f41805f0619c7185b8f9412d73efaea636a7146c2c6bcecc88b52"
+    },
+    {
+      "path": "Textures/steel_normal.png",
+      "bytes": 202058,
+      "sha256": "bffd2b1f4eb05291e25b35a3e668832ba2878fa5ac5e812e67acefbd34cdabc0"
+    },
+    {
+      "path": "Textures/steel_orm.png",
+      "bytes": 159068,
+      "sha256": "3fef751fb55d27d9ca631a32ee90498b1f3eb3b93349bc9fe497f2cc8f25e510"
+    },
+    {
+      "path": "Textures/tank_albedo.png",
+      "bytes": 297730,
+      "sha256": "a59ee8d8005c06f44efe927edbbea554370620f5db41e74a905dcb3ad681ea42"
+    },
+    {
+      "path": "Textures/tank_normal.png",
+      "bytes": 201973,
+      "sha256": "9385fe958ca96c13adf713d1de5e6761f41742d9eb3b1d01ef6fd5fc78f65337"
+    },
+    {
+      "path": "Textures/tank_orm.png",
+      "bytes": 159176,
+      "sha256": "262398493178c8d6762ad08a52c4c4319039da64cd5a2173d74738b7847007a5"
+    },
+    {
+      "path": "Textures/white_albedo.png",
+      "bytes": 355739,
+      "sha256": "9425f3b2f0968bb0e1845cb7a66ef7f5b78d9d691287db2cd79d1aa8d2a34e7f"
+    },
+    {
+      "path": "Textures/white_normal.png",
+      "bytes": 202398,
+      "sha256": "58a674e525dcae96e79b025a4d3a4b890b711c6b50f539e39e385aca0bbb04ea"
+    },
+    {
+      "path": "Textures/white_orm.png",
+      "bytes": 159387,
+      "sha256": "6d09e3ad3fdd59b33f5414bc1cfd74f472650190529ed6331fbbf21188dae9f0"
+    },
+    {
+      "path": "Textures/yellow_albedo.png",
+      "bytes": 331461,
+      "sha256": "e38b40415b78804b4bc81e0ab38b4c372c53f7dd327b996e4fe44744d82d968c"
+    },
+    {
+      "path": "Textures/yellow_normal.png",
+      "bytes": 202115,
+      "sha256": "8a27938b0d26d900e823c5b487c1ff86eb2cb0c430f3a6249691d6a7fab91e3b"
+    },
+    {
+      "path": "Textures/yellow_orm.png",
+      "bytes": 159080,
+      "sha256": "16840864f8a06dc20da1af52e6235148e9106ae2f8a7ee46d6e962a8d812457d"
+    },
+    {
+      "path": "build_collision.py",
+      "bytes": 4457,
+      "sha256": "328f6b3e7246e208df168788496fe7552e4b0f008f52a3d38fd811ccd43ab43d"
+    },
+    {
+      "path": "build_hlod.py",
+      "bytes": 2883,
+      "sha256": "f25ef1bc5fd21618ab19dc81167e473d4cf58a6f9357519b3456b6c6de514504"
+    },
+    {
+      "path": "build_report.json",
+      "bytes": 16475,
+      "sha256": "c4cab2e5eac60a6e427fe54059e1f1381c913aa3946d985264890b78d8237b37"
+    },
+    {
+      "path": "geometry_helpers.py",
+      "bytes": 40077,
+      "sha256": "1638c074d0a3cd384d2db72750fae591e3f4038a451e9e28a2ec62af06715036"
+    },
+    {
+      "path": "make_manifest.py",
+      "bytes": 1580,
+      "sha256": "64f8690c9b85052ff7cbeee26616beeb15e13e24afbbe808a4a195454addb1cb"
+    },
+    {
+      "path": "make_preview_board.py",
+      "bytes": 3251,
+      "sha256": "f525bb3b3ca38b5c4f657689371a8021b9e27db289c1b2db8b59c7e017db73f1"
+    },
+    {
+      "path": "refine_air09.py",
+      "bytes": 36518,
+      "sha256": "44546ce1cbf2499e3b971cc12f1ca91386561257cc5f1a2f167ae22cecd6ac9c"
+    },
+    {
+      "path": "render_log.txt",
+      "bytes": 1019,
+      "sha256": "3c5bc928b13dc4ddc1d4f0cc2c146f9dfc02fac5c5bbd5bfa636bb31b8455d4f"
+    },
+    {
+      "path": "render_previews.py",
+      "bytes": 3831,
+      "sha256": "f240388046cd634de47c1a7b4762a3a5a37a8abf38bc8a1d6aac835d375d37a9"
+    },
+    {
+      "path": "validate_refined.py",
+      "bytes": 8225,
+      "sha256": "df8507595fe6d301e5c1df302f4fe6428ead18a3fb24d686156324f59de2719a"
+    }
+  ]
+}

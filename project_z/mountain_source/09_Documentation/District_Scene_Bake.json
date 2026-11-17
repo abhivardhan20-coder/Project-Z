@@ -1,0 +1,26 @@
+{
+  "Airport": {
+    "asset_placements": 149,
+    "scene": "res://scenes/Districts/Airport.tscn"
+  },
+  "Alpine": {
+    "asset_placements": 5,
+    "scene": "res://scenes/Districts/Alpine.tscn"
+  },
+  "Capitol": {
+    "asset_placements": 242,
+    "scene": "res://scenes/Districts/Capitol.tscn"
+  },
+  "Hillside": {
+    "asset_placements": 136,
+    "scene": "res://scenes/Districts/Hillside.tscn"
+  },
+  "Railway": {
+    "asset_placements": 75,
+    "scene": "res://scenes/Districts/Railway.tscn"
+  },
+  "background": {
+    "instanced_cells": 489,
+    "instances": 3115
+  }
+}

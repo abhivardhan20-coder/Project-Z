@@ -1,0 +1,352 @@
+{
+  "asset_id": "AIR-10",
+  "asset_name": "Evacuation command and screening cabins",
+  "project": "Project Z: Kaldran City",
+  "reference_file": "AIR-10_MultiView_Reference.png",
+  "construction": "Generated editable actual triangle meshes, not image planes",
+  "authoring_coordinate_system": "meters, local Z up, X east along 3 cabins, road side negative Y",
+  "glTF_coordinate_system": "Y up with parent AIR-10_ROOT conversion",
+  "modules": [
+    {
+      "id": "Command",
+      "x_start_m": 0,
+      "dimensions_m": [
+        12,
+        4,
+        3.13
+      ]
+    },
+    {
+      "id": "Screening",
+      "x_start_m": 12.35,
+      "dimensions_m": [
+        12,
+        4,
+        3.13
+      ]
+    },
+    {
+      "id": "Triage",
+      "x_start_m": 24.7,
+      "dimensions_m": [
+        12,
+        4,
+        3.13
+      ]
+    }
+  ],
+  "module_gaps_m": [
+    0.35,
+    0.35
+  ],
+  "LOD0_target_triangles": [
+    240000,
+    550000
+  ],
+  "LODs": [
+    {
+      "filename": "AIR-10_LOD0.glb",
+      "sha256": "a2fb63cb6be9d54d272a273485c6281a822f706a0eef3b7e48aedb08d1806350",
+      "file_bytes": 40305680,
+      "triangles": 420834,
+      "mesh_count": 203,
+      "gltf_nodes": 237,
+      "materials": 26,
+      "embedded_images": 104,
+      "animations": [
+        "AIR10_Doors_Open",
+        "AIR10_Doors_Close"
+      ],
+      "animated_doors": 10,
+      "zero_area_faces": 0,
+      "nonfinite_meshes": 0,
+      "y_up_bounds": [
+        [
+          -0.063,
+          -0.07,
+          -3.85
+        ],
+        [
+          36.763,
+          6.01,
+          7.516
+        ]
+      ],
+      "y_up_extents": [
+        36.826,
+        6.08,
+        11.366
+      ]
+    },
+    {
+      "filename": "AIR-10_LOD1.glb",
+      "sha256": "5ae455148c7a850dfe27ac723b2bdc066c3085acc030c21de4d01df10f6dd899",
+      "file_bytes": 20531940,
+      "triangles": 184086,
+      "mesh_count": 202,
+      "gltf_nodes": 236,
+      "materials": 26,
+      "embedded_images": 104,
+      "animations": [
+        "AIR10_Doors_Open",
+        "AIR10_Doors_Close"
+      ],
+      "animated_doors": 10,
+      "zero_area_faces": 0,
+      "nonfinite_meshes": 0,
+      "y_up_bounds": [
+        [
+          -0.063,
+          -0.07,
+          -3.85
+        ],
+        [
+          36.763,
+          6.01,
+          7.516
+        ]
+      ],
+      "y_up_extents": [
+        36.826,
+        6.08,
+        11.366
+      ]
+    },
+    {
+      "filename": "AIR-10_LOD2.glb",
+      "sha256": "21534d3532d4288e841acf834f97531f4c7b944d7dcf5acd276cafbc35e3d247",
+      "file_bytes": 10091788,
+      "triangles": 63194,
+      "mesh_count": 199,
+      "gltf_nodes": 233,
+      "materials": 26,
+      "embedded_images": 104,
+      "animations": [
+        "AIR10_Doors_Open",
+        "AIR10_Doors_Close"
+      ],
+      "animated_doors": 10,
+      "zero_area_faces": 0,
+      "nonfinite_meshes": 0,
+      "y_up_bounds": [
+        [
+          -0.063,
+          -0.07,
+          -3.85
+        ],
+        [
+          36.763,
+          6.01,
+          7.504
+        ]
+      ],
+      "y_up_extents": [
+        36.826,
+        6.08,
+        11.354
+      ]
+    }
+  ],
+  "LOD1_ratio": 0.4374,
+  "LOD2_ratio": 0.1502,
+  "collision_proxy_meshes": 46,
+  "three_cabin_composite_length_m": 36.7,
+  "roof_envelope_height_m": 3.53,
+  "floodlight_top_m": 6.01,
+  "gltf_animations": [
+    "AIR10_Doors_Open",
+    "AIR10_Doors_Close"
+  ],
+  "door_pivot_names": [
+    "Door_Command_Front_Pivot",
+    "Door_Command_Rear_Pivot",
+    "Door_Command_Operations_Security_Pivot",
+    "Door_Command_Security_Electrical_Pivot",
+    "Door_Screening_Front_Pivot",
+    "Door_Screening_Rear_Pivot",
+    "Door_Screening_Screening_Service_Pivot",
+    "Door_Triage_Front_Pivot",
+    "Door_Triage_Rear_Pivot",
+    "Door_Triage_Triage_Store_Pivot"
+  ],
+  "room_divisions_command_m": [
+    5.89,
+    2.82,
+    3.29
+  ],
+  "textures": {
+    "file_count": 87,
+    "albedo_resolutions_px": {
+      "aluminum": [
+        512,
+        512
+      ],
+      "beige_equipment": [
+        256,
+        256
+      ],
+      "black_plastic": [
+        256,
+        256
+      ],
+      "blue_steel": [
+        512,
+        512
+      ],
+      "concrete": [
+        512,
+        512
+      ],
+      "dark_grate": [
+        256,
+        256
+      ],
+      "dark_steel": [
+        256,
+        256
+      ],
+      "emissive": [
+        256,
+        256
+      ],
+      "floor": [
+        512,
+        512
+      ],
+      "galvanized": [
+        512,
+        512
+      ],
+      "glass": [
+        256,
+        256
+      ],
+      "glass_clear": [
+        256,
+        256
+      ],
+      "glass_reflection": [
+        256,
+        256
+      ],
+      "green": [
+        256,
+        256
+      ],
+      "hazard": [
+        256,
+        256
+      ],
+      "interior": [
+        512,
+        512
+      ],
+      "ops_airport": [
+        1024,
+        1024
+      ],
+      "ops_cctv": [
+        1024,
+        1024
+      ],
+      "ops_radars": [
+        1024,
+        1024
+      ],
+      "orange": [
+        256,
+        256
+      ],
+      "red": [
+        256,
+        256
+      ],
+      "road_mark": [
+        256,
+        256
+      ],
+      "rubber": [
+        256,
+        256
+      ],
+      "screen": [
+        256,
+        256
+      ],
+      "screen_detail": [
+        256,
+        256
+      ],
+      "triage_sign": [
+        1024,
+        1024
+      ],
+      "weathering": [
+        256,
+        256
+      ],
+      "white_steel": [
+        512,
+        512
+      ],
+      "yellow": [
+        256,
+        256
+      ]
+    },
+    "channels": "sRGB albedo, RGB tangent normals, linear occlusion/R roughness/G metallic/B ORM"
+  },
+  "previews": [
+    "AIR-10_hero.png",
+    "AIR-10_front.png",
+    "AIR-10_rear.png",
+    "AIR-10_top.png",
+    "AIR-10_side.png",
+    "AIR-10_closeup.png",
+    "AIR-10_interior.png"
+  ],
+  "textured_previews": [
+    "AIR-10_canopy_textured.png",
+    "AIR-10_command_facade_textured.png",
+    "AIR-10_command_front_textured.png",
+    "AIR-10_command_interior_textured.png",
+    "AIR-10_command_roof_textured.png",
+    "AIR-10_hero_textured.png"
+  ],
+  "source_scripts": [
+    "AIR-10_source_generator.py",
+    "AIR-10_source_refined.py"
+  ],
+  "reference_changes": [
+    "single command roof dish",
+    "roof mechanical equipment repositioned",
+    "secondary roofs de-cloned",
+    "glazing frame/seal/drip profiles",
+    "screening steel canopy",
+    "textured mission displays",
+    "internal door sweep equipment clearance edits",
+    "four canopy collision proxies"
+  ],
+  "previews_all_exist": true,
+  "verified": {
+    "GLB_header": true,
+    "buffer_ranges": true,
+    "mesh_reimport_trimesh": true,
+    "UVs_and_normals": true,
+    "texture_png_integrity": true,
+    "degenerate_faces_0": true,
+    "gltf_animation_structure": true,
+    "Godot_4_runtime": false,
+    "Blender_native_blend_file": false,
+    "clearance_gameplay_engine": false,
+    "material_bake_art_direction": false
+  },
+  "known_limitations": [
+    "Godot 4 import/physics/collision/animation playback cannot be tested: engine not installed.",
+    "Native AIR-10_source.blend cannot be produced here: Blender is not installed; use included Blender import/save script.",
+    "Exterior texture sets are 512/256 pixels and monitor displays 1024 pixels; preferred 2048/4096 texture art pass remains.",
+    "Geometry follows the reference orthographics and hero, but 100% photographic resemblance and site fit are not verified.",
+    "No distant HLOD impostor provided: separate LOD2 and engine-side switching required.",
+    "Preview uses studio flat material colors from reimported geometry, not the complete PBR shader or a Godot screenshot."
+  ]
+}

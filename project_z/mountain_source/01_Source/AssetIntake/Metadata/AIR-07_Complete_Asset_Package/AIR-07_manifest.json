@@ -1,0 +1,220 @@
+{
+  "asset": "AIR-07",
+  "name": "Airport fire-and-rescue station",
+  "source": "AIR-07_generator.py",
+  "reference_image": "AIR-07_MultiView_Reference.png",
+  "meters": {
+    "length_x": 45.0,
+    "depth_y": 24.0,
+    "max_architectural_height_z": 8.8,
+    "antenna_tip_z": 14.4
+  },
+  "source_axes": "X-right / Y-rear / Z-up",
+  "glb_axes": "X-right / Y-up / Z-front",
+  "front_bays": [
+    {
+      "number": 1,
+      "x0_m": -20.9,
+      "x1_m": -13.5,
+      "clear_width_m": 7.4,
+      "clear_height_m": 6.98
+    },
+    {
+      "number": 2,
+      "x0_m": -12.51,
+      "x1_m": -5.11,
+      "clear_width_m": 7.4,
+      "clear_height_m": 6.98
+    },
+    {
+      "number": 3,
+      "x0_m": -4.12,
+      "x1_m": 3.28,
+      "clear_width_m": 7.4,
+      "clear_height_m": 6.98
+    },
+    {
+      "number": 4,
+      "x0_m": 4.27,
+      "x1_m": 11.67,
+      "clear_width_m": 7.4,
+      "clear_height_m": 6.98
+    }
+  ],
+  "vehicles_excluded": true,
+  "masterplan_anchors": [
+    "D16",
+    "D21"
+  ],
+  "priority": "P1",
+  "reference_conflicts": [
+    "Section panel indicates approximately 45 m garage PLUS 24 m watch room, inconsistent with 45 m overall listed in dimensions and orthographic sheet. Used 45 m overall x 24 m deep, matching stated dimension panel.",
+    "Side/back orthographics show solid rear wall, whereas text calls for drive-through bays. Rear wall kept in this asset to preserve reference; garage entries are front-only; drive-through requirement NOT MET."
+  ],
+  "collisions": {
+    "ground_plane_z_source_m": 0.0,
+    "walls": [
+      {
+        "name": "rear_garage",
+        "bounds": [
+          -22.5,
+          11.67,
+          11.67,
+          12.0,
+          0,
+          8.1
+        ]
+      },
+      {
+        "name": "left_garage",
+        "bounds": [
+          -22.5,
+          -22.05,
+          -12,
+          12,
+          0,
+          8.2
+        ]
+      },
+      {
+        "name": "office_divider",
+        "bounds": [
+          11.64,
+          12.0,
+          -12,
+          12,
+          0,
+          7.9
+        ]
+      }
+    ],
+    "walkable": [
+      {
+        "name": "garage_floor",
+        "bounds": [
+          -21.8,
+          11.6,
+          -11.6,
+          11.4,
+          0.12,
+          0.18
+        ]
+      },
+      {
+        "name": "office_ground",
+        "bounds": [
+          12.0,
+          22.3,
+          -11.6,
+          11.4,
+          0.12,
+          0.18
+        ]
+      },
+      {
+        "name": "office_upper",
+        "bounds": [
+          12,
+          22.3,
+          -11.5,
+          4.95,
+          3.85,
+          4.04
+        ]
+      }
+    ],
+    "garage_clearances_m": {
+      "each_bay_width": 7.4,
+      "height_under_lintel": 7.0,
+      "depth": 23.2
+    },
+    "moving_bay": "B01",
+    "details": "Collision metadata is not executable Godot collision. Build shape nodes in Godot from proxy bounds and exclude moving shutter transforms from static collider; remove only B01 closed obstruction during animation."
+  },
+  "source_editability": "Regenerate/edit Python source and GLB meshes. Native .blend unavailable because Blender is not installed.",
+  "godot_import": "NOT TESTED (Godot not installed); GLB parsed using trimesh.",
+  "lods": {
+    "LOD0": {
+      "file": "AIR-07_LOD0.glb",
+      "evaluated_triangle_count": 273496,
+      "triangles_by_group": {
+        "Structure": 5160,
+        "Interior": 48692,
+        "Details": 111284,
+        "Roof": 24372,
+        "Facade": 65124,
+        "Doors_Moving": 18864
+      },
+      "mesh_primitives": 297,
+      "scene_nodes": 321,
+      "animation_channels": 28,
+      "bytes": 18605568
+    },
+    "LOD1": {
+      "file": "AIR-07_LOD1.glb",
+      "evaluated_triangle_count": 114608,
+      "triangles_by_group": {
+        "Structure": 5160,
+        "Interior": 29832,
+        "Details": 34820,
+        "Roof": 11224,
+        "Facade": 26628,
+        "Doors_Moving": 6944
+      },
+      "mesh_primitives": 268,
+      "scene_nodes": 292,
+      "animation_channels": 0,
+      "bytes": 13806612
+    },
+    "LOD2": {
+      "file": "AIR-07_LOD2.glb",
+      "evaluated_triangle_count": 32384,
+      "triangles_by_group": {
+        "Structure": 5160,
+        "Interior": 5888,
+        "Roof": 1896,
+        "Facade": 11892,
+        "Doors_Moving": 2888,
+        "Details": 4660
+      },
+      "mesh_primitives": 218,
+      "scene_nodes": 242,
+      "animation_channels": 0,
+      "bytes": 11028464
+    }
+  },
+  "materials": [
+    "concrete",
+    "concrete_dark",
+    "floor",
+    "red",
+    "red_dark",
+    "yellow",
+    "steel",
+    "silver",
+    "roof",
+    "glass",
+    "glass_dark",
+    "rubber",
+    "black",
+    "light",
+    "white",
+    "hazard",
+    "interior_blue",
+    "grass"
+  ],
+  "animation": {
+    "name": "B01_Roller_Overhead_Open",
+    "length_seconds": 5.0,
+    "panel_count": 14,
+    "closed_at_s": 0.0,
+    "open_at_s": 5.0
+  },
+  "glb_contains_interior": true,
+  "validation_limitations": [
+    "No Blender file generated",
+    "No Godot 4 runtime test",
+    "No executable collision shapes inside GLB",
+    "Rear garage is non-drive-through to preserve orthographic authority"
+  ]
+}

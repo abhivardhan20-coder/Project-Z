@@ -1,0 +1,221 @@
+{
+  "asset": "AIR-08",
+  "name": "Terminal Parking Structure",
+  "version": "03-reference-constrained",
+  "status": "real geometry exported/validated; visual similarity not 100% certified; Godot runtime pending",
+  "lod_visible_render_triangles": {
+    "LOD0": 488789,
+    "LOD1": 196711,
+    "LOD2": 58079
+  },
+  "measured_bounds_yup_m": [
+    [
+      -37.400002,
+      -0.57,
+      -26.5
+    ],
+    [
+      37.400002,
+      16.73,
+      26.51
+    ]
+  ],
+  "collision_triangles_separate": 10074,
+  "source_blend_included": false,
+  "godot_runtime_tested": false,
+  "submitted_reference_included": true,
+  "files": {
+    "AIR-08_LOD0.glb": {
+      "bytes": 47696084,
+      "sha256": "cd94e5855b2ca885b3741a63792d75d3db34fc6a56d5a05c5497e13f3e26a184"
+    },
+    "AIR-08_LOD1.glb": {
+      "bytes": 40971680,
+      "sha256": "85432e11e6601decfc2578dbd09052776b54ac51b254b2cb7f56730868ec2f85"
+    },
+    "AIR-08_LOD2.glb": {
+      "bytes": 37771732,
+      "sha256": "f5c4ed5f33e23213fe080cd82a8be5f211728865c873784caa46e745bd8ccfa5"
+    },
+    "AIR-08_HLOD.glb": {
+      "bytes": 29972,
+      "sha256": "273aae573a827bba68780d756bb671a7ddb6f0951a1000840efed2ae61defe0b"
+    },
+    "AIR-08_collision.glb": {
+      "bytes": 264580,
+      "sha256": "49551fccd278bdef6f44fa031a3b2bd9d66b5d291e416100bb92d5f61aceb30c"
+    },
+    "AIR-08_Godot4.gd": {
+      "bytes": 3270,
+      "sha256": "ea5e52c339a00bae03fa716ee19adf4375e661beda6be12a24bc40f8d7503bb7"
+    },
+    "AIR-08_Godot4.tscn": {
+      "bytes": 193,
+      "sha256": "61ff75c026df482ca0d587709ca2ba4a96314cb4efe8a70950ba7c8fe1ead1cd"
+    },
+    "AIR-08_generator.py": {
+      "bytes": 49783,
+      "sha256": "1db003ab5173b8953dc027628b9e860179162d08784c3eb0c98f2fa2f198a47e"
+    },
+    "AIR08_v3_details.py": {
+      "bytes": 10866,
+      "sha256": "cf8f51293f7fbe5431b5d511ec39f3edf8e41c8fcad5002b489008af9b97b8f4"
+    },
+    "AIR-08_make_blend.py": {
+      "bytes": 636,
+      "sha256": "1d73826129f2ce479fe4cbfaa4d8e9bfa6de9ffd05b329c68c5742bc6e469602"
+    },
+    "AIR-08_collision_generator.py": {
+      "bytes": 5830,
+      "sha256": "f31bcdc3ad39d72b48cb300e90e1bd0d6b99134fb0523a2fb54abd53137b4e2c"
+    },
+    "AIR-08_HLOD_generator.py": {
+      "bytes": 2747,
+      "sha256": "e95763dc0bfbde97b0bb0d494a68abdecfe501c1a0c2aed8539134abbaf4a2b7"
+    },
+    "AIR-08_validate.py": {
+      "bytes": 5869,
+      "sha256": "9951f6fcc58afcc5558a733e4343fa7ec085fd9f81542538b690fca4f95c8c77"
+    },
+    "AIR-08_render_previews.py": {
+      "bytes": 7809,
+      "sha256": "30ff32de672167e1deefc923baf3ef7795c51137bb428eb89fabc756c0259053"
+    },
+    "AIR-08_render_vtk.py": {
+      "bytes": 2579,
+      "sha256": "33a4b978d4d36a3d3757c01ed85e03923b120d18ab4a6e1a2823d023e1a29297"
+    },
+    "AIR-08_make_boards.py": {
+      "bytes": 3647,
+      "sha256": "109902707487536c47140256029066b50fe81fde75588ac749c11b2da903d232"
+    },
+    "README_AIR-08_V03.md": {
+      "bytes": 2056,
+      "sha256": "a0b653b863dde0d944c54547d6a0febd8804efab7ca1a4c5220f5d68e2eabad7"
+    },
+    "AIR-08_validation.md": {
+      "bytes": 5921,
+      "sha256": "3801c8080f42201470f002214765d4b41b216f36b8234c25fa5e0e9e1274493c"
+    },
+    "AIR-08_validation_data.json": {
+      "bytes": 5001,
+      "sha256": "a97fa8e719a450510cf7e528b3b818d1d4e6ce7b0d654b2eb0b0fd62833be8d8"
+    },
+    "AIR-08_stats.json": {
+      "bytes": 11322,
+      "sha256": "4a2466861f9afd72a34591ee0add71164ef31327fd67e12045687e58d8b799d1"
+    },
+    "AIR-08_collision_stats.json": {
+      "bytes": 2138,
+      "sha256": "476915e5c522b578b5b21a689d1a7c850b90517d20209f0aaf9079055507d550"
+    },
+    "AIR-08_HLOD_stats.json": {
+      "bytes": 2757,
+      "sha256": "858312d6c48e3b02c68166ce90372379981de61188422b527e5da7a04e08355c"
+    },
+    "AIR-08_V03_preview_board.png": {
+      "bytes": 1878435,
+      "sha256": "527bdacb39a3d5a0d90d710eeac0f7292aa9f01c2dc389187f7886aeb078f882"
+    },
+    "AIR-08_V03_reference_comparison.png": {
+      "bytes": 1072527,
+      "sha256": "5d2edcec651f7861a660fb5c916e85446f74196aa549e2e3f6c1729fc012efac"
+    },
+    "Reference/AIR-08_MultiView_Reference.png": {
+      "bytes": 3574898,
+      "sha256": "24497fb3916cc1cea3a2c2753ccd2f03ac96bb09e48c844dc1a21d9bc178906c"
+    },
+    "Textures/asphalt_albedo.png": {
+      "bytes": 756674,
+      "sha256": "0c47996852b605415fd0edc0714afe0bd795b5e7b2f91e350f161e6b318cd060"
+    },
+    "Textures/asphalt_normal.png": {
+      "bytes": 2173639,
+      "sha256": "127b574a0922fa72d4d7e254236838efa216c7cc45939394977ed021c906e716"
+    },
+    "Textures/asphalt_orm.png": {
+      "bytes": 830378,
+      "sha256": "26d63a6731136fb27ff7efd76fe626d0c71a5704bc9b08dd2eeb188b4e79829b"
+    },
+    "Textures/concrete_albedo.png": {
+      "bytes": 3002909,
+      "sha256": "b62f99546c6eb2c1da064ad0e12aff6ea0528ef3a5157729f9fdb989014c5a9d"
+    },
+    "Textures/concrete_normal.png": {
+      "bytes": 8669276,
+      "sha256": "1ede1c3d3ed05fb397781e34ad132590e48c4d26ef51fb69b9c8e87d6805ff83"
+    },
+    "Textures/concrete_orm.png": {
+      "bytes": 3409290,
+      "sha256": "0378c5813199c5f95af3a8c5ed1abbde89248debd26d7f4c3f1c5b46c10279e8"
+    },
+    "Textures/deck_albedo.png": {
+      "bytes": 3002567,
+      "sha256": "a2fce24cf759a79d9bca7c942406ef9882e6558024d358423d502ae27360d947"
+    },
+    "Textures/deck_normal.png": {
+      "bytes": 8670059,
+      "sha256": "2fc331d5b9701da1301e23dd7c6c9a0ad6acd9941f9f50cbeb225341c8604b5a"
+    },
+    "Textures/deck_orm.png": {
+      "bytes": 3413748,
+      "sha256": "1926adbc02a3857423a81f9f7ca6ccce1007732207de942255c09efb51c732d9"
+    },
+    "Textures/metal_albedo.png": {
+      "bytes": 767374,
+      "sha256": "472cf8e52137827b49510a43a4707648540bec6a07362618171a973abaeb869e"
+    },
+    "Textures/metal_normal.png": {
+      "bytes": 1563985,
+      "sha256": "e3fbabab450e262cab6e5e5d5f202444fff36983f606cb7e61571a72f98191e7"
+    },
+    "Textures/metal_orm.png": {
+      "bytes": 870796,
+      "sha256": "557375777f56acae4b76be8db39f3ba8a37164eb9455ffb9d27dbbb18b1ef5a5"
+    },
+    "Textures/sign_P1.png": {
+      "bytes": 5396,
+      "sha256": "8e98dd27f7bcf47c14947120bd38afd792af05812d26222139831bcb22c6389d"
+    },
+    "Textures/sign_P2.png": {
+      "bytes": 9341,
+      "sha256": "55bb6cfc910565701e222f2f3b9edc859edc6e8bfab4f1b91e2b33334d250695"
+    },
+    "Textures/sign_P3.png": {
+      "bytes": 10450,
+      "sha256": "77b9e6a109d52c689c79fbad776380646bd652d1daca1ea1584afa643b0f30f3"
+    },
+    "Textures/sign_P4.png": {
+      "bytes": 7196,
+      "sha256": "388d2a7b9f41bd4c235ffa1beb506a995de8551d6eaa1353c42aaa01f2550297"
+    },
+    "Previews/AIR-08_V03_01_HERO.png": {
+      "bytes": 579297,
+      "sha256": "41dfed9711df2c1f905ae026f74032ddd146317c43bda9b2f8ac18ef6de9d269"
+    },
+    "Previews/AIR-08_V03_02_FRONT.png": {
+      "bytes": 354838,
+      "sha256": "a702f3333b008436368c052ed9a60ab4524dd11f8efa6ac3d7ec8c80a3378d9d"
+    },
+    "Previews/AIR-08_V03_03_SIDE.png": {
+      "bytes": 359369,
+      "sha256": "7a137949de4d31e6b6f72501a32c1afc02d14c1f990bfbfb1e171f1bf3fc2f5e"
+    },
+    "Previews/AIR-08_V03_04_REAR.png": {
+      "bytes": 303929,
+      "sha256": "1e5c62fe7dbc4158d3a316b3ff753008c8331ec803fb8a679a82eed77a59b93b"
+    },
+    "Previews/AIR-08_V03_05_ROOF.png": {
+      "bytes": 1228078,
+      "sha256": "3e39da5edbade22ddac9df4e95c2610c10dadbe57224f8f11451c81c30175700"
+    },
+    "Previews/AIR-08_V03_06_INTERIOR.png": {
+      "bytes": 1158239,
+      "sha256": "25e3783422327f48e4a57e8bb4d530dc1047c328cddbe10f3ba33d0ca0d59782"
+    },
+    "Previews/AIR-08_V03_07_STAIR.png": {
+      "bytes": 1505031,
+      "sha256": "d59207225c4a6130d9dfa421b8472de6c5957477ed4e7706e33e2f9fc2fbe563"
+    }
+  }
+}

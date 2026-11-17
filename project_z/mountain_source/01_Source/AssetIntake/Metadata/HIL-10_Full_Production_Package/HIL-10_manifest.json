@@ -1,0 +1,410 @@
+{
+  "asset_id": "HIL-10",
+  "title": "Playground shelter and community pavilion",
+  "source_reference": "HIL-10_MultiView_Reference.png",
+  "reference_sha256": "6ad5a84f4bca59d6a8f2f465c057dd6b6962fa2434e69fc41f0d25ad2b7ddc89",
+  "reference_copy_identical": true,
+  "coordinate_modeling_system": "Z-up in source; glTF 2.0 Y-up scene import",
+  "units": "meters",
+  "pavilion_nominal_m": [
+    12.0,
+    8.0
+  ],
+  "roof_heights_m": [
+    2.7,
+    3.9
+  ],
+  "site_overall_bounds_m": [
+    [
+      -7.38,
+      -7.255,
+      -0.36
+    ],
+    [
+      14.62,
+      6.025,
+      3.9607
+    ]
+  ],
+  "lods": [
+    {
+      "file": "HIL-10_LOD0.glb",
+      "triangles": 309802,
+      "meshes": 70,
+      "materials": 18,
+      "images": 72,
+      "texture_slots": 72,
+      "node_count": 81,
+      "has_root_group": true,
+      "named_child_groups": [
+        "Structure",
+        "Facade",
+        "Roof",
+        "Interior",
+        "Details",
+        "Doors_Moving",
+        "Collision",
+        "LODs",
+        "Site",
+        "Playground"
+      ],
+      "mesh_uvs_all_present": true,
+      "all_vertices_finite": true,
+      "bounds_zup_m": [
+        [
+          -7.38,
+          -7.255,
+          -0.36
+        ],
+        [
+          14.62,
+          6.025,
+          3.9607
+        ]
+      ],
+      "bytes": 69875916,
+      "shader_pbr_all_materials": true,
+      "materials_with_normal_map": 18,
+      "materials_with_orm_map": 18
+    },
+    {
+      "file": "HIL-10_LOD1.glb",
+      "triangles": 132050,
+      "meshes": 64,
+      "materials": 18,
+      "images": 72,
+      "texture_slots": 72,
+      "node_count": 75,
+      "has_root_group": true,
+      "named_child_groups": [
+        "Structure",
+        "Facade",
+        "Roof",
+        "Interior",
+        "Details",
+        "Doors_Moving",
+        "Collision",
+        "LODs",
+        "Site",
+        "Playground"
+      ],
+      "mesh_uvs_all_present": true,
+      "all_vertices_finite": true,
+      "bounds_zup_m": [
+        [
+          -7.38,
+          -7.255,
+          -0.36
+        ],
+        [
+          14.62,
+          6.025,
+          3.9607
+        ]
+      ],
+      "bytes": 63068140,
+      "shader_pbr_all_materials": true,
+      "materials_with_normal_map": 18,
+      "materials_with_orm_map": 18
+    },
+    {
+      "file": "HIL-10_LOD2.glb",
+      "triangles": 39384,
+      "meshes": 56,
+      "materials": 18,
+      "images": 72,
+      "texture_slots": 72,
+      "node_count": 67,
+      "has_root_group": true,
+      "named_child_groups": [
+        "Structure",
+        "Facade",
+        "Roof",
+        "Interior",
+        "Details",
+        "Doors_Moving",
+        "Collision",
+        "LODs",
+        "Site",
+        "Playground"
+      ],
+      "mesh_uvs_all_present": true,
+      "all_vertices_finite": true,
+      "bounds_zup_m": [
+        [
+          -7.38,
+          -7.255,
+          -0.36
+        ],
+        [
+          14.62,
+          6.025,
+          3.9607
+        ]
+      ],
+      "bytes": 59639236,
+      "shader_pbr_all_materials": true,
+      "materials_with_normal_map": 18,
+      "materials_with_orm_map": 18
+    }
+  ],
+  "lod1_ratio": 0.4262,
+  "lod2_ratio": 0.1271,
+  "hlod": {
+    "file": "HIL-10_HLOD.glb",
+    "triangles": 11836,
+    "bytes": 49130356
+  },
+  "collisions": {
+    "file": "HIL-10_collision.glb",
+    "proxy_count": 21,
+    "triangles": 252,
+    "bounds_zup_m": [
+      [
+        -7.18,
+        -5.76,
+        -0.17
+      ],
+      [
+        14.125,
+        4.55,
+        3.8358
+      ]
+    ]
+  },
+  "texture_files": 57,
+  "textures": {
+    "bark_orm.png": [
+      512,
+      512
+    ],
+    "concrete_basecolor.png": [
+      1024,
+      1024
+    ],
+    "dark_wood_basecolor.png": [
+      512,
+      512
+    ],
+    "rubber_blue_basecolor.png": [
+      512,
+      512
+    ],
+    "bark_normal.png": [
+      512,
+      512
+    ],
+    "blue_paint_normal.png": [
+      512,
+      512
+    ],
+    "timber_orm.png": [
+      2048,
+      2048
+    ],
+    "paving_normal.png": [
+      1024,
+      1024
+    ],
+    "paving_basecolor.png": [
+      1024,
+      1024
+    ],
+    "roof_normal.png": [
+      2048,
+      2048
+    ],
+    "bark_basecolor.png": [
+      512,
+      512
+    ],
+    "rubber_orange_basecolor.png": [
+      512,
+      512
+    ],
+    "timber_basecolor.png": [
+      2048,
+      2048
+    ],
+    "glass_orm.png": [
+      512,
+      512
+    ],
+    "stone_basecolor.png": [
+      1024,
+      1024
+    ],
+    "yellow_orm.png": [
+      512,
+      512
+    ],
+    "green_orm.png": [
+      512,
+      512
+    ],
+    "rubber_red_orm.png": [
+      1024,
+      1024
+    ],
+    "metal_basecolor.png": [
+      512,
+      512
+    ],
+    "concrete_normal.png": [
+      1024,
+      1024
+    ],
+    "paper_orm.png": [
+      512,
+      512
+    ],
+    "roof_basecolor.png": [
+      2048,
+      2048
+    ],
+    "leaf_normal.png": [
+      512,
+      512
+    ],
+    "stone_normal.png": [
+      1024,
+      1024
+    ],
+    "paper_basecolor.png": [
+      512,
+      512
+    ],
+    "roof_orm.png": [
+      2048,
+      2048
+    ],
+    "slide_orm.png": [
+      512,
+      512
+    ],
+    "slide_basecolor.png": [
+      512,
+      512
+    ],
+    "green_normal.png": [
+      512,
+      512
+    ],
+    "rubber_orange_orm.png": [
+      512,
+      512
+    ],
+    "blue_paint_orm.png": [
+      512,
+      512
+    ],
+    "leaf_orm.png": [
+      512,
+      512
+    ],
+    "leaf_basecolor.png": [
+      512,
+      512
+    ],
+    "rubber_red_normal.png": [
+      1024,
+      1024
+    ],
+    "dark_wood_normal.png": [
+      512,
+      512
+    ],
+    "blue_paint_basecolor.png": [
+      512,
+      512
+    ],
+    "rubber_orange_normal.png": [
+      512,
+      512
+    ],
+    "yellow_basecolor.png": [
+      512,
+      512
+    ],
+    "glass_basecolor.png": [
+      512,
+      512
+    ],
+    "timber_normal.png": [
+      2048,
+      2048
+    ],
+    "green_basecolor.png": [
+      512,
+      512
+    ],
+    "asphalt_orm.png": [
+      512,
+      512
+    ],
+    "slide_normal.png": [
+      512,
+      512
+    ],
+    "metal_orm.png": [
+      512,
+      512
+    ],
+    "paper_normal.png": [
+      512,
+      512
+    ],
+    "paving_orm.png": [
+      1024,
+      1024
+    ],
+    "metal_normal.png": [
+      512,
+      512
+    ],
+    "concrete_orm.png": [
+      1024,
+      1024
+    ],
+    "stone_orm.png": [
+      1024,
+      1024
+    ],
+    "rubber_blue_orm.png": [
+      512,
+      512
+    ],
+    "asphalt_basecolor.png": [
+      512,
+      512
+    ],
+    "dark_wood_orm.png": [
+      512,
+      512
+    ],
+    "rubber_blue_normal.png": [
+      512,
+      512
+    ],
+    "rubber_red_basecolor.png": [
+      1024,
+      1024
+    ],
+    "yellow_normal.png": [
+      512,
+      512
+    ],
+    "glass_normal.png": [
+      512,
+      512
+    ],
+    "asphalt_normal.png": [
+      512,
+      512
+    ]
+  },
+  "reimport_validation": "PASS: trimesh glTF 2.0 reimport and mesh/material/UV numeric checks",
+  "blender_native_source": "Not produced; Blender executable absent. Run HIL-10_build_blend_in_Blender.py with Blender.",
+  "godot_import_test": "Not run; Godot executable absent.",
+  "built_with": "trimesh and procedural python exporter (Blender/Godot not installed)"
+}

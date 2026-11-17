@@ -1,0 +1,467 @@
+{
+  "asset_id": "AIR-06",
+  "asset_name": "Airport operations and administration block",
+  "project": "Project Z: Kaldran City",
+  "version": "AIR-06-v3-repaired-curtainwall-returns",
+  "reference_image": "AIR-06_MultiView_Reference.png",
+  "coordinate_system": "glTF native Y-up, X width, Z depth; front entrance faces negative Z",
+  "origin": "X=0 at mid-frontage, Y=0 at nominal ground, Z=0 center depth",
+  "nominal_building_body_m": {
+    "width_x": 48,
+    "depth_z": 26,
+    "roof_datum_y": 11.4,
+    "antenna_target_y": 16.8
+  },
+  "true_evaluated_asset_bounds_m": [
+    50.53650093078613,
+    16.93249961733818,
+    28.854999542236328
+  ],
+  "lod_triangles": {
+    "LOD0": 431616,
+    "LOD1": 185860,
+    "LOD2": 64752,
+    "HLOD": 1756
+  },
+  "lod_ratios": {
+    "LOD1_pct": 43.06,
+    "LOD2_pct": 15.0
+  },
+  "validation": {
+    "LOD0": {
+      "evaluated_render_triangles": 431616,
+      "mesh_count": 255,
+      "nonfinite_mesh_count": 0,
+      "degenerate_triangle_count": 0,
+      "missing_uv_mesh_count": 0,
+      "missing_PBR_basecolor_groups": [],
+      "world_bounds_min_m": [
+        -24.045000076293945,
+        -0.032499998807907104,
+        -15.352999687194824
+      ],
+      "world_bounds_max_m": [
+        26.491500854492188,
+        16.899999618530273,
+        13.501999855041504
+      ],
+      "world_dimensions_m": [
+        50.53650093078613,
+        16.93249961733818,
+        28.854999542236328
+      ],
+      "materials": 15,
+      "images": 60,
+      "animations": 4,
+      "door_pivot_nodes": [
+        "Doors_Moving__Operations_Control_Pivot",
+        "Doors_Moving__Reception_Left_Pivot",
+        "Doors_Moving__Reception_Right_Pivot",
+        "Doors_Moving__Secure_Corridor_Pivot"
+      ],
+      "export_equals_reimport": true
+    },
+    "LOD1": {
+      "evaluated_render_triangles": 185860,
+      "mesh_count": 227,
+      "nonfinite_mesh_count": 0,
+      "degenerate_triangle_count": 0,
+      "missing_uv_mesh_count": 0,
+      "missing_PBR_basecolor_groups": [],
+      "world_bounds_min_m": [
+        -24.045000076293945,
+        -0.032499998807907104,
+        -15.352999687194824
+      ],
+      "world_bounds_max_m": [
+        26.491500854492188,
+        16.899999618530273,
+        13.501999855041504
+      ],
+      "world_dimensions_m": [
+        50.53650093078613,
+        16.93249961733818,
+        28.854999542236328
+      ],
+      "materials": 15,
+      "images": 60,
+      "animations": 0,
+      "door_pivot_nodes": [
+        "Doors_Moving__Operations_Control_Pivot",
+        "Doors_Moving__Reception_Left_Pivot",
+        "Doors_Moving__Reception_Right_Pivot",
+        "Doors_Moving__Secure_Corridor_Pivot"
+      ],
+      "export_equals_reimport": true
+    },
+    "LOD2": {
+      "evaluated_render_triangles": 64752,
+      "mesh_count": 195,
+      "nonfinite_mesh_count": 0,
+      "degenerate_triangle_count": 0,
+      "missing_uv_mesh_count": 0,
+      "missing_PBR_basecolor_groups": [],
+      "world_bounds_min_m": [
+        -24.045000076293945,
+        -0.032499998807907104,
+        -15.352999687194824
+      ],
+      "world_bounds_max_m": [
+        26.491500854492188,
+        16.899999618530273,
+        13.501999855041504
+      ],
+      "world_dimensions_m": [
+        50.53650093078613,
+        16.93249961733818,
+        28.854999542236328
+      ],
+      "materials": 15,
+      "images": 60,
+      "animations": 0,
+      "door_pivot_nodes": [
+        "Doors_Moving__Operations_Control_Pivot",
+        "Doors_Moving__Reception_Left_Pivot",
+        "Doors_Moving__Reception_Right_Pivot",
+        "Doors_Moving__Secure_Corridor_Pivot"
+      ],
+      "export_equals_reimport": true
+    },
+    "Collision": {
+      "evaluated_render_triangles": 1356,
+      "mesh_count": 13,
+      "nonfinite_mesh_count": 0,
+      "degenerate_triangle_count": 0,
+      "missing_uv_mesh_count": 0,
+      "missing_PBR_basecolor_groups": [],
+      "world_bounds_min_m": [
+        -23.814998626708984,
+        -0.05000000074505806,
+        -14.669599533081055
+      ],
+      "world_bounds_max_m": [
+        26.114999771118164,
+        11.15999984741211,
+        12.870000839233398
+      ],
+      "world_dimensions_m": [
+        49.92999839782715,
+        11.209999848157167,
+        27.539600372314453
+      ]
+    },
+    "HLOD": {
+      "evaluated_render_triangles": 1756,
+      "mesh_count": 28,
+      "nonfinite_mesh_count": 0,
+      "degenerate_triangle_count": 0,
+      "missing_uv_mesh_count": 0,
+      "missing_PBR_basecolor_groups": [],
+      "world_bounds_min_m": [
+        -24.020000457763672,
+        0.014999866485595703,
+        -15.335000038146973
+      ],
+      "world_bounds_max_m": [
+        26.875,
+        16.850000381469727,
+        13.005000114440918
+      ],
+      "world_dimensions_m": [
+        50.89500045776367,
+        16.83500051498413,
+        28.34000015258789
+      ],
+      "materials": 5,
+      "images": 20
+    }
+  },
+  "validation_checks": {
+    "lod0_strict_poly_gate": true,
+    "lod0_target_240k_to_550k": true,
+    "lod1_ratio_40_to_55pct": true,
+    "lod2_ratio_10_to_20pct": true,
+    "glb_reimport": true,
+    "four_door_rotation_animations": true,
+    "per_mesh_uvs_complete": true,
+    "non_degenerate_triangles": true,
+    "finite_coordinates": true,
+    "distant_hlod_generated": true,
+    "godot_runtime_import_tested": false,
+    "native_blend_created": false,
+    "blender_roundtrip_tested": false,
+    "reception_door_swing_outward_analytic": true,
+    "curtainwall_left_and_right_end_glass_present": true,
+    "concrete_curtainwall_cheeks_present": true,
+    "original_animations_and_pbr_materials_preserved": true
+  },
+  "named_moving_pivots": [
+    {
+      "name": "Doors_Moving__Reception_Left_Pivot",
+      "position_m": [
+        0.54,
+        0.12,
+        -13.05
+      ],
+      "width_m": 1.5,
+      "height_m": 2.36,
+      "swing_degrees": -65,
+      "hinge_axis": "Y",
+      "orientation": "right"
+    },
+    {
+      "name": "Doors_Moving__Reception_Right_Pivot",
+      "position_m": [
+        -2.46,
+        0.12,
+        -13.05
+      ],
+      "width_m": 1.5,
+      "height_m": 2.36,
+      "swing_degrees": 65,
+      "hinge_axis": "Y",
+      "orientation": "left"
+    },
+    {
+      "name": "Doors_Moving__Secure_Corridor_Pivot",
+      "position_m": [
+        2.02,
+        0.12,
+        -1.91
+      ],
+      "width_m": 1.03,
+      "height_m": 2.36,
+      "swing_degrees": -65,
+      "hinge_axis": "Y",
+      "orientation": "right"
+    },
+    {
+      "name": "Doors_Moving__Operations_Control_Pivot",
+      "position_m": [
+        2.05,
+        7.55,
+        -1.91
+      ],
+      "width_m": 1.12,
+      "height_m": 2.36,
+      "swing_degrees": -65,
+      "hinge_axis": "Y",
+      "orientation": "right"
+    }
+  ],
+  "door_open_close_clips": [
+    "Doors_Moving__Reception_Left_Pivot__OpenClose_2p3s",
+    "Doors_Moving__Reception_Right_Pivot__OpenClose_2p3s",
+    "Doors_Moving__Secure_Corridor_Pivot__OpenClose_2p3s",
+    "Doors_Moving__Operations_Control_Pivot__OpenClose_2p3s"
+  ],
+  "animated_doors_swept_tips": [
+    {
+      "name": "Doors_Moving__Reception_Left_Pivot",
+      "hinge_m": [
+        0.54,
+        0.12,
+        -13.05
+      ],
+      "open_tip_m": [
+        -0.0939273926110491,
+        0.12,
+        -14.409461680554976
+      ],
+      "sampled_angle_deg": -65,
+      "open_tip_inside_building_envelope_x": true,
+      "open_tip_nonpenetrating_z_at_main_entry": true
+    },
+    {
+      "name": "Doors_Moving__Reception_Right_Pivot",
+      "hinge_m": [
+        -2.46,
+        0.12,
+        -13.05
+      ],
+      "open_tip_m": [
+        -1.8260726073889508,
+        0.12,
+        -14.409461680554976
+      ],
+      "sampled_angle_deg": 65,
+      "open_tip_inside_building_envelope_x": true,
+      "open_tip_nonpenetrating_z_at_main_entry": true
+    },
+    {
+      "name": "Doors_Moving__Secure_Corridor_Pivot",
+      "hinge_m": [
+        2.02,
+        0.12,
+        -1.91
+      ],
+      "open_tip_m": [
+        1.5847031904070796,
+        0.12,
+        -2.8434970206477495
+      ],
+      "sampled_angle_deg": -65,
+      "open_tip_inside_building_envelope_x": true,
+      "open_tip_nonpenetrating_z_at_main_entry": true
+    },
+    {
+      "name": "Doors_Moving__Operations_Control_Pivot",
+      "hinge_m": [
+        2.05,
+        7.55,
+        -1.91
+      ],
+      "open_tip_m": [
+        1.5766675468504163,
+        7.55,
+        -2.925064721481048
+      ],
+      "sampled_angle_deg": -65,
+      "open_tip_inside_building_envelope_x": true,
+      "open_tip_nonpenetrating_z_at_main_entry": true
+    }
+  ],
+  "circulation_route": {
+    "ground_floor_m": [
+      [
+        -0.96,
+        -13.04
+      ],
+      [
+        -0.96,
+        -10
+      ],
+      [
+        -1,
+        -2.2
+      ],
+      [
+        -1,
+        -0.8
+      ],
+      [
+        2.6,
+        -0.8
+      ],
+      [
+        2.6,
+        0.16
+      ],
+      [
+        4.7,
+        0.16
+      ],
+      [
+        4.7,
+        1.08
+      ],
+      [
+        7.0,
+        1.08
+      ],
+      [
+        9.5,
+        2.2
+      ]
+    ],
+    "vertical_connection": "stair core x=+6.4..+12.8, z=2.2..8.7, with shafts cut into L1 and L2 slabs",
+    "upper_control_entrance": "room entry at x=+2.05, elevation 7.55, z=-1.91; opens through control room partition",
+    "validation_type": "reference-aligned door waypoint plan only; NOT tested navigation nor an in-engine player route"
+  },
+  "source_editability": "LOD GLB assemblies editable on import into Blender; Python procedural generator plus patch is provided. Native .blend not generated in this runtime.",
+  "Godot_test": "Godot executable unavailable. Import helper script supplied but not engine-tested.",
+  "materials": "15 glTF metallic-roughness PBR materials with embedded base-color, normal, roughness/metallic (ORM-style) textures",
+  "textures": "1024px main material sets; 512px smaller generic sets. No claim of 4K textures.",
+  "site_fit": "D16 schematic only; no verified city yaw, soil grades, or terrain integration",
+  "files": {
+    "AIR-06_Collision_Proxies.glb": {
+      "bytes": 2649140,
+      "sha256": "04ffb7bf0c6333ef7d5573dbe1121af10dd93661fde52f3b25921c78e28cd826"
+    },
+    "AIR-06_Godot4_Import.gd": {
+      "bytes": 942,
+      "sha256": "9e76c0aef5540e11474ecff44b183d87f24ba0bb36def1e237177997de281708"
+    },
+    "AIR-06_HLOD.glb": {
+      "bytes": 7284020,
+      "sha256": "36385faeb06eb85375e4638aa56d9d6b17d9ddd249ad09a7074e200a31ca5184"
+    },
+    "AIR-06_LOD0.glb": {
+      "bytes": 25078104,
+      "sha256": "f4d845690d4decac758eb5dd71de7126d5b83bab3cd09e88513b12b4ca174fd4"
+    },
+    "AIR-06_LOD0_buildstats.json": {
+      "bytes": 21110,
+      "sha256": "d75da5d023c2d316ecb9767ae56107ae8cd3a9b05496115930ee572549204b0a"
+    },
+    "AIR-06_LOD1.glb": {
+      "bytes": 20277468,
+      "sha256": "f044a0853b6ba838020904248d7101273b04e77ccb3e3cbd41a484441ec27263"
+    },
+    "AIR-06_LOD1_buildstats.json": {
+      "bytes": 17926,
+      "sha256": "be963d7f41147986e71815ad6de969efe6b2596299ce0df0b83759f19a22e08c"
+    },
+    "AIR-06_LOD2.glb": {
+      "bytes": 15915548,
+      "sha256": "7a6d526e43e0d51b96f3aa64bf3deb12d44844f28a07fd99513a8b6face2d3bd"
+    },
+    "AIR-06_LOD2_buildstats.json": {
+      "bytes": 15590,
+      "sha256": "ee141f5d15f22a4d6c5e8e2b1a6a6a631575e8c41d105b4cfa9bb01911aa2ac3"
+    },
+    "AIR-06_MultiView_Reference.png": {
+      "bytes": 3713785,
+      "sha256": "d70e674d5709688b96f72a150bbb93a3571bde7f1f64d46cb24152b6b27d1d65"
+    },
+    "AIR-06_manifest.json": {
+      "bytes": 11524,
+      "sha256": "4b3c2dc8043c9db7259f1ec3488f308d6e22c2c366145bc182fe89ba796bc3dc"
+    },
+    "AIR-06_v3_geometry_proof.json": {
+      "bytes": 29973,
+      "sha256": "bca079ffa38b7fc24616ca334e5564739800cdb5a420176a5e1f5e667a5a729e"
+    },
+    "AIR-06_validation.md": {
+      "bytes": 5886,
+      "sha256": "76f7cde66e4d89e9ef6a9317f7ae93c0c974b4934da5e560744a0f983f5c2926"
+    }
+  },
+  "revision_summary": "Closed BOTH projecting operations-bay side openings with real transparent glazed wedge panels, mullions, gaskets, and concrete side supports.",
+  "reference_fidelity": "Geometric closure verified by paired identical-camera VTK previews; not a claim of 100% pixel identity.",
+  "new_glass_panels": 8,
+  "new_concrete_support_parts": 10,
+  "new_mesh_groups_lod0": 20,
+  "structural_preservation_checks": {
+    "LOD0": {
+      "animations_identical": true,
+      "base_mesh_descriptors_unchanged": true,
+      "textures_identical": true,
+      "materials_identical": true,
+      "base_accessors_unchanged": true,
+      "before_faces": 429304,
+      "new_faces": 431616,
+      "additional_faces": 2312
+    },
+    "LOD1": {
+      "animations_identical": true,
+      "base_mesh_descriptors_unchanged": true,
+      "textures_identical": true,
+      "materials_identical": true,
+      "base_accessors_unchanged": true,
+      "before_faces": 184716,
+      "new_faces": 185860,
+      "additional_faces": 1144
+    },
+    "LOD2": {
+      "animations_identical": true,
+      "base_mesh_descriptors_unchanged": true,
+      "textures_identical": true,
+      "materials_identical": true,
+      "base_accessors_unchanged": true,
+      "before_faces": 63752,
+      "new_faces": 64752,
+      "additional_faces": 1000
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "asset": "HIL-04",
+  "title": "Corner mixed-use residential-over-retail",
+  "reference": "HIL-04_MultiView_Reference.png",
+  "reference_dimensions_m": [
+    24.0,
+    18.0,
+    22.0
+  ],
+  "modeled_canonical_footprint_xyz": "X 24.0 m, Y 18.0 m, Z floor 0 to upper roof / equipment 23.05 m",
+  "architectural_floor_levels_m": [
+    0,
+    3.42,
+    6.94,
+    10.46,
+    13.98,
+    17.5,
+    21.05
+  ],
+  "source_coordinate_system": "Python geometry Z-up. GLB world node X=-90deg conversion: glTF/Godot Y-up; X width, Y height, Z depth.",
+  "orientation": "Front/street y=-9; second street x=12; rear y=+9",
+  "door_animations": [
+    {
+      "name": "Shop_Door_Pivot",
+      "hinge_m": [
+        7.73,
+        -6.27,
+        0.12
+      ],
+      "width_m": 1.02,
+      "height_m": 2.3,
+      "swing_deg": 90,
+      "opening_direction": "outward"
+    },
+    {
+      "name": "Lobby_Door_Pivot",
+      "hinge_m": [
+        12.11,
+        2.62,
+        0.12
+      ],
+      "width_m": 1.12,
+      "height_m": 2.35,
+      "swing_deg": 90,
+      "opening_direction": "outward"
+    }
+  ],
+  "lods": {
+    "LOD0": {
+      "lod": 0,
+      "triangles": 256436,
+      "glb_reimport_triangles": 256436,
+      "bounds_xyz_min_max_m": [
+        [
+          -12.184,
+          -11.1153,
+          -0.22
+        ],
+        [
+          14.1084,
+          10.465,
+          23.05
+        ]
+      ],
+      "mesh_nodes": 54,
+      "materials_used": 26,
+      "invalid_coordinate_meshes": 0,
+      "animation_tracks": 2,
+      "animated_nodes_are_TRS": true,
+      "glb_header_valid": true,
+      "reimport_triangle_count_matches": true
+    },
+    "LOD1": {
+      "lod": 1,
+      "triangles": 113248,
+      "glb_reimport_triangles": 113248,
+      "bounds_xyz_min_max_m": [
+        [
+          -12.17,
+          -11.0585,
+          -0.22
+        ],
+        [
+          14.0212,
+          10.4608,
+          23.05
+        ]
+      ],
+      "mesh_nodes": 51,
+      "materials_used": 25,
+      "invalid_coordinate_meshes": 0,
+      "animation_tracks": 2,
+      "animated_nodes_are_TRS": true,
+      "glb_header_valid": true,
+      "reimport_triangle_count_matches": true
+    },
+    "LOD2": {
+      "lod": 2,
+      "triangles": 28670,
+      "glb_reimport_triangles": 28670,
+      "bounds_xyz_min_max_m": [
+        [
+          -12.17,
+          -10.9627,
+          -0.22
+        ],
+        [
+          13.865,
+          10.1715,
+          23.05
+        ]
+      ],
+      "mesh_nodes": 51,
+      "materials_used": 25,
+      "invalid_coordinate_meshes": 0,
+      "animation_tracks": 2,
+      "animated_nodes_are_TRS": true,
+      "glb_header_valid": true,
+      "reimport_triangle_count_matches": true
+    }
+  },
+  "artifacts": [
+    "HIL-04_HLOD.glb",
+    "HIL-04_LOD0.glb",
+    "HIL-04_LOD1.glb",
+    "HIL-04_LOD2.glb",
+    "HIL-04_manifest.json",
+    "HIL-04_validation.md",
+    "README.md",
+    "Textures/",
+    "Scripts/",
+    "Collision/",
+    "Previews/",
+    "References/"
+  ],
+  "tooling": {
+    "Blender": "not installed: native .blend could not be authored or tested",
+    "Godot4": "not installed: engine import not tested",
+    "GLB": "trimesh glTF exported and re-import validated"
+  },
+  "limitations": [
+    "Reference is artwork, not dimensioned CAD. Minor form / window / layout locations are estimates.",
+    "Source .blend omitted because Blender is unavailable. Script + editable mesh GLBs supplied.",
+    "Only the shop and apartment lobby are modeled as accessible interiors.",
+    "GLB doors have embedded open/close animation tracks; actual gameplay control and Godot integration require engine-side validation.",
+    "Not 100% pixel-for-pixel identical to photoreal reference."
+  ],
+  "lods_verified": {
+    "LOD0": {
+      "triangles": 256436,
+      "mesh_count": 54,
+      "textured_mesh_count": 54,
+      "materials": 26,
+      "animations": 2,
+      "file_mib": 13.34,
+      "sha256": "209a0b6d4a3bd092ec032eea1b65c46183f5b16910cc44124aaaca9bc41681a2"
+    },
+    "LOD1": {
+      "triangles": 113248,
+      "mesh_count": 51,
+      "textured_mesh_count": 51,
+      "materials": 25,
+      "animations": 2,
+      "file_mib": 9.19,
+      "sha256": "2dfe3fd7e6e21c2059a96ac044c8203e0d391c1ae4d23e140bb8af87e6cb06dd"
+    },
+    "LOD2": {
+      "triangles": 28670,
+      "mesh_count": 51,
+      "textured_mesh_count": 51,
+      "materials": 25,
+      "animations": 2,
+      "file_mib": 6.88,
+      "sha256": "2f1255f5aa7135e5df9420e05fba2bccfdfcb571a1ffefc304049acf21d04c13"
+    }
+  },
+  "distant_HLOD": {
+    "file": "HIL-04_HLOD.glb",
+    "triangles": 512,
+    "confirmed_reimport": true
+  },
+  "collision_proxy": {
+    "file": "Collision/HIL-04_collision.glb",
+    "mesh_count": 34,
+    "confirmed_reimport": true
+  },
+  "rendered_previews": [
+    "00_contact_sheet.png",
+    "01_street_corner.png",
+    "02_front_elevation.png",
+    "03_side_elevation.png",
+    "04_rear_elevation.png",
+    "05_roof_oblique.png",
+    "06_ground_retail_closeup.png",
+    "07_lobby_side_closeup.png",
+    "08_retail_interior.png",
+    "09_residential_lobby_interior.png"
+  ],
+  "source_blend_included": false,
+  "VTK_import_verification": {
+    "model_imported": true,
+    "actors": 54,
+    "animation_tracks": 2,
+    "preview_engine": "VTK GLTF importer (NOT Godot)"
+  },
+  "portal_clearance_design_m": {
+    "shop_opening_width": 1.22,
+    "shop_door_width": 1.02,
+    "lobby_opening_width": 1.26,
+    "lobby_door_width": 1.12,
+    "animated_swing_outward_degrees": 90,
+    "godot_physics_verified": false
+  }
+}

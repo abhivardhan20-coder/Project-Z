@@ -1,0 +1,2149 @@
+[
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_00_Remote_Radio_Compound_Combined.glb",
+    "bytes": 12170396,
+    "mesh_count": 247,
+    "nodes": 284,
+    "triangles_in_mesh_library": 26668,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "SITE_TOWER_Concrete_AnchorPad_-1_-1",
+      "SITE_TOWER_Steel_Baseplate_-1_-1",
+      "SITE_TOWER_AnchorBolts_-1_-1",
+      "SITE_TOWER_Concrete_AnchorPad_-1_1",
+      "SITE_TOWER_Steel_Baseplate_-1_1",
+      "SITE_TOWER_AnchorBolts_-1_1",
+      "SITE_TOWER_Concrete_AnchorPad_1_-1",
+      "SITE_TOWER_Steel_Baseplate_1_-1",
+      "SITE_TOWER_AnchorBolts_1_-1",
+      "SITE_TOWER_Concrete_AnchorPad_1_1",
+      "SITE_TOWER_Steel_Baseplate_1_1",
+      "SITE_TOWER_AnchorBolts_1_1",
+      "SITE_TOWER_TRUSS_TIER_01_4_TaperedLegs",
+      "SITE_TOWER_TRUSS_TIER_01_HorizontalRings",
+      "SITE_TOWER_TRUSS_TIER_01_XDiagonalBracing"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_01_Telecom_Lattice_Tower_29m.glb",
+    "bytes": 11717416,
+    "mesh_count": 67,
+    "nodes": 69,
+    "triangles_in_mesh_library": 9632,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "TOWER_Concrete_AnchorPad_-1_-1",
+      "TOWER_Steel_Baseplate_-1_-1",
+      "TOWER_AnchorBolts_-1_-1",
+      "TOWER_Concrete_AnchorPad_-1_1",
+      "TOWER_Steel_Baseplate_-1_1",
+      "TOWER_AnchorBolts_-1_1",
+      "TOWER_Concrete_AnchorPad_1_-1",
+      "TOWER_Steel_Baseplate_1_-1",
+      "TOWER_AnchorBolts_1_-1",
+      "TOWER_Concrete_AnchorPad_1_1",
+      "TOWER_Steel_Baseplate_1_1",
+      "TOWER_AnchorBolts_1_1",
+      "TOWER_TRUSS_TIER_01_4_TaperedLegs",
+      "TOWER_TRUSS_TIER_01_HorizontalRings",
+      "TOWER_TRUSS_TIER_01_XDiagonalBracing"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_02_Modular_Sector_Dish_Antenna_Assembly.glb",
+    "bytes": 11098560,
+    "mesh_count": 16,
+    "nodes": 22,
+    "triangles_in_mesh_library": 980,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "ANT_Antenna_Frame_UpperMast",
+      "ANT_Sector_Array_Three_Independent_Brackets",
+      "ANT_SectorAntenna_1_Radome_1p45m",
+      "ANT_SectorAntenna_1_BackRail",
+      "ANT_SectorAntenna_1_NarrowMount",
+      "ANT_SectorAntenna_2_Radome_1p45m",
+      "ANT_SectorAntenna_2_BackRail",
+      "ANT_SectorAntenna_2_NarrowMount",
+      "ANT_SectorAntenna_3_Radome_1p45m",
+      "ANT_SectorAntenna_3_BackRail",
+      "ANT_SectorAntenna_3_NarrowMount",
+      "ANT_Microwave_ParabolicDish_1p18m",
+      "ANT_Microwave_FeedArm",
+      "ANT_Microwave_FeedHorn",
+      "ANT_Microwave_BackSupport"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_03_Accessible_Maintenance_Hut.glb",
+    "bytes": 11067256,
+    "mesh_count": 21,
+    "nodes": 24,
+    "triangles_in_mesh_library": 668,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "HUT_Raised_Concrete_FloorSlab",
+      "HUT_Rear_InsulatedWall",
+      "HUT_Right_InsulatedWall",
+      "HUT_LeftWall_WindowCutout_RealOpening",
+      "HUT_LeftWindow_Glazing",
+      "HUT_LeftWindow_Frame",
+      "HUT_FrontWall_Doorway_ActualClearOpening",
+      "HUT_FrontDoor_SwingLeaf_Steel",
+      "HUT_FrontDoor_UpperWindow",
+      "HUT_FrontDoor_LatchAndHandle",
+      "HUT_FrontDoor_Frame_Jambs",
+      "HUT_Roof_MainCladding",
+      "HUT_Roof_RidgeFlashing",
+      "HUT_Roof_FoldedSeamRibs",
+      "HUT_Front_Vent_Housing"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_04_Diesel_Generator_Shelter.glb",
+    "bytes": 11091544,
+    "mesh_count": 18,
+    "nodes": 21,
+    "triangles_in_mesh_library": 880,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "GEN_Concrete_EquipmentPlinth",
+      "GEN_SteelShelter_Four_Posts",
+      "GEN_SteelShelter_RoofFrame",
+      "GEN_Shelter_Corrugated_Roof",
+      "GEN_Shelter_RoofCorrugations",
+      "GEN_DieselGenerator_AntiVibrationSkids",
+      "GEN_DieselGenerator_EngineEnclosure",
+      "GEN_DieselGenerator_RoofAccessPanel",
+      "GEN_DieselGenerator_ExhaustStack",
+      "GEN_DieselGenerator_ExhaustTip",
+      "GEN_DieselGenerator_IntakeLouverBank",
+      "GEN_Generator_ServicePanel_OpenableHatch",
+      "GEN_Generator_ServicePanel_Handle",
+      "GEN_FuelTank_EnclosedCylinder",
+      "GEN_FuelTank_FillCap"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_05_Security_Fence_Straight_4m.glb",
+    "bytes": 11064016,
+    "mesh_count": 5,
+    "nodes": 7,
+    "triangles_in_mesh_library": 668,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "FENCE_Post_L",
+      "FENCE_Post_R",
+      "FENCE_TopAndBottomRails",
+      "FENCE_Security_WeldedWireMesh_Panel",
+      "FENCE_PostCaps"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_06_Double_Hinged_Security_Gate_4m.glb",
+    "bytes": 11076768,
+    "mesh_count": 14,
+    "nodes": 18,
+    "triangles_in_mesh_library": 1064,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "GATE_Fixed_ConcretePostFooting_-2",
+      "GATE_Fixed_SteelHingePost_-2",
+      "GATE_Fixed_ConcretePostFooting_2",
+      "GATE_Fixed_SteelHingePost_2",
+      "GATE_LEFT_DoorLeaf_RectangularSteelFrame",
+      "GATE_LEFT_DoorLeaf_WireMeshFill",
+      "GATE_LEFT_HingeBarrels",
+      "GATE_LEFT_Handle",
+      "GATE_RIGHT_DoorLeaf_RectangularSteelFrame",
+      "GATE_RIGHT_DoorLeaf_WireMeshFill",
+      "GATE_RIGHT_HingeBarrels",
+      "GATE_RIGHT_Handle",
+      "GATE_Gate_Centre_LatchKeeper",
+      "GATE_Gate_Overhead_SiteNotice"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_174_remote_radio_tower_compound\\PZ_RAD_07_Fence_Corner_90deg.glb",
+    "bytes": 11015332,
+    "mesh_count": 4,
+    "nodes": 6,
+    "triangles_in_mesh_library": 188,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "CORNER_Corner_Post",
+      "CORNER_FenceJoin_1_ShortTopBottomRail",
+      "CORNER_FenceJoin_2_ShortTopBottomRail",
+      "CORNER_Corner_PostCap"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\landmarks\\pz_175_mountain_cable_car_station\\PROJECT_Z_Mountain_Cable_Car_Station.glb",
+    "bytes": 11322468,
+    "mesh_count": 162,
+    "nodes": 186,
+    "triangles_in_mesh_library": 11668,
+    "materials": 2,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "Foundation_Footing_X0_Y0",
+      "Foundation_Footing_X0_Y1",
+      "Foundation_Footing_X0_Y2",
+      "Foundation_Footing_X0_Y3",
+      "Foundation_Footing_X0_Y4",
+      "Foundation_Footing_X1_Y0",
+      "Foundation_Footing_X1_Y1",
+      "Foundation_Footing_X1_Y2",
+      "Foundation_Footing_X1_Y3",
+      "Foundation_Footing_X1_Y4",
+      "MODULE_PLATFORM_LEFT_4m_SPAN_00",
+      "Platform_LEFT_00_NonSlip_Upper_Surface",
+      "Platform_LEFT_00_Yellow_Tactile_Edge",
+      "MODULE_PLATFORM_LEFT_4m_SPAN_01",
+      "Platform_LEFT_01_NonSlip_Upper_Surface"
+    ],
+    "generator": "PROJECT Z RIDGELINE T24 Station v1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_Balcony_Attachable.glb",
+    "bytes": 2857564,
+    "mesh_count": 4,
+    "nodes": 15,
+    "triangles_in_mesh_library": 288,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "BalconyAttachable_CantileverBalcony_CantileverDeck",
+      "BalconyAttachable_CantileverBalcony_EdgeDrip",
+      "BalconyAttachable_CantileverBalcony_Guardrail",
+      "BalconyAttachable_CantileverBalcony_BearingBrackets"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_GroundLobby_Storey.glb",
+    "bytes": 7628500,
+    "mesh_count": 187,
+    "nodes": 268,
+    "triangles_in_mesh_library": 6520,
+    "materials": 9,
+    "images": 27,
+    "external_uris": [],
+    "mesh_names": [
+      "Story_Ground_GroundFloorSlab_20x16",
+      "Story_Ground_CorridorTileSurface",
+      "Story_Ground_CoreCorridorSurface",
+      "Story_Ground_FrontRedBrick_TrueWindowAndDoorApertures",
+      "Story_Ground_BackRedBrick_TrueWindowAndDoorApertures",
+      "Story_Ground_EastConcreteEndWall",
+      "Story_Ground_WestConcreteEndWall",
+      "Story_Ground_FrontHorizontalConcreteBand",
+      "Story_Ground_BackHorizontalConcreteBand",
+      "Story_Ground_FacadeVerticalStuccoColumns",
+      "Story_Ground_GroundLobbyEntrance_Leaf",
+      "Story_Ground_GroundLobbyEntrance_Handle",
+      "Story_Ground_LobbyConcreteCanopy",
+      "Story_Ground_LobbyAddressPlaque",
+      "Story_Ground_Front_BayWindow_0_Mullions"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_RoofCap.glb",
+    "bytes": 4316620,
+    "mesh_count": 13,
+    "nodes": 24,
+    "triangles_in_mesh_library": 324,
+    "materials": 5,
+    "images": 15,
+    "external_uris": [],
+    "mesh_names": [
+      "RoofCap_RoofSlab_20x16_SOLID_CAP",
+      "RoofCap_RoofWaterproofing",
+      "RoofCap_Parapet_NonBaked",
+      "RoofCap_ParapetMetalCoping",
+      "RoofCap_LiftMachineHousing",
+      "RoofCap_MachineHousingCap",
+      "RoofCap_PlantRoomVent_0",
+      "RoofCap_PlantRoomVent_1",
+      "RoofCap_HVACCondenserUnits",
+      "RoofCap_HVACGrille_0",
+      "RoofCap_HVACGrille_1",
+      "RoofCap_RoofFireEscapeAccessHatch",
+      "RoofCap_RoofDrainStandpipe"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_SIX_FLOOR_Assembly_Reference.glb",
+    "bytes": 8859472,
+    "mesh_count": 1120,
+    "nodes": 1606,
+    "triangles_in_mesh_library": 39664,
+    "materials": 10,
+    "images": 30,
+    "external_uris": [],
+    "mesh_names": [
+      "STORY_01_GroundFloorSlab_20x16",
+      "STORY_01_CorridorTileSurface",
+      "STORY_01_CoreCorridorSurface",
+      "STORY_01_FrontRedBrick_TrueWindowAndDoorApertures",
+      "STORY_01_BackRedBrick_TrueWindowAndDoorApertures",
+      "STORY_01_EastConcreteEndWall",
+      "STORY_01_WestConcreteEndWall",
+      "STORY_01_FrontHorizontalConcreteBand",
+      "STORY_01_BackHorizontalConcreteBand",
+      "STORY_01_FacadeVerticalStuccoColumns",
+      "STORY_01_GroundLobbyEntrance_Leaf",
+      "STORY_01_GroundLobbyEntrance_Handle",
+      "STORY_01_LobbyConcreteCanopy",
+      "STORY_01_LobbyAddressPlaque",
+      "STORY_01_Front_BayWindow_0_Mullions"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_TypicalStorey_Repeatable.glb",
+    "bytes": 7584852,
+    "mesh_count": 184,
+    "nodes": 264,
+    "triangles_in_mesh_library": 6564,
+    "materials": 8,
+    "images": 24,
+    "external_uris": [],
+    "mesh_names": [
+      "Story_Repeatable_StructuralFloorSlab_20x16_WITH_CORE_VOIDS",
+      "Story_Repeatable_CorridorTileSurface",
+      "Story_Repeatable_CoreCorridorSurface",
+      "Story_Repeatable_StairFrontConnectionDeck",
+      "Story_Repeatable_FrontRedBrick_TrueWindowAndDoorApertures",
+      "Story_Repeatable_BackRedBrick_TrueWindowAndDoorApertures",
+      "Story_Repeatable_EastConcreteEndWall",
+      "Story_Repeatable_WestConcreteEndWall",
+      "Story_Repeatable_FrontHorizontalConcreteBand",
+      "Story_Repeatable_BackHorizontalConcreteBand",
+      "Story_Repeatable_FacadeVerticalStuccoColumns",
+      "Story_Repeatable_Front_BayWindow_0_Mullions",
+      "Story_Repeatable_Front_BayWindow_0_BreakablePane_Left",
+      "Story_Repeatable_Front_BayWindow_0_BreakablePane_Right",
+      "Story_Repeatable_Front_BayWindow_0_ConcreteSill"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_UnitLayout_Flex_D.glb",
+    "bytes": 4673880,
+    "mesh_count": 15,
+    "nodes": 29,
+    "triangles_in_mesh_library": 276,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "Flex_D_FloorFinish",
+      "Flex_D_CorridorEntryWall_TRUE_0p90m_OPENING",
+      "Flex_D_ApartmentEntry_Leaf",
+      "Flex_D_ApartmentEntry_Handle",
+      "Flex_D_EntryDoorCasings",
+      "Flex_D_EntryDoorCasingsR",
+      "Flex_D_BedroomDivider",
+      "Flex_D_BedroomSide",
+      "Flex_D_FlexibleOfficePartition",
+      "Flex_D_FlexibleOfficeSide",
+      "Flex_D_BathSide",
+      "Flex_D_Bedroom_Leaf",
+      "Flex_D_Bedroom_Handle",
+      "Flex_D_FlexRoom_Leaf",
+      "Flex_D_FlexRoom_Handle"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_UnitLayout_OneBed_B.glb",
+    "bytes": 4672768,
+    "mesh_count": 14,
+    "nodes": 28,
+    "triangles_in_mesh_library": 264,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "OneBed_B_FloorFinish",
+      "OneBed_B_CorridorEntryWall_TRUE_0p90m_OPENING",
+      "OneBed_B_ApartmentEntry_Leaf",
+      "OneBed_B_ApartmentEntry_Handle",
+      "OneBed_B_EntryDoorCasings",
+      "OneBed_B_EntryDoorCasingsR",
+      "OneBed_B_BedroomDivider_EW",
+      "OneBed_B_BedroomDivider_NS",
+      "OneBed_B_BathDivider_NS",
+      "OneBed_B_BathDivider_EW",
+      "OneBed_B_Bedroom_Leaf",
+      "OneBed_B_Bedroom_Handle",
+      "OneBed_B_Bath_Leaf",
+      "OneBed_B_Bath_Handle"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_UnitLayout_Studio_A.glb",
+    "bytes": 5195060,
+    "mesh_count": 12,
+    "nodes": 25,
+    "triangles_in_mesh_library": 208,
+    "materials": 5,
+    "images": 15,
+    "external_uris": [],
+    "mesh_names": [
+      "Studio_A_FloorFinish",
+      "Studio_A_CorridorEntryWall_TRUE_0p90m_OPENING",
+      "Studio_A_ApartmentEntry_Leaf",
+      "Studio_A_ApartmentEntry_Handle",
+      "Studio_A_EntryDoorCasings",
+      "Studio_A_EntryDoorCasingsR",
+      "Studio_A_BathroomDivider_EW",
+      "Studio_A_BathroomDivider_NS",
+      "Studio_A_KitchenHalfWall",
+      "Studio_A_Bathroom_Leaf",
+      "Studio_A_Bathroom_Handle",
+      "Studio_A_KitchenCounterBlock"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_UnitLayout_TwoBed_C.glb",
+    "bytes": 4676836,
+    "mesh_count": 16,
+    "nodes": 31,
+    "triangles_in_mesh_library": 312,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "TwoBed_C_FloorFinish",
+      "TwoBed_C_CorridorEntryWall_TRUE_0p90m_OPENING",
+      "TwoBed_C_ApartmentEntry_Leaf",
+      "TwoBed_C_ApartmentEntry_Handle",
+      "TwoBed_C_EntryDoorCasings",
+      "TwoBed_C_EntryDoorCasingsR",
+      "TwoBed_C_TwoBedroomsMainDivider",
+      "TwoBed_C_BedroomSeparation",
+      "TwoBed_C_BathroomDivider",
+      "TwoBed_C_BathroomSide",
+      "TwoBed_C_BedroomOne_Leaf",
+      "TwoBed_C_BedroomOne_Handle",
+      "TwoBed_C_BedroomTwo_Leaf",
+      "TwoBed_C_BedroomTwo_Handle",
+      "TwoBed_C_Bathroom_Leaf"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_032_midrise_apartment_shell\\PZ_Midrise_UStair_ElevatorCore.glb",
+    "bytes": 2888116,
+    "mesh_count": 23,
+    "nodes": 36,
+    "triangles_in_mesh_library": 956,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "Core_Flight_1_TreadPlates",
+      "Core_Flight_1_RiserPlates",
+      "Core_Flight_2_TreadPlates",
+      "Core_Flight_2_RiserPlates",
+      "Core_HalfLevelTurningLanding",
+      "Core_UpperLandingIntoNextStorey",
+      "Core_Handrail_00",
+      "Core_Handrail_01",
+      "Core_Handrail_02",
+      "Core_Handrail_03",
+      "Core_LandingInnerGuardRail",
+      "Core_LiftFrontWall_TrueDoorOpening",
+      "Core_LiftBackShaftWall",
+      "Core_LiftLeftShaftWall",
+      "Core_LiftRightShaftWall"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_01_Straight_4m_Facade_Runtime.glb",
+    "bytes": 7595836,
+    "mesh_count": 19,
+    "nodes": 22,
+    "triangles_in_mesh_library": 1464,
+    "materials": 6,
+    "images": 18,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L03_B04",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L03_B03",
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L03_B02",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L03_B01",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L02_B04",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L02_B03",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L02_B02",
+      "G_SM_M01_Straight_4m_Facade__GLASS_Panel_L02_B01",
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L01_B04",
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L01_B03",
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L01_B02",
+      "G_SM_M01_Straight_4m_Facade__OPAQUE_Panel_L01_B01",
+      "G_SM_M01_Straight_4m_Facade__BATCH_BACK_PAN_M_GalvanizedHVACSteel",
+      "G_SM_M01_Straight_4m_Facade__BATCH_CONNECTION_BRACKET_M_GalvanizedHVACSteel",
+      "G_SM_M01_Straight_4m_Facade__BATCH_GASKET_M_BlackEPDMSeals"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_02_Alternate_4m_Facade_Runtime.glb",
+    "bytes": 7596004,
+    "mesh_count": 19,
+    "nodes": 22,
+    "triangles_in_mesh_library": 1464,
+    "materials": 6,
+    "images": 18,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L03_B04",
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L03_B03",
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L03_B02",
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L03_B01",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L02_B04",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L02_B03",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L02_B02",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L02_B01",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L01_B04",
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L01_B03",
+      "G_SM_M02_Alternate_4m_Facade__GLASS_Panel_L01_B02",
+      "G_SM_M02_Alternate_4m_Facade__OPAQUE_Panel_L01_B01",
+      "G_SM_M02_Alternate_4m_Facade__BATCH_BACK_PAN_M_GalvanizedHVACSteel",
+      "G_SM_M02_Alternate_4m_Facade__BATCH_CONNECTION_BRACKET_M_GalvanizedHVACSteel",
+      "G_SM_M02_Alternate_4m_Facade__BATCH_GASKET_M_BlackEPDMSeals"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_03_Outside_Corner_4x4m_Runtime.glb",
+    "bytes": 7672508,
+    "mesh_count": 30,
+    "nodes": 33,
+    "triangles_in_mesh_library": 2556,
+    "materials": 6,
+    "images": 18,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M03_Outside_Corner_4x4m__Return_OPAQUE_3_4",
+      "G_SM_M03_Outside_Corner_4x4m__Front_OPAQUE_3_4",
+      "G_SM_M03_Outside_Corner_4x4m__Return_OPAQUE_3_3",
+      "G_SM_M03_Outside_Corner_4x4m__Front_OPAQUE_3_3",
+      "G_SM_M03_Outside_Corner_4x4m__Return_GLASS_3_2",
+      "G_SM_M03_Outside_Corner_4x4m__Front_GLASS_3_2",
+      "G_SM_M03_Outside_Corner_4x4m__Return_OPAQUE_3_1",
+      "G_SM_M03_Outside_Corner_4x4m__Front_OPAQUE_3_1",
+      "G_SM_M03_Outside_Corner_4x4m__Return_GLASS_2_4",
+      "G_SM_M03_Outside_Corner_4x4m__Front_GLASS_2_4",
+      "G_SM_M03_Outside_Corner_4x4m__Return_GLASS_2_3",
+      "G_SM_M03_Outside_Corner_4x4m__Front_GLASS_2_3",
+      "G_SM_M03_Outside_Corner_4x4m__Return_GLASS_2_2",
+      "G_SM_M03_Outside_Corner_4x4m__Front_GLASS_2_2",
+      "G_SM_M03_Outside_Corner_4x4m__Return_GLASS_2_1"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_04_Repeatable_4x4m_FloorPlate_Runtime.glb",
+    "bytes": 7234792,
+    "mesh_count": 7,
+    "nodes": 10,
+    "triangles_in_mesh_library": 216,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__Concrete_Deck_Tile_2_2",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__Concrete_Deck_Tile_2_1",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__Concrete_Deck_Tile_1_2",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__Concrete_Deck_Tile_1_1",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__BATCH_BEARING_PAD_M_BlackEPDMSeals",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__BATCH_EDGE_TRIM_M_GalvanizedHVACSteel",
+      "G_SM_M04_Repeatable_4x4m_FloorPlate__BATCH_STRUCTURAL_BEAM_M_GraphitePowderAluminium"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_05_RooftopPlant_4x4m_Runtime.glb",
+    "bytes": 9502004,
+    "mesh_count": 26,
+    "nodes": 29,
+    "triangles_in_mesh_library": 1046,
+    "materials": 7,
+    "images": 19,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M05_RooftopPlant_4x4m__Cendel_Badge_Decal",
+      "G_SM_M05_RooftopPlant_4x4m__Electrical_Disconnect_Door",
+      "G_SM_M05_RooftopPlant_4x4m__AHU2_Independent_Rotor",
+      "G_SM_M05_RooftopPlant_4x4m__AHU2_ServiceDoor",
+      "G_SM_M05_RooftopPlant_4x4m__AHU1_Independent_Rotor",
+      "G_SM_M05_RooftopPlant_4x4m__AHU1_ServiceDoor",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_BRANDING_BACKPLATE_M_GraphitePowderAluminium",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_CABINET_M_GraphitePowderAluminium",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_CABINET_HANDLE_M_SatinAnodizedAluminium",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_CABLE_TRAY_M_GalvanizedHVACSteel",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_CHASSIS_M_GraphitePowderAluminium",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_COPING_M_GalvanizedHVACSteel",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_COWLING_M_GraphitePowderAluminium",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_DRAIN_M_GalvanizedHVACSteel",
+      "G_SM_M05_RooftopPlant_4x4m__BATCH_DUCT_ELBOW_M_GalvanizedHVACSteel"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\buildings\\points_of_interest\\pz_033_office_tower_facade_module\\PROJECT_Z_Office_Tower_Facade_Module.glb",
+    "bytes": 11025368,
+    "mesh_count": 549,
+    "nodes": 556,
+    "triangles_in_mesh_library": 6746,
+    "materials": 9,
+    "images": 25,
+    "external_uris": [],
+    "mesh_names": [
+      "G_SM_M01_Straight_4m_Facade__Mullion_Vertical_01",
+      "G_SM_M01_Straight_4m_Facade__Exterior_Cap_V_01",
+      "G_SM_M01_Straight_4m_Facade__Mullion_Vertical_02",
+      "G_SM_M01_Straight_4m_Facade__Exterior_Cap_V_02",
+      "G_SM_M01_Straight_4m_Facade__Mullion_Vertical_03",
+      "G_SM_M01_Straight_4m_Facade__Exterior_Cap_V_03",
+      "G_SM_M01_Straight_4m_Facade__Mullion_Vertical_04",
+      "G_SM_M01_Straight_4m_Facade__Exterior_Cap_V_04",
+      "G_SM_M01_Straight_4m_Facade__Mullion_Vertical_05",
+      "G_SM_M01_Straight_4m_Facade__Exterior_Cap_V_05",
+      "G_SM_M01_Straight_4m_Facade__Transom_L01_B01",
+      "G_SM_M01_Straight_4m_Facade__Cap_H_L01_B01",
+      "G_SM_M01_Straight_4m_Facade__Transom_L01_B02",
+      "G_SM_M01_Straight_4m_Facade__Cap_H_L01_B02",
+      "G_SM_M01_Straight_4m_Facade__Transom_L01_B03"
+    ],
+    "generator": "PROJECT Z | CENDEL ARC-36 procedural kit"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_127_temperate_broadleaf_tree\\PROJECT_Z_Temperate_Oak_Tree_BILLBOARD.glb",
+    "bytes": 468456,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 4,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "BILLBOARD_XZ_AlphaMasked",
+      "BILLBOARD_ZY_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_127_temperate_broadleaf_tree\\PROJECT_Z_Temperate_Oak_Tree_LOD0.glb",
+    "bytes": 3928204,
+    "mesh_count": 8,
+    "nodes": 9,
+    "triangles_in_mesh_library": 9998,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "LOD0_01_Trunk_OakBark",
+      "LOD0_02_RootFlare_5Parts",
+      "LOD0_03_PrimaryLimbs_12",
+      "LOD0_04_SecondaryTwigs_36",
+      "LOD0_05_CanopySector_01_AlphaMasked",
+      "LOD0_06_CanopySector_02_AlphaMasked",
+      "LOD0_07_CanopySector_03_AlphaMasked",
+      "LOD0_08_CanopySector_04_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_127_temperate_broadleaf_tree\\PROJECT_Z_Temperate_Oak_Tree_LOD1.glb",
+    "bytes": 3541336,
+    "mesh_count": 8,
+    "nodes": 9,
+    "triangles_in_mesh_library": 3996,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "LOD1_01_Trunk_OakBark",
+      "LOD1_02_RootFlare_5Parts",
+      "LOD1_03_PrimaryLimbs_10",
+      "LOD1_04_SecondaryTwigs_20",
+      "LOD1_05_CanopySector_01_AlphaMasked",
+      "LOD1_06_CanopySector_02_AlphaMasked",
+      "LOD1_07_CanopySector_03_AlphaMasked",
+      "LOD1_08_CanopySector_04_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_127_temperate_broadleaf_tree\\PROJECT_Z_Temperate_Oak_Tree_LOD2.glb",
+    "bytes": 3359280,
+    "mesh_count": 6,
+    "nodes": 7,
+    "triangles_in_mesh_library": 1190,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "LOD2_01_Trunk_OakBark",
+      "LOD2_03_PrimaryLimbs_07",
+      "LOD2_05_CanopySector_01_AlphaMasked",
+      "LOD2_06_CanopySector_02_AlphaMasked",
+      "LOD2_07_CanopySector_03_AlphaMasked",
+      "LOD2_08_CanopySector_04_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_128_conifer_tree\\ProjectZ_PINE10_Conifer_Summer_LOD0.glb",
+    "bytes": 9749768,
+    "mesh_count": 35,
+    "nodes": 42,
+    "triangles_in_mesh_library": 12784,
+    "materials": 3,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "Trunk_Main_10m_Bark",
+      "Branches_00_Z3.05m_Bark",
+      "Branches_01_Z3.57m_Bark",
+      "Branches_02_Z4.09m_Bark",
+      "Branches_03_Z4.62m_Bark",
+      "Branches_04_Z5.14m_Bark",
+      "Branches_05_Z5.66m_Bark",
+      "Branches_06_Z6.19m_Bark",
+      "Branches_07_Z6.71m_Bark",
+      "Branches_08_Z7.23m_Bark",
+      "Branches_09_Z7.75m_Bark",
+      "Branches_10_Z8.28m_Bark",
+      "Branches_11_Z8.80m_Bark",
+      "Branches_12_Z9.32m_Bark",
+      "NeedleClusters_00_AlphaMask"
+    ],
+    "generator": "PROJECT Z | PINE10 v1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_128_conifer_tree\\ProjectZ_PINE10_Conifer_Summer_LOD1.glb",
+    "bytes": 8786204,
+    "mesh_count": 27,
+    "nodes": 34,
+    "triangles_in_mesh_library": 3936,
+    "materials": 3,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "Trunk_Main_10m_Bark",
+      "Branches_00_Z3.05m_Bark",
+      "Branches_01_Z3.57m_Bark",
+      "Branches_02_Z4.09m_Bark",
+      "Branches_03_Z4.62m_Bark",
+      "Branches_04_Z5.14m_Bark",
+      "Branches_05_Z5.66m_Bark",
+      "Branches_06_Z6.19m_Bark",
+      "Branches_07_Z6.71m_Bark",
+      "Branches_08_Z7.23m_Bark",
+      "Branches_09_Z7.75m_Bark",
+      "Branches_10_Z8.28m_Bark",
+      "Branches_11_Z8.80m_Bark",
+      "Branches_12_Z9.32m_Bark",
+      "NeedleClusters_00_AlphaMask"
+    ],
+    "generator": "PROJECT Z | PINE10 v1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_128_conifer_tree\\ProjectZ_PINE10_Conifer_Winter_LOD0.glb",
+    "bytes": 9749772,
+    "mesh_count": 35,
+    "nodes": 42,
+    "triangles_in_mesh_library": 12784,
+    "materials": 3,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "Trunk_Main_10m_Bark",
+      "Branches_00_Z3.05m_Bark",
+      "Branches_01_Z3.57m_Bark",
+      "Branches_02_Z4.09m_Bark",
+      "Branches_03_Z4.62m_Bark",
+      "Branches_04_Z5.14m_Bark",
+      "Branches_05_Z5.66m_Bark",
+      "Branches_06_Z6.19m_Bark",
+      "Branches_07_Z6.71m_Bark",
+      "Branches_08_Z7.23m_Bark",
+      "Branches_09_Z7.75m_Bark",
+      "Branches_10_Z8.28m_Bark",
+      "Branches_11_Z8.80m_Bark",
+      "Branches_12_Z9.32m_Bark",
+      "NeedleClusters_00_AlphaMask"
+    ],
+    "generator": "PROJECT Z | PINE10 v1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_128_conifer_tree\\ProjectZ_PINE10_Conifer_Winter_LOD1.glb",
+    "bytes": 8786208,
+    "mesh_count": 27,
+    "nodes": 34,
+    "triangles_in_mesh_library": 3936,
+    "materials": 3,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "Trunk_Main_10m_Bark",
+      "Branches_00_Z3.05m_Bark",
+      "Branches_01_Z3.57m_Bark",
+      "Branches_02_Z4.09m_Bark",
+      "Branches_03_Z4.62m_Bark",
+      "Branches_04_Z5.14m_Bark",
+      "Branches_05_Z5.66m_Bark",
+      "Branches_06_Z6.19m_Bark",
+      "Branches_07_Z6.71m_Bark",
+      "Branches_08_Z7.23m_Bark",
+      "Branches_09_Z7.75m_Bark",
+      "Branches_10_Z8.28m_Bark",
+      "Branches_11_Z8.80m_Bark",
+      "Branches_12_Z9.32m_Bark",
+      "NeedleClusters_00_AlphaMask"
+    ],
+    "generator": "PROJECT Z | PINE10 v1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\BUSH_01_Broadleaf_Round.glb",
+    "bytes": 3996804,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 6424,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_BUSH_01_Broadleaf_Round__WoodyStems",
+      "MESH_BUSH_01_Broadleaf_Round__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\BUSH_02_Serrated_Sapling.glb",
+    "bytes": 3987260,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 6336,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_BUSH_02_Serrated_Sapling__WoodyStems",
+      "MESH_BUSH_02_Serrated_Sapling__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\BUSH_03_Dark_Lance.glb",
+    "bytes": 4004168,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 6472,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_BUSH_03_Dark_Lance__WoodyStems",
+      "MESH_BUSH_03_Dark_Lance__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\FERN_01_Bracken_Spread.glb",
+    "bytes": 4090160,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 7008,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_FERN_01_Bracken_Spread__WoodyStems",
+      "MESH_FERN_01_Bracken_Spread__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\FERN_02_Woodland_Fan.glb",
+    "bytes": 4028540,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 5796,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_FERN_02_Woodland_Fan__WoodyStems",
+      "MESH_FERN_02_Woodland_Fan__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\FERN_03_Young_Fronds.glb",
+    "bytes": 3939692,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 4032,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_FERN_03_Young_Fronds__WoodyStems",
+      "MESH_FERN_03_Young_Fronds__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\GRASS_01_Roadside_Tall.glb",
+    "bytes": 3835748,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 1838,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_GRASS_01_Roadside_Tall__WoodyStems",
+      "MESH_GRASS_01_Roadside_Tall__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\GRASS_02_Dry_Tuft.glb",
+    "bytes": 3802036,
+    "mesh_count": 1,
+    "nodes": 2,
+    "triangles_in_mesh_library": 1120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_GRASS_02_Dry_Tuft__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\GRASS_03_Meadow_Blue.glb",
+    "bytes": 3808524,
+    "mesh_count": 1,
+    "nodes": 2,
+    "triangles_in_mesh_library": 1240,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_GRASS_03_Meadow_Blue__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\GRASS_04_Short_Clump.glb",
+    "bytes": 3806364,
+    "mesh_count": 1,
+    "nodes": 2,
+    "triangles_in_mesh_library": 1200,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_GRASS_04_Short_Clump__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\PROJECT_Z_Shrub_Undergrowth_Kit_CATALOG_2K.glb",
+    "bytes": 19052392,
+    "mesh_count": 33,
+    "nodes": 51,
+    "triangles_in_mesh_library": 98760,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_01_Hawthorn_Compact__WoodyStems",
+      "MESH_SHRUB_01_Hawthorn_Compact__FoliageCards",
+      "MESH_SHRUB_02_Privet_Dense__WoodyStems",
+      "MESH_SHRUB_02_Privet_Dense__FoliageCards",
+      "MESH_SHRUB_03_Willow_Scrub__WoodyStems",
+      "MESH_SHRUB_03_Willow_Scrub__FoliageCards",
+      "MESH_SHRUB_04_Rustleaf_Wild__WoodyStems",
+      "MESH_SHRUB_04_Rustleaf_Wild__FoliageCards",
+      "MESH_SHRUB_05_Woodland_Mixed__WoodyStems",
+      "MESH_SHRUB_05_Woodland_Mixed__FoliageCards",
+      "MESH_BUSH_01_Broadleaf_Round__WoodyStems",
+      "MESH_BUSH_01_Broadleaf_Round__FoliageCards",
+      "MESH_BUSH_02_Serrated_Sapling__WoodyStems",
+      "MESH_BUSH_02_Serrated_Sapling__FoliageCards",
+      "MESH_BUSH_03_Dark_Lance__WoodyStems"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\SHRUB_01_Hawthorn_Compact.glb",
+    "bytes": 4132128,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 9520,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_01_Hawthorn_Compact__WoodyStems",
+      "MESH_SHRUB_01_Hawthorn_Compact__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\SHRUB_02_Privet_Dense.glb",
+    "bytes": 4184316,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 10872,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_02_Privet_Dense__WoodyStems",
+      "MESH_SHRUB_02_Privet_Dense__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\SHRUB_03_Willow_Scrub.glb",
+    "bytes": 4108380,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 9288,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_03_Willow_Scrub__WoodyStems",
+      "MESH_SHRUB_03_Willow_Scrub__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\SHRUB_04_Rustleaf_Wild.glb",
+    "bytes": 4116384,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 9288,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_04_Rustleaf_Wild__WoodyStems",
+      "MESH_SHRUB_04_Rustleaf_Wild__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\SHRUB_05_Woodland_Mixed.glb",
+    "bytes": 4212744,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 11576,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_SHRUB_05_Woodland_Mixed__WoodyStems",
+      "MESH_SHRUB_05_Woodland_Mixed__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\WEED_01_Broadleaf_Rosette.glb",
+    "bytes": 3812512,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 1440,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_WEED_01_Broadleaf_Rosette__WoodyStems",
+      "MESH_WEED_01_Broadleaf_Rosette__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\WEED_02_Clover_Patch.glb",
+    "bytes": 3894088,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 3102,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_WEED_02_Clover_Patch__WoodyStems",
+      "MESH_WEED_02_Clover_Patch__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_129_shrub_and_undergrowth_kit\\WEED_03_Seeded_Ragweed.glb",
+    "bytes": 3830952,
+    "mesh_count": 2,
+    "nodes": 3,
+    "triangles_in_mesh_library": 2208,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "MESH_WEED_03_Seeded_Ragweed__WoodyStems",
+      "MESH_WEED_03_Seeded_Ragweed__FoliageCards"
+    ],
+    "generator": "ProjectZ Procedural Foliage Authoring v1"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R01_Rounded_Pebble_Granite.glb",
+    "bytes": 2377304,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 1280,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R01_Rounded_Pebble_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R01_Rounded_Pebble_Moss.glb",
+    "bytes": 2054064,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 1280,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R01_Rounded_Pebble_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R01_Rounded_Pebble_Sediment.glb",
+    "bytes": 1785104,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 1280,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R01_Rounded_Pebble_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R02_Angular_Fieldstone_Granite.glb",
+    "bytes": 2485604,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R02_Angular_Fieldstone_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R02_Angular_Fieldstone_Moss.glb",
+    "bytes": 2162368,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R02_Angular_Fieldstone_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R02_Angular_Fieldstone_Sediment.glb",
+    "bytes": 1893408,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R02_Angular_Fieldstone_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R03_Low_Sediment_Slab_Granite.glb",
+    "bytes": 2485608,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R03_Low_Sediment_Slab_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R03_Low_Sediment_Slab_Moss.glb",
+    "bytes": 2162372,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R03_Low_Sediment_Slab_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R03_Low_Sediment_Slab_Sediment.glb",
+    "bytes": 1893412,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R03_Low_Sediment_Slab_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R04_Granite_Rock_Granite.glb",
+    "bytes": 2485588,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R04_Granite_Rock_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R04_Granite_Rock_Moss.glb",
+    "bytes": 2162352,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R04_Granite_Rock_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R04_Granite_Rock_Sediment.glb",
+    "bytes": 1893392,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R04_Granite_Rock_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R05_Rounded_River_Boulder_Granite.glb",
+    "bytes": 2485616,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R05_Rounded_River_Boulder_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R05_Rounded_River_Boulder_Moss.glb",
+    "bytes": 2162376,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R05_Rounded_River_Boulder_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R05_Rounded_River_Boulder_Sediment.glb",
+    "bytes": 1893416,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R05_Rounded_River_Boulder_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R06_Layered_Shale_Boulder_Granite.glb",
+    "bytes": 2485592,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R06_Layered_Shale_Boulder_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R06_Layered_Shale_Boulder_Moss.glb",
+    "bytes": 2162352,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R06_Layered_Shale_Boulder_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R06_Layered_Shale_Boulder_Sediment.glb",
+    "bytes": 1893392,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R06_Layered_Shale_Boulder_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R07_Fractured_Outcrop_Granite.glb",
+    "bytes": 2485604,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R07_Fractured_Outcrop_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R07_Fractured_Outcrop_Moss.glb",
+    "bytes": 2162364,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R07_Fractured_Outcrop_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R07_Fractured_Outcrop_Sediment.glb",
+    "bytes": 1893404,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R07_Fractured_Outcrop_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R08_Massive_Moss_Boulder_Granite.glb",
+    "bytes": 2485580,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R08_Massive_Moss_Boulder_Granite"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R08_Massive_Moss_Boulder_Moss.glb",
+    "bytes": 2162344,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R08_Massive_Moss_Boulder_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_R08_Massive_Moss_Boulder_Sediment.glb",
+    "bytes": 1893384,
+    "mesh_count": 1,
+    "nodes": 1,
+    "triangles_in_mesh_library": 5120,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R08_Massive_Moss_Boulder_Sediment"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_130_rock_and_boulder_kit\\PZ_Rock_Boulder_8_Shape_Catalog.glb",
+    "bytes": 7162412,
+    "mesh_count": 8,
+    "nodes": 8,
+    "triangles_in_mesh_library": 37120,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_R01_Rounded_Pebble_Granite",
+      "RENDER_R02_Angular_Fieldstone_Granite",
+      "RENDER_R03_Low_Sediment_Slab_Sediment",
+      "RENDER_R04_Granite_Rock_Granite",
+      "RENDER_R05_Rounded_River_Boulder_Moss",
+      "RENDER_R06_Layered_Shale_Boulder_Sediment",
+      "RENDER_R07_Fractured_Outcrop_Granite",
+      "RENDER_R08_Massive_Moss_Boulder_Moss"
+    ],
+    "generator": "PROJECT Z Rock Kit Generator 1.0"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PROJECT_Z_FallenLogStump_Master.glb",
+    "bytes": 17403516,
+    "mesh_count": 190,
+    "nodes": 201,
+    "triangles_in_mesh_library": 81436,
+    "materials": 8,
+    "images": 24,
+    "external_uris": [],
+    "mesh_names": [
+      "01_FallenPine_Log_3p6m_BarkTrunk",
+      "01_FallenPine_Log_3p6m_ExposedEndgrain_0",
+      "01_FallenPine_Log_3p6m_ExposedEndgrain_1",
+      "01_FallenPine_Log_3p6m_Knot_00",
+      "01_FallenPine_Log_3p6m_Knot_01",
+      "01_FallenPine_Log_3p6m_Knot_02",
+      "01_FallenPine_Log_3p6m_Knot_03",
+      "01_FallenPine_Log_3p6m_Knot_04",
+      "01_FallenPine_Log_3p6m_Knot_05",
+      "01_FallenPine_Log_3p6m_MossClump_00",
+      "01_FallenPine_Log_3p6m_MossClump_01",
+      "01_FallenPine_Log_3p6m_MossClump_02",
+      "01_FallenPine_Log_3p6m_MossClump_03",
+      "01_FallenPine_Log_3p6m_MossClump_04",
+      "01_FallenPine_Log_3p6m_MossClump_05"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_01_FallenPine_Log_3p6m.glb",
+    "bytes": 11930908,
+    "mesh_count": 25,
+    "nodes": 28,
+    "triangles_in_mesh_library": 6180,
+    "materials": 6,
+    "images": 18,
+    "external_uris": [],
+    "mesh_names": [
+      "01_FallenPine_Log_3p6m_BarkTrunk",
+      "01_FallenPine_Log_3p6m_ExposedEndgrain_0",
+      "01_FallenPine_Log_3p6m_ExposedEndgrain_1",
+      "01_FallenPine_Log_3p6m_Knot_00",
+      "01_FallenPine_Log_3p6m_Knot_01",
+      "01_FallenPine_Log_3p6m_Knot_02",
+      "01_FallenPine_Log_3p6m_Knot_03",
+      "01_FallenPine_Log_3p6m_Knot_04",
+      "01_FallenPine_Log_3p6m_Knot_05",
+      "01_FallenPine_Log_3p6m_MossClump_00",
+      "01_FallenPine_Log_3p6m_MossClump_01",
+      "01_FallenPine_Log_3p6m_MossClump_02",
+      "01_FallenPine_Log_3p6m_MossClump_03",
+      "01_FallenPine_Log_3p6m_MossClump_04",
+      "01_FallenPine_Log_3p6m_MossClump_05"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_02_HollowRot_Log_2p8m.glb",
+    "bytes": 8364196,
+    "mesh_count": 23,
+    "nodes": 26,
+    "triangles_in_mesh_library": 11488,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "02_HollowRot_Log_2p8m_HollowAnnularTrunk",
+      "02_HollowRot_Log_2p8m_ExposedFibre_0",
+      "02_HollowRot_Log_2p8m_ExposedFibre_1",
+      "02_HollowRot_Log_2p8m_ExposedFibre_2",
+      "02_HollowRot_Log_2p8m_ExposedFibre_3",
+      "02_HollowRot_Log_2p8m_ExposedFibre_4",
+      "02_HollowRot_Log_2p8m_ExposedFibre_5",
+      "02_HollowRot_Log_2p8m_ExposedFibre_6",
+      "02_HollowRot_Log_2p8m_ExposedFibre_7",
+      "02_HollowRot_Log_2p8m_ExposedFibre_8",
+      "02_HollowRot_Log_2p8m_MossClump_00",
+      "02_HollowRot_Log_2p8m_MossClump_01",
+      "02_HollowRot_Log_2p8m_MossClump_02",
+      "02_HollowRot_Log_2p8m_MossClump_03",
+      "02_HollowRot_Log_2p8m_MossClump_04"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_03_Birch_Windfall_2p5m.glb",
+    "bytes": 5747140,
+    "mesh_count": 15,
+    "nodes": 18,
+    "triangles_in_mesh_library": 6408,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "03_Birch_Windfall_2p5m_PaleBarkTrunk",
+      "03_Birch_Windfall_2p5m_SawEndgrain_0",
+      "03_Birch_Windfall_2p5m_SawEndgrain_1",
+      "03_Birch_Windfall_2p5m_PeelingBark_00",
+      "03_Birch_Windfall_2p5m_PeelingBark_01",
+      "03_Birch_Windfall_2p5m_PeelingBark_02",
+      "03_Birch_Windfall_2p5m_PeelingBark_03",
+      "03_Birch_Windfall_2p5m_PeelingBark_04",
+      "03_Birch_Windfall_2p5m_PeelingBark_05",
+      "03_Birch_Windfall_2p5m_PeelingBark_06",
+      "03_Birch_Windfall_2p5m_PeelingBark_07",
+      "03_Birch_Windfall_2p5m_PeelingBark_08",
+      "03_Birch_Windfall_2p5m_BranchBreak_0",
+      "03_Birch_Windfall_2p5m_BranchBreak_1",
+      "03_Birch_Windfall_2p5m_BranchBreak_2"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_04_Uprooted_TreeRootball_3p0m.glb",
+    "bytes": 6557540,
+    "mesh_count": 28,
+    "nodes": 31,
+    "triangles_in_mesh_library": 14464,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "04_Uprooted_TreeRootball_3p0m_Trunk",
+      "04_Uprooted_TreeRootball_3p0m_RootBallMass",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_00",
+      "04_Uprooted_TreeRootball_3p0m_RootBifurcation_00",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_01",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_02",
+      "04_Uprooted_TreeRootball_3p0m_RootBifurcation_02",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_03",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_04",
+      "04_Uprooted_TreeRootball_3p0m_RootBifurcation_04",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_05",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_06",
+      "04_Uprooted_TreeRootball_3p0m_RootBifurcation_06",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_07",
+      "04_Uprooted_TreeRootball_3p0m_RootFinger_08"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_05_SawCut_OakStump_0p7m.glb",
+    "bytes": 8104872,
+    "mesh_count": 17,
+    "nodes": 20,
+    "triangles_in_mesh_library": 5228,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "05_SawCut_OakStump_0p7m_TrunkBark",
+      "05_SawCut_OakStump_0p7m_CutFaceRings",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_00",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_01",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_02",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_03",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_04",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_05",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_06",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_07",
+      "05_SawCut_OakStump_0p7m_ButtressRoot_08",
+      "05_SawCut_OakStump_0p7m_MossAtBase_0",
+      "05_SawCut_OakStump_0p7m_MossAtBase_1",
+      "05_SawCut_OakStump_0p7m_MossAtBase_2",
+      "05_SawCut_OakStump_0p7m_MossAtBase_3"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_06_Splintered_RottenStump_1p1m.glb",
+    "bytes": 8320992,
+    "mesh_count": 24,
+    "nodes": 27,
+    "triangles_in_mesh_library": 9804,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "06_Splintered_RottenStump_1p1m_HollowJaggedTrunk",
+      "06_Splintered_RottenStump_1p1m_RootFoot_00",
+      "06_Splintered_RottenStump_1p1m_RootFoot_01",
+      "06_Splintered_RottenStump_1p1m_RootFoot_02",
+      "06_Splintered_RottenStump_1p1m_RootFoot_03",
+      "06_Splintered_RottenStump_1p1m_RootFoot_04",
+      "06_Splintered_RottenStump_1p1m_RootFoot_05",
+      "06_Splintered_RottenStump_1p1m_RootFoot_06",
+      "06_Splintered_RottenStump_1p1m_RootFoot_07",
+      "06_Splintered_RottenStump_1p1m_RootFoot_08",
+      "06_Splintered_RottenStump_1p1m_TopSplinter_00",
+      "06_Splintered_RottenStump_1p1m_TopSplinter_01",
+      "06_Splintered_RottenStump_1p1m_TopSplinter_02",
+      "06_Splintered_RottenStump_1p1m_TopSplinter_03",
+      "06_Splintered_RottenStump_1p1m_TopSplinter_04"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_07_ForkedDeadwood_Limb_2p3m.glb",
+    "bytes": 2042220,
+    "mesh_count": 10,
+    "nodes": 13,
+    "triangles_in_mesh_library": 7956,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "07_ForkedDeadwood_Limb_2p3m_MainGreySnag",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_00",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_01",
+      "07_ForkedDeadwood_Limb_2p3m_BranchFork_01",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_02",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_03",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_04",
+      "07_ForkedDeadwood_Limb_2p3m_BranchFork_04",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_05",
+      "07_ForkedDeadwood_Limb_2p3m_BrokenLateralBranch_06"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_08_ExposedRootSnarl_1p8m.glb",
+    "bytes": 2092488,
+    "mesh_count": 25,
+    "nodes": 28,
+    "triangles_in_mesh_library": 12896,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "08_ExposedRootSnarl_1p8m_HeartwoodCore",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_00",
+      "08_ExposedRootSnarl_1p8m_Rootlet_00",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_01",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_02",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_03",
+      "08_ExposedRootSnarl_1p8m_Rootlet_03",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_04",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_05",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_06",
+      "08_ExposedRootSnarl_1p8m_Rootlet_06",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_07",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_08",
+      "08_ExposedRootSnarl_1p8m_ExposedBranch_09",
+      "08_ExposedRootSnarl_1p8m_Rootlet_09"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_131_fallen_log_and_stump_kit\\PZ_FallenWood_09_BarkFragments_DebrisPack.glb",
+    "bytes": 5767632,
+    "mesh_count": 23,
+    "nodes": 26,
+    "triangles_in_mesh_library": 7012,
+    "materials": 3,
+    "images": 9,
+    "external_uris": [],
+    "mesh_names": [
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_00",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_01",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_02",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_03",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_04",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_05",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_06",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_07",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_08",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_09",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_10",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_11",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_12",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_13",
+      "09_BarkFragments_DebrisPack_IndependentBarkShard_14"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_00_Alpine_Vegetation_ALL_Combined.glb",
+    "bytes": 3070808,
+    "mesh_count": 30,
+    "nodes": 45,
+    "triangles_in_mesh_library": 15104,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "01_TreeTrunk_Bark",
+      "01_StructuralBranches_Conifer",
+      "01_NeedleSprigCards_DoubleSided_MASK",
+      "02_TreeTrunk_Bark",
+      "02_StructuralBranches_Conifer",
+      "02_NeedleSprigCards_DoubleSided_MASK",
+      "03_TreeTrunk_Bark",
+      "03_StructuralBranches_Conifer",
+      "03_NeedleSprigCards_DoubleSided_MASK",
+      "04_WoodyBranchNetwork",
+      "04_Leaves_AlphaMaskedCards",
+      "05_WoodyBranchNetwork",
+      "05_Leaves_AlphaMaskedCards",
+      "06_DryGrassBlades_AlphaMasked",
+      "06_SeedHeadStems_Detail"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_01_Dwarf_Spruce_2p9m.glb",
+    "bytes": 2488352,
+    "mesh_count": 3,
+    "nodes": 5,
+    "triangles_in_mesh_library": 2650,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "TreeTrunk_Bark",
+      "StructuralBranches_Conifer",
+      "NeedleSprigCards_DoubleSided_MASK"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_02_Young_Alpine_Fir_2p2m.glb",
+    "bytes": 2488344,
+    "mesh_count": 3,
+    "nodes": 5,
+    "triangles_in_mesh_library": 2650,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "TreeTrunk_Bark",
+      "StructuralBranches_Conifer",
+      "NeedleSprigCards_DoubleSided_MASK"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_03_Krummholz_Mountain_Pine_1p6m.glb",
+    "bytes": 2488348,
+    "mesh_count": 3,
+    "nodes": 5,
+    "triangles_in_mesh_library": 2650,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "TreeTrunk_Bark",
+      "StructuralBranches_Conifer",
+      "NeedleSprigCards_DoubleSided_MASK"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_04_Mountain_Willow_Shrub.glb",
+    "bytes": 2382992,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 986,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "WoodyBranchNetwork",
+      "Leaves_AlphaMaskedCards"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_05_Low_Juniper_Shrub.glb",
+    "bytes": 2382992,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 986,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "WoodyBranchNetwork",
+      "Leaves_AlphaMaskedCards"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_06_Dry_Tussock_Grass_Gold.glb",
+    "bytes": 2351604,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 460,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "DryGrassBlades_AlphaMasked",
+      "SeedHeadStems_Detail"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_07_Dry_Tussock_Grass_Silver.glb",
+    "bytes": 2351604,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 460,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "DryGrassBlades_AlphaMasked",
+      "SeedHeadStems_Detail"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_08_Crust_Lichen_GroundPatch.glb",
+    "bytes": 2333124,
+    "mesh_count": 1,
+    "nodes": 3,
+    "triangles_in_mesh_library": 180,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "Lichen_Crust_Plane_Decals_NoCollision"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_09_Jagged_Granite_Rock.glb",
+    "bytes": 2355360,
+    "mesh_count": 1,
+    "nodes": 3,
+    "triangles_in_mesh_library": 1280,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "RockBody_WatertightFaceted"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_10_Lichen_Covered_Boulder.glb",
+    "bytes": 2367620,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 1420,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "RockBody_WatertightFaceted",
+      "Lichen_FacadePatches_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_LOD1_11_Dwarf_Spruce.glb",
+    "bytes": 2349324,
+    "mesh_count": 3,
+    "nodes": 5,
+    "triangles_in_mesh_library": 506,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "TreeTrunk_Bark",
+      "StructuralBranches_Conifer",
+      "NeedleSprigCards_DoubleSided_MASK"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_LOD1_12_Alpine_Fir.glb",
+    "bytes": 2349320,
+    "mesh_count": 3,
+    "nodes": 5,
+    "triangles_in_mesh_library": 506,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "TreeTrunk_Bark",
+      "StructuralBranches_Conifer",
+      "NeedleSprigCards_DoubleSided_MASK"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_LOD1_13_Willow_Shrub.glb",
+    "bytes": 2336956,
+    "mesh_count": 2,
+    "nodes": 4,
+    "triangles_in_mesh_library": 286,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "WoodyBranchNetwork",
+      "Leaves_AlphaMaskedCards"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_136_alpine_vegetation_kit\\PZ_ALP_LOD1_14_Dry_Grass.glb",
+    "bytes": 2325892,
+    "mesh_count": 1,
+    "nodes": 3,
+    "triangles_in_mesh_library": 84,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "DryGrassBlades_AlphaMasked"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_137_snow_covered_trees_kit\\PZ_BareOak_HeavySnow.glb",
+    "bytes": 2738388,
+    "mesh_count": 9,
+    "nodes": 12,
+    "triangles_in_mesh_library": 6948,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_BareOak_HeavySnow_Trunk_Deciduous_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_RootButtress_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_PrimaryLimbs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_LimbSnowCaps_Tree_Snow_Fresh",
+      "RENDER_BareOak_HeavySnow_SecondaryLimbs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_TertiaryTwigs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_TerminalTwigs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_HeavySnow_TwigSnowCaps_Tree_Snow_Fresh",
+      "RENDER_BareOak_HeavySnow_CrownSpires_Tree_Bark_Deciduous"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_137_snow_covered_trees_kit\\PZ_BareOak_LightSnow.glb",
+    "bytes": 2710180,
+    "mesh_count": 8,
+    "nodes": 11,
+    "triangles_in_mesh_library": 6196,
+    "materials": 2,
+    "images": 6,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_BareOak_LightSnow_Trunk_Deciduous_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_RootButtress_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_PrimaryLimbs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_LimbSnowCaps_Tree_Snow_Fresh",
+      "RENDER_BareOak_LightSnow_SecondaryLimbs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_TertiaryTwigs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_TerminalTwigs_Tree_Bark_Deciduous",
+      "RENDER_BareOak_LightSnow_CrownSpires_Tree_Bark_Deciduous"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_137_snow_covered_trees_kit\\PZ_Pine_HeavySnow.glb",
+    "bytes": 6544696,
+    "mesh_count": 8,
+    "nodes": 11,
+    "triangles_in_mesh_library": 14682,
+    "materials": 5,
+    "images": 15,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_Pine_HeavySnow_Trunk_Pine_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_RootFlare_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_WoodyBoughs_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_FoliageSprays_Tree_Needles_Evergreen",
+      "RENDER_Pine_HeavySnow_BoughSnowCaps_Tree_Snow_Fresh",
+      "RENDER_Pine_HeavySnow_BoughSnowCaps_Tree_Snow_Packed",
+      "RENDER_Pine_HeavySnow_FoliageSprays_Tree_Needles_Frosted",
+      "RENDER_Pine_HeavySnow_CrownSnow_Tree_Snow_Fresh"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_137_snow_covered_trees_kit\\PZ_Pine_LightSnow.glb",
+    "bytes": 5370780,
+    "mesh_count": 6,
+    "nodes": 9,
+    "triangles_in_mesh_library": 12312,
+    "materials": 4,
+    "images": 12,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_Pine_LightSnow_Trunk_Pine_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_RootFlare_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_WoodyBoughs_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_FoliageSprays_Tree_Needles_Frosted",
+      "RENDER_Pine_LightSnow_FoliageSprays_Tree_Needles_Evergreen",
+      "RENDER_Pine_LightSnow_BoughSnowCaps_Tree_Snow_Fresh"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_137_snow_covered_trees_kit\\PZ_SnowTrees_Kit.glb",
+    "bytes": 8907040,
+    "mesh_count": 31,
+    "nodes": 37,
+    "triangles_in_mesh_library": 40138,
+    "materials": 6,
+    "images": 18,
+    "external_uris": [],
+    "mesh_names": [
+      "RENDER_Pine_HeavySnow_Trunk_Pine_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_RootFlare_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_WoodyBoughs_Tree_Bark_Pine",
+      "RENDER_Pine_HeavySnow_FoliageSprays_Tree_Needles_Evergreen",
+      "RENDER_Pine_HeavySnow_BoughSnowCaps_Tree_Snow_Fresh",
+      "RENDER_Pine_HeavySnow_BoughSnowCaps_Tree_Snow_Packed",
+      "RENDER_Pine_HeavySnow_FoliageSprays_Tree_Needles_Frosted",
+      "RENDER_Pine_HeavySnow_CrownSnow_Tree_Snow_Fresh",
+      "RENDER_Pine_LightSnow_Trunk_Pine_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_RootFlare_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_WoodyBoughs_Tree_Bark_Pine",
+      "RENDER_Pine_LightSnow_FoliageSprays_Tree_Needles_Frosted",
+      "RENDER_Pine_LightSnow_FoliageSprays_Tree_Needles_Evergreen",
+      "RENDER_Pine_LightSnow_BoughSnowCaps_Tree_Snow_Fresh",
+      "RENDER_BareOak_HeavySnow_Trunk_Deciduous_Tree_Bark_Deciduous"
+    ],
+    "generator": "https://github.com/mikedh/trimesh"
+  },
+  {
+    "path": "C:\\Users\\abhi\\OneDrive\\Desktop\\Project Z (Godot)\\PROJECT_Z\\assets\\props\\nature\\pz_138_cave_entrance_rock_kit\\PROJECT_Z_Cave_Entrance_Rock_Kit.glb",
+    "bytes": 12716420,
+    "mesh_count": 23,
+    "nodes": 40,
+    "triangles_in_mesh_library": 25020,
+    "materials": 1,
+    "images": 3,
+    "external_uris": [],
+    "mesh_names": [
+      "Portal_A_LeftWall_Weathered_Limestone",
+      "Portal_A_Roof_Weathered_Limestone",
+      "Portal_A_RightWall_Weathered_Limestone",
+      "MouthBoulder_01_Closed",
+      "MouthBoulder_02_Closed",
+      "MouthBoulder_03_Closed",
+      "ASSEMBLY_Tunnel_A_Wet_4m_LeftWall",
+      "ASSEMBLY_Tunnel_A_Wet_4m_Roof",
+      "ASSEMBLY_Tunnel_A_Wet_4m_RightWall",
+      "ASSEMBLY_Tunnel_B_Dry_4m_LeftWall",
+      "ASSEMBLY_Tunnel_B_Dry_4m_Roof",
+      "ASSEMBLY_Tunnel_B_Dry_4m_RightWall",
+      "ASSEMBLY_Tunnel_C_Dry_2m_LeftWall",
+      "ASSEMBLY_Tunnel_C_Dry_2m_Roof",
+      "ASSEMBLY_Tunnel_C_Dry_2m_RightWall"
+    ],
+    "generator": "PROJECT Z Cave Rock Kit Generator 1.0"
+  }
+]

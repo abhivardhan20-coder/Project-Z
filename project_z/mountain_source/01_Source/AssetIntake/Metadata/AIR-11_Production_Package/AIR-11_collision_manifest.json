@@ -1,0 +1,192 @@
+{
+  "colliders": [
+    {
+      "name": "Collision__Floor",
+      "type": "box",
+      "centre_xyz_m": [
+        0,
+        0.036,
+        6
+      ],
+      "extents_xyz_m": [
+        5.85,
+        0.145,
+        11.94
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__SideWall_Left",
+      "type": "box",
+      "centre_xyz_m": [
+        -2.99,
+        1.29,
+        6
+      ],
+      "extents_xyz_m": [
+        0.12,
+        2.48,
+        11.98
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__Front_Jamb_Left",
+      "type": "box",
+      "centre_xyz_m": [
+        -2.115,
+        1.29,
+        0
+      ],
+      "extents_xyz_m": [
+        1.77,
+        2.48,
+        0.11
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__Rear_Jamb_Left",
+      "type": "box",
+      "centre_xyz_m": [
+        -2.115,
+        1.29,
+        12.02
+      ],
+      "extents_xyz_m": [
+        1.77,
+        2.48,
+        0.11
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__PitchedRoof_Left",
+      "type": "pitched_box",
+      "centre_xyz_m": [
+        -1.5,
+        3.075,
+        6
+      ],
+      "extents_xyz_m": [
+        3.175,
+        0.09,
+        12
+      ],
+      "angle_radians_about_z": 0.3366748193867272,
+      "movable": false
+    },
+    {
+      "name": "Collision__SideWall_Right",
+      "type": "box",
+      "centre_xyz_m": [
+        2.99,
+        1.29,
+        6
+      ],
+      "extents_xyz_m": [
+        0.12,
+        2.48,
+        11.98
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__Front_Jamb_Right",
+      "type": "box",
+      "centre_xyz_m": [
+        2.115,
+        1.29,
+        0
+      ],
+      "extents_xyz_m": [
+        1.77,
+        2.48,
+        0.11
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__Rear_Jamb_Right",
+      "type": "box",
+      "centre_xyz_m": [
+        2.115,
+        1.29,
+        12.02
+      ],
+      "extents_xyz_m": [
+        1.77,
+        2.48,
+        0.11
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__PitchedRoof_Right",
+      "type": "pitched_box",
+      "centre_xyz_m": [
+        1.5,
+        3.075,
+        6
+      ],
+      "extents_xyz_m": [
+        3.175,
+        0.09,
+        12
+      ],
+      "angle_radians_about_z": -0.3366748193867272,
+      "movable": false
+    },
+    {
+      "name": "Collision__Rear_Removable_Link_Panel",
+      "type": "box",
+      "centre_xyz_m": [
+        0,
+        1.25,
+        12.02
+      ],
+      "extents_xyz_m": [
+        2.46,
+        2.34,
+        0.11
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__Generator",
+      "type": "box",
+      "centre_xyz_m": [
+        -4.48,
+        0.58,
+        0.8
+      ],
+      "extents_xyz_m": [
+        1.08,
+        1.14,
+        1.32
+      ],
+      "movable": false
+    },
+    {
+      "name": "Collision__IBC",
+      "type": "box",
+      "centre_xyz_m": [
+        4.25,
+        0.76,
+        9.75
+      ],
+      "extents_xyz_m": [
+        1.06,
+        1.54,
+        1.06
+      ],
+      "movable": false
+    }
+  ],
+  "front_passage_width_m": 2.46,
+  "min_ambulatory_aisle_m": 2.04,
+  "sampled_centre_aisle_positions": 75,
+  "blocked_samples": 0,
+  "collider_trimesh_reimport": "PASS",
+  "rear_connector_collider_optional": true
+}

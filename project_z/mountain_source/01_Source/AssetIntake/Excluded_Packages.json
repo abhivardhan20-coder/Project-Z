@@ -1,0 +1,117 @@
+[
+  {
+    "part": 1,
+    "package": "Kaldran Assets/AIR-12_Complete_Package.zip",
+    "reason": "Secondary airport facility outside the authored evacuation-highway and terminal review area."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/HIL-04_LOD0.glb",
+    "reason": "Duplicate or older variant; the reference-refined v02 package is selected."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/HIL-04_LOD2.glb",
+    "reason": "Duplicate or older variant; the reference-refined v02 package is selected."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/HIL-08_LOD0.glb",
+    "reason": "Additional residential content is outside the selected street frontage."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/HIL-08_LOD1.glb",
+    "reason": "Additional residential content is outside the selected street frontage."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/Kaldran_Ambulance_Final.glb",
+    "reason": "Standalone high-detail vehicle or alternate model; selected local vehicles provide the required traffic at lower resource cost."
+  },
+  {
+    "part": 1,
+    "package": "Kaldran Assets/RAIL-07_Refined_v02_Compact.zip",
+    "reason": "Interior retail content is not needed for the outdoor railway composition."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/AIR-05_Full_Asset_Package.zip",
+    "reason": "Secondary airport facility outside the authored evacuation-highway and terminal review area."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/AIR-06_Reference_Repair_v3.zip",
+    "reason": "Secondary airport facility outside the authored evacuation-highway and terminal review area."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/AIR-07_Complete_Asset_Package.zip",
+    "reason": "Secondary airport facility outside the authored evacuation-highway and terminal review area."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/AIR-09_Refined_Production_Package.zip",
+    "reason": "Secondary airport facility outside the authored evacuation-highway and terminal review area."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/Criss_Raptor_Rebranded.glb",
+    "reason": "Standalone high-detail vehicle or alternate model; selected local vehicles provide the required traffic at lower resource cost."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/FILIX_Z9GT_Rebranded_v3.glb",
+    "reason": "Standalone high-detail vehicle or alternate model; selected local vehicles provide the required traffic at lower resource cost."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/HIL-04_Complete_Asset_Package.zip",
+    "reason": "Duplicate or older variant; the reference-refined v02 package is selected."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/HIL-04_LOD1.glb",
+    "reason": "Duplicate or older variant; the reference-refined v02 package is selected."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/HIL-04_Reference_Refined_v02 (1).zip",
+    "reason": "Duplicate or older variant; the reference-refined v02 package is selected."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/HIL-08_LOD2.glb",
+    "reason": "Additional residential content is outside the selected street frontage."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/RAIL-05_v03_Complete_3D_Asset_Package.zip",
+    "reason": "Alternate full station overlaps the selected grand roof and concourse."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/cadillac_escalade_esv_2012.glb",
+    "reason": "Standalone high-detail vehicle or alternate model; selected local vehicles provide the required traffic at lower resource cost."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/gazel_next_ambulance_car.glb",
+    "reason": "Standalone high-detail vehicle or alternate model; selected local vehicles provide the required traffic at lower resource cost."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/jeep-wrangler-rubicon-4xe-2024.zip",
+    "reason": "Duplicate or secondary content not needed by the authored districts and walking sector."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/solokan_esv_package.zip",
+    "reason": "Duplicate or secondary content not needed by the authored districts and walking sector."
+  },
+  {
+    "part": 2,
+    "package": "Kaldran Assets/ural-4320-soviet-army-truck.zip",
+    "reason": "Duplicate or secondary content not needed by the authored districts and walking sector."
+  }
+]

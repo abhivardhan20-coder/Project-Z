@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "name": "Project Z \u2014 Kaldran Mountain Spine",
+  "status": "first playable prototype; final AAA art target not achieved",
+  "engine": "4.7.2-stable (official)",
+  "renderer": "forward_plus",
+  "tested_platform": "Windows x64",
+  "native_terrain": "Terrain3D 1.1.0 (MIT)",
+  "units": "metres; +X east, -Z north, +Y elevation ASL",
+  "capital_datum_m": 320,
+  "lore": {
+    "land_area_km2": 8960,
+    "north_south_km": 108,
+    "east_west_km": 94,
+    "release_area_km2": 64
+  },
+  "regions": [
+    {
+      "id": "Frostfall_Range",
+      "center": [
+        11000,
+        -44000
+      ],
+      "extent": [
+        30000,
+        17000
+      ],
+      "peak_m": 3742,
+      "identity": "glaciated alpine horns, north-draining cirques",
+      "state": "master plan"
+    },
+    {
+      "id": "Kaldran_Mountain_Spine",
+      "center": [
+        0,
+        -25000
+      ],
+      "extent": [
+        33000,
+        30000
+      ],
+      "peak_m": 3415,
+      "identity": "branching alpine massifs, south-facing capital skyline",
+      "state": "prototype"
+    },
+    {
+      "id": "Highvale_Plateau",
+      "center": [
+        21500,
+        -35000
+      ],
+      "extent": [
+        15000,
+        15000
+      ],
+      "peak_m": 1850,
+      "identity": "upland grassland and eroded escarpments",
+      "state": "master plan"
+    },
+    {
+      "id": "Southern_Highlands",
+      "center": [
+        -1000,
+        15000
+      ],
+      "extent": [
+        28000,
+        16000
+      ],
+      "peak_m": 1670,
+      "identity": "weathered broad ridges",
+      "state": "master plan"
+    },
+    {
+      "id": "Mount_Veylor",
+      "center": [
+        2600,
+        31700
+      ],
+      "extent": [
+        21000,
+        17000
+      ],
+      "peak_m": 2816,
+      "identity": "basalt stratovolcano with breached crater",
+      "state": "master plan"
+    }
+  ],
+  "central_source": {
+    "side_samples": 1537,
+    "spacing_m": 32,
+    "type": "little-endian Float32",
+    "bounds": {
+      "west": -24576,
+      "north": -40960,
+      "size": 49152,
+      "spacing": 32,
+      "tile_size": 4096
+    },
+    "sha256": "2eed06ec35a06bbc35518747f7e767d4f070a4a114695aec2a07f2f448d374cd"
+  },
+  "background": {
+    "tiles": 144,
+    "meshes": 432,
+    "tile_size_m": 4096,
+    "lod_spacing_m": [
+      64,
+      128,
+      256
+    ],
+    "collision": false,
+    "load_method": "threaded native resources",
+    "morph_seconds": 0.45,
+    "edge_skirt_m": 180
+  },
+  "near_sector": {
+    "west": -3072,
+    "north": -13312,
+    "size": 3072,
+    "spacing": 2,
+    "samples": 1537,
+    "core": [
+      -2048,
+      -12288,
+      1024
+    ],
+    "spawn": [
+      -1649.8159332017594,
+      1042.0,
+      -11319.395838633745
+    ],
+    "trail_length_m": 972.0,
+    "trail_max_grade": 0.0,
+    "trail_max_earthwork_m": 1.533097528717169
+  },
+  "native_regions": {
+    "count": 9,
+    "region_samples": 512,
+    "vertex_spacing_m": 2,
+    "collision_radius_m": 96,
+    "collision_shape_size": 32
+  },
+  "instances": {
+    "trees_total_in_collar": 4527,
+    "rocks_in_core": 1290,
+    "stream_chunk_m": 64,
+    "max_ecology_distance_m": 1550,
+    "user_asset_placements": {
+      "authored_placements": 607,
+      "background_buildings": 3115,
+      "undergrowth_instances": 6229,
+      "by_asset": {
+        "ROAD": 244,
+        "SEDAN": 119,
+        "POLICE": 10,
+        "SUITCASE": 49,
+        "BARRIER": 25,
+        "AIR01": 1,
+        "AIR02": 1,
+        "AIR03": 1,
+        "AIR04": 1,
+        "AIR08": 1,
+        "AIR10": 1,
+        "AIR11": 4,
+        "BUS": 5,
+        "AMBULANCE": 4,
+        "RAIL01": 1,
+        "RAIL02": 1,
+        "RAIL03": 1,
+        "RAIL04": 1,
+        "RAIL06": 2,
+        "RAIL08": 1,
+        "RAIL09": 1,
+        "RAIL10": 1,
+        "TRAIN": 12,
+        "BENCH": 5,
+        "HIL01": 804,
+        "HIL02": 758,
+        "HIL04": 792,
+        "HIL03": 2,
+        "HIL07": 2,
+        "HIL09": 769,
+        "HIL05": 1,
+        "HIL06": 1,
+        "HIL10": 1,
+        "OAK": 82,
+        "CIV01": 1,
+        "MIDRISE": 6,
+        "CIV03": 8,
+        "RADIO_HUT": 1,
+        "RADIO_TOWER": 1,
+        "CABLE_STATION": 1,
+        "FIR": 538,
+        "FERN": 1113,
+        "GRASS": 2526,
+        "FIR_LOW": 386,
+        "LICHEN": 537,
+        "ROOTS": 6,
+        "JUNIPER": 1108,
+        "LOG": 9,
+        "STUMP": 6
+      },
+      "surface_count": 62,
+      "source": "Data/asset_placements.json and Data/Sector/undergrowth.json",
+      "camera_change": "Hillside lowered to terrain +1.9 m; orientation is subsequently recalibrated against the shared skyline."
+    }
+  },
+  "materials": {
+    "library_entries": 15,
+    "photographic_sets": 2,
+    "procedural_sets": 13,
+    "runtime_map_size": 512,
+    "custom_shader_uses_all_painted_layers": false
+  },
+  "cameras": [
+    {
+      "id": "Airport",
+      "position": [
+        4100,
+        420,
+        900
+      ],
+      "target": [
+        7815.366743116454,
+        -1466.1374053621414,
+        -18661.148628141393
+      ],
+      "fov": 45.77405410759894,
+      "weather": 3,
+      "ref": "Apocalyptic Airport Evacuation Highway.png",
+      "calibration": "fixed estimated position; lens and orientation fitted to hand-annotated visible skyline"
+    },
+    {
+      "id": "Hillside",
+      "position": [
+        -3100,
+        372.8564208984375,
+        2100
+      ],
+      "target": [
+        -6180.377146450035,
+        -1949.5075221853212,
+        -17524.42107047983
+      ],
+      "fov": 47.845041584411,
+      "weather": 1,
+      "ref": "Golden Hour on the Abandoned Hillside.png",
+      "calibration": "fixed estimated position; lens and orientation fitted to hand-annotated visible skyline"
+    },
+    {
+      "id": "Railway",
+      "position": [
+        1700,
+        348,
+        900
+      ],
+      "target": [
+        -1998.8162698925926,
+        -1631.6135822667093,
+        -18655.047641631638
+      ],
+      "fov": 32.7299504559586,
+      "weather": 1,
+      "ref": "Evacuated Station Beneath Snowy Peaks.png",
+      "calibration": "fixed estimated position; lens and orientation fitted to hand-annotated visible skyline"
+    },
+    {
+      "id": "Capitol",
+      "position": [
+        0,
+        324,
+        1600
+      ],
+      "target": [
+        3541.880291161511,
+        -2525.2262034594,
+        -17876.575521497663
+      ],
+      "fov": 44.39600715445067,
+      "weather": 7,
+      "ref": "Rain-Soaked Capitol Lockdown.png",
+      "calibration": "fixed estimated position; lens and orientation fitted to hand-annotated visible skyline"
+    },
+    {
+      "id": "Panorama",
+      "position": [
+        -3400,
+        1180,
+        6600
+      ],
+      "target": [
+        -4052.379205326444,
+        -3845.706524300177,
+        -12747.26531849047
+      ],
+      "fov": 42.931864941324214,
+      "weather": 2,
+      "ref": "Abandoned Capital Beneath Snowy Peaks.png",
+      "calibration": "fixed estimated position; lens and orientation fitted to hand-annotated visible skyline"
+    }
+  ],
+  "weather_presets": [
+    "Clear morning",
+    "Golden hour",
+    "Overcast afternoon",
+    "Stormy blue hour",
+    "Moonlit night",
+    "Foggy sunrise",
+    "Snowstorm",
+    "Post-rain"
+  ],
+  "runtime_qa": {
+    "capture_date": "2026-11-15T15:25:09",
+    "cpu": "AMD Ryzen 7 7435HS",
+    "distant_buildings": 3115,
+    "engine": "4.7.2-stable (official)",
+    "failures": [],
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "profiles": [
+      {
+        "draw_calls": 1545.0,
+        "fps_from_median": 144.258511252164,
+        "frames": 120,
+        "median_ms": 6.932,
+        "p95_ms": 7.254,
+        "primitives": 2327873.0,
+        "profile": 0,
+        "video_memory_mib": 1707.25665283203,
+        "view": "Airport"
+      },
+      {
+        "draw_calls": 2202.0,
+        "fps_from_median": 143.884892086331,
+        "frames": 120,
+        "median_ms": 6.95,
+        "p95_ms": 7.311,
+        "primitives": 4637568.0,
+        "profile": 0,
+        "video_memory_mib": 2308.27084350586,
+        "view": "Hillside"
+      },
+      {
+        "draw_calls": 1169.0,
+        "fps_from_median": 132.292631300437,
+        "frames": 120,
+        "median_ms": 7.559,
+        "p95_ms": 7.767,
+        "primitives": 1518032.0,
+        "profile": 0,
+        "video_memory_mib": 1958.83320617676,
+        "view": "Railway"
+      },
+      {
+        "draw_calls": 1904.0,
+        "fps_from_median": 137.155397064875,
+        "frames": 120,
+        "median_ms": 7.291,
+        "p95_ms": 8.045,
+        "primitives": 2861870.0,
+        "profile": 0,
+        "video_memory_mib": 1633.00227355957,
+        "view": "Capitol"
+      },
+      {
+        "draw_calls": 2295.0,
+        "fps_from_median": 144.237703735757,
+        "frames": 120,
+        "median_ms": 6.933,
+        "p95_ms": 7.321,
+        "primitives": 1308648.0,
+        "profile": 0,
+        "video_memory_mib": 815.309234619141,
+        "view": "Panorama"
+      },
+      {
+        "draw_calls": 2295.0,
+        "fps_from_median": 117.702448210923,
+        "frames": 120,
+        "median_ms": 8.496,
+        "p95_ms": 8.819,
+        "primitives": 1440360.0,
+        "profile": 1,
+        "video_memory_mib": 941.377105712891,
+        "view": "Panorama"
+      },
+      {
+        "draw_calls": 1212.0,
+        "fps_from_median": 116.536534203473,
+        "frames": 120,
+        "median_ms": 8.581,
+        "p95_ms": 9.413,
+        "primitives": 1417160.0,
+        "profile": 0,
+        "video_memory_mib": 1225.19013977051,
+        "view": "PlayableSector"
+      },
+      {
+        "draw_calls": 1515.0,
+        "fps_from_median": 73.1101038163474,
+        "frames": 120,
+        "median_ms": 13.678,
+        "p95_ms": 15.519,
+        "primitives": 2277786.0,
+        "profile": 1,
+        "video_memory_mib": 1350.58534240723,
+        "view": "PlayableSector"
+      }
+    ],
+    "renderer": "forward_plus",
+    "streaming": {
+      "loads": 245,
+      "lod_transitions": 170,
+      "unloads": 101
+    },
+    "viewport": [
+      1920,
+      1080
+    ],
+    "weather_presets_rendered": 8
+  },
+  "source_qa": {
+    "status": "passed",
+    "shared_tile_edges_byte_identical": 264,
+    "camera_clearance_m": {
+      "Airport": 17.956,
+      "Hillside": 144.044,
+      "Railway": 28.306,
+      "Capitol": 5.807,
+      "Panorama": 801.374
+    },
+    "trail_max_sample_deviation_m": 0.002685546875,
+    "glb_meshes": [
+      {
+        "file": "06_Meshes\\Boulders\\fractured_boulder_0.glb",
+        "vertices": 126
+      },
+      {
+        "file": "06_Meshes\\Boulders\\fractured_boulder_1.glb",
+        "vertices": 120
+      },
+      {
+        "file": "06_Meshes\\Boulders\\fractured_boulder_2.glb",
+        "vertices": 144
+      },
+      {
+        "file": "06_Meshes\\Cliffs\\jointed_cliff.glb",
+        "vertices": 1944
+      },
+      {
+        "file": "06_Meshes\\Distant_Mountains\\Kaldran_Spine_128m.glb",
+        "vertices": 148225
+      },
+      {
+        "file": "02_Terrain\\Kaldran_Mountain_Spine\\Crown_Approach_source.glb",
+        "vertices": 37249
+      }
+    ],
+    "height_sha256": "2eed06ec35a06bbc35518747f7e767d4f070a4a114695aec2a07f2f448d374cd",
+    "scope": "source data checks; separate Engine_QA.json records runtime tests"
+  },
+  "hydrology": {
+    "d8_uphill_edges": 0,
+    "interior_closed_cells": 221,
+    "resolved_water_geometry": false
+  },
+  "navigation": {
+    "npc_navmesh_baked": false,
+    "walker_max_floor_degrees": 46
+  },
+  "city_integration": {
+    "scene": "../project_z/scenes/world/kaldran_mountain_review.tscn",
+    "default_scene_changed": false,
+    "height_offset_m": -320,
+    "collar_collision": false,
+    "continuous_city_to_sector_route": false
+  },
+  "blender": {
+    "blend_file_delivered": false,
+    "glb_interchange_delivered": true,
+    "reason": "Blender unavailable; real editable Godot resources and GLBs supplied"
+  },
+  "remaining": [
+    "geological sculpting",
+    "production vegetation and material art",
+    "precise city foregrounds and terrain grading",
+    "hydrology and water geometry",
+    "visual LOD sweep and long profiling",
+    "NPC navigation",
+    "full release-region expansion"
+  ]
+}

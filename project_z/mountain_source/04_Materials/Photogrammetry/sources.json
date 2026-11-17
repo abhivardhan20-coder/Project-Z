@@ -1,0 +1,44 @@
+[
+  {
+    "file": "rock_face_03_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_diff_1k.jpg",
+    "md5": "e4c34abb1aad5befe12754fad507147a",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rock_face_03"
+  },
+  {
+    "file": "rock_face_03_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_nor_gl_1k.jpg",
+    "md5": "cbd30858439ece391480c5e67e09de89",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rock_face_03"
+  },
+  {
+    "file": "rock_face_03_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_rough_1k.jpg",
+    "md5": "bbb2c7dafde3f81808fa7404d4527a56",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rock_face_03"
+  },
+  {
+    "file": "rocky_terrain_diff_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rocky_terrain/rocky_terrain_diff_1k.jpg",
+    "md5": "306ae62c38ab1942a63e831a534875ab",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rocky_terrain"
+  },
+  {
+    "file": "rocky_terrain_nor_gl_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rocky_terrain/rocky_terrain_nor_gl_1k.jpg",
+    "md5": "4d42a558317f1d52c9080c73372d125a",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rocky_terrain"
+  },
+  {
+    "file": "rocky_terrain_rough_1k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rocky_terrain/rocky_terrain_rough_1k.jpg",
+    "md5": "8c6721a31face834aee1616d2f8da3f7",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/rocky_terrain"
+  }
+]

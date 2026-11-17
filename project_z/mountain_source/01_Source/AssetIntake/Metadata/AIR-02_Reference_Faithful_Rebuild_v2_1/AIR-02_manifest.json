@@ -1,0 +1,114 @@
+{
+  "asset_id": "AIR-02",
+  "version": "2.1_reference_silhouette_rebuild",
+  "source": "AIR-02_MultiView_Reference.png",
+  "meter_units": true,
+  "design_up_axis": "Z",
+  "gltf_runtime_up_axis": "Y",
+  "lods": {
+    "LOD0": {
+      "filename": "AIR-02_LOD0.glb",
+      "triangles": 513624,
+      "vertices": 279424,
+      "meshes": 102,
+      "materials": 11,
+      "embedded_images": 44,
+      "bounds_m": [
+        [
+          -0.95,
+          -0.48,
+          -30.103
+        ],
+        [
+          180.95,
+          23.349,
+          33.86
+        ]
+      ],
+      "extents_m": [
+        181.9,
+        23.829,
+        63.963
+      ],
+      "file_size_bytes": 39716140,
+      "sha256": "edae0e02cf4cc21bd8aa704d49114a43bb96a8ff6e2882d03167e45b99dc2fad",
+      "uv_and_normals": "PASS",
+      "mat_and_embedded_textures": "PASS",
+      "roundtrip_scene_import": "PASS"
+    },
+    "LOD1": {
+      "filename": "AIR-02_LOD1.glb",
+      "triangles": 239784,
+      "vertices": 134154,
+      "meshes": 97,
+      "materials": 11,
+      "embedded_images": 44,
+      "bounds_m": [
+        [
+          -0.95,
+          -0.48,
+          -30.103
+        ],
+        [
+          180.95,
+          23.349,
+          33.86
+        ]
+      ],
+      "extents_m": [
+        181.9,
+        23.829,
+        63.963
+      ],
+      "file_size_bytes": 33105592,
+      "sha256": "531b33aecb6865f417893728498054cb81d53c8ca2ef153df37e03cfc703fe2f",
+      "uv_and_normals": "PASS",
+      "mat_and_embedded_textures": "PASS",
+      "roundtrip_scene_import": "PASS"
+    },
+    "LOD2": {
+      "filename": "AIR-02_LOD2.glb",
+      "triangles": 89600,
+      "vertices": 50512,
+      "meshes": 86,
+      "materials": 11,
+      "embedded_images": 44,
+      "bounds_m": [
+        [
+          -0.95,
+          -0.48,
+          -30.103
+        ],
+        [
+          180.95,
+          23.345,
+          33.86
+        ]
+      ],
+      "extents_m": [
+        181.9,
+        23.825,
+        63.963
+      ],
+      "file_size_bytes": 28622812,
+      "sha256": "6f5837e1fc244511608df39a6e7ce7e6f515a3b6addc5197aed186f4dc65e703",
+      "uv_and_normals": "PASS",
+      "mat_and_embedded_textures": "PASS",
+      "roundtrip_scene_import": "PASS"
+    }
+  },
+  "blender_native_saved": false,
+  "godot4_import_tested": false,
+  "reference_fit_certified": false,
+  "lod_ratios": {
+    "LOD1_over_LOD0": 0.4668,
+    "LOD2_over_LOD0": 0.1744
+  },
+  "colliders": {
+    "mesh_count": 189,
+    "triangles": 2268,
+    "sha256": "2f236bf4cb813e374ad8ae9472be858a302e9cf449e08694299dcea868bc10e6",
+    "separate_from_render_mesh": "PASS",
+    "stair_tread_proxy_meshes": 144
+  }
+}

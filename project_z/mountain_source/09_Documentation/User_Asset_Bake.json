@@ -1,0 +1,1977 @@
+[
+  {
+    "batched_surfaces": 38.0,
+    "bounds_min": [
+      -130.001098632813,
+      0.0,
+      -39.1049842834473
+    ],
+    "bounds_size": [
+      260.002197265625,
+      25.4261722564697,
+      78.2099761962891
+    ],
+    "key": "AIR01",
+    "mesh_lod_index_sets": 90.0,
+    "normalization_offset": [
+      -6.103515625e-05,
+      0.46000000834465,
+      -0.0349845886230469
+    ],
+    "resource": "res://assets/Baked/AIR01_lod1.res",
+    "source": "res://assets/User/AIR01_lod1.glb",
+    "source_mesh_nodes": 92.0,
+    "source_surfaces": 92.0,
+    "variant": "lod1"
+  },
+  {
+    "batched_surfaces": 34.0,
+    "bounds_min": [
+      -130.001220703125,
+      0.0,
+      -39.1049880981445
+    ],
+    "bounds_size": [
+      260.00244140625,
+      25.4261703491211,
+      78.2100067138672
+    ],
+    "key": "AIR01",
+    "mesh_lod_index_sets": 72.0,
+    "normalization_offset": [
+      -6.103515625e-05,
+      0.46000000834465,
+      -0.0349845886230469
+    ],
+    "resource": "res://assets/Baked/AIR01_lod2.res",
+    "source": "res://assets/User/AIR01_lod2.glb",
+    "source_mesh_nodes": 87.0,
+    "source_surfaces": 87.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -130.000061035156,
+      0.46000000834465,
+      -39.034984588623
+    ],
+    "bounds_size": [
+      260.0,
+      24.7829570770264,
+      78.0699768066406
+    ],
+    "key": "AIR01",
+    "mesh_lod_index_sets": 6.0,
+    "normalization_offset": [
+      -6.103515625e-05,
+      0.46000000834465,
+      -0.0349845886230469
+    ],
+    "resource": "res://assets/Baked/AIR01_hlod.res",
+    "source": "res://assets/User/AIR01_hlod.glb",
+    "source_mesh_nodes": 4.0,
+    "source_surfaces": 4.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -81.0299987792969,
+      0.0,
+      -26.6499996185303
+    ],
+    "bounds_size": [
+      162.059997558594,
+      18.6849994659424,
+      53.3000030517578
+    ],
+    "key": "AIR03",
+    "mesh_lod_index_sets": 33.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      6.53000068664551
+    ],
+    "resource": "res://assets/Baked/AIR03_lod2.res",
+    "source": "res://assets/User/AIR03_lod2.glb",
+    "source_mesh_nodes": 152.0,
+    "source_surfaces": 152.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -81.0,
+      0.150000005960464,
+      -26.4699993133545
+    ],
+    "bounds_size": [
+      162.0,
+      18.268871307373,
+      53.0
+    ],
+    "key": "AIR03",
+    "mesh_lod_index_sets": 1.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      6.53000068664551
+    ],
+    "resource": "res://assets/Baked/AIR03_hlod.res",
+    "source": "res://assets/User/AIR03_hlod.glb",
+    "source_mesh_nodes": 4.0,
+    "source_surfaces": 4.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 12.0,
+    "bounds_min": [
+      -12.1575002670288,
+      0.0,
+      -12.1575002670288
+    ],
+    "bounds_size": [
+      24.3150005340576,
+      56.1324996948242,
+      24.3150005340576
+    ],
+    "key": "AIR04",
+    "mesh_lod_index_sets": 41.0,
+    "normalization_offset": [
+      0.0,
+      0.319999992847443,
+      0.0
+    ],
+    "resource": "res://assets/Baked/AIR04_lod2.res",
+    "source": "res://assets/User/AIR04_lod2.glb",
+    "source_mesh_nodes": 31.0,
+    "source_surfaces": 31.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 7.0,
+    "bounds_min": [
+      -12.0,
+      0.314999997615814,
+      -12.0
+    ],
+    "bounds_size": [
+      24.0,
+      55.7649993896484,
+      24.0
+    ],
+    "key": "AIR04",
+    "mesh_lod_index_sets": 16.0,
+    "normalization_offset": [
+      0.0,
+      0.319999992847443,
+      0.0
+    ],
+    "resource": "res://assets/Baked/AIR04_hlod.res",
+    "source": "res://assets/User/AIR04_hlod.glb",
+    "source_mesh_nodes": 9.0,
+    "source_surfaces": 9.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -4.93838596343994,
+      0.0,
+      -6.64431238174438
+    ],
+    "bounds_size": [
+      9.87677192687988,
+      3.75318622589111,
+      13.2886238098145
+    ],
+    "key": "AIR11",
+    "mesh_lod_index_sets": 29.0,
+    "normalization_offset": [
+      0.167386054992676,
+      0.102186150848866,
+      -5.46368789672852
+    ],
+    "resource": "res://assets/Baked/AIR11_lod2.res",
+    "source": "res://assets/User/AIR11_lod2.glb",
+    "source_mesh_nodes": 98.0,
+    "source_surfaces": 98.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -75.0,
+      0.0,
+      -41.0
+    ],
+    "bounds_size": [
+      150.0,
+      78.5,
+      82.0
+    ],
+    "key": "CIV01",
+    "mesh_lod_index_sets": 50.0,
+    "normalization_offset": [
+      0.0,
+      4.5,
+      0.0
+    ],
+    "resource": "res://assets/Baked/CIV01_lod1.res",
+    "source": "res://assets/User/CIV01_lod1.glb",
+    "source_mesh_nodes": 130.0,
+    "source_surfaces": 130.0,
+    "variant": "lod1"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -75.0,
+      0.0,
+      -41.0
+    ],
+    "bounds_size": [
+      150.0,
+      78.5,
+      82.0
+    ],
+    "key": "CIV01",
+    "mesh_lod_index_sets": 42.0,
+    "normalization_offset": [
+      0.0,
+      4.5,
+      0.0
+    ],
+    "resource": "res://assets/Baked/CIV01_lod2.res",
+    "source": "res://assets/User/CIV01_lod2.glb",
+    "source_mesh_nodes": 112.0,
+    "source_surfaces": 112.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 7.0,
+    "bounds_min": [
+      -75.0,
+      0.0,
+      -41.0
+    ],
+    "bounds_size": [
+      150.0,
+      78.5,
+      79.3000030517578
+    ],
+    "key": "CIV01",
+    "mesh_lod_index_sets": 16.0,
+    "normalization_offset": [
+      0.0,
+      4.5,
+      0.0
+    ],
+    "resource": "res://assets/Baked/CIV01_hlod.res",
+    "source": "res://assets/User/CIV01_hlod.glb",
+    "source_mesh_nodes": 20.0,
+    "source_surfaces": 20.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -30.0300006866455,
+      0.0,
+      -18.3274993896484
+    ],
+    "bounds_size": [
+      60.060001373291,
+      37.9300003051758,
+      36.6549987792969
+    ],
+    "key": "CIV03",
+    "mesh_lod_index_sets": 33.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      0.317501068115234
+    ],
+    "resource": "res://assets/Baked/CIV03_lod2.res",
+    "source": "res://assets/User/CIV03_lod2.glb",
+    "source_mesh_nodes": 123.0,
+    "source_surfaces": 123.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 44.0,
+    "bounds_min": [
+      -15.3869609832764,
+      0.0,
+      -9.20835304260254
+    ],
+    "bounds_size": [
+      30.7739238739014,
+      18.7200012207031,
+      18.4167079925537
+    ],
+    "key": "HIL01",
+    "mesh_lod_index_sets": 84.0,
+    "normalization_offset": [
+      0.963039398193359,
+      0.200000002980232,
+      -0.604415893554688
+    ],
+    "resource": "res://assets/Baked/HIL01_lod0.res",
+    "source": "res://assets/User/HIL01_lod0.glb",
+    "source_mesh_nodes": 87.0,
+    "source_surfaces": 87.0,
+    "variant": "lod0"
+  },
+  {
+    "batched_surfaces": 6.0,
+    "bounds_min": [
+      -13.0369606018066,
+      0.200000002980232,
+      -8.60441589355469
+    ],
+    "bounds_size": [
+      28.0,
+      18.4099998474121,
+      16.8800010681152
+    ],
+    "key": "HIL01",
+    "mesh_lod_index_sets": 10.0,
+    "normalization_offset": [
+      0.963039398193359,
+      0.200000002980232,
+      -0.604415893554688
+    ],
+    "resource": "res://assets/Baked/HIL01_hlod.res",
+    "source": "res://assets/User/HIL01_hlod.glb",
+    "source_mesh_nodes": 6.0,
+    "source_surfaces": 6.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -3.40484714508057,
+      0.0,
+      -3.48582077026367
+    ],
+    "bounds_size": [
+      6.80969429016113,
+      8.89999961853027,
+      6.97164154052734
+    ],
+    "key": "HIL03",
+    "mesh_lod_index_sets": 21.0,
+    "normalization_offset": [
+      0.0182888507843018,
+      0.0,
+      0.193626642227173
+    ],
+    "resource": "res://assets/Baked/HIL03_lod2.res",
+    "source": "res://assets/User/HIL03_lod2.glb",
+    "source_mesh_nodes": 99.0,
+    "source_surfaces": 99.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 28.0,
+    "bounds_min": [
+      -13.3613548278809,
+      0.0,
+      -10.7522296905518
+    ],
+    "bounds_size": [
+      26.7227096557617,
+      23.314998626709,
+      21.5044593811035
+    ],
+    "key": "HIL04",
+    "mesh_lod_index_sets": 112.0,
+    "normalization_offset": [
+      -0.641354560852051,
+      0.219999998807907,
+      -0.273038864135742
+    ],
+    "resource": "res://assets/Baked/HIL04_lod1.res",
+    "source": "res://assets/User/HIL04_lod1.glb",
+    "source_mesh_nodes": 62.0,
+    "source_surfaces": 62.0,
+    "variant": "lod1"
+  },
+  {
+    "batched_surfaces": 27.0,
+    "bounds_min": [
+      -13.3613548278809,
+      0.0,
+      -10.4445390701294
+    ],
+    "bounds_size": [
+      26.5850009918213,
+      23.314998626709,
+      21.0865001678467
+    ],
+    "key": "HIL04",
+    "mesh_lod_index_sets": 91.0,
+    "normalization_offset": [
+      -0.641354560852051,
+      0.219999998807907,
+      -0.273038864135742
+    ],
+    "resource": "res://assets/Baked/HIL04_lod2.res",
+    "source": "res://assets/User/HIL04_lod2.glb",
+    "source_mesh_nodes": 57.0,
+    "source_surfaces": 57.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 6.0,
+    "bounds_min": [
+      -12.6413545608521,
+      0.219999998807907,
+      -9.27303886413574
+    ],
+    "bounds_size": [
+      25.3899993896484,
+      23.0499992370605,
+      19.4099998474121
+    ],
+    "key": "HIL04",
+    "mesh_lod_index_sets": 7.0,
+    "normalization_offset": [
+      -0.641354560852051,
+      0.219999998807907,
+      -0.273038864135742
+    ],
+    "resource": "res://assets/Baked/HIL04_hlod.res",
+    "source": "res://assets/User/HIL04_hlod.glb",
+    "source_mesh_nodes": 6.0,
+    "source_surfaces": 6.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -11.0,
+      0.0,
+      -6.6399998664856
+    ],
+    "bounds_size": [
+      22.0,
+      4.32074689865112,
+      13.2799997329712
+    ],
+    "key": "HIL10",
+    "mesh_lod_index_sets": 94.0,
+    "normalization_offset": [
+      -3.61999988555908,
+      0.360000222921371,
+      -0.615000247955322
+    ],
+    "resource": "res://assets/Baked/HIL10_lod2.res",
+    "source": "res://assets/User/HIL10_lod2.glb",
+    "source_mesh_nodes": 56.0,
+    "source_surfaces": 56.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 12.0,
+    "bounds_min": [
+      -11.0,
+      0.145000040531158,
+      -6.6399998664856
+    ],
+    "bounds_size": [
+      22.0,
+      4.17574691772461,
+      13.2799997329712
+    ],
+    "key": "HIL10",
+    "mesh_lod_index_sets": 46.0,
+    "normalization_offset": [
+      -3.61999988555908,
+      0.360000222921371,
+      -0.615000247955322
+    ],
+    "resource": "res://assets/Baked/HIL10_hlod.res",
+    "source": "res://assets/User/HIL10_hlod.glb",
+    "source_mesh_nodes": 26.0,
+    "source_surfaces": 26.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -79.625,
+      0.0,
+      -128.919998168945
+    ],
+    "bounds_size": [
+      159.25,
+      36.400936126709,
+      257.840026855469
+    ],
+    "key": "RAIL01",
+    "mesh_lod_index_sets": 49.0,
+    "normalization_offset": [
+      0.0,
+      1.24000000953674,
+      -3.31999969482422
+    ],
+    "resource": "res://assets/Baked/RAIL01_lod1.res",
+    "source": "res://assets/User/RAIL01_lod1.glb",
+    "source_mesh_nodes": 121.0,
+    "source_surfaces": 121.0,
+    "variant": "lod1"
+  },
+  {
+    "batched_surfaces": 12.0,
+    "bounds_min": [
+      -79.625,
+      0.0,
+      -128.820007324219
+    ],
+    "bounds_size": [
+      159.25,
+      36.3718032836914,
+      257.740020751953
+    ],
+    "key": "RAIL01",
+    "mesh_lod_index_sets": 31.0,
+    "normalization_offset": [
+      0.0,
+      1.24000000953674,
+      -3.31999969482422
+    ],
+    "resource": "res://assets/Baked/RAIL01_lod2.res",
+    "source": "res://assets/User/RAIL01_lod2.glb",
+    "source_mesh_nodes": 101.0,
+    "source_surfaces": 101.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 5.0,
+    "bounds_min": [
+      -75.5,
+      0.129999995231628,
+      -128.769989013672
+    ],
+    "bounds_size": [
+      151.0,
+      35.7099418640137,
+      250.499984741211
+    ],
+    "key": "RAIL01",
+    "mesh_lod_index_sets": 11.0,
+    "normalization_offset": [
+      0.0,
+      1.24000000953674,
+      -3.31999969482422
+    ],
+    "resource": "res://assets/Baked/RAIL01_hlod.res",
+    "source": "res://assets/User/RAIL01_hlod.glb",
+    "source_mesh_nodes": 10.0,
+    "source_surfaces": 10.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 34.0,
+    "bounds_min": [
+      -66.4199981689453,
+      0.0,
+      -34.4887542724609
+    ],
+    "bounds_size": [
+      132.839996337891,
+      29.5194206237793,
+      68.9775085449219
+    ],
+    "key": "RAIL02",
+    "mesh_lod_index_sets": 77.0,
+    "normalization_offset": [
+      0.0,
+      0.670000016689301,
+      1.2137451171875
+    ],
+    "resource": "res://assets/Baked/RAIL02_lod2.res",
+    "source": "res://assets/User/RAIL02_lod2.glb",
+    "source_mesh_nodes": 331.0,
+    "source_surfaces": 331.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 113.0,
+    "bounds_min": [
+      -66.0,
+      0.270000010728836,
+      -32.6862564086914
+    ],
+    "bounds_size": [
+      132.0,
+      28.8999996185303,
+      67.8000030517578
+    ],
+    "key": "RAIL02",
+    "mesh_lod_index_sets": 11.0,
+    "normalization_offset": [
+      0.0,
+      0.670000016689301,
+      1.2137451171875
+    ],
+    "resource": "res://assets/Baked/RAIL02_hlod.res",
+    "source": "res://assets/User/RAIL02_hlod.glb",
+    "source_mesh_nodes": 113.0,
+    "source_surfaces": 113.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -103.833770751953,
+      0.0,
+      -14.3059997558594
+    ],
+    "bounds_size": [
+      207.667541503906,
+      10.4573307037354,
+      28.6119995117188
+    ],
+    "key": "RAIL03",
+    "mesh_lod_index_sets": 9.0,
+    "normalization_offset": [
+      -90.0,
+      0.0595300756394863,
+      0.0
+    ],
+    "resource": "res://assets/Baked/RAIL03_lod2.res",
+    "source": "res://assets/User/RAIL03_lod2.glb",
+    "source_mesh_nodes": 134.0,
+    "source_surfaces": 134.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 6.0,
+    "bounds_min": [
+      -90.1399993896484,
+      0.0595300756394863,
+      -14.25
+    ],
+    "bounds_size": [
+      180.279998779297,
+      10.2649774551392,
+      28.5
+    ],
+    "key": "RAIL03",
+    "mesh_lod_index_sets": 1.0,
+    "normalization_offset": [
+      -90.0,
+      0.0595300756394863,
+      0.0
+    ],
+    "resource": "res://assets/Baked/RAIL03_hlod.res",
+    "source": "res://assets/User/RAIL03_hlod.glb",
+    "source_mesh_nodes": 36.0,
+    "source_surfaces": 36.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 17.0,
+    "bounds_min": [
+      -25.3299980163574,
+      0.0,
+      -12.6754999160767
+    ],
+    "bounds_size": [
+      50.6600036621094,
+      18.0499992370605,
+      25.3509998321533
+    ],
+    "key": "RAIL04",
+    "mesh_lod_index_sets": 33.0,
+    "normalization_offset": [
+      -0.789997100830078,
+      0.0,
+      -1.14050006866455
+    ],
+    "resource": "res://assets/Baked/RAIL04_lod2.res",
+    "source": "res://assets/User/RAIL04_lod2.glb",
+    "source_mesh_nodes": 80.0,
+    "source_surfaces": 80.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 23.0,
+    "bounds_min": [
+      -9.14999961853027,
+      0.0,
+      -2.10750007629395
+    ],
+    "bounds_size": [
+      18.2999992370605,
+      3.56900000572205,
+      4.21500015258789
+    ],
+    "key": "RAIL06",
+    "mesh_lod_index_sets": 18.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      1.76849985122681
+    ],
+    "resource": "res://assets/Baked/RAIL06_lod2.res",
+    "source": "res://assets/User/RAIL06_lod2.glb",
+    "source_mesh_nodes": 79.0,
+    "source_surfaces": 79.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 23.0,
+    "bounds_min": [
+      -9.14999961853027,
+      0.0,
+      -2.10750007629395
+    ],
+    "bounds_size": [
+      18.2999992370605,
+      3.56900000572205,
+      4.21500015258789
+    ],
+    "key": "RAIL06",
+    "mesh_lod_index_sets": 16.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      1.76849985122681
+    ],
+    "resource": "res://assets/Baked/RAIL06_hlod.res",
+    "source": "res://assets/User/RAIL06_hlod.glb",
+    "source_mesh_nodes": 77.0,
+    "source_surfaces": 77.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 16.0,
+    "bounds_min": [
+      -40.5849990844727,
+      0.0,
+      -4.82499980926514
+    ],
+    "bounds_size": [
+      81.1699981689453,
+      12.1840000152588,
+      9.64999961853027
+    ],
+    "key": "RAIL08",
+    "mesh_lod_index_sets": 78.0,
+    "normalization_offset": [
+      0.0,
+      2.6e-16,
+      0.450000286102295
+    ],
+    "resource": "res://assets/Baked/RAIL08_lod2.res",
+    "source": "res://assets/User/RAIL08_lod2.glb",
+    "source_mesh_nodes": 54.0,
+    "source_surfaces": 54.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 6.0,
+    "bounds_min": [
+      -36.3600006103516,
+      4e-17,
+      -3.19999980926514
+    ],
+    "bounds_size": [
+      72.7200012207031,
+      12.1599998474121,
+      7.30000019073486
+    ],
+    "key": "RAIL08",
+    "mesh_lod_index_sets": 20.0,
+    "normalization_offset": [
+      0.0,
+      2.6e-16,
+      0.450000286102295
+    ],
+    "resource": "res://assets/Baked/RAIL08_hlod.res",
+    "source": "res://assets/User/RAIL08_hlod.glb",
+    "source_mesh_nodes": 6.0,
+    "source_surfaces": 6.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 23.0,
+    "bounds_min": [
+      -15.0799999237061,
+      0.0,
+      -9.19250011444092
+    ],
+    "bounds_size": [
+      30.1599998474121,
+      9.96000003814697,
+      18.3850021362305
+    ],
+    "key": "RAIL10",
+    "mesh_lod_index_sets": 68.0,
+    "normalization_offset": [
+      0.920000076293945,
+      0.280000001192093,
+      0.767499923706055
+    ],
+    "resource": "res://assets/Baked/RAIL10_lod2.res",
+    "source": "res://assets/User/RAIL10_lod2.glb",
+    "source_mesh_nodes": 215.0,
+    "source_surfaces": 215.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 11.0,
+    "bounds_min": [
+      -15.0799999237061,
+      0.0,
+      -9.19250011444092
+    ],
+    "bounds_size": [
+      30.1599998474121,
+      9.10398578643799,
+      18.1399993896484
+    ],
+    "key": "RAIL10",
+    "mesh_lod_index_sets": 24.0,
+    "normalization_offset": [
+      0.920000076293945,
+      0.280000001192093,
+      0.767499923706055
+    ],
+    "resource": "res://assets/Baked/RAIL10_hlod.res",
+    "source": "res://assets/User/RAIL10_hlod.glb",
+    "source_mesh_nodes": 58.0,
+    "source_surfaces": 58.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 26.0,
+    "bounds_min": [
+      -2.50958514213562,
+      1.770257949829e-05,
+      -1.17419135570526
+    ],
+    "bounds_size": [
+      5.01917028427124,
+      2.26187038421631,
+      2.34872221946716
+    ],
+    "key": "AMBULANCE",
+    "mesh_lod_index_sets": 91.0,
+    "normalization_offset": [
+      0.0317447185516357,
+      0.00041534920455887,
+      0.00055909156799316
+    ],
+    "resource": "res://assets/Baked/AMBULANCE_single.res",
+    "source": "res://assets/User/AMBULANCE_single.glb",
+    "source_mesh_nodes": 42.0,
+    "source_surfaces": 56.0,
+    "variant": "single"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -90.9499969482422,
+      0.0,
+      -31.9815006256104
+    ],
+    "bounds_size": [
+      181.899993896484,
+      23.8249988555908,
+      63.963005065918
+    ],
+    "key": "AIR02",
+    "mesh_lod_index_sets": 82.0,
+    "normalization_offset": [
+      -90.0,
+      0.479999989271164,
+      -1.87849998474121
+    ],
+    "resource": "res://assets/Baked/AIR02_lod2.res",
+    "source": "res://assets/User/AIR02_lod2.glb",
+    "source_mesh_nodes": 86.0,
+    "source_surfaces": 86.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 27.0,
+    "bounds_min": [
+      -18.4130001068115,
+      0.0,
+      -5.67700004577637
+    ],
+    "bounds_size": [
+      36.826000213623,
+      6.08000040054321,
+      11.3540000915527
+    ],
+    "key": "AIR10",
+    "mesh_lod_index_sets": 42.0,
+    "normalization_offset": [
+      -18.3500003814697,
+      0.0700000002980232,
+      -1.82700061798096
+    ],
+    "resource": "res://assets/Baked/AIR10_lod2.res",
+    "source": "res://assets/User/AIR10_lod2.glb",
+    "source_mesh_nodes": 199.0,
+    "source_surfaces": 199.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 30.0,
+    "bounds_min": [
+      -18.0499992370605,
+      0.0,
+      -11.7000007629395
+    ],
+    "bounds_size": [
+      36.0999984741211,
+      20.0358428955078,
+      23.4000015258789
+    ],
+    "key": "HIL02",
+    "mesh_lod_index_sets": 63.0,
+    "normalization_offset": [
+      0.00500106811523438,
+      0.235843062400818,
+      0.0499992370605469
+    ],
+    "resource": "res://assets/Baked/HIL02_lod1.res",
+    "source": "res://assets/User/HIL02_lod1.glb",
+    "source_mesh_nodes": 126.0,
+    "source_surfaces": 126.0,
+    "variant": "lod1"
+  },
+  {
+    "batched_surfaces": 14.0,
+    "bounds_min": [
+      -17.9949989318848,
+      0.0,
+      -11.7000007629395
+    ],
+    "bounds_size": [
+      36.0449981689453,
+      20.0358428955078,
+      22.911003112793
+    ],
+    "key": "HIL02",
+    "mesh_lod_index_sets": 22.0,
+    "normalization_offset": [
+      0.00500106811523438,
+      0.235843062400818,
+      0.0499992370605469
+    ],
+    "resource": "res://assets/Baked/HIL02_lod2.res",
+    "source": "res://assets/User/HIL02_lod2.glb",
+    "source_mesh_nodes": 85.0,
+    "source_surfaces": 85.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 7.0,
+    "bounds_min": [
+      -17.9949989318848,
+      0.0758430659770966,
+      -11.2900018692017
+    ],
+    "bounds_size": [
+      36.0340003967285,
+      19.8600006103516,
+      21.6700019836426
+    ],
+    "key": "HIL02",
+    "mesh_lod_index_sets": 4.0,
+    "normalization_offset": [
+      0.00500106811523438,
+      0.235843062400818,
+      0.0499992370605469
+    ],
+    "resource": "res://assets/Baked/HIL02_hlod.res",
+    "source": "res://assets/User/HIL02_hlod.glb",
+    "source_mesh_nodes": 10.0,
+    "source_surfaces": 10.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 33.0,
+    "bounds_min": [
+      -4.00500011444092,
+      0.0,
+      -8.25999927520752
+    ],
+    "bounds_size": [
+      8.01000022888184,
+      5.07558822631836,
+      16.5200004577637
+    ],
+    "key": "HIL05",
+    "mesh_lod_index_sets": 32.0,
+    "normalization_offset": [
+      0.0749998092651367,
+      0.219999998807907,
+      -0.369999408721924
+    ],
+    "resource": "res://assets/Baked/HIL05_lod2.res",
+    "source": "res://assets/User/HIL05_lod2.glb",
+    "source_mesh_nodes": 106.0,
+    "source_surfaces": 106.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 41.0,
+    "bounds_min": [
+      -4.00500011444092,
+      0.0300000011920929,
+      -7.51599931716919
+    ],
+    "bounds_size": [
+      8.01000022888184,
+      5.04558801651001,
+      15.5229988098145
+    ],
+    "key": "HIL05",
+    "mesh_lod_index_sets": 88.0,
+    "normalization_offset": [
+      0.0749998092651367,
+      0.219999998807907,
+      -0.369999408721924
+    ],
+    "resource": "res://assets/Baked/HIL05_hlod.res",
+    "source": "res://assets/User/HIL05_hlod.glb",
+    "source_mesh_nodes": 41.0,
+    "source_surfaces": 41.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 47.0,
+    "bounds_min": [
+      -10.5097808837891,
+      0.0,
+      -12.3874988555908
+    ],
+    "bounds_size": [
+      21.0195617675781,
+      9.15000057220459,
+      24.7749977111816
+    ],
+    "key": "HIL06",
+    "mesh_lod_index_sets": 77.0,
+    "normalization_offset": [
+      -1.29021835327148,
+      0.0949999988079071,
+      -1.98749923706055
+    ],
+    "resource": "res://assets/Baked/HIL06_lod2.res",
+    "source": "res://assets/User/HIL06_lod2.glb",
+    "source_mesh_nodes": 313.0,
+    "source_surfaces": 313.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 23.0,
+    "bounds_min": [
+      -10.5097808837891,
+      0.0,
+      -12.1457481384277
+    ],
+    "bounds_size": [
+      21.0195617675781,
+      9.15000057220459,
+      24.5332489013672
+    ],
+    "key": "HIL06",
+    "mesh_lod_index_sets": 30.0,
+    "normalization_offset": [
+      -1.29021835327148,
+      0.0949999988079071,
+      -1.98749923706055
+    ],
+    "resource": "res://assets/Baked/HIL06_hlod.res",
+    "source": "res://assets/User/HIL06_hlod.glb",
+    "source_mesh_nodes": 90.0,
+    "source_surfaces": 90.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -26.3533496856689,
+      0.0,
+      -7.77500009536743
+    ],
+    "bounds_size": [
+      52.7066993713379,
+      11.5050001144409,
+      15.5500001907349
+    ],
+    "key": "HIL07",
+    "mesh_lod_index_sets": 28.0,
+    "normalization_offset": [
+      -26.0633487701416,
+      1.02999997138977,
+      -7.77500009536743
+    ],
+    "resource": "res://assets/Baked/HIL07_lod2.res",
+    "source": "res://assets/User/HIL07_lod2.glb",
+    "source_mesh_nodes": 137.0,
+    "source_surfaces": 137.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 18.0,
+    "bounds_min": [
+      -14.0861015319824,
+      0.0,
+      -8.31764316558838
+    ],
+    "bounds_size": [
+      28.1722030639648,
+      6.07999992370605,
+      16.6352882385254
+    ],
+    "key": "HIL09",
+    "mesh_lod_index_sets": 45.0,
+    "normalization_offset": [
+      -0.00045108795166015,
+      0.140000000596046,
+      7.88564395904541
+    ],
+    "resource": "res://assets/Baked/HIL09_lod2.res",
+    "source": "res://assets/User/HIL09_lod2.glb",
+    "source_mesh_nodes": 36.0,
+    "source_surfaces": 36.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -14.0104513168335,
+      0.0200000032782555,
+      -8.19435596466064
+    ],
+    "bounds_size": [
+      27.9599990844727,
+      5.80999994277954,
+      16.3400001525879
+    ],
+    "key": "HIL09",
+    "mesh_lod_index_sets": 3.0,
+    "normalization_offset": [
+      -0.00045108795166015,
+      0.140000000596046,
+      7.88564395904541
+    ],
+    "resource": "res://assets/Baked/HIL09_hlod.res",
+    "source": "res://assets/User/HIL09_hlod.glb",
+    "source_mesh_nodes": 7.0,
+    "source_surfaces": 7.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 21.0,
+    "bounds_min": [
+      -41.8250007629395,
+      0.0,
+      -20.2525005340576
+    ],
+    "bounds_size": [
+      83.6500015258789,
+      18.8900012969971,
+      40.504997253418
+    ],
+    "key": "RAIL09",
+    "mesh_lod_index_sets": 23.0,
+    "normalization_offset": [
+      -0.174999237060547,
+      0.28999999165535,
+      0.207498550415039
+    ],
+    "resource": "res://assets/Baked/RAIL09_lod2.res",
+    "source": "res://assets/User/RAIL09_lod2.glb",
+    "source_mesh_nodes": 92.0,
+    "source_surfaces": 92.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 3.0,
+    "bounds_min": [
+      -3.25952434539795,
+      0.0,
+      -3.38757920265198
+    ],
+    "bounds_size": [
+      6.5190486907959,
+      10.013988494873,
+      6.77515840530396
+    ],
+    "key": "PINE0",
+    "mesh_lod_index_sets": 6.0,
+    "normalization_offset": [
+      0.227503299713135,
+      0.0133382882922888,
+      0.0717945098876953
+    ],
+    "resource": "res://assets/Baked/PINE0_local.res",
+    "source": "res://assets/User/PINE0_local.glb",
+    "source_mesh_nodes": 35.0,
+    "source_surfaces": 35.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2.0,
+    "bounds_min": [
+      -3.35482501983643,
+      0.0,
+      -3.23878264427185
+    ],
+    "bounds_size": [
+      6.70965003967285,
+      10.0135145187378,
+      6.4775652885437
+    ],
+    "key": "PINE1",
+    "mesh_lod_index_sets": 7.0,
+    "normalization_offset": [
+      0.114159345626831,
+      0.0128745706751943,
+      -0.0855090618133545
+    ],
+    "resource": "res://assets/Baked/PINE1_local.res",
+    "source": "res://assets/User/PINE1_local.glb",
+    "source_mesh_nodes": 27.0,
+    "source_surfaces": 27.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2.0,
+    "bounds_min": [
+      -3.35482501983643,
+      0.0,
+      -3.23878264427185
+    ],
+    "bounds_size": [
+      6.70965003967285,
+      10.0135145187378,
+      6.4775652885437
+    ],
+    "key": "WINTER_PINE",
+    "mesh_lod_index_sets": 7.0,
+    "normalization_offset": [
+      0.114159345626831,
+      0.0128745706751943,
+      -0.0855090618133545
+    ],
+    "resource": "res://assets/Baked/WINTER_PINE_local.res",
+    "source": "res://assets/User/WINTER_PINE_local.glb",
+    "source_mesh_nodes": 27.0,
+    "source_surfaces": 27.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2.0,
+    "bounds_min": [
+      -3.77345037460327,
+      0.0,
+      -4.05339956283569
+    ],
+    "bounds_size": [
+      7.54690074920654,
+      11.4663400650024,
+      8.10679912567139
+    ],
+    "key": "OAK",
+    "mesh_lod_index_sets": 3.0,
+    "normalization_offset": [
+      0.0797603130340576,
+      0.0300495084375143,
+      0.165008544921875
+    ],
+    "resource": "res://assets/Baked/OAK_local.res",
+    "source": "res://assets/User/OAK_local.glb",
+    "source_mesh_nodes": 6.0,
+    "source_surfaces": 6.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -0.592682003974915,
+      0.0,
+      -0.576845526695251
+    ],
+    "bounds_size": [
+      1.18536400794983,
+      0.658941566944122,
+      1.1536910533905
+    ],
+    "key": "FERN",
+    "mesh_lod_index_sets": 2.0,
+    "normalization_offset": [
+      -0.0156025290489197,
+      0.0,
+      -0.0090106725692749
+    ],
+    "resource": "res://assets/Baked/FERN_local.res",
+    "source": "res://assets/User/FERN_local.glb",
+    "source_mesh_nodes": 2.0,
+    "source_surfaces": 2.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -0.275000005960464,
+      0.0,
+      -0.215000003576279
+    ],
+    "bounds_size": [
+      0.550000011920929,
+      0.340000003576279,
+      0.430000007152557
+    ],
+    "key": "ROCK1",
+    "mesh_lod_index_sets": 10.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "resource": "res://assets/Baked/ROCK1_local.res",
+    "source": "res://assets/User/ROCK1_local.glb",
+    "source_mesh_nodes": 1.0,
+    "source_surfaces": 1.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -0.875,
+      0.0,
+      -0.704999983310699
+    ],
+    "bounds_size": [
+      1.75,
+      1.03999996185303,
+      1.4099999666214
+    ],
+    "key": "ROCK2",
+    "mesh_lod_index_sets": 9.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "resource": "res://assets/Baked/ROCK2_local.res",
+    "source": "res://assets/User/ROCK2_local.glb",
+    "source_mesh_nodes": 1.0,
+    "source_surfaces": 1.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -1.20000004768372,
+      0.0,
+      -0.964999973773956
+    ],
+    "bounds_size": [
+      2.40000009536743,
+      1.75999999046326,
+      1.92999994754791
+    ],
+    "key": "ROCK3",
+    "mesh_lod_index_sets": 9.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "resource": "res://assets/Baked/ROCK3_local.res",
+    "source": "res://assets/User/ROCK3_local.glb",
+    "source_mesh_nodes": 1.0,
+    "source_surfaces": 1.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -1.5,
+      0.0,
+      -1.27499997615814
+    ],
+    "bounds_size": [
+      3.0,
+      2.16000008583069,
+      2.54999995231628
+    ],
+    "key": "ROCK4",
+    "mesh_lod_index_sets": 9.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "resource": "res://assets/Baked/ROCK4_local.res",
+    "source": "res://assets/User/ROCK4_local.glb",
+    "source_mesh_nodes": 1.0,
+    "source_surfaces": 1.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 6.0,
+    "bounds_min": [
+      -1.83030462265015,
+      0.0,
+      -0.618612587451935
+    ],
+    "bounds_size": [
+      3.66060924530029,
+      0.624974131584167,
+      1.23722517490387
+    ],
+    "key": "LOG",
+    "mesh_lod_index_sets": 39.0,
+    "normalization_offset": [
+      0.00930476188659668,
+      0.0164884384721518,
+      0.00585544109344482
+    ],
+    "resource": "res://assets/Baked/LOG_local.res",
+    "source": "res://assets/User/LOG_local.glb",
+    "source_mesh_nodes": 25.0,
+    "source_surfaces": 25.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -0.537817478179932,
+      0.0,
+      -0.518391251564026
+    ],
+    "bounds_size": [
+      1.07563507556915,
+      1.40090179443359,
+      1.03678250312805
+    ],
+    "key": "STUMP",
+    "mesh_lod_index_sets": 30.0,
+    "normalization_offset": [
+      -0.0167696475982666,
+      0.00567885534837842,
+      0.00340598821640015
+    ],
+    "resource": "res://assets/Baked/STUMP_local.res",
+    "source": "res://assets/User/STUMP_local.glb",
+    "source_mesh_nodes": 24.0,
+    "source_surfaces": 24.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -0.862849593162537,
+      0.0,
+      -0.978270530700684
+    ],
+    "bounds_size": [
+      1.72569918632507,
+      0.641314566135406,
+      1.95654106140137
+    ],
+    "key": "ROOTS",
+    "mesh_lod_index_sets": 10.0,
+    "normalization_offset": [
+      0.03705233335495,
+      0.0253001898527145,
+      0.108851432800293
+    ],
+    "resource": "res://assets/Baked/ROOTS_local.res",
+    "source": "res://assets/User/ROOTS_local.glb",
+    "source_mesh_nodes": 25.0,
+    "source_surfaces": 25.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2.0,
+    "bounds_min": [
+      -8.23999977111816,
+      0.0,
+      -13.0749998092651
+    ],
+    "bounds_size": [
+      16.4799995422363,
+      9.25,
+      26.1499996185303
+    ],
+    "key": "CABLE_STATION",
+    "mesh_lod_index_sets": 4.0,
+    "normalization_offset": [
+      0.0,
+      0.0,
+      -0.925000190734863
+    ],
+    "resource": "res://assets/Baked/CABLE_STATION_local.res",
+    "source": "res://assets/User/CABLE_STATION_local.glb",
+    "source_mesh_nodes": 162.0,
+    "source_surfaces": 162.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -3.00500011444092,
+      0.0,
+      -2.03999996185303
+    ],
+    "bounds_size": [
+      6.01000022888184,
+      3.23000001907349,
+      4.07999992370605
+    ],
+    "key": "RADIO_HUT",
+    "mesh_lod_index_sets": 2.0,
+    "normalization_offset": [
+      -0.115000009536743,
+      8.305163845e-08,
+      2.384185791e-07
+    ],
+    "resource": "res://assets/Baked/RADIO_HUT_local.res",
+    "source": "res://assets/User/RADIO_HUT_local.glb",
+    "source_mesh_nodes": 21.0,
+    "source_surfaces": 21.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1.0,
+    "bounds_min": [
+      -2.59999990463257,
+      0.0,
+      -2.59999990463257
+    ],
+    "bounds_size": [
+      5.19999980926514,
+      29.3299999237061,
+      5.19999980926514
+    ],
+    "key": "RADIO_TOWER",
+    "mesh_lod_index_sets": 3.0,
+    "normalization_offset": [
+      0.0,
+      1.1364960528e-07,
+      0.0
+    ],
+    "resource": "res://assets/Baked/RADIO_TOWER_local.res",
+    "source": "res://assets/User/RADIO_TOWER_local.glb",
+    "source_mesh_nodes": 67.0,
+    "source_surfaces": 67.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 10.0,
+    "bounds_min": [
+      -10.0200004577637,
+      0.0,
+      -9.70250034332275
+    ],
+    "bounds_size": [
+      20.0400009155273,
+      22.0799999237061,
+      19.4050006866455
+    ],
+    "key": "MIDRISE",
+    "mesh_lod_index_sets": 14.0,
+    "normalization_offset": [
+      -10.0,
+      0.479999989271164,
+      -7.9975004196167
+    ],
+    "resource": "res://assets/Baked/MIDRISE_local.res",
+    "source": "res://assets/User/MIDRISE_local.glb",
+    "source_mesh_nodes": 1120.0,
+    "source_surfaces": 1120.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2.0,
+    "bounds_min": [
+      -5.0,
+      0.0,
+      -4.5
+    ],
+    "bounds_size": [
+      10.0,
+      0.180000007152557,
+      9.0
+    ],
+    "key": "ROAD",
+    "mesh_lod_index_sets": 12.0,
+    "normalization_offset": [
+      -5.0,
+      0.180000007152557,
+      0.0
+    ],
+    "resource": "res://assets/Baked/ROAD_local.res",
+    "source": "res://assets/User/ROAD_local.glb",
+    "source_mesh_nodes": 3.0,
+    "source_surfaces": 3.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 10.0,
+    "bounds_min": [
+      -6.03997802734375,
+      0.0,
+      -1.48000001907349
+    ],
+    "bounds_size": [
+      12.0799560546875,
+      3.5629997253418,
+      2.96000003814697
+    ],
+    "key": "BUS",
+    "mesh_lod_index_sets": 39.0,
+    "normalization_offset": [
+      -0.00997781753540039,
+      0.0105000734329224,
+      1.1920928955e-07
+    ],
+    "resource": "res://assets/Baked/BUS_local.res",
+    "source": "res://assets/User/BUS_local.glb",
+    "source_mesh_nodes": 408.0,
+    "source_surfaces": 408.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 12.0,
+    "bounds_min": [
+      -2.44099998474121,
+      0.0,
+      -1.11300015449524
+    ],
+    "bounds_size": [
+      4.88199996948242,
+      1.62692952156067,
+      2.2260000705719
+    ],
+    "key": "SEDAN",
+    "mesh_lod_index_sets": 74.0,
+    "normalization_offset": [
+      -0.00149989128112793,
+      -0.000955730676651,
+      0.0
+    ],
+    "resource": "res://assets/Baked/SEDAN_local.res",
+    "source": "res://assets/User/SEDAN_local.glb",
+    "source_mesh_nodes": 299.0,
+    "source_surfaces": 299.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 19.0,
+    "bounds_min": [
+      -2.59260892868042,
+      0.0,
+      -1.14450001716614
+    ],
+    "bounds_size": [
+      5.18521785736084,
+      1.83864855766296,
+      2.28900003433228
+    ],
+    "key": "POLICE",
+    "mesh_lod_index_sets": 93.0,
+    "normalization_offset": [
+      0.0776088237762451,
+      -0.00249996781349182,
+      0.0
+    ],
+    "resource": "res://assets/Baked/POLICE_local.res",
+    "source": "res://assets/User/POLICE_local.glb",
+    "source_mesh_nodes": 386.0,
+    "source_surfaces": 386.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 12.0,
+    "bounds_min": [
+      -11.4450006484985,
+      0.0,
+      -1.55650007724762
+    ],
+    "bounds_size": [
+      22.8900012969971,
+      4.375,
+      3.11300015449524
+    ],
+    "key": "TRAIN",
+    "mesh_lod_index_sets": 30.0,
+    "normalization_offset": [
+      0.0,
+      0.0349999964237213,
+      0.0
+    ],
+    "resource": "res://assets/Baked/TRAIN_local.res",
+    "source": "res://assets/User/TRAIN_local.glb",
+    "source_mesh_nodes": 1004.0,
+    "source_surfaces": 1004.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -1.44500005245209,
+      0.0,
+      -0.28999999165535
+    ],
+    "bounds_size": [
+      2.89000010490417,
+      1.29699993133545,
+      0.579999983310699
+    ],
+    "key": "BENCH",
+    "mesh_lod_index_sets": 1.0,
+    "normalization_offset": [
+      -1.44500005245209,
+      -0.263000011444092,
+      0.479999989271164
+    ],
+    "resource": "res://assets/Baked/BENCH_local.res",
+    "source": "res://assets/User/BENCH_local.glb",
+    "source_mesh_nodes": 8.0,
+    "source_surfaces": 8.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 5.0,
+    "bounds_min": [
+      -0.389999985694885,
+      0.0,
+      -0.343999981880188
+    ],
+    "bounds_size": [
+      0.779999971389771,
+      1.02499997615814,
+      0.687999963760376
+    ],
+    "key": "SUITCASE",
+    "mesh_lod_index_sets": 8.0,
+    "normalization_offset": [
+      0.0,
+      -0.00499999988824129,
+      0.0640000104904175
+    ],
+    "resource": "res://assets/Baked/SUITCASE_local.res",
+    "source": "res://assets/User/SUITCASE_local.glb",
+    "source_mesh_nodes": 5.0,
+    "source_surfaces": 5.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 8.0,
+    "bounds_min": [
+      -6.63693046569824,
+      0.0,
+      -5.1090989112854
+    ],
+    "bounds_size": [
+      13.2738609313965,
+      1.19694077968597,
+      10.2181987762451
+    ],
+    "key": "BARRIER",
+    "mesh_lod_index_sets": 8.0,
+    "normalization_offset": [
+      -6.31306934356689,
+      0.02394082210958,
+      4.82209920883179
+    ],
+    "resource": "res://assets/Baked/BARRIER_local.res",
+    "source": "res://assets/User/BARRIER_local.glb",
+    "source_mesh_nodes": 48.0,
+    "source_surfaces": 48.0,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 15.0,
+    "bounds_min": [
+      -37.4000015258789,
+      0.0,
+      -26.5050010681152
+    ],
+    "bounds_size": [
+      74.8000030517578,
+      17.2999992370605,
+      53.0100021362305
+    ],
+    "key": "AIR08",
+    "mesh_lod_index_sets": 72.0,
+    "normalization_offset": [
+      0.0,
+      0.569999992847443,
+      -0.00500106811523438
+    ],
+    "resource": "res://assets/Baked/AIR08_lod2.res",
+    "source": "res://assets/User/AIR08_lod2.glb",
+    "source_mesh_nodes": 28.0,
+    "source_surfaces": 28.0,
+    "variant": "lod2"
+  },
+  {
+    "batched_surfaces": 4.0,
+    "bounds_min": [
+      -37.4000015258789,
+      0.25,
+      -25.7150001525879
+    ],
+    "bounds_size": [
+      74.8000030517578,
+      16.9599990844727,
+      52.0599975585938
+    ],
+    "key": "AIR08",
+    "mesh_lod_index_sets": 10.0,
+    "normalization_offset": [
+      0.0,
+      0.569999992847443,
+      -0.00500106811523438
+    ],
+    "resource": "res://assets/Baked/AIR08_hlod.res",
+    "source": "res://assets/User/AIR08_hlod.glb",
+    "source_mesh_nodes": 7.0,
+    "source_surfaces": 7.0,
+    "variant": "hlod"
+  },
+  {
+    "batched_surfaces": 3,
+    "bounds_min": [
+      -0.850933074951172,
+      4.88944351673126e-09,
+      -0.846448183059692
+    ],
+    "bounds_size": [
+      1.70186614990234,
+      2.21809411048889,
+      1.69289648532867
+    ],
+    "key": "FIR",
+    "mesh_lod_index_sets": 4,
+    "normalization_offset": [
+      0.00612908601760864,
+      -0.00357661186717451,
+      0.0103772282600403
+    ],
+    "resource": "res://assets/Baked/FIR_local.res",
+    "source": "res://assets/User/FIR_local.glb",
+    "source_mesh_nodes": 3,
+    "source_surfaces": 3,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 3,
+    "bounds_min": [
+      -0.786211848258972,
+      4.88944351673126e-09,
+      -0.783180415630341
+    ],
+    "bounds_size": [
+      1.57242369651794,
+      2.21809387207031,
+      1.56636095046997
+    ],
+    "key": "FIR_LOW",
+    "mesh_lod_index_sets": 5,
+    "normalization_offset": [
+      -0.0195980072021484,
+      -0.00357661186717451,
+      0.0284941792488098
+    ],
+    "resource": "res://assets/Baked/FIR_LOW_local.res",
+    "source": "res://assets/User/FIR_LOW_local.glb",
+    "source_mesh_nodes": 3,
+    "source_surfaces": 3,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2,
+    "bounds_min": [
+      -0.953858315944672,
+      4.09781932830811e-08,
+      -0.890194892883301
+    ],
+    "bounds_size": [
+      1.90771663188934,
+      0.581919193267822,
+      1.7803897857666
+    ],
+    "key": "JUNIPER",
+    "mesh_lod_index_sets": 1,
+    "normalization_offset": [
+      -0.0871097445487976,
+      -0.00677073188126087,
+      0.149353981018066
+    ],
+    "resource": "res://assets/Baked/JUNIPER_local.res",
+    "source": "res://assets/User/JUNIPER_local.glb",
+    "source_mesh_nodes": 2,
+    "source_surfaces": 2,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 2,
+    "bounds_min": [
+      -0.303144723176956,
+      1.67638063430786e-08,
+      -0.330146998167038
+    ],
+    "bounds_size": [
+      0.606289446353912,
+      0.375708967447281,
+      0.660294055938721
+    ],
+    "key": "GRASS",
+    "mesh_lod_index_sets": 3,
+    "normalization_offset": [
+      -0.00584247708320618,
+      -0.00496592605486512,
+      0.0159208476543427
+    ],
+    "resource": "res://assets/Baked/GRASS_local.res",
+    "source": "res://assets/User/GRASS_local.glb",
+    "source_mesh_nodes": 2,
+    "source_surfaces": 2,
+    "variant": "local"
+  },
+  {
+    "batched_surfaces": 1,
+    "bounds_min": [
+      -0.551578044891357,
+      1.39698386192322e-09,
+      -0.524916768074036
+    ],
+    "bounds_size": [
+      1.10315608978271,
+      0.0077545428648591,
+      1.04983353614807
+    ],
+    "key": "LICHEN",
+    "mesh_lod_index_sets": 2,
+    "normalization_offset": [
+      -0.00541532039642334,
+      -0.00400000298395753,
+      -0.0212969183921814
+    ],
+    "resource": "res://assets/Baked/LICHEN_local.res",
+    "source": "res://assets/User/LICHEN_local.glb",
+    "source_mesh_nodes": 1,
+    "source_surfaces": 1,
+    "variant": "local"
+  }
+]

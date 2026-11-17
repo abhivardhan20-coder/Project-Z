@@ -1,0 +1,14 @@
+{
+  "id": "Southern_Highlands",
+  "center": [
+    -1000,
+    15000
+  ],
+  "extent": [
+    28000,
+    16000
+  ],
+  "peak_m": 1670,
+  "identity": "weathered broad ridges",
+  "state": "master plan"
+}

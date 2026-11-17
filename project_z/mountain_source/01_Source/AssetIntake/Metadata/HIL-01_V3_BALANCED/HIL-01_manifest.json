@@ -1,0 +1,40 @@
+{
+  "asset_id": "HIL-01",
+  "revision": "V3",
+  "name": "Hillside balcony apartment block",
+  "project": "Project Z: Kaldran City",
+  "reference": "HIL-01_MultiView_Reference.png",
+  "building_footprint_nominal_m": [
+    28,
+    16
+  ],
+  "height_nominal_m": 18.5,
+  "floors": 5,
+  "geometry_reconstruction": "reference-led approximate, not 100% accurate",
+  "interiors": [
+    "lobby",
+    "sample apartment"
+  ],
+  "LOD": {
+    "LOD0": 311788,
+    "LOD1": 128438,
+    "LOD2": 53434
+  },
+  "texture_standard": "glTF PBR metallic-roughness with embedded PNG baseColor normal ORM",
+  "hero_texture_resolution_px": 2048,
+  "root": "HIL-01",
+  "Godot_import_tested": false,
+  "Blender_native_source_created": false,
+  "mesh_reimport_tested": true,
+  "files_verified_sha256": {
+    "LOD0": "275be615bfcaf2b30910c30d1c4aa2b86788f30e89f68ecc1395a01580e271e0",
+    "LOD1": "a03373dd274aea529dd735b72bc93dee511558322f8cd617c379d8f00b8e22df",
+    "LOD2": "20e955728c4ec682bb548d260bddb63c524b47f3b44c8f287ecd9b6910584545"
+  },
+  "source_entry_points": [
+    "build_hil01.py",
+    "build_textures_v3.py",
+    "refine_glb_direct.py"
+  ],
+  "notes": "V3 architecture/detail and material improvement; important reference disparities remain. See validation."
+}

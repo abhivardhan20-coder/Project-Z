@@ -1,0 +1,14 @@
+{
+  "id": "Mount_Veylor",
+  "center": [
+    2600,
+    31700
+  ],
+  "extent": [
+    21000,
+    17000
+  ],
+  "peak_m": 2816,
+  "identity": "basalt stratovolcano with breached crater",
+  "state": "master plan"
+}

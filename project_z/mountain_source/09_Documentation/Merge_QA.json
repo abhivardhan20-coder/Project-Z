@@ -1,0 +1,5 @@
+{
+  "captures": "res://mountain_source/08_Reference_Validation/Merged",
+  "checks": "seam profiles, off-centre coverage, aerial unloading, default map, travel, collision, save/continue/return",
+  "failures": []
+}

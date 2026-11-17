@@ -1,0 +1,365 @@
+{
+  "Airport": {
+    "yaw_deg": 10.754429060546338,
+    "pitch_deg": -5.411427297271245,
+    "vertical_fov": 45.77405410759894,
+    "annotation_rmse_px_at_941h": 7.081936757487693,
+    "trace_pixels_1672x941": [
+      [
+        460,
+        218
+      ],
+      [
+        505,
+        207
+      ],
+      [
+        550,
+        211
+      ],
+      [
+        591,
+        220
+      ],
+      [
+        634,
+        216
+      ],
+      [
+        674,
+        225
+      ],
+      [
+        716,
+        219
+      ],
+      [
+        754,
+        231
+      ],
+      [
+        800,
+        229
+      ],
+      [
+        847,
+        240
+      ],
+      [
+        898,
+        236
+      ],
+      [
+        949,
+        250
+      ]
+    ],
+    "visible_intervals_pixels": [
+      [
+        460,
+        949
+      ]
+    ],
+    "uncertainty": "manual sparse trace ~5-15 pixels; trees, buildings and cloud-hidden sections excluded; not pixel-perfect reconstruction"
+  },
+  "Hillside": {
+    "yaw_deg": -8.920730121225983,
+    "pitch_deg": -6.6681251413585345,
+    "vertical_fov": 47.845041584411,
+    "annotation_rmse_px_at_941h": 15.958049180136504,
+    "trace_pixels_1672x941": [
+      [
+        650,
+        239
+      ],
+      [
+        690,
+        220
+      ],
+      [
+        726,
+        215
+      ],
+      [
+        757,
+        207
+      ],
+      [
+        791,
+        222
+      ],
+      [
+        825,
+        216
+      ],
+      [
+        868,
+        231
+      ],
+      [
+        909,
+        227
+      ],
+      [
+        952,
+        243
+      ],
+      [
+        998,
+        240
+      ],
+      [
+        1040,
+        249
+      ],
+      [
+        1100,
+        252
+      ],
+      [
+        1160,
+        265
+      ]
+    ],
+    "visible_intervals_pixels": [
+      [
+        650,
+        1160
+      ]
+    ],
+    "uncertainty": "manual sparse trace ~5-15 pixels; trees, buildings and cloud-hidden sections excluded; not pixel-perfect reconstruction"
+  },
+  "Railway": {
+    "yaw_deg": -10.710895842531365,
+    "pitch_deg": -5.6804764812471475,
+    "vertical_fov": 32.7299504559586,
+    "annotation_rmse_px_at_941h": 7.604333045941912,
+    "trace_pixels_1672x941": [
+      [
+        126,
+        159
+      ],
+      [
+        165,
+        148
+      ],
+      [
+        194,
+        130
+      ],
+      [
+        222,
+        135
+      ],
+      [
+        257,
+        117
+      ],
+      [
+        291,
+        126
+      ],
+      [
+        319,
+        106
+      ],
+      [
+        349,
+        114
+      ],
+      [
+        376,
+        105
+      ],
+      [
+        407,
+        98
+      ],
+      [
+        435,
+        115
+      ],
+      [
+        465,
+        111
+      ],
+      [
+        488,
+        129
+      ]
+    ],
+    "visible_intervals_pixels": [
+      [
+        126,
+        488
+      ]
+    ],
+    "uncertainty": "manual sparse trace ~5-15 pixels; trees, buildings and cloud-hidden sections excluded; not pixel-perfect reconstruction"
+  },
+  "Capitol": {
+    "yaw_deg": 10.306796356207446,
+    "pitch_deg": -8.190296792831505,
+    "vertical_fov": 44.39600715445067,
+    "annotation_rmse_px_at_941h": 11.384264049119396,
+    "trace_pixels_1672x941": [
+      [
+        784,
+        168
+      ],
+      [
+        806,
+        151
+      ],
+      [
+        829,
+        173
+      ],
+      [
+        850,
+        159
+      ],
+      [
+        874,
+        176
+      ],
+      [
+        896,
+        153
+      ],
+      [
+        916,
+        168
+      ],
+      [
+        935,
+        145
+      ],
+      [
+        1051,
+        181
+      ],
+      [
+        1080,
+        171
+      ],
+      [
+        1116,
+        184
+      ],
+      [
+        1152,
+        168
+      ]
+    ],
+    "visible_intervals_pixels": [
+      [
+        784,
+        935
+      ],
+      [
+        1051,
+        1152
+      ]
+    ],
+    "uncertainty": "manual sparse trace ~5-15 pixels; trees, buildings and cloud-hidden sections excluded; not pixel-perfect reconstruction"
+  },
+  "Panorama": {
+    "yaw_deg": -1.9312506263760003,
+    "pitch_deg": -14.553584203434012,
+    "vertical_fov": 42.931864941324214,
+    "annotation_rmse_px_at_941h": 14.351083997927958,
+    "trace_pixels_1672x941": [
+      [
+        203,
+        139
+      ],
+      [
+        270,
+        115
+      ],
+      [
+        343,
+        102
+      ],
+      [
+        420,
+        106
+      ],
+      [
+        520,
+        119
+      ],
+      [
+        628,
+        96
+      ],
+      [
+        724,
+        65
+      ],
+      [
+        781,
+        83
+      ],
+      [
+        832,
+        65
+      ],
+      [
+        895,
+        83
+      ],
+      [
+        973,
+        69
+      ],
+      [
+        1033,
+        103
+      ],
+      [
+        1115,
+        86
+      ],
+      [
+        1181,
+        66
+      ],
+      [
+        1228,
+        90
+      ],
+      [
+        1311,
+        68
+      ],
+      [
+        1381,
+        84
+      ],
+      [
+        1438,
+        70
+      ],
+      [
+        1480,
+        86
+      ],
+      [
+        1560,
+        77
+      ],
+      [
+        1654,
+        113
+      ]
+    ],
+    "visible_intervals_pixels": [
+      [
+        203,
+        1654
+      ]
+    ],
+    "uncertainty": "manual sparse trace ~5-15 pixels; trees, buildings and cloud-hidden sections excluded; not pixel-perfect reconstruction"
+  }
+}

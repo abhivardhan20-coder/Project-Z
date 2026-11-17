@@ -1,0 +1,164 @@
+{
+  "asset_id": "AIR-01",
+  "asset": "International airport terminal",
+  "revision": "REFIT_03",
+  "source_reference": "Reference/AIR-01_MultiView_Reference.png",
+  "dimensions_m_approx": {
+    "length": 260,
+    "depth": 78,
+    "roof_peak": 24.8,
+    "arrivals_L1": 0,
+    "departures_L2": 8.4
+  },
+  "coordinate_convention": {
+    "source": "XYZ Z-up; -Y landside; +Y airside",
+    "export_glTF": "XYZ Y-up; X length; +Z landside; -Z airside"
+  },
+  "LOD": {
+    "LOD0": {
+      "triangles": 513444,
+      "triangle_ratio": 1.0,
+      "meshes": 96,
+      "materials": 31,
+      "embedded_images": 79,
+      "bounds_gltf_y_up_m": [
+        [
+          -130.001,
+          -0.46,
+          -39.07
+        ],
+        [
+          130.001,
+          24.967,
+          39.14
+        ]
+      ],
+      "sha256": "9b7df1ced7644c6165bd93f0d7ab3a86b8b5bbb0f97ef9888d26f22c2368f268",
+      "trimesh_reimport": "PASS",
+      "animated_channels": 18
+    },
+    "LOD1": {
+      "triangles": 213276,
+      "triangle_ratio": 0.4154,
+      "meshes": 92,
+      "materials": 31,
+      "embedded_images": 79,
+      "bounds_gltf_y_up_m": [
+        [
+          -130.001,
+          -0.46,
+          -39.07
+        ],
+        [
+          130.001,
+          24.966,
+          39.14
+        ]
+      ],
+      "sha256": "d941b022f02496742df82be769d1548890f78a4c66bbcccb4985c74430301ffb",
+      "trimesh_reimport": "PASS",
+      "animated_channels": 18
+    },
+    "LOD2": {
+      "triangles": 67272,
+      "triangle_ratio": 0.131,
+      "meshes": 87,
+      "materials": 28,
+      "embedded_images": 76,
+      "bounds_gltf_y_up_m": [
+        [
+          -130.001,
+          -0.46,
+          -39.07
+        ],
+        [
+          130.001,
+          24.966,
+          39.14
+        ]
+      ],
+      "sha256": "05f77341eb62e171229fcb6a883dafb48e48fa56b3c4021a67cbf9d8f6b08b41",
+      "trimesh_reimport": "PASS",
+      "animated_channels": 18
+    }
+  },
+  "triangles_by_group": {
+    "Structure": 124636,
+    "Facade": 30248,
+    "Roof": 156516,
+    "Interior": 184472,
+    "Details": 17068,
+    "Doors_Moving": 504
+  },
+  "HLOD_triangles": 3626,
+  "procedural_source": [
+    "build_air01_v3.py",
+    "build_air01_original.py"
+  ],
+  "feature_correspondence": {
+    "front": "scalloped four-pavilion vaulted eave, seven large sculpted tree-columns, four sheltered automatic glass entrances, gridded glazing",
+    "roof": "pale segmented double-surface metal shell, six transparent blue-glass skylight bands, transverse standing seams, end ventilation",
+    "side": "barrel-vaulted roof with 2-level glass hall and rear opaque office/plant annex",
+    "rear": "precast/service lower wall, higher glass clerestory, real Gate A1 aperture",
+    "section": "double-height ground-level check-in concourse, upper departure level +8.4 m, two static stairs and escalator geometry"
+  },
+  "animations": {
+    "clips": [
+      "AIR-01_Operational_Doors_Open",
+      "Entrance_01_Open",
+      "Entrance_02_Open",
+      "Entrance_03_Open",
+      "Gate_A1_Open",
+      "Entrance_04_Open"
+    ],
+    "channels": 18,
+    "engine_playback_tested": false,
+    "dynamic_collision_engine_tested": false
+  },
+  "collision": {
+    "proxy_count": 202,
+    "glb": "AIR-01_collision.glb",
+    "json": "Collision/AIR-01_colliders.json",
+    "static_apertures_tested": {
+      "Entrance_-99": {
+        "static_glazing_triangles_intersecting_doorway": 0
+      },
+      "Entrance_-33": {
+        "static_glazing_triangles_intersecting_doorway": 0
+      },
+      "Entrance_33": {
+        "static_glazing_triangles_intersecting_doorway": 0
+      },
+      "Entrance_99": {
+        "static_glazing_triangles_intersecting_doorway": 0
+      },
+      "Gate_A1": {
+        "static_precast_wall_triangles_intersecting_doorway": 0
+      }
+    }
+  },
+  "test_status": {
+    "glb_binary_reimport": "PASS",
+    "LOD_ratios": "PASS",
+    "texture_embed_and_pbr_structure": "PASS",
+    "animations_structural": "PASS",
+    "static_wall_portal_centroid_test": "PASS",
+    "collision_glb_reimport": "PASS",
+    "Blender_editor_save": "NOT RUN - Blender unavailable",
+    "Godot_4_import": "NOT RUN - Godot unavailable",
+    "walkthrough_and_live_door_collision": "NOT RUN",
+    "photorealistic_visual_match": "NOT CERTIFIED"
+  },
+  "uncertainties": [
+    "Source is a concept collage rather than consistent CAD; top-panel aspect ratio visually differs from stated 260x78 m dimensions",
+    "Hero lighting and landscaped apron are reference scenery and not included as model assets",
+    "Selected playable interior is structurally detailed but the rest remains optimized shells",
+    "Non-playable escalator is static geometry, door rails are animated but engine behavior requires testing"
+  ],
+  "authoring_limitations": {
+    "native_blend_file": false,
+    "blender_save_helper": "AIR-01_make_blend.py",
+    "source_editable": true,
+    "reference_percent_match": "cannot be certified or honestly quantified"
+  }
+}

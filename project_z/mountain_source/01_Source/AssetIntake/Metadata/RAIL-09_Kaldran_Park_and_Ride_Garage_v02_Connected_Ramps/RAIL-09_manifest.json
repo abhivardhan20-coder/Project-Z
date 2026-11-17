@@ -1,0 +1,194 @@
+{
+  "asset_id": "RAIL-09",
+  "asset_name": "Park-and-ride garage",
+  "project": "Project Z: Kaldran City",
+  "anchor": "D13 / D17",
+  "priority": "P2",
+  "reference_source": "References/RAIL-09_MultiView_Reference.png",
+  "units": "meters",
+  "glTF_version": 2,
+  "world_axes": "X horizontal, Y up, -Z forward (front -Z)",
+  "source": "RAIL-09_generate.py",
+  "native_blend_status": "not created; Blender unavailable; converter script supplied",
+  "blender_conversion_script": "RAIL-09_blender_import_save.py",
+  "godot_4_import_status": "UNTESTED; Godot executable unavailable",
+  "godot_script": "RAIL-09_Godot_interactions.gd",
+  "moving_nodes": [
+    "HINGE_Doors_Moving_PedestrianLeaf__glass_dark",
+    "HINGE_Doors_Moving_BarrierBoom__white",
+    "HINGE_Doors_Moving_BarrierReflectors__red"
+  ],
+  "animation_tracks_glb": 0,
+  "lods": {
+    "LOD0": {
+      "file": "RAIL-09_LOD0.glb",
+      "glTF_version": 2,
+      "triangles": 421308,
+      "ratio_to_LOD0": 1.0,
+      "mesh_count": 111,
+      "materials": 21,
+      "embedded_images": 78,
+      "pbr_basecolor_textures": 21,
+      "normal_textures": 19,
+      "uv_primitive_count": 111,
+      "degenerate_triangles_1e-11m2": 0,
+      "bounds_m": [
+        [
+          -41.65,
+          -0.29,
+          -20.46
+        ],
+        [
+          42.0,
+          18.6,
+          20.045
+        ]
+      ],
+      "size_bytes": 21740484,
+      "sha256": "ae6a94f115877b12594c5f9869b564deeec8cf7138b71df103f2457d41fece82",
+      "hinge_nodes": [
+        "HINGE_Doors_Moving_PedestrianLeaf__glass_dark",
+        "HINGE_Doors_Moving_BarrierBoom__white",
+        "HINGE_Doors_Moving_BarrierReflectors__red"
+      ]
+    },
+    "LOD1": {
+      "file": "RAIL-09_LOD1.glb",
+      "glTF_version": 2,
+      "triangles": 224672,
+      "ratio_to_LOD0": 0.533273,
+      "mesh_count": 101,
+      "materials": 21,
+      "embedded_images": 78,
+      "pbr_basecolor_textures": 21,
+      "normal_textures": 19,
+      "uv_primitive_count": 101,
+      "degenerate_triangles_1e-11m2": 0,
+      "bounds_m": [
+        [
+          -41.65,
+          -0.29,
+          -20.46
+        ],
+        [
+          42.0,
+          18.6,
+          20.045
+        ]
+      ],
+      "size_bytes": 16853932,
+      "sha256": "434be779550501105f83b6ccf82d3f67c27aa9802b99a5d6c2a310742285c0d7",
+      "hinge_nodes": [
+        "HINGE_Doors_Moving_PedestrianLeaf__glass_dark",
+        "HINGE_Doors_Moving_BarrierBoom__white",
+        "HINGE_Doors_Moving_BarrierReflectors__red"
+      ]
+    },
+    "LOD2": {
+      "file": "RAIL-09_LOD2.glb",
+      "glTF_version": 2,
+      "triangles": 63616,
+      "ratio_to_LOD0": 0.150996,
+      "mesh_count": 92,
+      "materials": 21,
+      "embedded_images": 78,
+      "pbr_basecolor_textures": 21,
+      "normal_textures": 19,
+      "uv_primitive_count": 92,
+      "degenerate_triangles_1e-11m2": 0,
+      "bounds_m": [
+        [
+          -41.65,
+          -0.29,
+          -20.46
+        ],
+        [
+          42.0,
+          18.6,
+          20.045
+        ]
+      ],
+      "size_bytes": 12824736,
+      "sha256": "bf1fc5dfd726d25c67f0637eaad45b899cdd9e3c9870ff2bb7974b33459a504f",
+      "hinge_nodes": [
+        "HINGE_Doors_Moving_PedestrianLeaf__glass_dark",
+        "HINGE_Doors_Moving_BarrierBoom__white",
+        "HINGE_Doors_Moving_BarrierReflectors__red"
+      ]
+    }
+  },
+  "collision": {
+    "file": "RAIL-09_COLLISION.glb",
+    "triangles": 2416,
+    "mesh_count": 11,
+    "groups": [
+      "COL_Garage_Decks__concrete",
+      "COL_Columns__concrete",
+      "COL_RampColumns__concrete",
+      "COL_Ramp_DriveSurface__concrete",
+      "COL_Ramp_Throats__concrete",
+      "COL_Roof_PerimeterGuard__concrete",
+      "COL_StairCore_Ground__concrete",
+      "COL_StairCore_Roof__concrete",
+      "COL_StairCore_GlassWalls__concrete",
+      "COL_RearServiceWall__concrete",
+      "COL_StairTreads__concrete"
+    ]
+  },
+  "engineering": {
+    "nominal_footprint_m": [
+      84,
+      40
+    ],
+    "datum_y": 0,
+    "stair_tower_top_y_m": 18.6,
+    "levels_m": [
+      0,
+      4.1,
+      8.2,
+      12.3,
+      16.4
+    ],
+    "P2_playable_level_y_m": 4.1,
+    "analytical_clearance_under_deck_beams_m": 3.33,
+    "one_way_ramp_width_m": 4.5,
+    "ramp_center_radius_m": 14,
+    "ramp_grade_average_pct": 9.32,
+    "central_lane_width_between_markings_m": 10.6,
+    "central_driving_lane_has_columns": "no structural column at z in (-5.3,5.3) in main deck",
+    "gltf_y_up": true,
+    "planned_frame": "front -Z; glazed stair core on front left; ramp on front right",
+    "ramp_centerline_eased_peak_grade_pct": 10.31,
+    "ramp_inner_wheel_eased_peak_grade_pct": 12.29,
+    "ramp_over_ramp_min_vertical_clearance_m": 3.846,
+    "indoor_return_radius_m": 14.0,
+    "indoor_return_floors": [
+      1,
+      2,
+      3
+    ],
+    "min_column_edge_gap_on_return_m": 0.806,
+    "ramp_qa_file": "RAIL-09_ramp_calculations.json"
+  },
+  "geometry_status": "real editable 3D geometry, not image",
+  "revision": "v02 ramp circulation rebuild",
+  "ramp_calculation_files": [
+    "RAIL-09_ramp_calculations.md",
+    "RAIL-09_ramp_calculations.json"
+  ],
+  "reconstruction_fidelity": "procedural approximation, not photogrammetrically indistinguishable",
+  "pbr_assets": "base color / normal / ORM embedded, external PNGs also supplied",
+  "texture_resolution": "512 x 512 for general reusable materials, decal sign 2048 x 256",
+  "validation_file": "RAIL-09_validation.md",
+  "ambiguities": [
+    "front 84 m vs side 56 m: authoritative plan/scale 84 x 40 m",
+    "floor labels differ from 2.60m clearance: adopted 4.10m structural spacing"
+  ],
+  "excluded": [
+    "no native .blend in provided bundle",
+    "no Godot scene runtime test",
+    "no authored glTF animation clip",
+    "no HLOD impostor",
+    "no city context geometry"
+  ]
+}

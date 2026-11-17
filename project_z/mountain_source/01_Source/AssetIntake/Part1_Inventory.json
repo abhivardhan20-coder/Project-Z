@@ -1,0 +1,127 @@
+[
+  {
+    "path": "Kaldran Assets/AIR-01_Kaldran_Terminal_REFIT_03.zip",
+    "bytes": 133575164,
+    "crc32": 3086167377
+  },
+  {
+    "path": "Kaldran Assets/AIR-03_Reference_Reconstruction_v3.zip",
+    "bytes": 48376895,
+    "crc32": 3613983091
+  },
+  {
+    "path": "Kaldran Assets/AIR-04_Kaldran_Control_Tower_3D_Package.zip",
+    "bytes": 64796608,
+    "crc32": 1211170244
+  },
+  {
+    "path": "Kaldran Assets/AIR-11_Production_Package.zip",
+    "bytes": 66407262,
+    "crc32": 3090347096
+  },
+  {
+    "path": "Kaldran Assets/AIR-12_Complete_Package.zip",
+    "bytes": 128862884,
+    "crc32": 2489010567
+  },
+  {
+    "path": "Kaldran Assets/CIV-01_Kaldran_Capitol_Assembly_Hall_v02.zip",
+    "bytes": 79759849,
+    "crc32": 2084434759
+  },
+  {
+    "path": "Kaldran Assets/CIV-03_v3_Full_Reconstruction.zip",
+    "bytes": 73920242,
+    "crc32": 2160462972
+  },
+  {
+    "path": "Kaldran Assets/HIL-01_V3_BALANCED.zip",
+    "bytes": 114490354,
+    "crc32": 270076078
+  },
+  {
+    "path": "Kaldran Assets/HIL-03_Asset_Package.zip",
+    "bytes": 55153065,
+    "crc32": 1979626977
+  },
+  {
+    "path": "Kaldran Assets/HIL-04_LOD0.glb",
+    "bytes": 19779964,
+    "crc32": 3502928438
+  },
+  {
+    "path": "Kaldran Assets/HIL-04_LOD2.glb",
+    "bytes": 7213896,
+    "crc32": 1312735500
+  },
+  {
+    "path": "Kaldran Assets/HIL-04_Reference_Refined_v02.zip",
+    "bytes": 81594661,
+    "crc32": 3876153344
+  },
+  {
+    "path": "Kaldran Assets/HIL-08_LOD0.glb",
+    "bytes": 90925700,
+    "crc32": 2567793848
+  },
+  {
+    "path": "Kaldran Assets/HIL-08_LOD1.glb",
+    "bytes": 85083400,
+    "crc32": 2824762701
+  },
+  {
+    "path": "Kaldran Assets/HIL-10_Full_Production_Package.zip",
+    "bytes": 236574776,
+    "crc32": 3077799116
+  },
+  {
+    "path": "Kaldran Assets/Kaldran_Ambulance_Final.glb",
+    "bytes": 57217952,
+    "crc32": 1796088161
+  },
+  {
+    "path": "Kaldran Assets/RAIL-01_v02_REFINED_FULL_PACKAGE.zip",
+    "bytes": 44938630,
+    "crc32": 2049676709
+  },
+  {
+    "path": "Kaldran Assets/RAIL-02_V3_Fixed_Escalators_and_Interior.zip",
+    "bytes": 39634334,
+    "crc32": 1195492620
+  },
+  {
+    "path": "Kaldran Assets/RAIL-03_Kaldran_Full_Asset_Package.zip",
+    "bytes": 126381502,
+    "crc32": 2441525819
+  },
+  {
+    "path": "Kaldran Assets/RAIL-04_Refined_Doors_and_Facade_v5.zip",
+    "bytes": 159890356,
+    "crc32": 3425786222
+  },
+  {
+    "path": "Kaldran Assets/RAIL-06_ReferenceRefined_v2_Godot4.zip",
+    "bytes": 115972753,
+    "crc32": 2387211807
+  },
+  {
+    "path": "Kaldran Assets/RAIL-07_Refined_v02_Compact.zip",
+    "bytes": 30031336,
+    "crc32": 1401467456
+  },
+  {
+    "path": "Kaldran Assets/RAIL-08_Refined_v04_FULL.zip",
+    "bytes": 37766706,
+    "crc32": 1049672187
+  },
+  {
+    "path": "Kaldran Assets/RAIL-10_Transit_Police_First_Aid_Refined_v02.zip",
+    "bytes": 77521112,
+    "crc32": 1480540550
+  },
+  {
+    "path": "Kaldran Assets/Shvan92_Ambulance_Upgrade_Package.zip",
+    "bytes": 12695822,
+    "crc32": 2352145106
+  }
+]

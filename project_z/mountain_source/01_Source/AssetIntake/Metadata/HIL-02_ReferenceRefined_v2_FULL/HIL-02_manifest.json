@@ -1,0 +1,2455 @@
+{
+  "asset": "HIL-02",
+  "name": "Terraced retaining-wall apartment building",
+  "world_scale": "1 unit = 1 meter",
+  "coordinate_model_space": "Z-up (trimesh source)",
+  "gltf_coordinate_space": "Y-up (gltf export conversion)",
+  "reference": "User-provided HIL-02 multi-view image; dimensions 36x24x19.8",
+  "source_image": "HIL-02_MultiView_Reference.png",
+  "source_code": "HIL-02_build.py",
+  "revision": "Reference-refined v2",
+  "lod": [
+    {
+      "triangles": 329878,
+      "vertices": 247587,
+      "parts": {
+        "Structure_Floor_Slabs__WarmConcrete": {
+          "triangles": 360,
+          "vertices": 720,
+          "material": "WarmConcrete",
+          "category": "Structure_Floor_Slabs"
+        },
+        "Facade_Lobby_Concrete_Canopy__WarmConcrete": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "WarmConcrete",
+          "category": "Facade_Lobby_Concrete_Canopy"
+        },
+        "Facade_Entrance_Soffit__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Facade_Entrance_Soffit"
+        },
+        "Facade_Entrance_Brackets__BlackMetal": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "BlackMetal",
+          "category": "Facade_Entrance_Brackets"
+        },
+        "Facade_Raised_Plaster__Plaster": {
+          "triangles": 1512,
+          "vertices": 3024,
+          "material": "Plaster",
+          "category": "Facade_Raised_Plaster"
+        },
+        "Facade_Window_Reveals__StoneLight": {
+          "triangles": 5760,
+          "vertices": 2160,
+          "material": "StoneLight",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Reveals__WarmConcrete": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "WarmConcrete",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Sills__StoneLight": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "StoneLight",
+          "category": "Facade_Window_Sills"
+        },
+        "Facade_Inset_Glass_Transom__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass_Transom"
+        },
+        "Facade_Window_Frames__BlackMetal": {
+          "triangles": 15440,
+          "vertices": 5790,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Frames"
+        },
+        "Facade_Entrance_Portal__StoneLight": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "StoneLight",
+          "category": "Facade_Entrance_Portal"
+        },
+        "Facade_Entry_Wall_Lamps__BlackMetal": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "BlackMetal",
+          "category": "Facade_Entry_Wall_Lamps"
+        },
+        "Facade_Entry_Wall_Lamps__Light": {
+          "triangles": 24,
+          "vertices": 48,
+          "material": "Light",
+          "category": "Facade_Entry_Wall_Lamps"
+        },
+        "Facade_Inset_Glass__GlassTint": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass"
+        },
+        "Facade_Glass_Interior_Shadow__WoodDark": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "WoodDark",
+          "category": "Facade_Glass_Interior_Shadow"
+        },
+        "Facade_Window_Transom__BlackMetal": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Transom"
+        },
+        "Facade_Rear_Plaster__Plaster": {
+          "triangles": 864,
+          "vertices": 1728,
+          "material": "Plaster",
+          "category": "Facade_Rear_Plaster"
+        },
+        "Facade_Rear_Glass__GlassTint": {
+          "triangles": 228,
+          "vertices": 456,
+          "material": "GlassTint",
+          "category": "Facade_Rear_Glass"
+        },
+        "Facade_Rear_Frames__BlackMetal": {
+          "triangles": 8640,
+          "vertices": 3240,
+          "material": "BlackMetal",
+          "category": "Facade_Rear_Frames"
+        },
+        "Facade_Structural_Piers__Plaster": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "Plaster",
+          "category": "Facade_Structural_Piers"
+        },
+        "Facade_Pier_Coping__StoneLight": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "StoneLight",
+          "category": "Facade_Pier_Coping"
+        },
+        "Facade_Left_Exterior_Walls__Plaster": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "Plaster",
+          "category": "Facade_Left_Exterior_Walls"
+        },
+        "Facade_Side_Recesses__StoneLight": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "StoneLight",
+          "category": "Facade_Side_Recesses"
+        },
+        "Facade_Side_Glass__GlassTint": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "GlassTint",
+          "category": "Facade_Side_Glass"
+        },
+        "Facade_Upper_Ledge__Plaster": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "Plaster",
+          "category": "Facade_Upper_Ledge"
+        },
+        "Details_Exterior_Downpipes__Steel": {
+          "triangles": 576,
+          "vertices": 320,
+          "material": "Steel",
+          "category": "Details_Exterior_Downpipes"
+        },
+        "Details_Drain_Clamps__Steel": {
+          "triangles": 96,
+          "vertices": 192,
+          "material": "Steel",
+          "category": "Details_Drain_Clamps"
+        },
+        "Facade_Under_Slab_Lights__BlackMetal": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "BlackMetal",
+          "category": "Facade_Under_Slab_Lights"
+        },
+        "Facade_Under_Slab_Lights__Light": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "Light",
+          "category": "Facade_Under_Slab_Lights"
+        },
+        "Interior_Apartment_Floor__Wood": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Wood",
+          "category": "Interior_Apartment_Floor"
+        },
+        "Facade_Cantilever_Concrete__WarmConcrete": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "WarmConcrete",
+          "category": "Facade_Cantilever_Concrete"
+        },
+        "Facade_Cantilever_Fascia__Plaster": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Plaster",
+          "category": "Facade_Cantilever_Fascia"
+        },
+        "Facade_Soffit_Panel__Wood": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Wood",
+          "category": "Facade_Soffit_Panel"
+        },
+        "Facade_Drip_Edge__Steel": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Steel",
+          "category": "Facade_Drip_Edge"
+        },
+        "Facade_Cantilever_Brackets__Steel": {
+          "triangles": 2720,
+          "vertices": 1020,
+          "material": "Steel",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Facade_Cantilever_Brackets__BlackMetal": {
+          "triangles": 680,
+          "vertices": 408,
+          "material": "BlackMetal",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Details_Balcony_Pavers__Paving": {
+          "triangles": 28560,
+          "vertices": 10710,
+          "material": "Paving",
+          "category": "Details_Balcony_Pavers"
+        },
+        "Facade_Glass_Posts__BlackMetal": {
+          "triangles": 5304,
+          "vertices": 2992,
+          "material": "BlackMetal",
+          "category": "Facade_Glass_Posts"
+        },
+        "Facade_Glass_Clamps__Steel": {
+          "triangles": 8160,
+          "vertices": 3060,
+          "material": "Steel",
+          "category": "Facade_Glass_Clamps"
+        },
+        "Facade_Balcony_Glass__Glass": {
+          "triangles": 1428,
+          "vertices": 2856,
+          "material": "Glass",
+          "category": "Facade_Balcony_Glass"
+        },
+        "Facade_Glass_Lower_Seal__BlackMetal": {
+          "triangles": 1020,
+          "vertices": 2040,
+          "material": "BlackMetal",
+          "category": "Facade_Glass_Lower_Seal"
+        },
+        "Facade_Balcony_Handrail__BlackMetal": {
+          "triangles": 748,
+          "vertices": 408,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Handrail"
+        },
+        "Facade_Handles__Steel": {
+          "triangles": 840,
+          "vertices": 480,
+          "material": "Steel",
+          "category": "Facade_Handles"
+        },
+        "Roof_Top_Membrane__RoofGravel": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "RoofGravel",
+          "category": "Roof_Top_Membrane"
+        },
+        "Roof_Parapets__Plaster": {
+          "triangles": 960,
+          "vertices": 360,
+          "material": "Plaster",
+          "category": "Roof_Parapets"
+        },
+        "Roof_Coping__StoneLight": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "StoneLight",
+          "category": "Roof_Coping"
+        },
+        "Roof_Metal_Flashing__Steel": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "Steel",
+          "category": "Roof_Metal_Flashing"
+        },
+        "Roof_Terrace_Pavers__Paving": {
+          "triangles": 8960,
+          "vertices": 3360,
+          "material": "Paving",
+          "category": "Roof_Terrace_Pavers"
+        },
+        "Details_Planters__WarmConcrete": {
+          "triangles": 3440,
+          "vertices": 1290,
+          "material": "WarmConcrete",
+          "category": "Details_Planters"
+        },
+        "Details_Soil__Soil": {
+          "triangles": 564,
+          "vertices": 1128,
+          "material": "Soil",
+          "category": "Details_Soil"
+        },
+        "Details_Plant_Stems__WoodDark": {
+          "triangles": 6192,
+          "vertices": 3870,
+          "material": "WoodDark",
+          "category": "Details_Plant_Stems"
+        },
+        "Details_Individual_Leaves__GreenLeaf2": {
+          "triangles": 21144,
+          "vertices": 24668,
+          "material": "GreenLeaf2",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Individual_Leaves__GreenLeaf": {
+          "triangles": 42948,
+          "vertices": 50106,
+          "material": "GreenLeaf",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Individual_Leaves__GreenLeaf3": {
+          "triangles": 21822,
+          "vertices": 25459,
+          "material": "GreenLeaf3",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Terrace_Tree_Tub__StoneLight": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "StoneLight",
+          "category": "Details_Terrace_Tree_Tub"
+        },
+        "Details_Tree_Trunks__WoodDark": {
+          "triangles": 160,
+          "vertices": 88,
+          "material": "WoodDark",
+          "category": "Details_Tree_Trunks"
+        },
+        "Details_Tree_Branches__WoodDark": {
+          "triangles": 672,
+          "vertices": 384,
+          "material": "WoodDark",
+          "category": "Details_Tree_Branches"
+        },
+        "Details_Tree_Leaves__GreenLeaf2": {
+          "triangles": 1440,
+          "vertices": 1680,
+          "material": "GreenLeaf2",
+          "category": "Details_Tree_Leaves"
+        },
+        "Details_Tree_Leaves__GreenLeaf3": {
+          "triangles": 1446,
+          "vertices": 1687,
+          "material": "GreenLeaf3",
+          "category": "Details_Tree_Leaves"
+        },
+        "Details_Tree_Leaves__GreenLeaf": {
+          "triangles": 1290,
+          "vertices": 1505,
+          "material": "GreenLeaf",
+          "category": "Details_Tree_Leaves"
+        },
+        "Facade_Balcony_Rails__BlackMetal": {
+          "triangles": 1512,
+          "vertices": 864,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Rails"
+        },
+        "Facade_Rail_Fasteners__Steel": {
+          "triangles": 6840,
+          "vertices": 3060,
+          "material": "Steel",
+          "category": "Facade_Rail_Fasteners"
+        },
+        "Facade_Balcony_Rails__Steel": {
+          "triangles": 324,
+          "vertices": 180,
+          "material": "Steel",
+          "category": "Facade_Balcony_Rails"
+        },
+        "Facade_Glass_Balustrades__Glass": {
+          "triangles": 540,
+          "vertices": 1080,
+          "material": "Glass",
+          "category": "Facade_Glass_Balustrades"
+        },
+        "Details_Ivy_Stems__WoodDark": {
+          "triangles": 1500,
+          "vertices": 900,
+          "material": "WoodDark",
+          "category": "Details_Ivy_Stems"
+        },
+        "Details_Hanging_Ivy__GreenLeaf2": {
+          "triangles": 2082,
+          "vertices": 2429,
+          "material": "GreenLeaf2",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Details_Hanging_Ivy__GreenLeaf": {
+          "triangles": 2034,
+          "vertices": 2373,
+          "material": "GreenLeaf",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Details_Hanging_Ivy__GreenLeaf3": {
+          "triangles": 2184,
+          "vertices": 2548,
+          "material": "GreenLeaf3",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Facade_Balcony_Lantern__BlackMetal": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Lantern"
+        },
+        "Facade_Balcony_Lantern__Light": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "Light",
+          "category": "Facade_Balcony_Lantern"
+        },
+        "Details_Flower_Blossoms__FlowerLilac": {
+          "triangles": 1944,
+          "vertices": 2268,
+          "material": "FlowerLilac",
+          "category": "Details_Flower_Blossoms"
+        },
+        "Structure_Grade_Foundations__Stone": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "Stone",
+          "category": "Structure_Grade_Foundations"
+        },
+        "Structure_Foundation_Piers__StoneLight": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "StoneLight",
+          "category": "Structure_Foundation_Piers"
+        },
+        "Roof_Step_Terrace_Concrete__WarmConcrete": {
+          "triangles": 400,
+          "vertices": 150,
+          "material": "WarmConcrete",
+          "category": "Roof_Step_Terrace_Concrete"
+        },
+        "Roof_Step_Terrace_Tiles__Paving": {
+          "triangles": 5760,
+          "vertices": 2160,
+          "material": "Paving",
+          "category": "Roof_Step_Terrace_Tiles"
+        },
+        "Roof_HVAC_Cabinets__WarmConcrete": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "WarmConcrete",
+          "category": "Roof_HVAC_Cabinets"
+        },
+        "Roof_HVAC_Vents__BlackMetal": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "BlackMetal",
+          "category": "Roof_HVAC_Vents"
+        },
+        "Roof_Utility_Pipes__Steel": {
+          "triangles": 176,
+          "vertices": 96,
+          "material": "Steel",
+          "category": "Roof_Utility_Pipes"
+        },
+        "Facade_Outer_Side_Plaster__Plaster": {
+          "triangles": 180,
+          "vertices": 360,
+          "material": "Plaster",
+          "category": "Facade_Outer_Side_Plaster"
+        },
+        "Facade_Outer_Side_Recess_Glass__GlassTint": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "GlassTint",
+          "category": "Facade_Outer_Side_Recess_Glass"
+        },
+        "Facade_Outer_Side_Trim__WarmConcrete": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "WarmConcrete",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Facade_Outer_Side_Trim__StoneLight": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "StoneLight",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Roof_Pergola_Posts__BlackMetal": {
+          "triangles": 220,
+          "vertices": 120,
+          "material": "BlackMetal",
+          "category": "Roof_Pergola_Posts"
+        },
+        "Roof_Pergola_Beams__BlackMetal": {
+          "triangles": 180,
+          "vertices": 100,
+          "material": "BlackMetal",
+          "category": "Roof_Pergola_Beams"
+        },
+        "Roof_Pergola_Louvers__WoodDark": {
+          "triangles": 1120,
+          "vertices": 420,
+          "material": "WoodDark",
+          "category": "Roof_Pergola_Louvers"
+        },
+        "Structure_Layered_Retaining__Stone": {
+          "triangles": 21306,
+          "vertices": 12383,
+          "material": "Stone",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Layered_Retaining__StoneLight": {
+          "triangles": 7020,
+          "vertices": 3978,
+          "material": "StoneLight",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Stone_Coping__StoneLight": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "StoneLight",
+          "category": "Structure_Stone_Coping"
+        },
+        "Details_Retaining_Drip__Steel": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "Steel",
+          "category": "Details_Retaining_Drip"
+        },
+        "Structure_Layered_Retaining__StoneDark": {
+          "triangles": 6930,
+          "vertices": 3927,
+          "material": "StoneDark",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Details_Weep_Pipes__BlackMetal": {
+          "triangles": 768,
+          "vertices": 432,
+          "material": "BlackMetal",
+          "category": "Details_Weep_Pipes"
+        },
+        "Details_Weep_Grilles__Steel": {
+          "triangles": 864,
+          "vertices": 480,
+          "material": "Steel",
+          "category": "Details_Weep_Grilles"
+        },
+        "Structure_Upper_Stone_Railing__BlackMetal": {
+          "triangles": 144,
+          "vertices": 80,
+          "material": "BlackMetal",
+          "category": "Structure_Upper_Stone_Railing"
+        },
+        "Structure_Right_Grade_Concrete__Stone": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Stone",
+          "category": "Structure_Right_Grade_Concrete"
+        },
+        "Facade_East_Real_Ashlar__StoneLight": {
+          "triangles": 1020,
+          "vertices": 2040,
+          "material": "StoneLight",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_East_Stone_Incised_Seams__StoneDark": {
+          "triangles": 1584,
+          "vertices": 3168,
+          "material": "StoneDark",
+          "category": "Facade_East_Stone_Incised_Seams"
+        },
+        "Facade_East_Real_Ashlar__StoneDark": {
+          "triangles": 1200,
+          "vertices": 2400,
+          "material": "StoneDark",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_East_Real_Ashlar__Stone": {
+          "triangles": 3396,
+          "vertices": 6792,
+          "material": "Stone",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_Upper_East_Grade_Plaster__Plaster": {
+          "triangles": 132,
+          "vertices": 264,
+          "material": "Plaster",
+          "category": "Facade_Upper_East_Grade_Plaster"
+        },
+        "Structure_East_Coping__StoneLight": {
+          "triangles": 960,
+          "vertices": 360,
+          "material": "StoneLight",
+          "category": "Structure_East_Coping"
+        },
+        "Structure_Western_Plowall__Stone": {
+          "triangles": 342,
+          "vertices": 288,
+          "material": "Stone",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Western_Plowall__StoneLight": {
+          "triangles": 150,
+          "vertices": 120,
+          "material": "StoneLight",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Western_Plowall__StoneDark": {
+          "triangles": 140,
+          "vertices": 112,
+          "material": "StoneDark",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Exterior_Plinth__WarmConcrete": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Plinth"
+        },
+        "Structure_Exterior_Stair_Treads__WarmConcrete": {
+          "triangles": 600,
+          "vertices": 1200,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Stair_Treads"
+        },
+        "Details_Stair_Nosings__Steel": {
+          "triangles": 9280,
+          "vertices": 5568,
+          "material": "Steel",
+          "category": "Details_Stair_Nosings"
+        },
+        "Structure_Stair_Handrail__BlackMetal": {
+          "triangles": 1024,
+          "vertices": 576,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Handrail"
+        },
+        "Structure_Stair_Balusters__BlackMetal": {
+          "triangles": 4608,
+          "vertices": 2688,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Balusters"
+        },
+        "Structure_Exterior_Landings__Paving": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "Paving",
+          "category": "Structure_Exterior_Landings"
+        },
+        "Structure_Stair_Stringer_Supports__WarmConcrete": {
+          "triangles": 84,
+          "vertices": 168,
+          "material": "WarmConcrete",
+          "category": "Structure_Stair_Stringer_Supports"
+        },
+        "Structure_Upper_External_Steps__WarmConcrete": {
+          "triangles": 468,
+          "vertices": 936,
+          "material": "WarmConcrete",
+          "category": "Structure_Upper_External_Steps"
+        },
+        "Structure_Upper_External_Landing__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Structure_Upper_External_Landing"
+        },
+        "Structure_Upper_Entry_Paving__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Structure_Upper_Entry_Paving"
+        },
+        "Details_Stair_Lamps__StoneLight": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "StoneLight",
+          "category": "Details_Stair_Lamps"
+        },
+        "Details_Stair_Lamps__Light": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "Light",
+          "category": "Details_Stair_Lamps"
+        },
+        "Interior_Lobby_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_Lobby_Floor"
+        },
+        "Interior_Lobby_Ceiling__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Ceiling"
+        },
+        "Interior_Lobby_Walls__WarmConcrete": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "WarmConcrete",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Interior_Lobby_Walls__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Doors_Moving_LowerEntrance_Left__GlassTint": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Left"
+        },
+        "Doors_Moving_LowerEntrance_Right__GlassTint": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Right"
+        },
+        "Doors_Moving_LowerEntrance_Frames__BlackMetal": {
+          "triangles": 84,
+          "vertices": 48,
+          "material": "BlackMetal",
+          "category": "Doors_Moving_LowerEntrance_Frames"
+        },
+        "Interior_Lobby_Reception__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Interior_Lobby_Reception"
+        },
+        "Interior_Lobby_Bench__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Interior_Lobby_Bench"
+        },
+        "Interior_Lobby_Furniture__Steel": {
+          "triangles": 56,
+          "vertices": 32,
+          "material": "Steel",
+          "category": "Interior_Lobby_Furniture"
+        },
+        "Interior_Lobby_Mailboxes__Steel": {
+          "triangles": 1280,
+          "vertices": 480,
+          "material": "Steel",
+          "category": "Interior_Lobby_Mailboxes"
+        },
+        "Interior_Lobby_Light_Fixtures__Light": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "Light",
+          "category": "Interior_Lobby_Light_Fixtures"
+        },
+        "Interior_EntryStair_Treads__WarmConcrete": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "WarmConcrete",
+          "category": "Interior_EntryStair_Treads"
+        },
+        "Interior_EntryStair_UpperLanding__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Interior_EntryStair_UpperLanding"
+        },
+        "Interior_EntryStair_WallSconces__BlackMetal": {
+          "triangles": 400,
+          "vertices": 150,
+          "material": "BlackMetal",
+          "category": "Interior_EntryStair_WallSconces"
+        },
+        "Interior_Lobby_Stone_Cladding__StoneDark": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "StoneDark",
+          "category": "Interior_Lobby_Stone_Cladding"
+        },
+        "Interior_Lobby_Stone_Cladding__StoneLight": {
+          "triangles": 1280,
+          "vertices": 480,
+          "material": "StoneLight",
+          "category": "Interior_Lobby_Stone_Cladding"
+        },
+        "Interior_Lobby_Stone_Cladding__Stone": {
+          "triangles": 960,
+          "vertices": 360,
+          "material": "Stone",
+          "category": "Interior_Lobby_Stone_Cladding"
+        },
+        "Interior_Stair_Landings__Paving": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Paving",
+          "category": "Interior_Stair_Landings"
+        },
+        "Interior_Stair_Treads__WarmConcrete": {
+          "triangles": 1320,
+          "vertices": 2640,
+          "material": "WarmConcrete",
+          "category": "Interior_Stair_Treads"
+        },
+        "Interior_UpperEntrance_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_UpperEntrance_Floor"
+        },
+        "Interior_UpperEntrance_Frames__BlackMetal": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "BlackMetal",
+          "category": "Interior_UpperEntrance_Frames"
+        },
+        "Doors_Moving_UpperEntrance_Left__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Left"
+        },
+        "Doors_Moving_UpperEntrance_Right__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Right"
+        },
+        "Details_Lower_Entry_Ceramic__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Details_Lower_Entry_Ceramic"
+        },
+        "Details_Upper_Entry_Ceramic__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Details_Upper_Entry_Ceramic"
+        },
+        "Details_Sidewalk_Kerbs__StoneLight": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "StoneLight",
+          "category": "Details_Sidewalk_Kerbs"
+        },
+        "Details_Street_Bollards__BlackMetal": {
+          "triangles": 264,
+          "vertices": 144,
+          "material": "BlackMetal",
+          "category": "Details_Street_Bollards"
+        },
+        "Details_Street_Bollards__Steel": {
+          "triangles": 216,
+          "vertices": 120,
+          "material": "Steel",
+          "category": "Details_Street_Bollards"
+        }
+      },
+      "geometry_count": 144,
+      "materials": 19,
+      "asset_file": "HIL-02_LOD0.glb",
+      "file_bytes": 44622320,
+      "reimport_triangles": 329878,
+      "gltf_yup_bounds_min": [
+        -18.055,
+        -0.236,
+        -11.75
+      ],
+      "gltf_yup_bounds_max": [
+        18.055,
+        19.8,
+        11.65
+      ],
+      "elapsed_seconds": 21.47,
+      "GLB_magic_valid": true,
+      "GLB_roundtrip_valid": true,
+      "spatial_config": {
+        "Bay_Start_Floors": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "Bay_Max_Floors": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        "BandEdges": [
+          -18,
+          -12,
+          -6,
+          0,
+          6,
+          12,
+          18
+        ],
+        "RoofSlabs": [
+          [
+            -18,
+            -12,
+            -7.05,
+            9.45,
+            6.1899999999999995
+          ],
+          [
+            -12,
+            -6,
+            -6.1899999999999995,
+            9.45,
+            9.489999999999998
+          ],
+          [
+            -6,
+            0,
+            -5.86,
+            9.45,
+            12.79
+          ],
+          [
+            0,
+            6,
+            -4.97,
+            9.45,
+            16.09
+          ],
+          [
+            6,
+            12,
+            -2.0200000000000005,
+            9.45,
+            19.389999999999997
+          ],
+          [
+            12,
+            18,
+            -0.040000000000000036,
+            9.45,
+            19.389999999999997
+          ]
+        ],
+        "ReferencePrimaryDimensions": [
+          36,
+          24,
+          19.8
+        ],
+        "ArchitecturalRevision": "Refined v2 stepped apartment masses, deep balconies, front stair, stone masonry"
+      }
+    },
+    {
+      "triangles": 165714,
+      "vertices": 120192,
+      "parts": {
+        "Structure_Floor_Slabs__WarmConcrete": {
+          "triangles": 360,
+          "vertices": 720,
+          "material": "WarmConcrete",
+          "category": "Structure_Floor_Slabs"
+        },
+        "Facade_Lobby_Concrete_Canopy__WarmConcrete": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "WarmConcrete",
+          "category": "Facade_Lobby_Concrete_Canopy"
+        },
+        "Facade_Entrance_Soffit__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Facade_Entrance_Soffit"
+        },
+        "Facade_Entrance_Brackets__BlackMetal": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "BlackMetal",
+          "category": "Facade_Entrance_Brackets"
+        },
+        "Facade_Raised_Plaster__Plaster": {
+          "triangles": 1512,
+          "vertices": 3024,
+          "material": "Plaster",
+          "category": "Facade_Raised_Plaster"
+        },
+        "Facade_Window_Reveals__StoneLight": {
+          "triangles": 5760,
+          "vertices": 2160,
+          "material": "StoneLight",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Reveals__WarmConcrete": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "WarmConcrete",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Sills__StoneLight": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "StoneLight",
+          "category": "Facade_Window_Sills"
+        },
+        "Facade_Inset_Glass_Transom__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass_Transom"
+        },
+        "Facade_Window_Frames__BlackMetal": {
+          "triangles": 15440,
+          "vertices": 5790,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Frames"
+        },
+        "Facade_Entrance_Portal__StoneLight": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "StoneLight",
+          "category": "Facade_Entrance_Portal"
+        },
+        "Facade_Entry_Wall_Lamps__BlackMetal": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "BlackMetal",
+          "category": "Facade_Entry_Wall_Lamps"
+        },
+        "Facade_Entry_Wall_Lamps__Light": {
+          "triangles": 24,
+          "vertices": 48,
+          "material": "Light",
+          "category": "Facade_Entry_Wall_Lamps"
+        },
+        "Facade_Inset_Glass__GlassTint": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass"
+        },
+        "Facade_Glass_Interior_Shadow__WoodDark": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "WoodDark",
+          "category": "Facade_Glass_Interior_Shadow"
+        },
+        "Facade_Window_Transom__BlackMetal": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Transom"
+        },
+        "Facade_Rear_Plaster__Plaster": {
+          "triangles": 864,
+          "vertices": 1728,
+          "material": "Plaster",
+          "category": "Facade_Rear_Plaster"
+        },
+        "Facade_Rear_Glass__GlassTint": {
+          "triangles": 228,
+          "vertices": 456,
+          "material": "GlassTint",
+          "category": "Facade_Rear_Glass"
+        },
+        "Facade_Rear_Frames__BlackMetal": {
+          "triangles": 7280,
+          "vertices": 2730,
+          "material": "BlackMetal",
+          "category": "Facade_Rear_Frames"
+        },
+        "Facade_Structural_Piers__Plaster": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "Plaster",
+          "category": "Facade_Structural_Piers"
+        },
+        "Facade_Pier_Coping__StoneLight": {
+          "triangles": 2880,
+          "vertices": 1080,
+          "material": "StoneLight",
+          "category": "Facade_Pier_Coping"
+        },
+        "Facade_Left_Exterior_Walls__Plaster": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "Plaster",
+          "category": "Facade_Left_Exterior_Walls"
+        },
+        "Facade_Side_Recesses__StoneLight": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "StoneLight",
+          "category": "Facade_Side_Recesses"
+        },
+        "Facade_Side_Glass__GlassTint": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "GlassTint",
+          "category": "Facade_Side_Glass"
+        },
+        "Facade_Upper_Ledge__Plaster": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "Plaster",
+          "category": "Facade_Upper_Ledge"
+        },
+        "Facade_Cantilever_Concrete__WarmConcrete": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "WarmConcrete",
+          "category": "Facade_Cantilever_Concrete"
+        },
+        "Facade_Cantilever_Fascia__Plaster": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Plaster",
+          "category": "Facade_Cantilever_Fascia"
+        },
+        "Facade_Soffit_Panel__Wood": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Wood",
+          "category": "Facade_Soffit_Panel"
+        },
+        "Facade_Drip_Edge__Steel": {
+          "triangles": 1360,
+          "vertices": 510,
+          "material": "Steel",
+          "category": "Facade_Drip_Edge"
+        },
+        "Facade_Cantilever_Brackets__Steel": {
+          "triangles": 2720,
+          "vertices": 1020,
+          "material": "Steel",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Facade_Cantilever_Brackets__BlackMetal": {
+          "triangles": 680,
+          "vertices": 408,
+          "material": "BlackMetal",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Facade_Glass_Posts__BlackMetal": {
+          "triangles": 5304,
+          "vertices": 2992,
+          "material": "BlackMetal",
+          "category": "Facade_Glass_Posts"
+        },
+        "Facade_Glass_Clamps__Steel": {
+          "triangles": 8160,
+          "vertices": 3060,
+          "material": "Steel",
+          "category": "Facade_Glass_Clamps"
+        },
+        "Facade_Balcony_Glass__Glass": {
+          "triangles": 1428,
+          "vertices": 2856,
+          "material": "Glass",
+          "category": "Facade_Balcony_Glass"
+        },
+        "Facade_Balcony_Handrail__BlackMetal": {
+          "triangles": 748,
+          "vertices": 408,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Handrail"
+        },
+        "Roof_Top_Membrane__RoofGravel": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "RoofGravel",
+          "category": "Roof_Top_Membrane"
+        },
+        "Roof_Parapets__Plaster": {
+          "triangles": 960,
+          "vertices": 360,
+          "material": "Plaster",
+          "category": "Roof_Parapets"
+        },
+        "Roof_Coping__StoneLight": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "StoneLight",
+          "category": "Roof_Coping"
+        },
+        "Roof_Metal_Flashing__Steel": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "Steel",
+          "category": "Roof_Metal_Flashing"
+        },
+        "Details_Planters__WarmConcrete": {
+          "triangles": 3200,
+          "vertices": 1200,
+          "material": "WarmConcrete",
+          "category": "Details_Planters"
+        },
+        "Details_Soil__Soil": {
+          "triangles": 528,
+          "vertices": 1056,
+          "material": "Soil",
+          "category": "Details_Soil"
+        },
+        "Details_Plant_Stems__WoodDark": {
+          "triangles": 3200,
+          "vertices": 2000,
+          "material": "WoodDark",
+          "category": "Details_Plant_Stems"
+        },
+        "Details_Individual_Leaves__GreenLeaf2": {
+          "triangles": 8268,
+          "vertices": 9646,
+          "material": "GreenLeaf2",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Individual_Leaves__GreenLeaf": {
+          "triangles": 16824,
+          "vertices": 19628,
+          "material": "GreenLeaf",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Individual_Leaves__GreenLeaf3": {
+          "triangles": 8508,
+          "vertices": 9926,
+          "material": "GreenLeaf3",
+          "category": "Details_Individual_Leaves"
+        },
+        "Details_Terrace_Tree_Tub__StoneLight": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "StoneLight",
+          "category": "Details_Terrace_Tree_Tub"
+        },
+        "Details_Tree_Trunks__WoodDark": {
+          "triangles": 160,
+          "vertices": 88,
+          "material": "WoodDark",
+          "category": "Details_Tree_Trunks"
+        },
+        "Details_Tree_Branches__WoodDark": {
+          "triangles": 448,
+          "vertices": 256,
+          "material": "WoodDark",
+          "category": "Details_Tree_Branches"
+        },
+        "Details_Tree_Leaves__GreenLeaf2": {
+          "triangles": 378,
+          "vertices": 441,
+          "material": "GreenLeaf2",
+          "category": "Details_Tree_Leaves"
+        },
+        "Details_Tree_Leaves__GreenLeaf3": {
+          "triangles": 462,
+          "vertices": 539,
+          "material": "GreenLeaf3",
+          "category": "Details_Tree_Leaves"
+        },
+        "Details_Tree_Leaves__GreenLeaf": {
+          "triangles": 312,
+          "vertices": 364,
+          "material": "GreenLeaf",
+          "category": "Details_Tree_Leaves"
+        },
+        "Facade_Balcony_Rails__BlackMetal": {
+          "triangles": 1512,
+          "vertices": 864,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Rails"
+        },
+        "Facade_Rail_Fasteners__Steel": {
+          "triangles": 4320,
+          "vertices": 1620,
+          "material": "Steel",
+          "category": "Facade_Rail_Fasteners"
+        },
+        "Facade_Balcony_Rails__Steel": {
+          "triangles": 324,
+          "vertices": 180,
+          "material": "Steel",
+          "category": "Facade_Balcony_Rails"
+        },
+        "Facade_Glass_Balustrades__Glass": {
+          "triangles": 540,
+          "vertices": 1080,
+          "material": "Glass",
+          "category": "Facade_Glass_Balustrades"
+        },
+        "Structure_Grade_Foundations__Stone": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "Stone",
+          "category": "Structure_Grade_Foundations"
+        },
+        "Structure_Foundation_Piers__StoneLight": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "StoneLight",
+          "category": "Structure_Foundation_Piers"
+        },
+        "Roof_Step_Terrace_Concrete__WarmConcrete": {
+          "triangles": 400,
+          "vertices": 150,
+          "material": "WarmConcrete",
+          "category": "Roof_Step_Terrace_Concrete"
+        },
+        "Roof_HVAC_Cabinets__WarmConcrete": {
+          "triangles": 160,
+          "vertices": 60,
+          "material": "WarmConcrete",
+          "category": "Roof_HVAC_Cabinets"
+        },
+        "Roof_HVAC_Vents__BlackMetal": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "BlackMetal",
+          "category": "Roof_HVAC_Vents"
+        },
+        "Roof_Utility_Pipes__Steel": {
+          "triangles": 176,
+          "vertices": 96,
+          "material": "Steel",
+          "category": "Roof_Utility_Pipes"
+        },
+        "Facade_Outer_Side_Plaster__Plaster": {
+          "triangles": 180,
+          "vertices": 360,
+          "material": "Plaster",
+          "category": "Facade_Outer_Side_Plaster"
+        },
+        "Facade_Outer_Side_Recess_Glass__GlassTint": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "GlassTint",
+          "category": "Facade_Outer_Side_Recess_Glass"
+        },
+        "Facade_Outer_Side_Trim__WarmConcrete": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "WarmConcrete",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Facade_Outer_Side_Trim__StoneLight": {
+          "triangles": 640,
+          "vertices": 240,
+          "material": "StoneLight",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Roof_Pergola_Posts__BlackMetal": {
+          "triangles": 220,
+          "vertices": 120,
+          "material": "BlackMetal",
+          "category": "Roof_Pergola_Posts"
+        },
+        "Roof_Pergola_Beams__BlackMetal": {
+          "triangles": 180,
+          "vertices": 100,
+          "material": "BlackMetal",
+          "category": "Roof_Pergola_Beams"
+        },
+        "Roof_Pergola_Louvers__WoodDark": {
+          "triangles": 1120,
+          "vertices": 420,
+          "material": "WoodDark",
+          "category": "Roof_Pergola_Louvers"
+        },
+        "Structure_Layered_Retaining__Stone": {
+          "triangles": 8088,
+          "vertices": 6008,
+          "material": "Stone",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Layered_Retaining__StoneDark": {
+          "triangles": 3216,
+          "vertices": 2278,
+          "material": "StoneDark",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Stone_Coping__StoneLight": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "StoneLight",
+          "category": "Structure_Stone_Coping"
+        },
+        "Details_Retaining_Drip__Steel": {
+          "triangles": 1440,
+          "vertices": 540,
+          "material": "Steel",
+          "category": "Details_Retaining_Drip"
+        },
+        "Structure_Layered_Retaining__StoneLight": {
+          "triangles": 2544,
+          "vertices": 1802,
+          "material": "StoneLight",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Details_Weep_Pipes__BlackMetal": {
+          "triangles": 416,
+          "vertices": 234,
+          "material": "BlackMetal",
+          "category": "Details_Weep_Pipes"
+        },
+        "Details_Weep_Grilles__Steel": {
+          "triangles": 468,
+          "vertices": 260,
+          "material": "Steel",
+          "category": "Details_Weep_Grilles"
+        },
+        "Details_Ivy_Stems__WoodDark": {
+          "triangles": 160,
+          "vertices": 96,
+          "material": "WoodDark",
+          "category": "Details_Ivy_Stems"
+        },
+        "Details_Hanging_Ivy__GreenLeaf": {
+          "triangles": 96,
+          "vertices": 112,
+          "material": "GreenLeaf",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Details_Hanging_Ivy__GreenLeaf2": {
+          "triangles": 120,
+          "vertices": 140,
+          "material": "GreenLeaf2",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Details_Hanging_Ivy__GreenLeaf3": {
+          "triangles": 120,
+          "vertices": 140,
+          "material": "GreenLeaf3",
+          "category": "Details_Hanging_Ivy"
+        },
+        "Structure_Upper_Stone_Railing__BlackMetal": {
+          "triangles": 144,
+          "vertices": 80,
+          "material": "BlackMetal",
+          "category": "Structure_Upper_Stone_Railing"
+        },
+        "Structure_Right_Grade_Concrete__Stone": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Stone",
+          "category": "Structure_Right_Grade_Concrete"
+        },
+        "Facade_East_Real_Ashlar__Stone": {
+          "triangles": 1632,
+          "vertices": 3264,
+          "material": "Stone",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_East_Real_Ashlar__StoneLight": {
+          "triangles": 504,
+          "vertices": 1008,
+          "material": "StoneLight",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_Upper_East_Grade_Plaster__Plaster": {
+          "triangles": 132,
+          "vertices": 264,
+          "material": "Plaster",
+          "category": "Facade_Upper_East_Grade_Plaster"
+        },
+        "Structure_East_Coping__StoneLight": {
+          "triangles": 960,
+          "vertices": 360,
+          "material": "StoneLight",
+          "category": "Structure_East_Coping"
+        },
+        "Facade_East_Real_Ashlar__StoneDark": {
+          "triangles": 600,
+          "vertices": 1200,
+          "material": "StoneDark",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Structure_Western_Plowall__Stone": {
+          "triangles": 172,
+          "vertices": 152,
+          "material": "Stone",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Western_Plowall__StoneLight": {
+          "triangles": 80,
+          "vertices": 64,
+          "material": "StoneLight",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Western_Plowall__StoneDark": {
+          "triangles": 30,
+          "vertices": 24,
+          "material": "StoneDark",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Exterior_Plinth__WarmConcrete": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Plinth"
+        },
+        "Structure_Exterior_Stair_Treads__WarmConcrete": {
+          "triangles": 600,
+          "vertices": 1200,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Stair_Treads"
+        },
+        "Structure_Stair_Handrail__BlackMetal": {
+          "triangles": 1024,
+          "vertices": 576,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Handrail"
+        },
+        "Structure_Stair_Balusters__BlackMetal": {
+          "triangles": 4608,
+          "vertices": 2688,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Balusters"
+        },
+        "Structure_Exterior_Landings__Paving": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "Paving",
+          "category": "Structure_Exterior_Landings"
+        },
+        "Structure_Stair_Stringer_Supports__WarmConcrete": {
+          "triangles": 84,
+          "vertices": 168,
+          "material": "WarmConcrete",
+          "category": "Structure_Stair_Stringer_Supports"
+        },
+        "Structure_Upper_External_Steps__WarmConcrete": {
+          "triangles": 468,
+          "vertices": 936,
+          "material": "WarmConcrete",
+          "category": "Structure_Upper_External_Steps"
+        },
+        "Structure_Upper_External_Landing__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Structure_Upper_External_Landing"
+        },
+        "Structure_Upper_Entry_Paving__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Structure_Upper_Entry_Paving"
+        },
+        "Details_Stair_Lamps__StoneLight": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "StoneLight",
+          "category": "Details_Stair_Lamps"
+        },
+        "Details_Stair_Lamps__Light": {
+          "triangles": 320,
+          "vertices": 120,
+          "material": "Light",
+          "category": "Details_Stair_Lamps"
+        },
+        "Interior_Lobby_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_Lobby_Floor"
+        },
+        "Interior_Lobby_Ceiling__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Ceiling"
+        },
+        "Interior_Lobby_Walls__WarmConcrete": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "WarmConcrete",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Interior_Lobby_Walls__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Doors_Moving_LowerEntrance_Left__GlassTint": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Left"
+        },
+        "Doors_Moving_LowerEntrance_Right__GlassTint": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Right"
+        },
+        "Doors_Moving_LowerEntrance_Frames__BlackMetal": {
+          "triangles": 84,
+          "vertices": 48,
+          "material": "BlackMetal",
+          "category": "Doors_Moving_LowerEntrance_Frames"
+        },
+        "Interior_Lobby_Reception__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Interior_Lobby_Reception"
+        },
+        "Interior_Lobby_Bench__Wood": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Wood",
+          "category": "Interior_Lobby_Bench"
+        },
+        "Interior_Lobby_Furniture__Steel": {
+          "triangles": 56,
+          "vertices": 32,
+          "material": "Steel",
+          "category": "Interior_Lobby_Furniture"
+        },
+        "Interior_Lobby_Mailboxes__Steel": {
+          "triangles": 1280,
+          "vertices": 480,
+          "material": "Steel",
+          "category": "Interior_Lobby_Mailboxes"
+        },
+        "Interior_Lobby_Light_Fixtures__Light": {
+          "triangles": 240,
+          "vertices": 90,
+          "material": "Light",
+          "category": "Interior_Lobby_Light_Fixtures"
+        },
+        "Interior_EntryStair_Treads__WarmConcrete": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "WarmConcrete",
+          "category": "Interior_EntryStair_Treads"
+        },
+        "Interior_EntryStair_UpperLanding__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Interior_EntryStair_UpperLanding"
+        },
+        "Interior_EntryStair_WallSconces__BlackMetal": {
+          "triangles": 400,
+          "vertices": 150,
+          "material": "BlackMetal",
+          "category": "Interior_EntryStair_WallSconces"
+        },
+        "Interior_Stair_Landings__Paving": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Paving",
+          "category": "Interior_Stair_Landings"
+        },
+        "Interior_Stair_Treads__WarmConcrete": {
+          "triangles": 1320,
+          "vertices": 2640,
+          "material": "WarmConcrete",
+          "category": "Interior_Stair_Treads"
+        },
+        "Interior_UpperEntrance_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_UpperEntrance_Floor"
+        },
+        "Interior_UpperEntrance_Frames__BlackMetal": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "BlackMetal",
+          "category": "Interior_UpperEntrance_Frames"
+        },
+        "Doors_Moving_UpperEntrance_Left__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Left"
+        },
+        "Doors_Moving_UpperEntrance_Right__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Right"
+        },
+        "Details_Lower_Entry_Ceramic__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Details_Lower_Entry_Ceramic"
+        },
+        "Details_Upper_Entry_Ceramic__Paving": {
+          "triangles": 80,
+          "vertices": 30,
+          "material": "Paving",
+          "category": "Details_Upper_Entry_Ceramic"
+        },
+        "Details_Sidewalk_Kerbs__StoneLight": {
+          "triangles": 480,
+          "vertices": 180,
+          "material": "StoneLight",
+          "category": "Details_Sidewalk_Kerbs"
+        },
+        "Details_Street_Bollards__BlackMetal": {
+          "triangles": 264,
+          "vertices": 144,
+          "material": "BlackMetal",
+          "category": "Details_Street_Bollards"
+        },
+        "Details_Street_Bollards__Steel": {
+          "triangles": 216,
+          "vertices": 120,
+          "material": "Steel",
+          "category": "Details_Street_Bollards"
+        }
+      },
+      "geometry_count": 126,
+      "materials": 18,
+      "asset_file": "HIL-02_LOD1.glb",
+      "file_bytes": 22324708,
+      "reimport_triangles": 165714,
+      "gltf_yup_bounds_min": [
+        -18.055,
+        -0.236,
+        -11.75
+      ],
+      "gltf_yup_bounds_max": [
+        18.045,
+        19.8,
+        11.65
+      ],
+      "elapsed_seconds": 8.45,
+      "GLB_magic_valid": true,
+      "GLB_roundtrip_valid": true,
+      "spatial_config": {
+        "Bay_Start_Floors": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "Bay_Max_Floors": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        "BandEdges": [
+          -18,
+          -12,
+          -6,
+          0,
+          6,
+          12,
+          18
+        ],
+        "RoofSlabs": [
+          [
+            -18,
+            -12,
+            -7.05,
+            9.45,
+            6.1899999999999995
+          ],
+          [
+            -12,
+            -6,
+            -6.1899999999999995,
+            9.45,
+            9.489999999999998
+          ],
+          [
+            -6,
+            0,
+            -5.86,
+            9.45,
+            12.79
+          ],
+          [
+            0,
+            6,
+            -4.97,
+            9.45,
+            16.09
+          ],
+          [
+            6,
+            12,
+            -2.0200000000000005,
+            9.45,
+            19.389999999999997
+          ],
+          [
+            12,
+            18,
+            -0.040000000000000036,
+            9.45,
+            19.389999999999997
+          ]
+        ],
+        "ReferencePrimaryDimensions": [
+          36,
+          24,
+          19.8
+        ],
+        "ArchitecturalRevision": "Refined v2 stepped apartment masses, deep balconies, front stair, stone masonry"
+      }
+    },
+    {
+      "triangles": 34292,
+      "vertices": 61712,
+      "parts": {
+        "Structure_Floor_Slabs__WarmConcrete": {
+          "triangles": 360,
+          "vertices": 720,
+          "material": "WarmConcrete",
+          "category": "Structure_Floor_Slabs"
+        },
+        "Facade_Lobby_Concrete_Canopy__WarmConcrete": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "WarmConcrete",
+          "category": "Facade_Lobby_Concrete_Canopy"
+        },
+        "Facade_Entrance_Soffit__Wood": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Wood",
+          "category": "Facade_Entrance_Soffit"
+        },
+        "Facade_Entrance_Brackets__BlackMetal": {
+          "triangles": 24,
+          "vertices": 48,
+          "material": "BlackMetal",
+          "category": "Facade_Entrance_Brackets"
+        },
+        "Facade_Raised_Plaster__Plaster": {
+          "triangles": 1512,
+          "vertices": 3024,
+          "material": "Plaster",
+          "category": "Facade_Raised_Plaster"
+        },
+        "Facade_Window_Reveals__StoneLight": {
+          "triangles": 864,
+          "vertices": 1728,
+          "material": "StoneLight",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Reveals__WarmConcrete": {
+          "triangles": 432,
+          "vertices": 864,
+          "material": "WarmConcrete",
+          "category": "Facade_Window_Reveals"
+        },
+        "Facade_Window_Sills__StoneLight": {
+          "triangles": 432,
+          "vertices": 864,
+          "material": "StoneLight",
+          "category": "Facade_Window_Sills"
+        },
+        "Facade_Inset_Glass_Transom__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass_Transom"
+        },
+        "Facade_Window_Frames__BlackMetal": {
+          "triangles": 2316,
+          "vertices": 4632,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Frames"
+        },
+        "Facade_Entrance_Portal__StoneLight": {
+          "triangles": 36,
+          "vertices": 72,
+          "material": "StoneLight",
+          "category": "Facade_Entrance_Portal"
+        },
+        "Facade_Inset_Glass__GlassTint": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "GlassTint",
+          "category": "Facade_Inset_Glass"
+        },
+        "Facade_Glass_Interior_Shadow__WoodDark": {
+          "triangles": 420,
+          "vertices": 840,
+          "material": "WoodDark",
+          "category": "Facade_Glass_Interior_Shadow"
+        },
+        "Facade_Window_Transom__BlackMetal": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "BlackMetal",
+          "category": "Facade_Window_Transom"
+        },
+        "Facade_Rear_Plaster__Plaster": {
+          "triangles": 864,
+          "vertices": 1728,
+          "material": "Plaster",
+          "category": "Facade_Rear_Plaster"
+        },
+        "Facade_Rear_Glass__GlassTint": {
+          "triangles": 228,
+          "vertices": 456,
+          "material": "GlassTint",
+          "category": "Facade_Rear_Glass"
+        },
+        "Facade_Rear_Frames__BlackMetal": {
+          "triangles": 1092,
+          "vertices": 2184,
+          "material": "BlackMetal",
+          "category": "Facade_Rear_Frames"
+        },
+        "Facade_Structural_Piers__Plaster": {
+          "triangles": 432,
+          "vertices": 864,
+          "material": "Plaster",
+          "category": "Facade_Structural_Piers"
+        },
+        "Facade_Pier_Coping__StoneLight": {
+          "triangles": 432,
+          "vertices": 864,
+          "material": "StoneLight",
+          "category": "Facade_Pier_Coping"
+        },
+        "Facade_Left_Exterior_Walls__Plaster": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "Plaster",
+          "category": "Facade_Left_Exterior_Walls"
+        },
+        "Facade_Upper_Ledge__Plaster": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "Plaster",
+          "category": "Facade_Upper_Ledge"
+        },
+        "Facade_Cantilever_Concrete__WarmConcrete": {
+          "triangles": 204,
+          "vertices": 408,
+          "material": "WarmConcrete",
+          "category": "Facade_Cantilever_Concrete"
+        },
+        "Facade_Cantilever_Fascia__Plaster": {
+          "triangles": 204,
+          "vertices": 408,
+          "material": "Plaster",
+          "category": "Facade_Cantilever_Fascia"
+        },
+        "Facade_Soffit_Panel__Wood": {
+          "triangles": 204,
+          "vertices": 408,
+          "material": "Wood",
+          "category": "Facade_Soffit_Panel"
+        },
+        "Facade_Drip_Edge__Steel": {
+          "triangles": 204,
+          "vertices": 408,
+          "material": "Steel",
+          "category": "Facade_Drip_Edge"
+        },
+        "Facade_Cantilever_Brackets__Steel": {
+          "triangles": 408,
+          "vertices": 816,
+          "material": "Steel",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Facade_Cantilever_Brackets__BlackMetal": {
+          "triangles": 680,
+          "vertices": 408,
+          "material": "BlackMetal",
+          "category": "Facade_Cantilever_Brackets"
+        },
+        "Facade_Balcony_Handrail__BlackMetal": {
+          "triangles": 340,
+          "vertices": 204,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Handrail"
+        },
+        "Facade_Balcony_Glass__Glass": {
+          "triangles": 816,
+          "vertices": 1632,
+          "material": "Glass",
+          "category": "Facade_Balcony_Glass"
+        },
+        "Roof_Top_Membrane__RoofGravel": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "RoofGravel",
+          "category": "Roof_Top_Membrane"
+        },
+        "Roof_Parapets__Plaster": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Plaster",
+          "category": "Roof_Parapets"
+        },
+        "Roof_Coping__StoneLight": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "StoneLight",
+          "category": "Roof_Coping"
+        },
+        "Roof_Metal_Flashing__Steel": {
+          "triangles": 72,
+          "vertices": 144,
+          "material": "Steel",
+          "category": "Roof_Metal_Flashing"
+        },
+        "Facade_Balcony_Rails__BlackMetal": {
+          "triangles": 180,
+          "vertices": 108,
+          "material": "BlackMetal",
+          "category": "Facade_Balcony_Rails"
+        },
+        "Facade_Glass_Balustrades__Glass": {
+          "triangles": 540,
+          "vertices": 1080,
+          "material": "Glass",
+          "category": "Facade_Glass_Balustrades"
+        },
+        "Structure_Grade_Foundations__Stone": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "Stone",
+          "category": "Structure_Grade_Foundations"
+        },
+        "Structure_Foundation_Piers__StoneLight": {
+          "triangles": 96,
+          "vertices": 192,
+          "material": "StoneLight",
+          "category": "Structure_Foundation_Piers"
+        },
+        "Roof_Step_Terrace_Concrete__WarmConcrete": {
+          "triangles": 60,
+          "vertices": 120,
+          "material": "WarmConcrete",
+          "category": "Roof_Step_Terrace_Concrete"
+        },
+        "Roof_HVAC_Cabinets__WarmConcrete": {
+          "triangles": 24,
+          "vertices": 48,
+          "material": "WarmConcrete",
+          "category": "Roof_HVAC_Cabinets"
+        },
+        "Roof_HVAC_Vents__BlackMetal": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "BlackMetal",
+          "category": "Roof_HVAC_Vents"
+        },
+        "Roof_Utility_Pipes__Steel": {
+          "triangles": 176,
+          "vertices": 96,
+          "material": "Steel",
+          "category": "Roof_Utility_Pipes"
+        },
+        "Facade_Outer_Side_Plaster__Plaster": {
+          "triangles": 180,
+          "vertices": 360,
+          "material": "Plaster",
+          "category": "Facade_Outer_Side_Plaster"
+        },
+        "Facade_Outer_Side_Recess_Glass__GlassTint": {
+          "triangles": 48,
+          "vertices": 96,
+          "material": "GlassTint",
+          "category": "Facade_Outer_Side_Recess_Glass"
+        },
+        "Facade_Outer_Side_Trim__WarmConcrete": {
+          "triangles": 96,
+          "vertices": 192,
+          "material": "WarmConcrete",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Facade_Outer_Side_Trim__StoneLight": {
+          "triangles": 96,
+          "vertices": 192,
+          "material": "StoneLight",
+          "category": "Facade_Outer_Side_Trim"
+        },
+        "Structure_Layered_Retaining__Stone": {
+          "triangles": 5544,
+          "vertices": 11088,
+          "material": "Stone",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Layered_Retaining__StoneLight": {
+          "triangles": 3024,
+          "vertices": 6048,
+          "material": "StoneLight",
+          "category": "Structure_Layered_Retaining"
+        },
+        "Structure_Right_Grade_Concrete__Stone": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Stone",
+          "category": "Structure_Right_Grade_Concrete"
+        },
+        "Facade_East_Real_Ashlar__StoneDark": {
+          "triangles": 528,
+          "vertices": 1056,
+          "material": "StoneDark",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_East_Real_Ashlar__Stone": {
+          "triangles": 1692,
+          "vertices": 3384,
+          "material": "Stone",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Facade_Upper_East_Grade_Plaster__Plaster": {
+          "triangles": 132,
+          "vertices": 264,
+          "material": "Plaster",
+          "category": "Facade_Upper_East_Grade_Plaster"
+        },
+        "Facade_East_Real_Ashlar__StoneLight": {
+          "triangles": 516,
+          "vertices": 1032,
+          "material": "StoneLight",
+          "category": "Facade_East_Real_Ashlar"
+        },
+        "Structure_Western_Plowall__Stone": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "Stone",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Western_Plowall__StoneLight": {
+          "triangles": 204,
+          "vertices": 408,
+          "material": "StoneLight",
+          "category": "Structure_Western_Plowall"
+        },
+        "Structure_Exterior_Plinth__WarmConcrete": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Plinth"
+        },
+        "Structure_Exterior_Stair_Treads__WarmConcrete": {
+          "triangles": 600,
+          "vertices": 1200,
+          "material": "WarmConcrete",
+          "category": "Structure_Exterior_Stair_Treads"
+        },
+        "Structure_Stair_Handrail__BlackMetal": {
+          "triangles": 1024,
+          "vertices": 576,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Handrail"
+        },
+        "Structure_Stair_Balusters__BlackMetal": {
+          "triangles": 2304,
+          "vertices": 1344,
+          "material": "BlackMetal",
+          "category": "Structure_Stair_Balusters"
+        },
+        "Structure_Exterior_Landings__Paving": {
+          "triangles": 36,
+          "vertices": 72,
+          "material": "Paving",
+          "category": "Structure_Exterior_Landings"
+        },
+        "Structure_Stair_Stringer_Supports__WarmConcrete": {
+          "triangles": 84,
+          "vertices": 168,
+          "material": "WarmConcrete",
+          "category": "Structure_Stair_Stringer_Supports"
+        },
+        "Structure_Upper_External_Steps__WarmConcrete": {
+          "triangles": 468,
+          "vertices": 936,
+          "material": "WarmConcrete",
+          "category": "Structure_Upper_External_Steps"
+        },
+        "Structure_Upper_External_Landing__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Structure_Upper_External_Landing"
+        },
+        "Structure_Upper_Entry_Paving__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Structure_Upper_Entry_Paving"
+        },
+        "Interior_Lobby_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_Lobby_Floor"
+        },
+        "Interior_Lobby_Ceiling__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Ceiling"
+        },
+        "Interior_Lobby_Walls__WarmConcrete": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "WarmConcrete",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Interior_Lobby_Walls__Plaster": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Plaster",
+          "category": "Interior_Lobby_Walls"
+        },
+        "Doors_Moving_LowerEntrance_Left__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Left"
+        },
+        "Doors_Moving_LowerEntrance_Right__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_LowerEntrance_Right"
+        },
+        "Doors_Moving_LowerEntrance_Frames__BlackMetal": {
+          "triangles": 84,
+          "vertices": 48,
+          "material": "BlackMetal",
+          "category": "Doors_Moving_LowerEntrance_Frames"
+        },
+        "Interior_Lobby_Reception__Wood": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Wood",
+          "category": "Interior_Lobby_Reception"
+        },
+        "Interior_Lobby_Bench__Wood": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Wood",
+          "category": "Interior_Lobby_Bench"
+        },
+        "Interior_Lobby_Furniture__Steel": {
+          "triangles": 56,
+          "vertices": 32,
+          "material": "Steel",
+          "category": "Interior_Lobby_Furniture"
+        },
+        "Interior_Lobby_Mailboxes__Steel": {
+          "triangles": 192,
+          "vertices": 384,
+          "material": "Steel",
+          "category": "Interior_Lobby_Mailboxes"
+        },
+        "Interior_Lobby_Light_Fixtures__Light": {
+          "triangles": 36,
+          "vertices": 72,
+          "material": "Light",
+          "category": "Interior_Lobby_Light_Fixtures"
+        },
+        "Interior_EntryStair_Treads__WarmConcrete": {
+          "triangles": 216,
+          "vertices": 432,
+          "material": "WarmConcrete",
+          "category": "Interior_EntryStair_Treads"
+        },
+        "Interior_EntryStair_UpperLanding__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_EntryStair_UpperLanding"
+        },
+        "Interior_Stair_Landings__Paving": {
+          "triangles": 144,
+          "vertices": 288,
+          "material": "Paving",
+          "category": "Interior_Stair_Landings"
+        },
+        "Interior_Stair_Treads__WarmConcrete": {
+          "triangles": 1320,
+          "vertices": 2640,
+          "material": "WarmConcrete",
+          "category": "Interior_Stair_Treads"
+        },
+        "Interior_UpperEntrance_Floor__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Interior_UpperEntrance_Floor"
+        },
+        "Interior_UpperEntrance_Frames__BlackMetal": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "BlackMetal",
+          "category": "Interior_UpperEntrance_Frames"
+        },
+        "Doors_Moving_UpperEntrance_Left__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Left"
+        },
+        "Doors_Moving_UpperEntrance_Right__GlassTint": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "GlassTint",
+          "category": "Doors_Moving_UpperEntrance_Right"
+        },
+        "Details_Lower_Entry_Ceramic__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Details_Lower_Entry_Ceramic"
+        },
+        "Details_Upper_Entry_Ceramic__Paving": {
+          "triangles": 12,
+          "vertices": 24,
+          "material": "Paving",
+          "category": "Details_Upper_Entry_Ceramic"
+        }
+      },
+      "geometry_count": 85,
+      "materials": 14,
+      "asset_file": "HIL-02_LOD2.glb",
+      "file_bytes": 5870760,
+      "reimport_triangles": 34292,
+      "gltf_yup_bounds_min": [
+        -18.0,
+        -0.236,
+        -11.75
+      ],
+      "gltf_yup_bounds_max": [
+        18.045,
+        19.8,
+        11.161
+      ],
+      "elapsed_seconds": 1.6,
+      "GLB_magic_valid": true,
+      "GLB_roundtrip_valid": true,
+      "spatial_config": {
+        "Bay_Start_Floors": [
+          0,
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "Bay_Max_Floors": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        "BandEdges": [
+          -18,
+          -12,
+          -6,
+          0,
+          6,
+          12,
+          18
+        ],
+        "RoofSlabs": [
+          [
+            -18,
+            -12,
+            -7.05,
+            9.45,
+            6.1899999999999995
+          ],
+          [
+            -12,
+            -6,
+            -6.1899999999999995,
+            9.45,
+            9.489999999999998
+          ],
+          [
+            -6,
+            0,
+            -5.86,
+            9.45,
+            12.79
+          ],
+          [
+            0,
+            6,
+            -4.97,
+            9.45,
+            16.09
+          ],
+          [
+            6,
+            12,
+            -2.0200000000000005,
+            9.45,
+            19.389999999999997
+          ],
+          [
+            12,
+            18,
+            -0.040000000000000036,
+            9.45,
+            19.389999999999997
+          ]
+        ],
+        "ReferencePrimaryDimensions": [
+          36,
+          24,
+          19.8
+        ],
+        "ArchitecturalRevision": "Refined v2 stepped apartment masses, deep balconies, front stair, stone masonry"
+      }
+    }
+  ],
+  "collision": "visual structural surfaces only; simple collision proxy generation in project or Blender required",
+  "doors": "separate named geometries; no validated animation tracks or Godot hinged pivots",
+  "provenance": "All geometry modeled procedurally; all textures procedurally generated from seeded noise",
+  "constraints": "Native Blender .blend and Godot import not tested because neither application is installed",
+  "texture_tiers": {
+    "LOD0": "1024px hero / 512px other PBR maps",
+    "LOD1": "512px maximum embedded textures",
+    "LOD2": "256px maximum embedded textures"
+  }
+}

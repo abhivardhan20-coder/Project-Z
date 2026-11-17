@@ -1,0 +1,168 @@
+{
+  "asset_id": "AIR-12",
+  "asset_name": "Airport roadside service station",
+  "source_reference": "AIR-12_MultiView_Reference.png",
+  "design_reference_authority": "Front and side orthographic for extents; roof plan for HVAC; section for interiors; hero/details for finishes",
+  "scale": "1 unit = 1 meter",
+  "authoring_axes": "X width along road, Y depth, Z up",
+  "export_axes": "glTF +Y up, +X right, -Z toward building rear",
+  "ground_datum": "Roadside origin x=0,y=0,z=0 authoring",
+  "reference_extent_m": {
+    "along_road": 38.0,
+    "depth": 24.0,
+    "to_parapet": 5.6
+  },
+  "design_extent_excludes_rooftop_equipment": true,
+  "navigation": "Sliding automatic front entry; 1.2 m+ public routes; fuel visualization nonfunctional",
+  "lods": [
+    {
+      "path": "AIR-12_LOD0.glb",
+      "bytes": 43332636,
+      "triangles": 321638,
+      "mesh_count": 64,
+      "materials": 26,
+      "bounds_gltf_y_up_m": [
+        [
+          0.0,
+          -0.3,
+          -24.2
+        ],
+        [
+          38.139,
+          6.9157,
+          0.0
+        ]
+      ],
+      "animation_count": 1,
+      "animation_channels": 2,
+      "named_pivots_present": true,
+      "node_count": 77,
+      "invalid_index_count": 0
+    },
+    {
+      "path": "AIR-12_LOD1.glb",
+      "bytes": 34623636,
+      "triangles": 155550,
+      "mesh_count": 63,
+      "materials": 26,
+      "bounds_gltf_y_up_m": [
+        [
+          0.0,
+          -0.3,
+          -24.1989
+        ],
+        [
+          38.139,
+          6.9,
+          0.0
+        ]
+      ],
+      "animation_count": 0,
+      "animation_channels": 0,
+      "named_pivots_present": true,
+      "node_count": 76,
+      "invalid_index_count": 0
+    },
+    {
+      "path": "AIR-12_LOD2.glb",
+      "bytes": 28147572,
+      "triangles": 37370,
+      "mesh_count": 63,
+      "materials": 26,
+      "bounds_gltf_y_up_m": [
+        [
+          0.0,
+          -0.3,
+          -24.1966
+        ],
+        [
+          38.139,
+          6.9,
+          0.0
+        ]
+      ],
+      "animation_count": 0,
+      "animation_channels": 0,
+      "named_pivots_present": true,
+      "node_count": 76,
+      "invalid_index_count": 0
+    }
+  ],
+  "collision": {
+    "triangles": 264,
+    "proxy_meshes": 1
+  },
+  "moving_parts": {
+    "Door_Left_Moving": {
+      "closed_translate_source_m": [
+        23.4,
+        8.1,
+        0
+      ],
+      "open_slide_local_x_m": -1.07
+    },
+    "Door_Right_Moving": {
+      "closed_translate_source_m": [
+        24.62,
+        8.1,
+        0
+      ],
+      "open_slide_local_x_m": 1.07
+    }
+  },
+  "animation_in_lod0_glb": "Door_Open / 1.15 s / 2 sliding translation tracks",
+  "logical_groups": [
+    "Structure",
+    "Facade",
+    "Roof",
+    "Interior",
+    "Inventory",
+    "Details",
+    "Doors_Moving",
+    "Collision",
+    "LODs"
+  ],
+  "pbr_texture_channels": "base color sRGB; packed occlusion / roughness / metallic linear; tangent-space normal linear",
+  "material_names": [
+    "asphalt",
+    "concrete",
+    "concrete_dark",
+    "roof",
+    "steel",
+    "trim",
+    "white",
+    "black",
+    "red",
+    "yellow",
+    "glass",
+    "glass_dark",
+    "tile",
+    "wood",
+    "shelf",
+    "green",
+    "blue",
+    "orange",
+    "cream",
+    "light",
+    "rubber",
+    "rust",
+    "roadmark",
+    "stone",
+    "metal_dark",
+    "product_purple",
+    "product_gold",
+    "plant",
+    "cement"
+  ],
+  "source_and_tooling": {
+    "geometry_source": "AIR-12_build.py",
+    "blender_import_script": "AIR-12_make_blend.py",
+    "blender_test": "NOT RUN (Blender unavailable)",
+    "godot4_import_test": "NOT RUN (Godot unavailable)",
+    "glb_reimport_test": "RUN using trimesh on each GLB"
+  },
+  "site_fit": "NOT VERIFIED against masterplan; no authoritative yaw/elevation baked",
+  "deferred": "Native .blend file cannot be exported without Blender; use importer script in installed Blender",
+  "reference_discrepancy": "Elevation side / section service partitions simplified consistently; roof plant extends above 5.6 m parapet",
+  "created_utc": "2026-11-10T16:49:34.478553+00:00"
+}

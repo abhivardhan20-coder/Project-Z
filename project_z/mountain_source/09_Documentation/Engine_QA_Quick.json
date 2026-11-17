@@ -1,0 +1,18 @@
+{
+  "capture_date": "2026-11-15T00:53:26",
+  "cpu": "AMD Ryzen 7 7435HS",
+  "engine": "4.7.2-stable (official)",
+  "failures": [],
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "profiles": [],
+  "renderer": "forward_plus",
+  "streaming": {
+    "loads": 144,
+    "lod_transitions": 24,
+    "unloads": 40
+  },
+  "viewport": [
+    1920,
+    1080
+  ]
+}

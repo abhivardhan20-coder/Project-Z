@@ -1,0 +1,158 @@
+{
+  "id": "HIL-05",
+  "asset_name": "Powered neighborhood storefront",
+  "project": "Project Z: Kaldran City",
+  "source_reference": "Reference/HIL-05_MultiView_Reference.png",
+  "source_priority": "Orthographic dimensions and cross-section for form; hero for materials and contextual street condition",
+  "authoring_orientation": "Z up, X frontage, Y depth. Front street side at Y=-7. Converted to glTF +Y up by top-level HIL-05 node",
+  "building_footprint_m": {
+    "frontage_x": 7.5,
+    "depth_y": 14.0
+  },
+  "reference_parapet_height_m": 4.2,
+  "highest_roof_equipment_m": 4.8556,
+  "interior": {
+    "retail_depth_m": 8.5,
+    "stockroom_depth_m": 5.5,
+    "stockroom_passage_clear_width_m": 1.13,
+    "central_shelf_aisle_clear_width_m": 1.43,
+    "entrance_nominal_width_m": 1.7,
+    "working_parts": [
+      "FrontDoor_Left_Pivot",
+      "FrontDoor_Right_Pivot"
+    ]
+  },
+  "materials": "glTF PBR metallic-roughness, texture basecolor/normal/packed ORM, alpha glass, emissive light materials",
+  "status": {
+    "GLB_mesh_reimport": "PASS (trimesh)",
+    "GLB_triangle_budget": "PASS",
+    "GLB_structure_hierarchy": "PASS",
+    "GLB_textures_embedded": "PASS",
+    "GLB_UVs": "PASS",
+    "GLB_anim_structure": "PASS",
+    "Blender_runtime_test": "NOT RUN (Blender not installed)",
+    "Godot_runtime_test": "NOT RUN (Godot not installed)",
+    "Reference_perfect_match": "NOT CLAIMED (procedural interpretation)"
+  },
+  "lods": [
+    {
+      "name": "HIL-05_LOD0.glb",
+      "lod": 0,
+      "triangle_count": 294774,
+      "mesh_count": 148,
+      "materials": 37,
+      "node_count": 160,
+      "texture_entries": 62,
+      "embedded_images": 62,
+      "animations": [
+        "FrontDoors_Open",
+        "FrontDoors_Close"
+      ],
+      "uv_verified": true,
+      "embedded_png_headers_verified": true,
+      "bounds_min_yup_m": [
+        -4.08,
+        -0.22,
+        -7.89
+      ],
+      "bounds_max_yup_m": [
+        3.93,
+        4.85559,
+        8.63
+      ],
+      "overall_extents_m": [
+        8.01,
+        5.07559,
+        16.52
+      ],
+      "size_bytes": 28618296,
+      "sha256": "c6f7a372d476cd42919533c8590cac3b408f6a95d0787e5c6d9b5f13dd9144d2"
+    },
+    {
+      "name": "HIL-05_LOD1.glb",
+      "lod": 1,
+      "triangle_count": 130972,
+      "mesh_count": 140,
+      "materials": 37,
+      "node_count": 152,
+      "texture_entries": 62,
+      "embedded_images": 62,
+      "animations": [],
+      "uv_verified": true,
+      "embedded_png_headers_verified": true,
+      "bounds_min_yup_m": [
+        -4.08,
+        -0.22,
+        -7.89
+      ],
+      "bounds_max_yup_m": [
+        3.93,
+        4.85559,
+        8.63
+      ],
+      "overall_extents_m": [
+        8.01,
+        5.07559,
+        16.52
+      ],
+      "size_bytes": 19785176,
+      "sha256": "eaa92c048a6c5996dd97cbc773cd570ca55f071143159356b51bde206c82ecf2"
+    },
+    {
+      "name": "HIL-05_LOD2.glb",
+      "lod": 2,
+      "triangle_count": 31222,
+      "mesh_count": 106,
+      "materials": 33,
+      "node_count": 118,
+      "texture_entries": 56,
+      "embedded_images": 56,
+      "animations": [],
+      "uv_verified": true,
+      "embedded_png_headers_verified": true,
+      "bounds_min_yup_m": [
+        -4.08,
+        -0.22,
+        -7.89
+      ],
+      "bounds_max_yup_m": [
+        3.93,
+        4.85559,
+        8.63
+      ],
+      "overall_extents_m": [
+        8.01,
+        5.07559,
+        16.52
+      ],
+      "size_bytes": 14016140,
+      "sha256": "6f9383a3c9fe2e315611d8044678187bc7a8cf06282e5f12c950dcf617102cc1"
+    }
+  ],
+  "hlod": {
+    "name": "HIL-05_HLOD.glb",
+    "triangle_count": 4248,
+    "mesh_count": 41,
+    "size_bytes": 203412,
+    "sha256": "163d29abb3db8d104ea336aff827f92ee4c7fa93d2154cbb503b0d80e7462e51"
+  },
+  "files": {
+    "lod0": "HIL-05_LOD0.glb",
+    "lod1": "HIL-05_LOD1.glb",
+    "lod2": "HIL-05_LOD2.glb",
+    "hlod": "HIL-05_HLOD.glb",
+    "generator": "Source/HIL-05_generate.py",
+    "blender_source_generation": "Source/HIL-05_blender_import.py",
+    "textures_folder": "Textures/",
+    "godot_controller": "Godot4/HIL_05_Interactable.gd",
+    "previews_folder": "Previews/",
+    "validation": "HIL-05_validation.md"
+  },
+  "known_gaps": [
+    "HIL-05_source.blend cannot be created without Blender runtime; a script is included for offline generation.",
+    "Engine import screenshot unavailable without Godot installed.",
+    "3D reference matching is an engineered interpretation, not guaranteed pixel-perfect.",
+    "World placement/yaw has not been checked against Kaldran masterplan.",
+    "Collision and animation runtime require in-engine verification."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Airport": {
+    "comparison": "actual Godot silhouette vs manually traced visible reference horizon",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "evaluated_columns": 561,
+    "vertical_mae_pixels": 8.215220440557555,
+    "vertical_rmse_pixels": 9.681475406240658,
+    "p95_absolute_pixels": 16.70575732949925,
+    "reference_sha256": "be39a296cfab84dc5c151c191b319d6a1573ff9124f668849322dd9c980a2768",
+    "limits": "Only annotated visible mountain spans. Does not score foreground, materials, snow or atmospheric fidelity. Sparse manual traces have 5\u201315 px uncertainty at original resolution."
+  },
+  "Hillside": {
+    "comparison": "actual Godot silhouette vs manually traced visible reference horizon",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "evaluated_columns": 586,
+    "vertical_mae_pixels": 17.47407485606833,
+    "vertical_rmse_pixels": 19.477903872290646,
+    "p95_absolute_pixels": 31.42078007494436,
+    "reference_sha256": "5e828a60e3e33b6e32b60c362282ea52d9d4d3fec178bbca5129a8c4ffed3017",
+    "limits": "Only annotated visible mountain spans. Does not score foreground, materials, snow or atmospheric fidelity. Sparse manual traces have 5\u201315 px uncertainty at original resolution."
+  },
+  "Railway": {
+    "comparison": "actual Godot silhouette vs manually traced visible reference horizon",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "evaluated_columns": 416,
+    "vertical_mae_pixels": 6.178054470218645,
+    "vertical_rmse_pixels": 7.918154386109444,
+    "p95_absolute_pixels": 15.288998491652666,
+    "reference_sha256": "768e73e3b81f0d8c397966b96358f402ad73d54bd17bc0f20c0a12152d59063b",
+    "limits": "Only annotated visible mountain spans. Does not score foreground, materials, snow or atmospheric fidelity. Sparse manual traces have 5\u201315 px uncertainty at original resolution."
+  },
+  "Capitol": {
+    "comparison": "actual Godot silhouette vs manually traced visible reference horizon",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "evaluated_columns": 289,
+    "vertical_mae_pixels": 8.950404283773457,
+    "vertical_rmse_pixels": 10.725606419689482,
+    "p95_absolute_pixels": 21.866524973432448,
+    "reference_sha256": "88caa4d3fc5e35a774aafdd3045ea06045316632ec00f34c26a9232762769c7d",
+    "limits": "Only annotated visible mountain spans. Does not score foreground, materials, snow or atmospheric fidelity. Sparse manual traces have 5\u201315 px uncertainty at original resolution."
+  },
+  "Panorama": {
+    "comparison": "actual Godot silhouette vs manually traced visible reference horizon",
+    "capture_size": [
+      1920,
+      1080
+    ],
+    "evaluated_columns": 1666,
+    "vertical_mae_pixels": 13.844911483434345,
+    "vertical_rmse_pixels": 16.34680118507264,
+    "p95_absolute_pixels": 29.845523667266555,
+    "reference_sha256": "4bc3a772e6b51e5ae78180e67cfbaca335e51d9b0345de350bf697b9a30c97eb",
+    "limits": "Only annotated visible mountain spans. Does not score foreground, materials, snow or atmospheric fidelity. Sparse manual traces have 5\u201315 px uncertainty at original resolution."
+  }
+}

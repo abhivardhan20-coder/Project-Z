@@ -1,0 +1,54 @@
+{
+  "Foundation_and_Ground": {
+    "box_count": 6,
+    "triangles": 72
+  },
+  "Upper_Floor": {
+    "box_count": 6,
+    "triangles": 72
+  },
+  "Facade_Front": {
+    "box_count": 8,
+    "triangles": 96
+  },
+  "Facade_Rear": {
+    "box_count": 6,
+    "triangles": 72
+  },
+  "Party_Walls": {
+    "box_count": 7,
+    "triangles": 84
+  },
+  "Porch_Landing": {
+    "box_count": 6,
+    "triangles": 72
+  },
+  "Entrance_Steps": {
+    "box_count": 36,
+    "triangles": 432
+  },
+  "Street_Fence": {
+    "box_count": 12,
+    "triangles": 144
+  },
+  "Balcony_Slabs": {
+    "box_count": 4,
+    "triangles": 48
+  },
+  "Balcony_Guards": {
+    "box_count": 4,
+    "triangles": 48
+  },
+  "Selected_Unit_Stair_Treads": {
+    "box_count": 15,
+    "triangles": 180
+  },
+  "Selected_Unit_Sofa": {
+    "box_count": 1,
+    "triangles": 12
+  },
+  "Selected_Unit_Dining": {
+    "box_count": 1,
+    "triangles": 12
+  }
+}

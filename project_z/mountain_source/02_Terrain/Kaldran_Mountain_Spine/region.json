@@ -1,0 +1,14 @@
+{
+  "id": "Kaldran_Mountain_Spine",
+  "center": [
+    0,
+    -25000
+  ],
+  "extent": [
+    33000,
+    30000
+  ],
+  "peak_m": 3415,
+  "identity": "branching alpine massifs, south-facing capital skyline",
+  "state": "prototype"
+}

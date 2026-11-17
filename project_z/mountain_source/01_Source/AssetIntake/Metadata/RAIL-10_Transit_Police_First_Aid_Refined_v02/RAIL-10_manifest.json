@@ -1,0 +1,394 @@
+{
+  "asset_id": "RAIL-10",
+  "name": "Transit police and first-aid office",
+  "reference": "RAIL-10_MultiView_Reference.png",
+  "reference_note": "Revision v02 corrects front-end precast piers, canopy, rooftop enclosures, facade glazing and furnished clinical/reception spaces. Hero is perspective, not CAD. Service routing inferred.",
+  "building": {
+    "footprint_m": [
+      28.0,
+      16.0
+    ],
+    "storeys": 2,
+    "ground_finished_level_m": 0.425,
+    "upper_finished_level_m": 3.879,
+    "main_roof_level_m": 7.867,
+    "parapet_top_m": 8.66,
+    "roof_guard_top_m": 8.91,
+    "antenna_top_m": 9.65,
+    "roof_plant_top_m": 9.19,
+    "external_stair_protrusion_from_east_wall_m": 2.0,
+    "public_front_Y_m": -8.0,
+    "rooms": [
+      "police public reception",
+      "public waiting",
+      "secure interview",
+      "staff police office",
+      "first-aid lobby",
+      "treatment bay",
+      "medical supplies",
+      "upper offices",
+      "upper meeting room",
+      "dogleg stair core"
+    ],
+    "door_openings": [
+      "PublicReceptionDoor_Pivot",
+      "FirstAidPublicDoor_Pivot",
+      "SecureInterviewDoor_Pivot",
+      "TreatmentDoor_Pivot",
+      "StairCoreDoor_Pivot"
+    ],
+    "interior_scope": "full ground public reception and basic treatment, upper office shell with working partitions"
+  },
+  "lods": [
+    {
+      "file": "RAIL-10_LOD0.glb",
+      "triangles": 349052,
+      "mesh_count": 254,
+      "material_count": 24,
+      "material_names": [
+        "blue",
+        "blue_fabric",
+        "concrete",
+        "concrete_dark",
+        "glass",
+        "glass_clear",
+        "green",
+        "lamp",
+        "offwhite",
+        "red",
+        "roof",
+        "rubber",
+        "screen_display",
+        "screen_ecg",
+        "sign_aid",
+        "sign_police",
+        "silver",
+        "steel",
+        "steel_black",
+        "steel_light",
+        "stone",
+        "tile",
+        "wood",
+        "yellow"
+      ],
+      "bounds_m_xyz": [
+        [
+          -16.0,
+          -0.28,
+          -9.96
+        ],
+        [
+          14.18,
+          9.68,
+          8.425
+        ]
+      ],
+      "dimensions_m_xyz": [
+        30.18,
+        9.96,
+        18.385
+      ],
+      "empty_meshes": [],
+      "pivot_nodes": [
+        "StairCoreDoor_Pivot",
+        "StairCoreDoor_Pivot__DoorLeafHandle__silver",
+        "StairCoreDoor_Pivot__DoorLeafGlass__glass_clear",
+        "StairCoreDoor_Pivot__DoorLeafFrame__steel_black",
+        "TreatmentDoor_Pivot",
+        "TreatmentDoor_Pivot__DoorLeafHandle__silver",
+        "TreatmentDoor_Pivot__DoorLeafGlass__glass_clear",
+        "TreatmentDoor_Pivot__DoorLeafFrame__steel_black",
+        "SecureInterviewDoor_Pivot",
+        "SecureInterviewDoor_Pivot__DoorLeafHandle__silver",
+        "SecureInterviewDoor_Pivot__DoorLeafPanel__concrete_dark",
+        "SecureInterviewDoor_Pivot__DoorLeaf__steel_black",
+        "FirstAidPublicDoor_Pivot",
+        "FirstAidPublicDoor_Pivot__DoorLeafHandle__silver",
+        "FirstAidPublicDoor_Pivot__DoorLeafGlass__glass_clear",
+        "FirstAidPublicDoor_Pivot__DoorLeafFrame__steel_black",
+        "PublicReceptionDoor_Pivot",
+        "PublicReceptionDoor_Pivot__DoorLeafHandle__silver",
+        "PublicReceptionDoor_Pivot__DoorLeafGlass__glass_clear",
+        "PublicReceptionDoor_Pivot__DoorLeafFrame__steel_black"
+      ],
+      "mesh_groups": [
+        "Details",
+        "Facade",
+        "FirstAidPublicDoor",
+        "Interior",
+        "PublicReceptionDoor",
+        "Roof",
+        "SecureInterviewDoor",
+        "StairCoreDoor",
+        "Structure",
+        "TreatmentDoor"
+      ]
+    },
+    {
+      "file": "RAIL-10_LOD1.glb",
+      "triangles": 153800,
+      "mesh_count": 243,
+      "material_count": 24,
+      "material_names": [
+        "blue",
+        "blue_fabric",
+        "concrete",
+        "concrete_dark",
+        "glass",
+        "glass_clear",
+        "green",
+        "lamp",
+        "offwhite",
+        "red",
+        "roof",
+        "rubber",
+        "screen_display",
+        "screen_ecg",
+        "sign_aid",
+        "sign_police",
+        "silver",
+        "steel",
+        "steel_black",
+        "steel_light",
+        "stone",
+        "tile",
+        "wood",
+        "yellow"
+      ],
+      "bounds_m_xyz": [
+        [
+          -16.0,
+          -0.28,
+          -9.96
+        ],
+        [
+          14.18,
+          9.68,
+          8.425
+        ]
+      ],
+      "dimensions_m_xyz": [
+        30.18,
+        9.96,
+        18.385
+      ],
+      "empty_meshes": [],
+      "pivot_nodes": [
+        "StairCoreDoor_Pivot",
+        "StairCoreDoor_Pivot__DoorLeafHandle__silver",
+        "StairCoreDoor_Pivot__DoorLeafGlass__glass_clear",
+        "StairCoreDoor_Pivot__DoorLeafFrame__steel_black",
+        "TreatmentDoor_Pivot",
+        "TreatmentDoor_Pivot__DoorLeafHandle__silver",
+        "TreatmentDoor_Pivot__DoorLeafGlass__glass_clear",
+        "TreatmentDoor_Pivot__DoorLeafFrame__steel_black",
+        "SecureInterviewDoor_Pivot",
+        "SecureInterviewDoor_Pivot__DoorLeafHandle__silver",
+        "SecureInterviewDoor_Pivot__DoorLeafPanel__concrete_dark",
+        "SecureInterviewDoor_Pivot__DoorLeaf__steel_black",
+        "FirstAidPublicDoor_Pivot",
+        "FirstAidPublicDoor_Pivot__DoorLeafHandle__silver",
+        "FirstAidPublicDoor_Pivot__DoorLeafGlass__glass_clear",
+        "FirstAidPublicDoor_Pivot__DoorLeafFrame__steel_black",
+        "PublicReceptionDoor_Pivot",
+        "PublicReceptionDoor_Pivot__DoorLeafHandle__silver",
+        "PublicReceptionDoor_Pivot__DoorLeafGlass__glass_clear",
+        "PublicReceptionDoor_Pivot__DoorLeafFrame__steel_black"
+      ],
+      "mesh_groups": [
+        "Details",
+        "Facade",
+        "FirstAidPublicDoor",
+        "Interior",
+        "PublicReceptionDoor",
+        "Roof",
+        "SecureInterviewDoor",
+        "StairCoreDoor",
+        "Structure",
+        "TreatmentDoor"
+      ]
+    },
+    {
+      "file": "RAIL-10_LOD2.glb",
+      "triangles": 57740,
+      "mesh_count": 215,
+      "material_count": 23,
+      "material_names": [
+        "blue",
+        "blue_fabric",
+        "concrete",
+        "concrete_dark",
+        "glass",
+        "glass_clear",
+        "lamp",
+        "offwhite",
+        "red",
+        "roof",
+        "rubber",
+        "screen_display",
+        "screen_ecg",
+        "sign_aid",
+        "sign_police",
+        "silver",
+        "steel",
+        "steel_black",
+        "steel_light",
+        "stone",
+        "tile",
+        "wood",
+        "yellow"
+      ],
+      "bounds_m_xyz": [
+        [
+          -16.0,
+          -0.28,
+          -9.96
+        ],
+        [
+          14.16,
+          9.68,
+          8.425
+        ]
+      ],
+      "dimensions_m_xyz": [
+        30.16,
+        9.96,
+        18.385
+      ],
+      "empty_meshes": [],
+      "pivot_nodes": [
+        "StairCoreDoor_Pivot",
+        "StairCoreDoor_Pivot__DoorLeafHandle__silver",
+        "StairCoreDoor_Pivot__DoorLeafGlass__glass_clear",
+        "StairCoreDoor_Pivot__DoorLeafFrame__steel_black",
+        "TreatmentDoor_Pivot",
+        "TreatmentDoor_Pivot__DoorLeafHandle__silver",
+        "TreatmentDoor_Pivot__DoorLeafGlass__glass_clear",
+        "TreatmentDoor_Pivot__DoorLeafFrame__steel_black",
+        "SecureInterviewDoor_Pivot",
+        "SecureInterviewDoor_Pivot__DoorLeafHandle__silver",
+        "SecureInterviewDoor_Pivot__DoorLeafPanel__concrete_dark",
+        "SecureInterviewDoor_Pivot__DoorLeaf__steel_black",
+        "FirstAidPublicDoor_Pivot",
+        "FirstAidPublicDoor_Pivot__DoorLeafHandle__silver",
+        "FirstAidPublicDoor_Pivot__DoorLeafGlass__glass_clear",
+        "FirstAidPublicDoor_Pivot__DoorLeafFrame__steel_black",
+        "PublicReceptionDoor_Pivot",
+        "PublicReceptionDoor_Pivot__DoorLeafHandle__silver",
+        "PublicReceptionDoor_Pivot__DoorLeafGlass__glass_clear",
+        "PublicReceptionDoor_Pivot__DoorLeafFrame__steel_black"
+      ],
+      "mesh_groups": [
+        "Details",
+        "Facade",
+        "FirstAidPublicDoor",
+        "Interior",
+        "PublicReceptionDoor",
+        "Roof",
+        "SecureInterviewDoor",
+        "StairCoreDoor",
+        "Structure",
+        "TreatmentDoor"
+      ]
+    }
+  ],
+  "HLOD": {
+    "file": "RAIL-10_HLOD.glb",
+    "triangles": 8498,
+    "mesh_count": 58,
+    "material_count": 11,
+    "material_names": [
+      "concrete",
+      "concrete_dark",
+      "glass",
+      "glass_clear",
+      "sign_aid",
+      "sign_police",
+      "silver",
+      "steel",
+      "steel_black",
+      "steel_light",
+      "stone"
+    ],
+    "bounds_m_xyz": [
+      [
+        -16.0,
+        -0.28,
+        -9.96
+      ],
+      [
+        14.16,
+        8.82399,
+        8.18
+      ]
+    ],
+    "dimensions_m_xyz": [
+      30.16,
+      9.10399,
+      18.14
+    ],
+    "empty_meshes": [],
+    "pivot_nodes": [],
+    "mesh_groups": [
+      "Details",
+      "Facade",
+      "Roof",
+      "Structure"
+    ]
+  },
+  "collision": {
+    "file": "RAIL-10_COLLISION.glb",
+    "triangles": 672,
+    "mesh_count": 20,
+    "material_count": 1,
+    "material_names": [
+      "None"
+    ],
+    "bounds_m_xyz": [
+      [
+        -14.0,
+        0.04,
+        -9.97
+      ],
+      [
+        14.0,
+        7.48,
+        8.1
+      ]
+    ],
+    "dimensions_m_xyz": [
+      28.0,
+      7.44,
+      18.07
+    ],
+    "empty_meshes": [],
+    "pivot_nodes": [],
+    "mesh_groups": [
+      "COL"
+    ]
+  },
+  "lod1_fraction": 0.44062,
+  "lod2_fraction": 0.16542,
+  "triangle_gate_pass": true,
+  "triangle_target_pass": true,
+  "coordinate_system": "source Z up, front -Y; exported GLB Y up, facade faces -Z, ground at Y=0",
+  "pbr": "Per-material embedded metallic-roughness, base-color, AO and tangent normal textures. 256/512px prototypes; no claim of 2K/4K.",
+  "lod_policy": "All visible triangles inside single LOD GLB counted. Separate collision + HLOD excluded.",
+  "testing": {
+    "glb_mesh_roundtrip": "trimesh GLB read-back performed",
+    "godot_engine_import": "not run (executable unavailable)",
+    "blender_native_blend": "requires supplied Blender conversion script (Blender unavailable)",
+    "first_person_capsule_navigation": "analytic opening widths only; not in-engine measured",
+    "reference_pixel_perfect": "not demonstrated",
+    "lighting_shader_render": "not run"
+  },
+  "known_limitations": [
+    "Reference sheets are illustrative, not consistent building plans; interior service routing partly inferred.",
+    "Overall bounds include 2m side stair and 1.96m paved public forecourt outside exact 28x16 shell.",
+    "Facade glass material translucent; custom transparency sorting may be needed in engine.",
+    "Doors are movable pivot hierarchy plus example GDScript, not baked animation clips.",
+    "Stair core entry opening and medical separation wall are authored; in-engine capsule clearance remains untested.",
+    "Forecourt paving is modelled level with ground floor; connection to the unknown road elevation is unresolved.",
+    "Not all external and upper offices are first-person QA tested."
+  ]
+}

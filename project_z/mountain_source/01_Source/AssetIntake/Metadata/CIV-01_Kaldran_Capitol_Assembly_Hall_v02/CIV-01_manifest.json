@@ -1,0 +1,142 @@
+{
+  "asset_id": "CIV-01",
+  "version": "v02",
+  "title": "Capitol Assembly Hall detailed reconstruction",
+  "reference": "CIV-01_MultiView_Reference.png",
+  "status": "Revision v02: structurally improved, procedurally authored GLB. NOT photogrammetric or visually indistinguishable from reference.",
+  "design": {
+    "width_m": 150,
+    "depth_m": 82,
+    "height_above_ground_m": 74,
+    "basement_m": 4.5,
+    "front_axis": "-Z",
+    "up_axis": "+Y"
+  },
+  "geometry": {
+    "LOD0": {
+      "triangles": 431756,
+      "reimport_triangles": 431756,
+      "mesh_count": 134,
+      "materials": 15,
+      "bounds_min_max_xyz_m": [
+        [
+          -75.0,
+          -4.5,
+          -41.012
+        ],
+        [
+          75.0,
+          74.0,
+          41.0
+        ]
+      ],
+      "glb_bytes": 25447700,
+      "glb_roundtrip_pass": true,
+      "build_sec": 8.58
+    },
+    "LOD1": {
+      "triangles": 178548,
+      "reimport_triangles": 178548,
+      "mesh_count": 130,
+      "materials": 15,
+      "bounds_min_max_xyz_m": [
+        [
+          -75.0,
+          -4.5,
+          -41.0
+        ],
+        [
+          75.0,
+          74.0,
+          41.0
+        ]
+      ],
+      "glb_bytes": 19462356,
+      "glb_roundtrip_pass": true,
+      "build_sec": 6.28
+    },
+    "LOD2": {
+      "triangles": 54148,
+      "reimport_triangles": 54148,
+      "mesh_count": 112,
+      "materials": 15,
+      "bounds_min_max_xyz_m": [
+        [
+          -75.0,
+          -4.5,
+          -41.0
+        ],
+        [
+          75.0,
+          74.0,
+          41.0
+        ]
+      ],
+      "glb_bytes": 16319560,
+      "glb_roundtrip_pass": true,
+      "build_sec": 6.08
+    }
+  },
+  "collision_box_count": 119,
+  "source": "CIV-01_refine_v02.py and CIV-01_build.py",
+  "enhancements": [
+    "actual recessed loggia walls behind separate outer wing columns",
+    "extra stone pilasters and cornices",
+    "projecting bronze window frames and dressed stone courses",
+    "new dome with curved glazed clerestory and stone piers",
+    "hand-modeled carved Corinthian foliage and volutes",
+    "real geometric stair balustrades and planters",
+    "marble foyer inlays and broad paired 25-step stairs",
+    "upper mezzanine with doors and balustrades",
+    "many piece concentric chandeliers, wall sconces, bronze rails, banners and coffer details"
+  ],
+  "verified": {
+    "trimesh_glb_roundtrip": true,
+    "Blender_source_blend": false,
+    "Godot4_engine_test": false,
+    "runtime_character_navigation": false
+  },
+  "limitations": [
+    "Accuracy to concept sheet has been judged visually only; no pixel-perfect multi-camera overlay.",
+    "Reference is illustrated non-CAD art and does not uniquely specify hidden interiors.",
+    "Stair/door navigation requires collision bake and runtime QA in Godot 4.",
+    "Native .blend not possible in this runtime; editable GLB and deterministic Python source included."
+  ],
+  "HLOD": {
+    "triangles": 3248,
+    "mesh_count": 20,
+    "glb_roundtrip_pass": true,
+    "bytes": 7206744
+  },
+  "textures": {
+    "count": 15,
+    "map_types": [
+      "baseColor sRGB",
+      "normal OpenGL",
+      "ORM packed linear"
+    ],
+    "resolution": "1024x1024",
+    "source": "repeated procedural PBR maps with micrograin; no licensed photo textures"
+  },
+  "animation": {
+    "name": "CIV01_MAIN_DOORS_OPEN",
+    "tracks": 2,
+    "hinges": [
+      "HINGE_MAIN_LEFT",
+      "HINGE_MAIN_RIGHT"
+    ],
+    "test": "glTF channels parsed and mesh re-imported; no runtime animation test"
+  },
+  "validation": {
+    "GLB_binary_structure": "PASS",
+    "trimesh_reimport": "PASS",
+    "LOD0_triangle_target": "PASS",
+    "LOD1_40to55pct": "PASS",
+    "LOD2_10to20pct": "PASS",
+    "collision_axial_sampling": "PASS",
+    "Godot_4_import": "NOT TESTED",
+    "Blender_source_blend": "NOT CREATED",
+    "visual_pixel_fidelity": "NOT ESTABLISHED",
+    "PBR_in_engine": "NOT TESTED"
+  }
+}

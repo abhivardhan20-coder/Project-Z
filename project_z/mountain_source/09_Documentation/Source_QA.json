@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "shared_tile_edges_byte_identical": 264,
+  "camera_clearance_m": {
+    "Airport": 17.956,
+    "Hillside": 1.9,
+    "Railway": 28.306,
+    "Capitol": 5.807,
+    "Panorama": 801.374
+  },
+  "trail_max_sample_deviation_m": 0.002685546875,
+  "glb_meshes": [
+    {
+      "file": "06_Meshes\\Boulders\\fractured_boulder_0.glb",
+      "vertices": 126
+    },
+    {
+      "file": "06_Meshes\\Boulders\\fractured_boulder_1.glb",
+      "vertices": 120
+    },
+    {
+      "file": "06_Meshes\\Boulders\\fractured_boulder_2.glb",
+      "vertices": 144
+    },
+    {
+      "file": "06_Meshes\\Cliffs\\jointed_cliff.glb",
+      "vertices": 1944
+    },
+    {
+      "file": "06_Meshes\\Distant_Mountains\\Kaldran_Spine_128m.glb",
+      "vertices": 148225
+    },
+    {
+      "file": "02_Terrain\\Kaldran_Mountain_Spine\\Crown_Approach_source.glb",
+      "vertices": 37249
+    }
+  ],
+  "height_sha256": "2eed06ec35a06bbc35518747f7e767d4f070a4a114695aec2a07f2f448d374cd",
+  "scope": "source data checks; separate Engine_QA.json records runtime tests"
+}

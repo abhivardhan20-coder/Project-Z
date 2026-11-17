@@ -1,0 +1,372 @@
+{
+  "asset_id": "HIL-09",
+  "name": "Residential parking and garage shed",
+  "reference": "References/HIL-09_MultiView_Reference.png",
+  "design_footprint_m": [
+    28.0,
+    16.0
+  ],
+  "design_height_m": 6.0,
+  "functional_levels": 1,
+  "source_coordinate_system": "X width, Y front-to-rear, Z up in Python source",
+  "glb_coordinate_system": "glTF Y up; front is positive Z after export, local X unchanged",
+  "origin": "plan center X=0, front gate at Y=0, parking floor Z approx 0.175",
+  "masterplan_fit": "NOT TESTED; D10/D05 schematic",
+  "geometry_scope": "one asset; no surrounding city",
+  "moving_parts": {
+    "Doors_Moving": "vehicle barrier arm stored upright at east side of entrance; Blender import script keys around local horizontal pivot"
+  },
+  "lods": {
+    "LOD0": {
+      "triangles_visible": 221796,
+      "vertices": 162156,
+      "mesh_count": 36,
+      "bounds_source_z_up_m": [
+        [
+          -14.0865,
+          -0.432,
+          -0.14
+        ],
+        [
+          14.0976,
+          16.2033,
+          6.0098
+        ]
+      ],
+      "bounds_glb_y_up_m": [
+        [
+          -14.0865,
+          -0.14,
+          -16.2033
+        ],
+        [
+          14.0976,
+          6.0098,
+          0.432
+        ]
+      ],
+      "glb_roundtrip_triangles": 221796,
+      "glb_roundtrip_pass": true,
+      "mesh_groups": [
+        "Structure_concrete",
+        "Interior_floor",
+        "Structure_plaster",
+        "Roof_concrete",
+        "Roof_stone",
+        "Roof_metal_dark",
+        "Facade_concrete",
+        "Facade_plaster",
+        "Facade_metal_dark",
+        "Details_metal",
+        "Details_metal_dark",
+        "Details_sign",
+        "Facade_stone",
+        "Facade_stone_dark",
+        "Interior_hazard",
+        "Interior_metal_dark",
+        "Interior_paint_white",
+        "Interior_stone_dark",
+        "Interior_metal",
+        "Interior_concrete",
+        "Details_paint_yellow",
+        "Interior_light",
+        "Interior_rust",
+        "Doors_Moving_metal_dark",
+        "Doors_Moving_metal",
+        "Doors_Moving_paint_white",
+        "Roof_metal",
+        "Stairs_tile",
+        "Stairs_concrete",
+        "Stairs_metal_dark",
+        "Roof_tile",
+        "Roof_stone_dark",
+        "Vegetation_wood",
+        "Vegetation_foliage_dark",
+        "Vegetation_foliage_light",
+        "Vegetation_foliage"
+      ],
+      "size_bytes": 10097460
+    },
+    "LOD1": {
+      "triangles_visible": 95868,
+      "vertices": 71633,
+      "mesh_count": 36,
+      "bounds_source_z_up_m": [
+        [
+          -14.0867,
+          -0.432,
+          -0.14
+        ],
+        [
+          14.0979,
+          16.2033,
+          6.0096
+        ]
+      ],
+      "bounds_glb_y_up_m": [
+        [
+          -14.0867,
+          -0.14,
+          -16.2033
+        ],
+        [
+          14.0979,
+          6.0096,
+          0.432
+        ]
+      ],
+      "glb_roundtrip_triangles": 95868,
+      "glb_roundtrip_pass": true,
+      "mesh_groups": [
+        "Structure_concrete",
+        "Interior_floor",
+        "Structure_plaster",
+        "Roof_concrete",
+        "Roof_stone",
+        "Roof_metal_dark",
+        "Facade_concrete",
+        "Facade_plaster",
+        "Facade_metal_dark",
+        "Details_metal",
+        "Details_metal_dark",
+        "Details_sign",
+        "Facade_stone",
+        "Facade_stone_dark",
+        "Interior_hazard",
+        "Interior_metal_dark",
+        "Interior_paint_white",
+        "Interior_stone_dark",
+        "Interior_metal",
+        "Interior_concrete",
+        "Details_paint_yellow",
+        "Interior_light",
+        "Interior_rust",
+        "Doors_Moving_metal_dark",
+        "Doors_Moving_metal",
+        "Doors_Moving_paint_white",
+        "Roof_metal",
+        "Stairs_tile",
+        "Stairs_concrete",
+        "Stairs_metal_dark",
+        "Roof_tile",
+        "Roof_stone_dark",
+        "Vegetation_wood",
+        "Vegetation_foliage",
+        "Vegetation_foliage_dark",
+        "Vegetation_foliage_light"
+      ],
+      "size_bytes": 6776544
+    },
+    "LOD2": {
+      "triangles_visible": 24876,
+      "vertices": 23060,
+      "mesh_count": 36,
+      "bounds_source_z_up_m": [
+        [
+          -14.0857,
+          -0.432,
+          -0.14
+        ],
+        [
+          14.0866,
+          16.2033,
+          5.94
+        ]
+      ],
+      "bounds_glb_y_up_m": [
+        [
+          -14.0857,
+          -0.14,
+          -16.2033
+        ],
+        [
+          14.0866,
+          5.94,
+          0.432
+        ]
+      ],
+      "glb_roundtrip_triangles": 24876,
+      "glb_roundtrip_pass": true,
+      "mesh_groups": [
+        "Structure_concrete",
+        "Interior_floor",
+        "Structure_plaster",
+        "Roof_concrete",
+        "Roof_stone",
+        "Roof_metal_dark",
+        "Facade_concrete",
+        "Facade_plaster",
+        "Facade_metal_dark",
+        "Details_metal",
+        "Details_metal_dark",
+        "Details_sign",
+        "Facade_stone",
+        "Facade_stone_dark",
+        "Interior_hazard",
+        "Interior_metal_dark",
+        "Interior_paint_white",
+        "Interior_stone_dark",
+        "Interior_metal",
+        "Interior_concrete",
+        "Details_paint_yellow",
+        "Interior_light",
+        "Interior_rust",
+        "Doors_Moving_metal_dark",
+        "Doors_Moving_metal",
+        "Doors_Moving_paint_white",
+        "Roof_metal",
+        "Stairs_tile",
+        "Stairs_concrete",
+        "Stairs_metal_dark",
+        "Roof_tile",
+        "Roof_stone_dark",
+        "Vegetation_foliage",
+        "Vegetation_foliage_light",
+        "Vegetation_foliage_dark",
+        "Vegetation_wood"
+      ],
+      "size_bytes": 4953148
+    }
+  },
+  "files": {},
+  "known_limitations": [
+    "Native .blend cannot be authored or tested in runtime: Blender unavailable. GLB is editable and conversion script is included.",
+    "Godot 4 engine import / collision behavior / animation playback not tested: Godot unavailable.",
+    "PBR normals and ORM packed textures are embedded in GLBs; alpha foliage uses geometric two-sided leaves.",
+    "The reference section labels an 8 m ramp while the top elevation places its garage portal at the street; reconstruction follows 28 x 16 overall footprint and includes short portal apron plus integrated left roof stair.",
+    "No parked car geometry in base asset: cars in hero/section are scale/context props, not building architecture.",
+    "There is no second drivable deck; roof is weathered service terrace with HVAC and pedestrian access."
+  ],
+  "hlod": {
+    "file": "HIL-09_HLOD.glb",
+    "triangles": 348,
+    "glb_roundtrip_triangles": 348,
+    "purpose": "very distant silhouette only; not photo impostor"
+  },
+  "collision": {
+    "file": "HIL-09_collision.glb",
+    "proxy_triangles": 612,
+    "separate_from_render_triangle_budget": true
+  },
+  "materials": {
+    "plaster": {
+      "baseColor": "Textures/plaster_basecolor.png",
+      "orm": "Textures/plaster_orm.png",
+      "normal": "Textures/plaster_normal.png"
+    },
+    "concrete": {
+      "baseColor": "Textures/concrete_basecolor.png",
+      "orm": "Textures/concrete_orm.png",
+      "normal": "Textures/concrete_normal.png"
+    },
+    "stone": {
+      "baseColor": "Textures/stone_basecolor.png",
+      "orm": "Textures/stone_orm.png",
+      "normal": "Textures/stone_normal.png"
+    },
+    "stone_dark": {
+      "baseColor": "Textures/stone_dark_basecolor.png",
+      "orm": "Textures/stone_dark_orm.png",
+      "normal": "Textures/stone_dark_normal.png"
+    },
+    "floor": {
+      "baseColor": "Textures/floor_basecolor.png",
+      "orm": "Textures/floor_orm.png",
+      "normal": "Textures/floor_normal.png"
+    },
+    "asphalt": {
+      "baseColor": "Textures/asphalt_basecolor.png",
+      "orm": "Textures/asphalt_orm.png",
+      "normal": "Textures/asphalt_normal.png"
+    },
+    "tile": {
+      "baseColor": "Textures/tile_basecolor.png",
+      "orm": "Textures/tile_orm.png",
+      "normal": "Textures/tile_normal.png"
+    },
+    "paint_white": {
+      "baseColor": "Textures/paint_white_basecolor.png",
+      "orm": "Textures/paint_white_orm.png",
+      "normal": "Textures/paint_white_normal.png"
+    },
+    "paint_yellow": {
+      "baseColor": "Textures/paint_yellow_basecolor.png",
+      "orm": "Textures/paint_yellow_orm.png",
+      "normal": "Textures/paint_yellow_normal.png"
+    },
+    "paint_blue": {
+      "baseColor": "Textures/paint_blue_basecolor.png",
+      "orm": "Textures/paint_blue_orm.png",
+      "normal": "Textures/paint_blue_normal.png"
+    },
+    "hazard": {
+      "baseColor": "Textures/hazard_basecolor.png",
+      "orm": "Textures/hazard_orm.png",
+      "normal": "Textures/hazard_normal.png"
+    },
+    "metal": {
+      "baseColor": "Textures/metal_basecolor.png",
+      "orm": "Textures/metal_orm.png",
+      "normal": "Textures/metal_normal.png"
+    },
+    "metal_dark": {
+      "baseColor": "Textures/metal_dark_basecolor.png",
+      "orm": "Textures/metal_dark_orm.png",
+      "normal": "Textures/metal_dark_normal.png"
+    },
+    "black": {
+      "baseColor": "Textures/black_basecolor.png",
+      "orm": "Textures/black_orm.png",
+      "normal": "Textures/black_normal.png"
+    },
+    "glass": {
+      "baseColor": "Textures/glass_basecolor.png",
+      "orm": "Textures/glass_orm.png",
+      "normal": "Textures/glass_normal.png"
+    },
+    "light": {
+      "baseColor": "Textures/light_basecolor.png",
+      "orm": "Textures/light_orm.png",
+      "normal": "Textures/light_normal.png"
+    },
+    "foliage": {
+      "baseColor": "Textures/foliage_basecolor.png",
+      "orm": "Textures/foliage_orm.png",
+      "normal": "Textures/foliage_normal.png"
+    },
+    "foliage_light": {
+      "baseColor": "Textures/foliage_light_basecolor.png",
+      "orm": "Textures/foliage_light_orm.png",
+      "normal": "Textures/foliage_light_normal.png"
+    },
+    "foliage_dark": {
+      "baseColor": "Textures/foliage_dark_basecolor.png",
+      "orm": "Textures/foliage_dark_orm.png",
+      "normal": "Textures/foliage_dark_normal.png"
+    },
+    "wood": {
+      "baseColor": "Textures/wood_basecolor.png",
+      "orm": "Textures/wood_orm.png",
+      "normal": "Textures/wood_normal.png"
+    },
+    "rust": {
+      "baseColor": "Textures/rust_basecolor.png",
+      "orm": "Textures/rust_orm.png",
+      "normal": "Textures/rust_normal.png"
+    },
+    "rubber": {
+      "baseColor": "Textures/rubber_basecolor.png",
+      "orm": "Textures/rubber_orm.png",
+      "normal": "Textures/rubber_normal.png"
+    },
+    "skyblue": {
+      "baseColor": "Textures/skyblue_basecolor.png",
+      "orm": "Textures/skyblue_orm.png",
+      "normal": "Textures/skyblue_normal.png"
+    },
+    "sign": {
+      "baseColor": "Textures/parking_sign_basecolor.png"
+    }
+  },
+  "reimport_test": "GLB re-imported with trimesh; triangle counts and axis bounds checked. Blender and Godot not installed, native import UNTESTED."
+}

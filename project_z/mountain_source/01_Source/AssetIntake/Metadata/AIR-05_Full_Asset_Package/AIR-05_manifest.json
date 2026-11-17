@@ -1,0 +1,217 @@
+{
+  "LOD0": {
+    "file": "AIR-05_LOD0.glb",
+    "sha256": "4db3203231c86df348895c7c07b2ae0f77f1c9210d766c27b7183b2fccba012b",
+    "bytes": 60374144,
+    "visible_render_triangles": 539908,
+    "all_triangles": 539992,
+    "collision_proxy_triangles": 84,
+    "mesh_count": 184,
+    "material_count": 13,
+    "node_count": 201,
+    "texture_count": 52,
+    "glb_version": 2,
+    "uv_mesh_failures": [],
+    "groups_found": [
+      "Structure",
+      "Facade",
+      "Roof",
+      "Interior",
+      "Details",
+      "Doors_Moving",
+      "Collision",
+      "LODs"
+    ],
+    "door_pivot_count": 8,
+    "animation_channels": 8,
+    "animation_keyframes_seconds": [
+      0,
+      4,
+      8
+    ],
+    "bounds_engine_y_up_m": {
+      "min": [
+        -45.04,
+        -0.44,
+        -30.55
+      ],
+      "max": [
+        45.04,
+        19.575,
+        42.0
+      ]
+    },
+    "independent_reimport": "PASS via trimesh.load(scene,process=False)",
+    "glb_binary_structure": "PASS",
+    "animation_structure": "PASS",
+    "blender_import": "NOT TESTED: Blender not installed",
+    "godot_4_import": "NOT TESTED: Godot not installed"
+  },
+  "LOD1": {
+    "file": "AIR-05_LOD1.glb",
+    "sha256": "85d162e249d1bdc6f9b071ceaf4d49224f7309832802f17cd8522810af315279",
+    "bytes": 40441860,
+    "visible_render_triangles": 270272,
+    "all_triangles": 270272,
+    "collision_proxy_triangles": 0,
+    "mesh_count": 169,
+    "material_count": 13,
+    "node_count": 186,
+    "texture_count": 52,
+    "glb_version": 2,
+    "uv_mesh_failures": [],
+    "groups_found": [
+      "Structure",
+      "Facade",
+      "Roof",
+      "Interior",
+      "Details",
+      "Doors_Moving",
+      "Collision",
+      "LODs"
+    ],
+    "door_pivot_count": 8,
+    "animation_channels": 8,
+    "animation_keyframes_seconds": [
+      0,
+      4,
+      8
+    ],
+    "bounds_engine_y_up_m": {
+      "min": [
+        -45.04,
+        -0.44,
+        -30.55
+      ],
+      "max": [
+        45.04,
+        19.575,
+        42.0
+      ]
+    },
+    "independent_reimport": "PASS via trimesh.load(scene,process=False)",
+    "glb_binary_structure": "PASS",
+    "animation_structure": "PASS",
+    "blender_import": "NOT TESTED: Blender not installed",
+    "godot_4_import": "NOT TESTED: Godot not installed"
+  },
+  "LOD2": {
+    "file": "AIR-05_LOD2.glb",
+    "sha256": "461c02ff8e27fc32fd38f5e4c8a071fc2fcc1e4c40b83ba1133c0f077e05f4c7",
+    "bytes": 23263396,
+    "visible_render_triangles": 65616,
+    "all_triangles": 65616,
+    "collision_proxy_triangles": 0,
+    "mesh_count": 147,
+    "material_count": 12,
+    "node_count": 164,
+    "texture_count": 48,
+    "glb_version": 2,
+    "uv_mesh_failures": [],
+    "groups_found": [
+      "Structure",
+      "Facade",
+      "Roof",
+      "Interior",
+      "Details",
+      "Doors_Moving",
+      "Collision",
+      "LODs"
+    ],
+    "door_pivot_count": 8,
+    "animation_channels": 8,
+    "animation_keyframes_seconds": [
+      0,
+      4,
+      8
+    ],
+    "bounds_engine_y_up_m": {
+      "min": [
+        -45.03,
+        -0.44,
+        -30.55
+      ],
+      "max": [
+        45.03,
+        19.575,
+        42.0
+      ]
+    },
+    "independent_reimport": "PASS via trimesh.load(scene,process=False)",
+    "glb_binary_structure": "PASS",
+    "animation_structure": "PASS",
+    "blender_import": "NOT TESTED: Blender not installed",
+    "godot_4_import": "NOT TESTED: Godot not installed"
+  },
+  "HLOD": {
+    "file": "AIR-05_HLOD.glb",
+    "sha256": "64cd4060b85309c80428fb1fb820431e6d789d2e2b8c40c488daf26d6a4587da",
+    "visible_render_triangles": 696,
+    "mesh_count": 12,
+    "material_count": 6,
+    "bounds_engine_y_up_m": {
+      "min": [
+        -45.0,
+        -0.35,
+        -30.02
+      ],
+      "max": [
+        45.0,
+        19.475,
+        42.0
+      ]
+    },
+    "import": "PASS via trimesh.load"
+  },
+  "clearance": {
+    "architectural_main_footprint_m": [
+      88,
+      60
+    ],
+    "main_roof_eave_m": 16.4,
+    "roof_ridge_m": 18.5,
+    "ceiling_truss_bottom_m": 13.55,
+    "door_leaf_height_m": 13.44,
+    "overhead_door_guides_underside_m": 13.38,
+    "conservatively_usable_opening_height_m": 13.25,
+    "clear_center_open_width_m": 58.44,
+    "door_track_spacing_m": 0.45,
+    "moving_hardware_clearance_between_adjacent_tracks_m": 0.11,
+    "door_travel_x_m": 29.22,
+    "door_leaves": 8,
+    "airfield_entry_has_fixed_columns": false,
+    "mezzanine_tread_rise_m": 0.1839,
+    "mezzanine_tread_run_m": 0.3786,
+    "opening_collision_test": "analytic axis-aligned door envelope and rail range; not engine physics",
+    "aircraft_tail_or_wings_fit_test": "NOT TESTED with a specific aircraft"
+  },
+  "production_info": {
+    "reference_sheet": "AIR-05_MultiView_Reference.png",
+    "asset_id": "AIR-05",
+    "name": "Aircraft maintenance hangar",
+    "coordinate_system": "glTF Y-up: X=width, Y=height, Z=airfield forward; Blender input source XYZ z-up",
+    "roof_geometry": "Gabled 88m end elevations, ridge along 60m depth; 3 transverse skylight strips; 8 roof ventilators",
+    "modeled_access": "aircraft opening, four landside service doors, four side service doors, mezzanine stairs",
+    "roof_frame_design": "Clear-span 88m x-axis portal trusses; columns only on side walls and permitted landside bays",
+    "reference_discrepancies": "Reference front elevation shows smaller landside access openings; synthesized 4 personnel portals. Section framing interpreted as a clear-span portal system, not a detailed stamped engineering design.",
+    "textures": "1K hero cladding/door/floor/concrete + 512px reusable PBR textures with ORM & normal maps",
+    "surface_finish": "Procedurally weathered; stylized technical preview, not a baked AAA hero photo",
+    "separate_hlod": true,
+    "blender_source": "AIR-05_generate.py and AIR-05_make_blend.py. No .blend generated without Blender.",
+    "site_fit": "NOT TESTED: masterplan yaw, terrain and elevation are schematic",
+    "Godot": "NOT TESTED: Godot runtime is unavailable"
+  },
+  "gates": {
+    "LOD0_more_than_150000": true,
+    "LOD1_40_to_55_percent": true,
+    "LOD2_10_to_20_percent": true,
+    "UVs_present": true,
+    "PBR_materials": true,
+    "door_animation_exported": true,
+    "GLB_reimport": true,
+    "Blender_blend_delivered": false,
+    "Godot_import_tested": false,
+    "actual_aircraft_collision_tested": false,
+    "source_and_repro_scripts": true
+  }
+}

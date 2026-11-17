@@ -1,0 +1,75 @@
+{
+  "asset_id": "AIR-03",
+  "version": "v3",
+  "asset_name": "Gate pier and passenger boarding wing",
+  "authoring_origin": "Reference-conditioned procedural Python geometry, not image planes",
+  "reference": "AIR-03_MultiView_Reference.png",
+  "coordinate_system": "glTF Y-up, metres",
+  "architectural_core_m": {
+    "length_x": 160,
+    "width_z": 36,
+    "nominal_roof_height_y": 18.5
+  },
+  "base_level_y_m": {
+    "ground_apron": 0,
+    "boarding": 3.5,
+    "upper_concourse": 11.0
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "x_m": -60,
+      "furnished": false
+    },
+    {
+      "id": "G2",
+      "x_m": -20,
+      "furnished": true
+    },
+    {
+      "id": "G3",
+      "x_m": 20,
+      "furnished": false
+    },
+    {
+      "id": "G4",
+      "x_m": 60,
+      "furnished": false
+    }
+  ],
+  "files": {
+    "LOD0": "AIR-03_v3_LOD0.glb",
+    "LOD1": "AIR-03_v3_LOD1.glb",
+    "LOD2": "AIR-03_v3_LOD2.glb",
+    "HLOD": "AIR-03_v3_HLOD.glb",
+    "Godot_collision_scene": "AIR-03_v3_Godot.tscn",
+    "source_generator": "AIR-03_source_generator.py",
+    "reference_correction_generator": "reference_reconstruction_v3.py",
+    "Blender_conversion_script": "AIR-03_import_to_Blender.py"
+  },
+  "triangles": {
+    "AIR-03_v3_LOD0": 407846,
+    "AIR-03_v3_LOD1": 199230,
+    "AIR-03_v3_LOD2": 71542,
+    "AIR-03_v3_HLOD": 1598
+  },
+  "bounds": [
+    162.06,
+    18.685,
+    53.3
+  ],
+  "validation": {
+    "checks_passed": 84,
+    "checks_failed": 0,
+    "godot_runtime_verified": false,
+    "blend_native_source_exists": false
+  },
+  "texture_master": "Textures/",
+  "limitations": [
+    "Concept-image ambiguity prevents proof of photographic 100% identity",
+    "Blender and Godot not available; runtime and native-blend export not tested",
+    "Embedded PBR maps are 768px tileables (not cinematic 4K)",
+    "Contextual lighting, mountains and apron vehicles from the hero reference are not part of the GLB",
+    "Only G2 lower gate room is fully furnished; other areas are optimized shells"
+  ]
+}

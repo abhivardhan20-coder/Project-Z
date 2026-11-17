@@ -1,0 +1,128 @@
+{
+  "asset": "RAIL-02",
+  "revision": "V3: structurally connected mezzanine and real stair shafts",
+  "reference": "RAIL-02_MultiView_Reference.png",
+  "date": "2026-11-11",
+  "coordinate_system": "metres; glTF Y-up; X spans 132.84m frontage; -Z faces public entry",
+  "exports": [
+    {
+      "level": 0,
+      "file": "RAIL-02_LOD0.glb",
+      "triangles": 416904,
+      "vertices": 389520,
+      "mesh_geometries": 367,
+      "glTF_nodes": 446,
+      "door_pivots": 48,
+      "gate_pivots": 20,
+      "degenerate_faces": 0,
+      "nonfinite_vertex_components": 0,
+      "bounds": [
+        [
+          -66.42,
+          -0.67,
+          -35.702
+        ],
+        [
+          66.42,
+          28.85,
+          33.275
+        ]
+      ],
+      "reimport_pass": true,
+      "bytes": 19448808
+    },
+    {
+      "level": 1,
+      "file": "RAIL-02_LOD1.glb",
+      "triangles": 168632,
+      "vertices": 137796,
+      "mesh_geometries": 345,
+      "glTF_nodes": 424,
+      "door_pivots": 48,
+      "gate_pivots": 20,
+      "degenerate_faces": 0,
+      "nonfinite_vertex_components": 0,
+      "bounds": [
+        [
+          -66.42,
+          -0.67,
+          -35.702
+        ],
+        [
+          66.42,
+          28.85,
+          33.275
+        ]
+      ],
+      "reimport_pass": true,
+      "bytes": 11322452
+    },
+    {
+      "level": 2,
+      "file": "RAIL-02_LOD2.glb",
+      "triangles": 76672,
+      "vertices": 63948,
+      "mesh_geometries": 331,
+      "glTF_nodes": 410,
+      "door_pivots": 48,
+      "gate_pivots": 20,
+      "degenerate_faces": 0,
+      "nonfinite_vertex_components": 0,
+      "bounds": [
+        [
+          -66.42,
+          -0.67,
+          -35.702
+        ],
+        [
+          66.42,
+          28.849,
+          33.275
+        ]
+      ],
+      "reimport_pass": true,
+      "bytes": 8834168
+    }
+  ],
+  "level_finish_y_m": 8.82,
+  "escalators": {
+    "count": 4,
+    "ground_landing_y_m": 0.28,
+    "upper_landing_y_m": 8.82,
+    "head_to_bridge_contiguous": true,
+    "bridge_source_x_ranges": [
+      11.77,
+      20.55
+    ],
+    "bridge_source_z_range": [
+      19.65,
+      29.15
+    ]
+  },
+  "stairs": {
+    "count": 2,
+    "steps_each_lod0": 50,
+    "risers_m": 0.1744,
+    "going_m": 0.29,
+    "opening_at_gallery": true,
+    "walkable_exit_level_m": 8.82
+  },
+  "navigation_checks": {
+    "escalator_L1_head_support": true,
+    "escalator_L2_head_support": true,
+    "stair_L_open_shaft": true,
+    "gallery_L_continuous": true,
+    "escalator_R1_head_support": true,
+    "escalator_R2_head_support": true,
+    "stair_R_open_shaft": true,
+    "gallery_R_continuous": true
+  },
+  "collision_proxy_meshes": 464,
+  "doors": 48,
+  "ticket_gate_flaps": 20,
+  "glb_readback_pass": true,
+  "godot_runtime_tested": false,
+  "blender_native_blend_created": false,
+  "exact_reference_match": "not achieved",
+  "notes": "V3 resolves mid-air escalators and stairs intersecting solid mezzanine slabs. Other visual detailing remains schematic and must be manually approved."
+}
