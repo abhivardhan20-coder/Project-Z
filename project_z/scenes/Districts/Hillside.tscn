@@ -1,0 +1,1440 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://assets/Baked/ROAD_local.res" id="1_cqwo3"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SEDAN_local.res" id="2_kr5aq"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/POLICE_local.res" id="3_ic0vj"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SUITCASE_local.res" id="4_sc6an"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BARRIER_local.res" id="5_58kr0"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL01_lod0.res" id="6_16p1u"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL01_hlod.res" id="7_oi56u"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL02_lod1.res" id="8_20r83"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL02_lod2.res" id="9_ixkd7"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL02_hlod.res" id="10_jpdle"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL04_lod1.res" id="11_3acxi"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL04_lod2.res" id="12_xvanw"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL04_hlod.res" id="13_pebrx"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL03_lod2.res" id="14_gxel4"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL07_lod2.res" id="15_k52yx"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL09_lod2.res" id="16_iwy1c"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL09_hlod.res" id="17_1axap"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL05_lod2.res" id="18_cujxk"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL05_hlod.res" id="19_348dd"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL06_lod2.res" id="20_qo1p1"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL06_hlod.res" id="21_n1a2d"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL10_lod2.res" id="22_ojsnv"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/HIL10_hlod.res" id="23_tji2v"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AMBULANCE_single.res" id="24_jfpl6"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BENCH_local.res" id="25_psadb"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/OAK_local.res" id="26_0lnfh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xbiki"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_xwtil"]
+size = Vector3(31.173923, 1.9777112, 18.816708)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6s1wr"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_q6dco"]
+size = Vector3(36.5, 2.3343396, 23.800001)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2n8gs"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_ivs5q"]
+size = Vector3(27.12271, 1.8742871, 21.904459)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tmymq"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_um6yp"]
+size = Vector3(7.2096944, 0.67793703, 7.3716416)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hms3g"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_50ny0"]
+size = Vector3(53.1067, 2.856526, 15.95)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yyetk"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_griqo"]
+size = Vector3(28.572203, 1.7801404, 17.035288)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xp4sy"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_pu2e8"]
+size = Vector3(31.173923, 1.9851575, 18.816708)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jnds3"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_tnrci"]
+size = Vector3(36.5, 2.331593, 23.800001)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5k2r"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_57lqw"]
+size = Vector3(27.12271, 1.862843, 21.904459)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qelmj"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_txrh2"]
+size = Vector3(7.2096944, 0.6709485, 7.3716416)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pvgc2"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_mr1kv"]
+size = Vector3(53.1067, 2.824391, 15.95)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n8tnd"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_hse4v"]
+size = Vector3(28.572203, 1.7444043, 17.035288)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yub58"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_usig0"]
+size = Vector3(8.41, 0.9025464, 16.92)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qal2s"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_idnfj"]
+size = Vector3(21.419561, 1.5607495, 25.174997)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_owdhl"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_hqou1"]
+size = Vector3(22.4, 1.4797864, 13.679999)
+
+[node name="Hillside" type="Node3D" unique_id=1488029983]
+
+[node name="Hillside_ROAD_0224" type="Node3D" parent="." unique_id=2113590406]
+transform = Transform3D(-0.15537795, -0.0019542822, 2.0855749, -0.012628967, 0.9999206, 0, -0.98987967, -0.012450313, -0.32736537, -3100, 371.507, 2100)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0224" unique_id=1981845606]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0225" type="Node3D" parent="." unique_id=2135158252]
+transform = Transform3D(-0.15537794, -0.0019486047, 2.0855749, -0.012592273, 0.999921, 0, -0.9898796, -0.012414144, -0.32736537, -3101.551, 371.381, 2090.121)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0225" unique_id=1271367227]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0226" type="Node3D" parent="." unique_id=732788659]
+transform = Transform3D(-0.15537795, -0.0019495509, 2.0855749, -0.01259839, 0.99992096, 0, -0.98987967, -0.012420173, -0.32736537, -3103.101, 371.255, 2080.242)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0226" unique_id=1317797396]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0227" type="Node3D" parent="." unique_id=1946521797]
+transform = Transform3D(-0.15537794, -0.001957594, 2.0855749, -0.0126503715, 0.9999203, 0, -0.9898796, -0.012471412, -0.32736537, -3104.652, 371.129, 2070.363)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0227" unique_id=1633613197]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0228" type="Node3D" parent="." unique_id=460062215]
+transform = Transform3D(-0.15537795, -0.0019542822, 2.0855749, -0.012628967, 0.9999206, 0, -0.98987967, -0.012450313, -0.32736537, -3106.203, 371.003, 2060.484)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0228" unique_id=946367005]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0229" type="Node3D" parent="." unique_id=164376927]
+transform = Transform3D(-0.15537794, -0.0019528628, 2.0855749, -0.012619794, 0.9999207, 0, -0.98987967, -0.012441272, -0.32736537, -3107.753, 370.877, 2050.605)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0229" unique_id=446292339]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0230" type="Node3D" parent="." unique_id=1737016288]
+transform = Transform3D(-0.15537792, -0.00196611, 2.0855749, -0.012705414, 0.9999196, 0, -0.9898796, -0.0125256665, -0.32736537, -3109.304, 370.751, 2040.726)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0230" unique_id=1644696869]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0231" type="Node3D" parent="." unique_id=34591559]
+transform = Transform3D(-0.15537794, -0.0019656369, 2.0855749, -0.012702356, 0.99991965, 0, -0.98987967, -0.012522652, -0.32736537, -3110.855, 370.624, 2030.847)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0231" unique_id=1384700327]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0232" type="Node3D" parent="." unique_id=1152862800]
+transform = Transform3D(-0.15537792, -0.0019646906, 2.0855749, -0.012696241, 0.9999197, 0, -0.9898796, -0.012516625, -0.32736537, -3112.405, 370.497, 2020.968)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0232" unique_id=848693519]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0233" type="Node3D" parent="." unique_id=387544427]
+transform = Transform3D(-0.15537792, -0.0019784109, 2.0855749, -0.012784917, 0.9999186, 0, -0.9898796, -0.012604033, -0.32736537, -3113.956, 370.37, 2011.089)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0233" unique_id=1539637518]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0234" type="Node3D" parent="." unique_id=264523475]
+transform = Transform3D(-0.15537794, -0.001982196, 2.0855749, -0.012809382, 0.9999183, 0, -0.98987967, -0.012628146, -0.32736537, -3115.507, 370.242, 2001.21)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0234" unique_id=1609601305]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0235" type="Node3D" parent="." unique_id=1728325643]
+transform = Transform3D(-0.15537794, -0.0019831422, 2.0855749, -0.012815498, 0.9999182, 0, -0.9898797, -0.012634175, -0.32736537, -3117.057, 370.115, 1991.331)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0235" unique_id=100218009]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0236" type="Node3D" parent="." unique_id=1155688044]
+transform = Transform3D(-0.15537794, -0.0019944967, 2.0855749, -0.012888886, 0.99991727, 0, -0.98987967, -0.012706513, -0.32736537, -3118.608, 369.986, 1981.452)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0236" unique_id=1644920628]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0237" type="Node3D" parent="." unique_id=672184296]
+transform = Transform3D(-0.15537795, -0.0020034858, 2.0855749, -0.012946985, 0.99991655, 0, -0.98987967, -0.012763781, -0.32736537, -3120.159, 369.857, 1971.573)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0237" unique_id=210730740]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0238" type="Node3D" parent="." unique_id=24356067]
+transform = Transform3D(-0.15537794, -0.0020063245, 2.0855749, -0.012965332, 0.9999163, 0, -0.98987967, -0.012781865, -0.32736537, -3121.709, 369.728, 1961.693)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0238" unique_id=1744360804]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0239" type="Node3D" parent="." unique_id=1083722142]
+transform = Transform3D(-0.15537795, -0.0020148405, 2.0855749, -0.013020373, 0.9999156, 0, -0.98987967, -0.012836118, -0.32736537, -3123.26, 369.598, 1951.814)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0239" unique_id=1624476896]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0240" type="Node3D" parent="." unique_id=1470102221]
+transform = Transform3D(-0.15537795, -0.0020276145, 2.0855749, -0.013102937, 0.9999145, 0, -0.98987967, -0.012917499, -0.32736537, -3124.811, 369.468, 1941.935)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0240" unique_id=628138458]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0241" type="Node3D" parent="." unique_id=2022192854]
+transform = Transform3D(-0.15537792, -0.0020323456, 2.0855749, -0.013133514, 0.9999141, 0, -0.9898796, -0.012947639, -0.32736537, -3126.362, 369.337, 1932.056)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0241" unique_id=1229275634]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0242" type="Node3D" parent="." unique_id=482382507]
+transform = Transform3D(-0.15537794, -0.0020375499, 2.0855749, -0.013167151, 0.9999137, 0, -0.9898797, -0.0129807945, -0.32736537, -3127.912, 369.206, 1922.177)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0242" unique_id=191569374]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0243" type="Node3D" parent="." unique_id=1883259772]
+transform = Transform3D(-0.15537794, -0.0020512699, 2.0855749, -0.013255829, 0.9999125, 0, -0.98987967, -0.013068202, -0.32736537, -3129.463, 369.074, 1912.298)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0243" unique_id=846966175]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0244" type="Node3D" parent="." unique_id=760470454]
+transform = Transform3D(-0.15537794, -0.0020578934, 2.0855749, -0.013298639, 0.99991196, 0, -0.9898796, -0.013110399, -0.32736537, -3131.014, 368.942, 1902.419)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0244" unique_id=901330246]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0245" type="Node3D" parent="." unique_id=1392094757]
+transform = Transform3D(-0.15537794, -0.0020640437, 2.0855749, -0.013338391, 0.9999114, 0, -0.98987967, -0.013149581, -0.32736537, -3132.564, 368.809, 1892.54)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0245" unique_id=284463562]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0246" type="Node3D" parent="." unique_id=1905701415]
+transform = Transform3D(-0.15537794, -0.0020758712, 2.0855749, -0.013414837, 0.9999104, 0, -0.9898796, -0.013224932, -0.32736537, -3134.115, 368.675, 1882.661)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0246" unique_id=372593458]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0247" type="Node3D" parent="." unique_id=1974717364]
+transform = Transform3D(-0.15537792, -0.002083914, 2.0855749, -0.013466821, 0.9999097, 0, -0.9898796, -0.013276171, -0.32736537, -3135.666, 368.541, 1872.782)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0247" unique_id=860009346]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0248" type="Node3D" parent="." unique_id=804593496]
+transform = Transform3D(-0.15537794, -0.0020919568, 2.0855749, -0.013518805, 0.999909, 0, -0.98987955, -0.0133274095, -0.32736537, -3137.216, 368.406, 1862.903)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0248" unique_id=1567810347]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0249" type="Node3D" parent="." unique_id=1416188923]
+transform = Transform3D(-0.15537792, -0.0020999992, 2.0855749, -0.013570787, 0.99990827, 0, -0.9898796, -0.013378646, -0.32736537, -3138.767, 368.271, 1853.024)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0249" unique_id=416354162]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0250" type="Node3D" parent="." unique_id=880204019]
+transform = Transform3D(-0.15537794, -0.0021089884, 2.0855749, -0.013628889, 0.9999075, 0, -0.98987967, -0.013435913, -0.32736537, -3140.318, 368.135, 1843.145)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0250" unique_id=2127351256]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0251" type="Node3D" parent="." unique_id=1999199186]
+transform = Transform3D(-0.15537792, -0.0021179772, 2.0855749, -0.013686987, 0.9999067, 0, -0.9898796, -0.01349318, -0.32736537, -3141.868, 367.999, 1833.266)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0251" unique_id=1415170567]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0252" type="Node3D" parent="." unique_id=107121593]
+transform = Transform3D(-0.15537792, -0.0021246003, 2.0855749, -0.013729797, 0.9999061, 0, -0.9898796, -0.013535376, -0.32736537, -3143.419, 367.862, 1823.387)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0252" unique_id=776764755]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0253" type="Node3D" parent="." unique_id=542263517]
+transform = Transform3D(-0.15537794, -0.0021312237, 2.0855749, -0.013772607, 0.9999055, 0, -0.9898796, -0.013577571, -0.32736537, -3144.97, 367.725, 1813.508)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0253" unique_id=693785431]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0254" type="Node3D" parent="." unique_id=66041987]
+transform = Transform3D(-0.15537794, -0.0021411588, 2.0855749, -0.013836823, 0.9999047, 0, -0.98987967, -0.013640866, -0.32736537, -3146.52, 367.587, 1803.629)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0254" unique_id=1102580289]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0255" type="Node3D" parent="." unique_id=1139216808]
+transform = Transform3D(-0.15537794, -0.0021487284, 2.0855749, -0.013885748, 0.999904, 0, -0.98987955, -0.013689089, -0.32736537, -3148.071, 367.449, 1793.75)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0255" unique_id=2072425628]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0256" type="Node3D" parent="." unique_id=1046649402]
+transform = Transform3D(-0.15537794, -0.0021482552, 2.0855749, -0.01388269, 0.99990404, 0, -0.9898796, -0.013686075, -0.32736537, -3149.622, 367.31, 1783.871)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0256" unique_id=1351966203]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0257" type="Node3D" parent="." unique_id=492093097]
+transform = Transform3D(-0.15537794, -0.0021596095, 2.0855749, -0.013956078, 0.999903, 0, -0.9898796, -0.013758411, -0.32736537, -3151.172, 367.171, 1773.992)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0257" unique_id=570623106]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0258" type="Node3D" parent="." unique_id=39085292]
+transform = Transform3D(-0.15537794, -0.0021695443, 2.0855749, -0.014020295, 0.9999021, 0, -0.98987967, -0.013821703, -0.32736537, -3152.723, 367.032, 1764.113)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0258" unique_id=69828005]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0259" type="Node3D" parent="." unique_id=487588078]
+transform = Transform3D(-0.15537794, -0.0021615017, 2.0855749, -0.01396831, 0.99990284, 0, -0.98987967, -0.013770466, -0.32736537, -3154.274, 366.892, 1754.234)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0259" unique_id=863898488]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0260" type="Node3D" parent="." unique_id=1791695846]
+transform = Transform3D(-0.15537794, -0.0021709637, 2.0855749, -0.0140294675, 0.999902, 0, -0.98987967, -0.013830746, -0.32736537, -3155.824, 366.752, 1744.355)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0260" unique_id=1022439449]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0261" type="Node3D" parent="." unique_id=1173708498]
+transform = Transform3D(-0.15537794, -0.0021823177, 2.0855749, -0.014102857, 0.99990094, 0, -0.98987967, -0.0139030805, -0.32736537, -3157.375, 366.612, 1734.476)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0261" unique_id=1335172175]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0262" type="Node3D" parent="." unique_id=790185701]
+transform = Transform3D(-0.15537794, -0.002167652, 2.0855749, -0.014008064, 0.9999023, 0, -0.9898797, -0.013809647, -0.32736537, -3158.926, 366.472, 1724.597)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0262" unique_id=1625210627]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0263" type="Node3D" parent="." unique_id=1559590615]
+transform = Transform3D(-0.15537794, -0.002166706, 2.0855749, -0.014001948, 0.99990237, 0, -0.98987967, -0.01380362, -0.32736537, -3160.476, 366.332, 1714.718)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0263" unique_id=629414533]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0264" type="Node3D" parent="." unique_id=1002727714]
+transform = Transform3D(-0.15537794, -0.0021771137, 2.0855749, -0.014069221, 0.9999014, 0, -0.98987967, -0.013869926, -0.32736537, -3162.027, 366.192, 1704.838)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0264" unique_id=540655465]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0265" type="Node3D" parent="." unique_id=737323752]
+transform = Transform3D(-0.15537794, -0.0021695443, 2.0855749, -0.014020295, 0.9999021, 0, -0.98987967, -0.013821703, -0.32736537, -3163.578, 366.052, 1694.959)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0265" unique_id=204336492]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0266" type="Node3D" parent="." unique_id=819512277]
+transform = Transform3D(-0.15537792, -0.0021581901, 2.0855749, -0.013946906, 0.99990314, 0, -0.9898796, -0.0137493685, -0.32736537, -3165.128, 365.912, 1685.08)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0266" unique_id=1606526031]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0267" type="Node3D" parent="." unique_id=1521909742]
+transform = Transform3D(-0.15537794, -0.002168125, 2.0855749, -0.01401112, 0.99990225, 0, -0.98987967, -0.013812661, -0.32736537, -3166.679, 365.773, 1675.201)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0267" unique_id=1685199208]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0268" type="Node3D" parent="." unique_id=1306789348]
+transform = Transform3D(-0.15537794, -0.002167652, 2.0855749, -0.014008064, 0.9999023, 0, -0.9898797, -0.013809647, -0.32736537, -3168.23, 365.633, 1665.322)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0268" unique_id=100048063]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0269" type="Node3D" parent="." unique_id=1018838695]
+transform = Transform3D(-0.15537794, -0.002137374, 2.0855749, -0.013812359, 0.999905, 0, -0.9898796, -0.013616753, -0.32736537, -3169.781, 365.494, 1655.443)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0269" unique_id=554269112]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0270" type="Node3D" parent="." unique_id=1122919509]
+transform = Transform3D(-0.15537792, -0.002147309, 2.0855749, -0.013876575, 0.9999041, 0, -0.98987955, -0.013680047, -0.32736537, -3171.331, 365.356, 1645.564)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0270" unique_id=411407991]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_ROAD_0271" type="Node3D" parent="." unique_id=811343193]
+transform = Transform3D(-0.15537794, -0.002157717, 2.0855749, -0.013943848, 0.9999032, 0, -0.98987967, -0.013746355, -0.32736537, -3172.882, 365.217, 1635.685)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_ROAD_0271" unique_id=2058015468]
+lod_bias = 0.65
+mesh = ExtResource("1_cqwo3")
+
+[node name="Hillside_SEDAN_0272" type="Node3D" parent="." unique_id=1071837659]
+transform = Transform3D(0.0079977065, 0.00010041066, 0.999968, -0.012553942, 0.9999212, 0, -0.9998892, -0.012553541, 0.007998337, -3108.689, 371.521, 2087.208)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0272" unique_id=2137935614]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0273" type="Node3D" parent="." unique_id=15408500]
+transform = Transform3D(-0.32031816, -0.004025483, 0.94730145, -0.012566146, 0.999921, 0, -0.94722664, -0.011903929, -0.32034346, -3104.46, 371.559, 2089.596)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0273" unique_id=140973301]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0274" type="Node3D" parent="." unique_id=803213254]
+transform = Transform3D(0.024830794, 0.00031190045, 0.9996916, -0.012560044, 0.99992114, 0, -0.99961275, -0.012556171, 0.024832752, -3098.467, 371.559, 2088.689)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0274" unique_id=1729600084]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0275" type="Node3D" parent="." unique_id=1850301568]
+transform = Transform3D(-0.25886577, -0.003250042, 0.9659078, -0.012553942, 0.9999212, 0, -0.9658317, -0.012125951, -0.25888616, -3093.846, 371.526, 2085.273)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0275" unique_id=340997401]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0276" type="Node3D" parent="." unique_id=335487344]
+transform = Transform3D(-0.23485586, -0.002967234, 0.9720257, -0.012633269, 0.9999202, 0, -0.9719481, -0.012279862, -0.2348746, -3096.381, 371.361, 2072.438)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0276" unique_id=1413818754]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0277" type="Node3D" parent="." unique_id=595652936]
+transform = Transform3D(-0.18909377, -0.0023844466, 0.9819561, -0.012608861, 0.9999205, 0, -0.98187804, -0.012381348, -0.1891088, -3108.299, 371.204, 2061.679)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0277" unique_id=903454759]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0278" type="Node3D" parent="." unique_id=1996442808]
+transform = Transform3D(-0.13567074, -0.0017091332, 0.9907525, -0.012596657, 0.99992067, 0, -0.9906739, -0.01248017, -0.1356815, -3114.744, 371.039, 2049.396)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0278" unique_id=668241489]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0279" type="Node3D" parent="." unique_id=152426861]
+transform = Transform3D(-0.20282252, -0.0025588023, 0.97921216, -0.012614964, 0.9999204, 0, -0.97913426, -0.0123527255, -0.20283866, -3099.939, 371.026, 2046.073)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0279" unique_id=1880113859]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0280" type="Node3D" parent="." unique_id=473973836]
+transform = Transform3D(-0.36296472, -0.0046013044, 0.9317915, -0.012675983, 0.99991965, 0, -0.9317166, -0.011811373, -0.3629939, -3117.694, 370.819, 2032.318)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0280" unique_id=1759698009]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0281" type="Node3D" parent="." unique_id=1887937334]
+transform = Transform3D(-0.2632857, -0.0033392801, 0.96471214, -0.012682086, 0.9999196, 0, -0.9646346, -0.012234562, -0.26330686, -3113.167, 370.845, 2033.701)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0281" unique_id=1776245863]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0282" type="Node3D" parent="." unique_id=1623776999]
+transform = Transform3D(-0.050990745, -0.00064640975, 0.9986989, -0.012675983, 0.99991965, 0, -0.99861866, -0.01265949, -0.050994843, -3107.469, 370.843, 2032.601)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0282" unique_id=1566717429]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0283" type="Node3D" parent="." unique_id=1050123572]
+transform = Transform3D(-0.07132432, -0.00090374326, 0.9974528, -0.012669882, 0.9999197, 0, -0.9973727, -0.012637609, -0.07133005, -3119.534, 370.679, 2021.411)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0283" unique_id=853514580]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0284" type="Node3D" parent="." unique_id=1643729977]
+transform = Transform3D(-0.19918884, -0.0025239016, 0.9799579, -0.012669882, 0.9999197, 0, -0.9798792, -0.01241595, -0.19920483, -3104.485, 370.665, 2017.977)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0284" unique_id=1905417934]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0285" type="Node3D" parent="." unique_id=572315359]
+transform = Transform3D(-0.36338884, -0.004644386, 0.93162596, -0.012779717, 0.99991834, 0, -0.9315499, -0.011905916, -0.36341852, -3121.65, 370.485, 2006.354)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0285" unique_id=929838088]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0286" type="Node3D" parent="." unique_id=647198836]
+transform = Transform3D(-0.054030824, -0.00069121463, 0.99853903, -0.012791921, 0.99991816, 0, -0.9984573, -0.012773233, -0.054035246, -3123.809, 370.328, 1994.221)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0286" unique_id=1147482710]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0287" type="Node3D" parent="." unique_id=65322000]
+transform = Transform3D(-0.3080363, -0.003938819, 0.9513664, -0.01278582, 0.9999183, 0, -0.9512887, -0.012164, -0.30806148, -3119.367, 370.304, 1991.68)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0287" unique_id=1348013133]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0288" type="Node3D" parent="." unique_id=137019070]
+transform = Transform3D(-0.34431887, -0.0044048605, 0.9388424, -0.012791921, 0.99991816, 0, -0.9387656, -0.012009598, -0.34434706, -3109.788, 370.291, 1989.115)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0288" unique_id=843265189]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SEDAN_0289" type="Node3D" parent="." unique_id=1606901534]
+transform = Transform3D(-0.09650988, -0.0012458398, 0.9953312, -0.01290786, 0.9999167, 0, -0.9952483, -0.012847596, -0.09651792, -3111.407, 370.142, 1977.645)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0289" unique_id=1133766111]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_POLICE_0290" type="Node3D" parent="." unique_id=1191208962]
+transform = Transform3D(-0.30940688, -0.0040035555, 0.9509213, -0.01293837, 0.9999163, 0, -0.9508417, -0.012303372, -0.30943277, -3124.065, 369.93, 1963.003)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_POLICE_0290" unique_id=1585365744]
+lod_bias = 0.65
+mesh = ExtResource("3_ic0vj")
+
+[node name="Hillside_SEDAN_0291" type="Node3D" parent="." unique_id=1903757509]
+transform = Transform3D(-0.053633656, -0.00069366285, 0.9985604, -0.012932268, 0.9999164, 0, -0.9984769, -0.012913651, -0.05363814, -3112.796, 369.968, 1964.191)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SEDAN_0291" unique_id=551805220]
+lod_bias = 0.65
+mesh = ExtResource("2_kr5aq")
+
+[node name="Hillside_SUITCASE_0292" type="Node3D" parent="." unique_id=1074424167]
+transform = Transform3D(0.63632005, 0, 0.7714252, 0, 1, 0, -0.7714252, 0, 0.63632005, -3110.945, 370.898, 2036.758)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0292" unique_id=1764774975]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0293" type="Node3D" parent="." unique_id=1955554476]
+transform = Transform3D(-0.8853763, 0, -0.46487504, 0, 1, 0, 0.46487504, 0, -0.8853763, -3097.825, 371.399, 2074.839)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0293" unique_id=367295319]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0294" type="Node3D" parent="." unique_id=1878661188]
+transform = Transform3D(-0.26159418, 0, -0.96517795, 0, 1, 0, 0.96517795, 0, -0.26159418, -3109.884, 371.313, 2069.875)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0294" unique_id=855981880]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0295" type="Node3D" parent="." unique_id=885355742]
+transform = Transform3D(-0.14217311, 0, -0.9898418, 0, 1, 0, 0.9898418, 0, -0.14217311, -3111.806, 370.945, 2040.677)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0295" unique_id=1384316114]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0296" type="Node3D" parent="." unique_id=338848761]
+transform = Transform3D(0.6643349, 0, 0.7474351, 0, 1, 0, -0.7474351, 0, 0.6643349, -3121.253, 370.789, 2029.681)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0296" unique_id=1455172120]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0297" type="Node3D" parent="." unique_id=468729111]
+transform = Transform3D(-0.9340535, 0, -0.35713318, 0, 1, 0, 0.35713318, 0, -0.9340535, -3126.993, 370.425, 2001.634)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0297" unique_id=1984665257]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0298" type="Node3D" parent="." unique_id=768236772]
+transform = Transform3D(-0.75075495, 0, 0.6605808, 0, 1, 0, -0.6605808, 0, -0.75075495, -3102.702, 370.947, 2039.38)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0298" unique_id=1306730505]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0299" type="Node3D" parent="." unique_id=637773255]
+transform = Transform3D(-0.53397745, 0, 0.8454987, 0, 1, 0, -0.8454987, 0, -0.53397745, -3097.076, 371.57, 2088.534)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0299" unique_id=194194403]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0300" type="Node3D" parent="." unique_id=1327777441]
+transform = Transform3D(-0.7549736, 0, -0.65575516, 0, 1, 0, 0.65575516, 0, -0.7549736, -3097.312, 371.293, 2066.282)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0300" unique_id=1398156451]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0301" type="Node3D" parent="." unique_id=929123556]
+transform = Transform3D(-0.9808551, 0, 0.19473907, 0, 1, 0, -0.19473907, 0, -0.9808551, -3106.518, 371.103, 2052.51)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0301" unique_id=475747669]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0302" type="Node3D" parent="." unique_id=897431899]
+transform = Transform3D(-0.61058325, 0, -0.7919521, 0, 1, 0, 0.7919521, 0, -0.61058325, -3121.269, 370.91, 2039.307)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0302" unique_id=874965900]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_SUITCASE_0303" type="Node3D" parent="." unique_id=363400066]
+transform = Transform3D(-0.84909755, 0, -0.5282361, 0, 1, 0, 0.5282361, 0, -0.84909755, -3107.946, 370.718, 2021.924)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0303" unique_id=1394512064]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_BARRIER_0304" type="Node3D" parent="." unique_id=1370254052]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3122.785, 371.14, 2058.025)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0304" unique_id=1346598071]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_BARRIER_0305" type="Node3D" parent="." unique_id=1678066457]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3123.87, 371.052, 2051.11)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0305" unique_id=109977938]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_BARRIER_0306" type="Node3D" parent="." unique_id=924274009]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3124.955, 370.964, 2044.195)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0306" unique_id=1730519661]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_BARRIER_0307" type="Node3D" parent="." unique_id=644802512]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3091.172, 371.14, 2053.063)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0307" unique_id=1039127070]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_BARRIER_0308" type="Node3D" parent="." unique_id=866346072]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3092.257, 371.052, 2046.148)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0308" unique_id=980777854]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_BARRIER_0309" type="Node3D" parent="." unique_id=1968007143]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3093.343, 370.964, 2039.233)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BARRIER_0309" unique_id=1818166427]
+lod_bias = 0.65
+mesh = ExtResource("5_58kr0")
+
+[node name="Hillside_HIL01_0310" type="Node3D" parent="." unique_id=482699034]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3125.203, 372.8, 2087.76)
+metadata/source_asset = "HIL01"
+
+[node name="lod0" type="MeshInstance3D" parent="Hillside_HIL01_0310" unique_id=1983366915]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("6_16p1u")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL01_0310" unique_id=1582732476]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("7_oi56u")
+
+[node name="Hillside_HIL02_0311" type="Node3D" parent="." unique_id=1406738082]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3138.769, 372.393, 2027.13)
+metadata/source_asset = "HIL02"
+
+[node name="lod1" type="MeshInstance3D" parent="Hillside_HIL02_0311" unique_id=68189268]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 220.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("8_20r83")
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL02_0311" unique_id=1690072791]
+lod_bias = 0.65
+visibility_range_begin = 220.0
+visibility_range_begin_margin = 12.0
+visibility_range_end = 900.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("9_ixkd7")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL02_0311" unique_id=95099663]
+lod_bias = 0.65
+visibility_range_begin = 900.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("10_jpdle")
+
+[node name="Hillside_HIL04_0312" type="Node3D" parent="." unique_id=1528561676]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3144.431, 371.176, 1965.26)
+metadata/source_asset = "HIL04"
+
+[node name="lod1" type="MeshInstance3D" parent="Hillside_HIL04_0312" unique_id=847700427]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 220.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("11_3acxi")
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL04_0312" unique_id=1516401935]
+lod_bias = 0.65
+visibility_range_begin = 220.0
+visibility_range_begin_margin = 12.0
+visibility_range_end = 900.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("12_xvanw")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL04_0312" unique_id=1381852512]
+lod_bias = 0.65
+visibility_range_begin = 900.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("13_pebrx")
+
+[node name="Hillside_HIL03_0313" type="Node3D" parent="." unique_id=1282553013]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3157.997, 369.946, 1904.63)
+metadata/source_asset = "HIL03"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL03_0313" unique_id=866063444]
+lod_bias = 0.65
+mesh = ExtResource("14_gxel4")
+
+[node name="Hillside_HIL07_0314" type="Node3D" parent="." unique_id=805303804]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3163.66, 370.004, 1842.76)
+metadata/source_asset = "HIL07"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL07_0314" unique_id=1604098958]
+lod_bias = 0.65
+mesh = ExtResource("15_k52yx")
+
+[node name="Hillside_HIL09_0315" type="Node3D" parent="." unique_id=1023666799]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3177.226, 368.776, 1782.13)
+metadata/source_asset = "HIL09"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL09_0315" unique_id=999550439]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("16_iwy1c")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL09_0315" unique_id=1748794628]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("17_1axap")
+
+[node name="Hillside_HIL01_0316" type="Node3D" parent="." unique_id=1186220789]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3079.759, 370.616, 2080.627)
+metadata/source_asset = "HIL01"
+
+[node name="lod0" type="MeshInstance3D" parent="Hillside_HIL01_0316" unique_id=1961177103]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("6_16p1u")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL01_0316" unique_id=412321459]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("7_oi56u")
+
+[node name="Hillside_HIL02_0317" type="Node3D" parent="." unique_id=826918359]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3085.422, 369.806, 2018.757)
+metadata/source_asset = "HIL02"
+
+[node name="lod1" type="MeshInstance3D" parent="Hillside_HIL02_0317" unique_id=1759681308]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 220.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("8_20r83")
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL02_0317" unique_id=2118597957]
+lod_bias = 0.65
+visibility_range_begin = 220.0
+visibility_range_begin_margin = 12.0
+visibility_range_end = 900.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("9_ixkd7")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL02_0317" unique_id=488519277]
+lod_bias = 0.65
+visibility_range_begin = 900.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("10_jpdle")
+
+[node name="Hillside_HIL04_0318" type="Node3D" parent="." unique_id=1236312466]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3098.988, 368.976, 1958.127)
+metadata/source_asset = "HIL04"
+
+[node name="lod1" type="MeshInstance3D" parent="Hillside_HIL04_0318" unique_id=1591746092]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 220.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("11_3acxi")
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL04_0318" unique_id=1394485918]
+lod_bias = 0.65
+visibility_range_begin = 220.0
+visibility_range_begin_margin = 12.0
+visibility_range_end = 900.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("12_xvanw")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL04_0318" unique_id=866208888]
+lod_bias = 0.65
+visibility_range_begin = 900.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("13_pebrx")
+
+[node name="Hillside_HIL03_0319" type="Node3D" parent="." unique_id=1866820423]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3104.65, 367.398, 1896.257)
+metadata/source_asset = "HIL03"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL03_0319" unique_id=1322560095]
+lod_bias = 0.65
+mesh = ExtResource("14_gxel4")
+
+[node name="Hillside_HIL07_0320" type="Node3D" parent="." unique_id=1505004209]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3118.216, 367.866, 1835.627)
+metadata/source_asset = "HIL07"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL07_0320" unique_id=1589453150]
+lod_bias = 0.65
+mesh = ExtResource("15_k52yx")
+
+[node name="Hillside_HIL09_0321" type="Node3D" parent="." unique_id=2038074328]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3123.879, 366.33, 1773.757)
+metadata/source_asset = "HIL09"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL09_0321" unique_id=1398655131]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("16_iwy1c")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL09_0321" unique_id=1214100723]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("17_1axap")
+
+[node name="Hillside_HIL05_0322" type="Node3D" parent="." unique_id=1267818308]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3187.288, 367.001, 1698.681)
+metadata/source_asset = "HIL05"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL05_0322" unique_id=118862672]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("18_cujxk")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL05_0322" unique_id=888824910]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("19_348dd")
+
+[node name="Hillside_HIL06_0323" type="Node3D" parent="." unique_id=699407729]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3136.904, 365.132, 1690.773)
+metadata/source_asset = "HIL06"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL06_0323" unique_id=874984203]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("20_qo1p1")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL06_0323" unique_id=1050012814]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("21_n1a2d")
+
+[node name="Hillside_HIL10_0324" type="Node3D" parent="." unique_id=1666738067]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3083.744, 367.849, 1945.612)
+metadata/source_asset = "HIL10"
+
+[node name="lod2" type="MeshInstance3D" parent="Hillside_HIL10_0324" unique_id=1202627110]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("22_ojsnv")
+
+[node name="hlod" type="MeshInstance3D" parent="Hillside_HIL10_0324" unique_id=576769558]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("23_tji2v")
+
+[node name="Hillside_AMBULANCE_0325" type="Node3D" parent="." unique_id=894454141]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3097.834, 370.105, 2062.207)
+metadata/source_asset = "AMBULANCE"
+
+[node name="single" type="MeshInstance3D" parent="Hillside_AMBULANCE_0325" unique_id=1154581322]
+lod_bias = 0.65
+mesh = ExtResource("24_jfpl6")
+
+[node name="Hillside_BENCH_0326" type="Node3D" parent="." unique_id=1755397359]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3113.406, 371.4, 2091.982)
+metadata/source_asset = "BENCH"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_BENCH_0326" unique_id=1785205705]
+lod_bias = 0.65
+mesh = ExtResource("25_psadb")
+
+[node name="Hillside_SUITCASE_0327" type="Node3D" parent="." unique_id=1495649240]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3110.384, 371.134, 2085.434)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_SUITCASE_0327" unique_id=2099612157]
+lod_bias = 0.65
+mesh = ExtResource("4_sc6an")
+
+[node name="Hillside_OAK_0328" type="Node3D" parent="." unique_id=1713835961]
+transform = Transform3D(0.5142571, 0, -0.47065708, 0, 0.6971215, 0, 0.47065708, 0, 0.5142571, -3104.356, 368.244, 1954.401)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0328" unique_id=221980082]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0329" type="Node3D" parent="." unique_id=1413231597]
+transform = Transform3D(0.23562594, 0, 0.72013795, 0, 0.7577059, 0, -0.72013795, 0, 0.23562594, -3129.957, 370.797, 2023.864)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0329" unique_id=218447730]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0330" type="Node3D" parent="." unique_id=88950165]
+transform = Transform3D(-0.8423492, 0, -0.26868436, 0, 0.88416255, 0, 0.26868436, 0, -0.8423492, -3120.197, 366.736, 1843.958)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0330" unique_id=796610669]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0331" type="Node3D" parent="." unique_id=946622050]
+transform = Transform3D(0.06697342, 0, -1.0893172, 0, 1.0913742, 0, 1.0893172, 0, 0.06697342, -3139.202, 369.743, 1950.756)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0331" unique_id=1739780183]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0332" type="Node3D" parent="." unique_id=239389280]
+transform = Transform3D(-1.0472056, 0, -0.12898834, 0, 1.0551196, 0, 0.12898834, 0, -1.0472056, -3120.995, 366.97, 1853.865)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0332" unique_id=619822997]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0333" type="Node3D" parent="." unique_id=1455629112]
+transform = Transform3D(-0.3595186, 0, -1.030568, 0, 1.0914779, 0, 1.030568, 0, -0.3595186, -3173.507, 367.083, 1749.827)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0333" unique_id=1914972894]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0334" type="Node3D" parent="." unique_id=1494433262]
+transform = Transform3D(0.04183835, 0, -1.001134, 0, 1.0020078, 0, 1.001134, 0, 0.04183835, -3145.674, 365.129, 1710.534)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0334" unique_id=1201299383]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0335" type="Node3D" parent="." unique_id=1237759706]
+transform = Transform3D(0.15313531, 0, 0.80175847, 0, 0.8162518, 0, -0.80175847, 0, 0.15313531, -3160.343, 368.25, 1832.603)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0335" unique_id=562069677]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0336" type="Node3D" parent="." unique_id=2122252432]
+transform = Transform3D(0.5873705, 0, 0.560454, 0, 0.81185764, 0, -0.560454, 0, 0.5873705, -3104.134, 368.393, 1962.324)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0336" unique_id=655843699]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0337" type="Node3D" parent="." unique_id=1032152814]
+transform = Transform3D(0.83990794, 0, 0.45187777, 0, 0.9537499, 0, -0.45187777, 0, 0.83990794, -3178.477, 366.677, 1720.524)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0337" unique_id=29216282]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0338" type="Node3D" parent="." unique_id=1965716793]
+transform = Transform3D(0.62842184, 0, -0.809759, 0, 1.0249994, 0, 0.809759, 0, 0.62842184, -3088.08, 369.756, 2066.782)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0338" unique_id=112305847]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0339" type="Node3D" parent="." unique_id=237137168]
+transform = Transform3D(0.6232299, 0, 0.4338716, 0, 0.7593814, 0, -0.4338716, 0, 0.6232299, -3168.516, 367.388, 1774.504)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0339" unique_id=843016080]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0340" type="Node3D" parent="." unique_id=1963237557]
+transform = Transform3D(-0.8938004, 0, -0.20196101, 0, 0.9163336, 0, 0.20196101, 0, -0.8938004, -3110.896, 367.483, 1901.65)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0340" unique_id=997210698]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0341" type="Node3D" parent="." unique_id=1632566670]
+transform = Transform3D(0.60242474, 0, -0.87341875, 0, 1.0610259, 0, 0.87341875, 0, 0.60242474, -3130.674, 370.942, 2029.551)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0341" unique_id=476150088]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0342" type="Node3D" parent="." unique_id=1154558304]
+transform = Transform3D(0.66605145, 0, -0.24318981, 0, 0.7090598, 0, 0.24318981, 0, 0.66605145, -3104.341, 368.353, 1959.837)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0342" unique_id=557281529]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0343" type="Node3D" parent="." unique_id=1156984297]
+transform = Transform3D(0.52139664, 0, -0.6399528, 0, 0.825466, 0, 0.6399528, 0, 0.52139664, -3173.635, 367.151, 1752.828)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0343" unique_id=2127400381]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0344" type="Node3D" parent="." unique_id=243988584]
+transform = Transform3D(0.82532907, 0, 0.31353268, 0, 0.8828764, 0, -0.31353268, 0, 0.82532907, -3105.756, 368.209, 1949.462)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0344" unique_id=1675349016]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0345" type="Node3D" parent="." unique_id=1321733813]
+transform = Transform3D(0.7209846, 0, -0.32514846, 0, 0.7909111, 0, 0.32514846, 0, 0.7209846, -3182.462, 366.426, 1700.585)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0345" unique_id=1223593088]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0346" type="Node3D" parent="." unique_id=560351297]
+transform = Transform3D(-0.9946824, 0, -0.4264915, 0, 1.0822606, 0, 0.4264915, 0, -0.9946824, -3110.495, 367.627, 1909.776)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0346" unique_id=63181740]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0347" type="Node3D" parent="." unique_id=298362728]
+transform = Transform3D(-0.016400777, 0, 0.9296697, 0, 0.92981434, 0, -0.9296697, 0, -0.016400777, -3170.676, 366.938, 1748.603)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0347" unique_id=771364223]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0348" type="Node3D" parent="." unique_id=964600637]
+transform = Transform3D(0.041058395, 0, -1.0872667, 0, 1.0880417, 0, 1.0872667, 0, 0.041058395, -3098.146, 369.1, 2011.251)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0348" unique_id=316997516]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0349" type="Node3D" parent="." unique_id=1280159805]
+transform = Transform3D(-0.33779177, 0, -0.9035194, 0, 0.96459866, 0, 0.9035194, 0, -0.33779177, -3164.895, 367.701, 1796.889)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0349" unique_id=1784357251]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0350" type="Node3D" parent="." unique_id=327850045]
+transform = Transform3D(-0.9024123, 0, 0.11184129, 0, 0.9093164, 0, -0.11184129, 0, -0.9024123, -3153.517, 364.379, 1657.08)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0350" unique_id=2041856447]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0351" type="Node3D" parent="." unique_id=1826700794]
+transform = Transform3D(-0.10890184, 0, -0.7885428, 0, 0.79602724, 0, 0.7885428, 0, -0.10890184, -3170.649, 367.473, 1774.248)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0351" unique_id=1054125917]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0352" type="Node3D" parent="." unique_id=1627170206]
+transform = Transform3D(-0.73270214, 0, 0.62824005, 0, 0.96516216, 0, -0.62824005, 0, -0.73270214, -3087.075, 369.733, 2067.912)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0352" unique_id=1947192746]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0353" type="Node3D" parent="." unique_id=591082627]
+transform = Transform3D(-0.23191336, 0, 0.876718, 0, 0.90687275, 0, -0.876718, 0, -0.23191336, -3157.158, 368.24, 1838.8)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0353" unique_id=2095760753]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0354" type="Node3D" parent="." unique_id=1556558610]
+transform = Transform3D(0.7915407, 0, 0.32565066, 0, 0.8559118, 0, -0.32565066, 0, 0.7915407, -3092.003, 369.399, 2040.112)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0354" unique_id=202885099]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0355" type="Node3D" parent="." unique_id=1510463795]
+transform = Transform3D(0.544697, 0, -0.5693378, 0, 0.78793424, 0, 0.5693378, 0, 0.544697, -3138.055, 370.045, 1968.21)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0355" unique_id=1286799241]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0356" type="Node3D" parent="." unique_id=1685333102]
+transform = Transform3D(0.3920002, 0, -0.58743197, 0, 0.70621556, 0, 0.58743197, 0, 0.3920002, -3114.352, 367.356, 1887.673)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0356" unique_id=941461744]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0357" type="Node3D" parent="." unique_id=2122795468]
+transform = Transform3D(0.72888786, 0, -0.48433182, 0, 0.8751313, 0, 0.48433182, 0, 0.72888786, -3131.897, 370.391, 1999.226)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0357" unique_id=1996697723]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0358" type="Node3D" parent="." unique_id=967766856]
+transform = Transform3D(-0.7652774, 0, -0.6395939, 0, 0.9973614, 0, 0.6395939, 0, -0.7652774, -3138.012, 365.214, 1730.51)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0358" unique_id=767829038]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="Hillside_OAK_0359" type="Node3D" parent="." unique_id=591234893]
+transform = Transform3D(0.97541285, 0, 0.16433991, 0, 0.9891601, 0, -0.16433991, 0, 0.97541285, -3168.841, 367.479, 1778.173)
+metadata/source_asset = "OAK"
+
+[node name="local" type="MeshInstance3D" parent="Hillside_OAK_0359" unique_id=150182023]
+lod_bias = 0.65
+mesh = ExtResource("26_0lnfh")
+
+[node name="HIL01_Foundation" type="MeshInstance3D" parent="." unique_id=1008312585]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3125.203, 371.81107, 2087.76)
+material_override = SubResource("StandardMaterial3D_xbiki")
+mesh = SubResource("BoxMesh_xwtil")
+
+[node name="HIL02_Foundation" type="MeshInstance3D" parent="." unique_id=1221013699]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3138.7688, 371.22586, 2027.1304)
+material_override = SubResource("StandardMaterial3D_6s1wr")
+mesh = SubResource("BoxMesh_q6dco")
+
+[node name="HIL04_Foundation" type="MeshInstance3D" parent="." unique_id=97721794]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3144.4314, 370.2393, 1965.26)
+material_override = SubResource("StandardMaterial3D_2n8gs")
+mesh = SubResource("BoxMesh_ivs5q")
+
+[node name="HIL03_Foundation" type="MeshInstance3D" parent="." unique_id=881047868]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3157.997, 369.6071, 1904.6302)
+material_override = SubResource("StandardMaterial3D_tmymq")
+mesh = SubResource("BoxMesh_um6yp")
+
+[node name="HIL07_Foundation" type="MeshInstance3D" parent="." unique_id=940573531]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3163.6597, 368.57587, 1842.76)
+material_override = SubResource("StandardMaterial3D_hms3g")
+mesh = SubResource("BoxMesh_50ny0")
+
+[node name="HIL09_Foundation" type="MeshInstance3D" parent="." unique_id=1106459312]
+transform = Transform3D(0.15506783, 0, -0.98790383, 0, 1, 0, 0.98790383, 0, 0.15506783, -3177.2256, 367.8864, 1782.1301)
+material_override = SubResource("StandardMaterial3D_yyetk")
+mesh = SubResource("BoxMesh_griqo")
+
+[node name="@MeshInstance3D@14" type="MeshInstance3D" parent="." unique_id=931725112]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3079.7593, 369.62317, 2080.627)
+material_override = SubResource("StandardMaterial3D_xp4sy")
+mesh = SubResource("BoxMesh_pu2e8")
+
+[node name="@MeshInstance3D@15" type="MeshInstance3D" parent="." unique_id=239580953]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3085.4219, 368.63992, 2018.7567)
+material_override = SubResource("StandardMaterial3D_jnds3")
+mesh = SubResource("BoxMesh_tnrci")
+
+[node name="@MeshInstance3D@16" type="MeshInstance3D" parent="." unique_id=1307621921]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3098.9878, 368.04422, 1958.127)
+material_override = SubResource("StandardMaterial3D_e5k2r")
+mesh = SubResource("BoxMesh_57lqw")
+
+[node name="@MeshInstance3D@17" type="MeshInstance3D" parent="." unique_id=1882301917]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3104.6504, 367.06253, 1896.2566)
+material_override = SubResource("StandardMaterial3D_qelmj")
+mesh = SubResource("BoxMesh_txrh2")
+
+[node name="@MeshInstance3D@18" type="MeshInstance3D" parent="." unique_id=318078162]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3118.216, 366.45413, 1835.6268)
+material_override = SubResource("StandardMaterial3D_pvgc2")
+mesh = SubResource("BoxMesh_mr1kv")
+
+[node name="@MeshInstance3D@19" type="MeshInstance3D" parent="." unique_id=2059244093]
+transform = Transform3D(-0.1550678, 0, 0.98790383, 0, 1, 0, -0.98790383, 0, -0.1550678, -3123.8787, 365.45816, 1773.7565)
+material_override = SubResource("StandardMaterial3D_n8tnd")
+mesh = SubResource("BoxMesh_hse4v")
+
+[node name="HIL05_Foundation" type="MeshInstance3D" parent="." unique_id=1381401467]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3187.2876, 366.54935, 1698.681)
+material_override = SubResource("StandardMaterial3D_yub58")
+mesh = SubResource("BoxMesh_usig0")
+
+[node name="HIL06_Foundation" type="MeshInstance3D" parent="." unique_id=1950247673]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3136.9043, 364.35117, 1690.7726)
+material_override = SubResource("StandardMaterial3D_qal2s")
+mesh = SubResource("BoxMesh_idnfj")
+
+[node name="HIL10_Foundation" type="MeshInstance3D" parent="." unique_id=1165911646]
+transform = Transform3D(0.98790383, 0, 0.15506783, 0, 1, 0, -0.15506783, 0, 0.98790383, -3083.7441, 367.1093, 1945.6117)
+material_override = SubResource("StandardMaterial3D_owdhl")
+mesh = SubResource("BoxMesh_hqou1")

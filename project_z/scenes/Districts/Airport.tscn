@@ -1,0 +1,1503 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://assets/Baked/ROAD_local.res" id="1_gsg56"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SEDAN_local.res" id="2_747t6"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/POLICE_local.res" id="3_f13q0"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SUITCASE_local.res" id="4_lhs4b"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BARRIER_local.res" id="5_5ewp0"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR01_lod1.res" id="6_5kspy"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR01_lod2.res" id="7_csap6"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR01_hlod.res" id="8_by0jp"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR02_lod2.res" id="9_nl0la"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR03_lod2.res" id="10_4raaa"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR03_hlod.res" id="11_qkdxd"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR04_lod2.res" id="12_ihoml"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR04_hlod.res" id="13_rohul"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR08_lod2.res" id="14_54sfr"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR08_hlod.res" id="15_acpp8"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR10_lod2.res" id="16_16ibd"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AIR11_lod2.res" id="17_3xkg4"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BUS_local.res" id="18_2tg6y"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AMBULANCE_single.res" id="19_wfoo8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rqpft"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_mo4j4"]
+size = Vector3(3, 14.755506, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tf2fn"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_huu6h"]
+size = Vector3(3, 14.5192995, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hubk2"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_la0p8"]
+size = Vector3(3, 14.216809, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wt6ex"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_h8r3l"]
+size = Vector3(3, 13.823804, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_db8ny"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_uvtdy"]
+size = Vector3(3, 13.337995, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_etuc0"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_dww1u"]
+size = Vector3(3, 12.749158, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_862ia"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_ksnrc"]
+size = Vector3(3, 12.090436, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_16bfa"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_t0ahe"]
+size = Vector3(3, 11.355329, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6oh7w"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_xcxi1"]
+size = Vector3(3, 10.55763, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fjtg4"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_qr2op"]
+size = Vector3(3, 9.698682, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vga3r"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_gg347"]
+size = Vector3(3, 8.787915, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a51l0"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_vkaey"]
+size = Vector3(3, 7.8317995, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mthwg"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_7465t"]
+size = Vector3(3, 6.836438, 7)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lcv4d"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_ax0t1"]
+size = Vector3(260.4022, 13.741932, 78.60998)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wxt0k"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_iu11u"]
+size = Vector3(182.29999, 9.487324, 64.36301)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j6lhc"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_3ltgc"]
+size = Vector3(162.45999, 8.825123, 53.700005)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ieq2c"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_3vin4"]
+size = Vector3(24.715, 1.5692639, 24.715)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1cjjv"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_lre33"]
+size = Vector3(75.200005, 22.550953, 53.410004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4p7pb"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_6dblm"]
+size = Vector3(37.226, 19.390858, 11.754)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8i0k4"]
+albedo_color = Color(0.1882353, 0.20784314, 0.20784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_omey4"]
+size = Vector3(550, 0.18, 390)
+
+[node name="Airport" type="Node3D" unique_id=1048985758]
+
+[node name="Airport_ROAD_0000" type="Node3D" parent="." unique_id=2072950739]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4100, 418.3, 900)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0000" unique_id=1318361096]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0001" type="Node3D" parent="." unique_id=610073858]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4101.866, 418.3, 890.176)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0001" unique_id=1433295342]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0002" type="Node3D" parent="." unique_id=1700742181]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4103.732, 418.3, 880.351)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0002" unique_id=66652811]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0003" type="Node3D" parent="." unique_id=264844603]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4105.598, 418.3, 870.527)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0003" unique_id=1436849603]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0004" type="Node3D" parent="." unique_id=260440257]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4107.464, 418.3, 860.703)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0004" unique_id=196387290]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0005" type="Node3D" parent="." unique_id=628709179]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4109.33, 418.3, 850.878)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0005" unique_id=1474404920]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0006" type="Node3D" parent="." unique_id=527646469]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4111.196, 418.3, 841.054)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0006" unique_id=1381365258]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0007" type="Node3D" parent="." unique_id=1017528909]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4113.062, 418.3, 831.229)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0007" unique_id=288721835]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0008" type="Node3D" parent="." unique_id=868076589]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4114.928, 418.3, 821.405)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0008" unique_id=210444947]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0009" type="Node3D" parent="." unique_id=783228731]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4116.794, 418.3, 811.581)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0009" unique_id=275269034]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0010" type="Node3D" parent="." unique_id=1299530086]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4118.66, 418.3, 801.756)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0010" unique_id=1526264495]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0011" type="Node3D" parent="." unique_id=891151318]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4120.526, 418.3, 791.932)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0011" unique_id=740806405]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0012" type="Node3D" parent="." unique_id=523792628]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4122.392, 418.3, 782.108)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0012" unique_id=1683517338]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0013" type="Node3D" parent="." unique_id=1066065851]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4124.258, 418.3, 772.283)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0013" unique_id=243533155]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0014" type="Node3D" parent="." unique_id=560840769]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4126.124, 418.3, 762.459)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0014" unique_id=94824989]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0015" type="Node3D" parent="." unique_id=1765677434]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4127.99, 418.3, 752.635)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0015" unique_id=2066173587]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0016" type="Node3D" parent="." unique_id=929123451]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4129.856, 418.3, 742.81)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0016" unique_id=937975603]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0017" type="Node3D" parent="." unique_id=1983088374]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4131.722, 418.3, 732.986)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0017" unique_id=544809068]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0018" type="Node3D" parent="." unique_id=970672076]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4133.588, 418.3, 723.162)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0018" unique_id=799582625]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0019" type="Node3D" parent="." unique_id=1480151001]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4135.454, 418.3, 713.337)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0019" unique_id=495716347]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0020" type="Node3D" parent="." unique_id=1803205452]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4137.32, 418.3, 703.513)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0020" unique_id=995993539]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0021" type="Node3D" parent="." unique_id=1655721773]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4139.186, 418.3, 693.688)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0021" unique_id=167629406]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0022" type="Node3D" parent="." unique_id=1505535848]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4141.052, 418.3, 683.864)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0022" unique_id=1064297145]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0023" type="Node3D" parent="." unique_id=2064351767]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4142.918, 418.3, 674.04)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0023" unique_id=1757234596]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0024" type="Node3D" parent="." unique_id=1191740109]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4144.784, 418.3, 664.215)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0024" unique_id=583252508]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0025" type="Node3D" parent="." unique_id=1465161080]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4146.65, 418.3, 654.391)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0025" unique_id=1360862710]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0026" type="Node3D" parent="." unique_id=589127752]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4148.516, 418.3, 644.567)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0026" unique_id=373196382]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0027" type="Node3D" parent="." unique_id=230714703]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4150.382, 418.3, 634.742)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0027" unique_id=1286191975]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0028" type="Node3D" parent="." unique_id=312251991]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4152.248, 418.3, 624.918)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0028" unique_id=222622353]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0029" type="Node3D" parent="." unique_id=2047841944]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4154.114, 418.3, 615.094)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0029" unique_id=143934706]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0030" type="Node3D" parent="." unique_id=803411306]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4155.98, 418.3, 605.269)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0030" unique_id=1571082394]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0031" type="Node3D" parent="." unique_id=1167442319]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4157.846, 418.3, 595.445)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0031" unique_id=1470595181]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0032" type="Node3D" parent="." unique_id=330288806]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4159.712, 418.3, 585.62)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0032" unique_id=463117857]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0033" type="Node3D" parent="." unique_id=1753222555]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4161.578, 418.3, 575.796)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0033" unique_id=393758081]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0034" type="Node3D" parent="." unique_id=1075931068]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4163.444, 418.3, 565.972)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0034" unique_id=1383044493]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0035" type="Node3D" parent="." unique_id=975459713]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4165.31, 418.3, 556.147)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0035" unique_id=1175666748]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0036" type="Node3D" parent="." unique_id=978684088]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4167.176, 418.3, 546.323)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0036" unique_id=199349029]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0037" type="Node3D" parent="." unique_id=1964383636]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4169.042, 418.3, 536.499)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0037" unique_id=374620628]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0038" type="Node3D" parent="." unique_id=1972355145]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4170.908, 418.3, 526.674)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0038" unique_id=254048502]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0039" type="Node3D" parent="." unique_id=253358234]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4172.774, 418.3, 516.85)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0039" unique_id=1644896183]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0040" type="Node3D" parent="." unique_id=722574576]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4174.64, 418.3, 507.026)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0040" unique_id=1839736359]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0041" type="Node3D" parent="." unique_id=567904867]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4176.506, 418.3, 497.201)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0041" unique_id=771673213]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0042" type="Node3D" parent="." unique_id=356852701]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4178.372, 418.3, 487.377)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0042" unique_id=1160094546]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0043" type="Node3D" parent="." unique_id=122749602]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4180.238, 418.3, 477.553)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0043" unique_id=328912335]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0044" type="Node3D" parent="." unique_id=157444903]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4182.104, 418.3, 467.728)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0044" unique_id=649957572]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0045" type="Node3D" parent="." unique_id=278165159]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4183.97, 418.3, 457.904)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0045" unique_id=2137526663]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0046" type="Node3D" parent="." unique_id=419426184]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4185.836, 418.3, 448.079)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0046" unique_id=960020243]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0047" type="Node3D" parent="." unique_id=2086226050]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4187.702, 418.3, 438.255)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0047" unique_id=1668755456]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0048" type="Node3D" parent="." unique_id=1832597355]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4189.568, 418.3, 428.431)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0048" unique_id=839905252]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0049" type="Node3D" parent="." unique_id=770692798]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4191.434, 418.3, 418.606)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0049" unique_id=1699896652]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0050" type="Node3D" parent="." unique_id=2036079216]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4193.3, 418.3, 408.782)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0050" unique_id=535296790]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0051" type="Node3D" parent="." unique_id=1766089958]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4195.166, 418.3, 398.958)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0051" unique_id=1533834623]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0052" type="Node3D" parent="." unique_id=717582515]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4197.032, 418.3, 389.133)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0052" unique_id=391861660]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0053" type="Node3D" parent="." unique_id=1286806948]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4198.898, 418.3, 379.309)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0053" unique_id=85529685]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0054" type="Node3D" parent="." unique_id=712000527]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4200.764, 418.3, 369.485)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0054" unique_id=629573524]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0055" type="Node3D" parent="." unique_id=1727565605]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4202.63, 418.3, 359.66)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0055" unique_id=559434451]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0056" type="Node3D" parent="." unique_id=1225960187]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4204.496, 418.3, 349.836)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0056" unique_id=1207693553]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0057" type="Node3D" parent="." unique_id=733755574]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4206.362, 418.3, 340.011)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0057" unique_id=307517060]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0058" type="Node3D" parent="." unique_id=2064012157]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4208.228, 418.3, 330.187)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0058" unique_id=1165091345]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0059" type="Node3D" parent="." unique_id=92303486]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4210.094, 418.3, 320.363)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0059" unique_id=119924503]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0060" type="Node3D" parent="." unique_id=1993754229]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4211.96, 418.3, 310.538)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0060" unique_id=2124820291]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_ROAD_0061" type="Node3D" parent="." unique_id=1749476428]
+transform = Transform3D(0.18697321, 0, 2.838148, 0, 1, 0, -0.9844008, 0, 0.5390667, 4213.826, 418.3, 300.714)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Airport_ROAD_0061" unique_id=1810747117]
+lod_bias = 0.65
+mesh = ExtResource("1_gsg56")
+
+[node name="Airport_SEDAN_0062" type="Node3D" parent="." unique_id=1132266925]
+transform = Transform3D(0.15083763, 0, 0.98855853, 0, 1, 0, -0.98855853, 0, 0.15083763, 4095.443, 418.49, 886.293)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0062" unique_id=1460991033]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0063" type="Node3D" parent="." unique_id=1770089989]
+transform = Transform3D(0.12300051, 0, 0.9924066, 0, 1, 0, -0.9924066, 0, 0.12300051, 4100.241, 418.49, 886.054)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0063" unique_id=553062249]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_POLICE_0064" type="Node3D" parent="." unique_id=905538719]
+transform = Transform3D(0.2755864, 0, 0.9612763, 0, 1, 0, -0.9612763, 0, 0.2755864, 4105.451, 418.49, 887.294)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0064" unique_id=346299120]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_POLICE_0065" type="Node3D" parent="." unique_id=1056116254]
+transform = Transform3D(0.28174272, 0, 0.95949, 0, 1, 0, -0.95949, 0, 0.28174272, 4109.901, 418.49, 889.902)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0065" unique_id=672582767]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_POLICE_0066" type="Node3D" parent="." unique_id=403690177]
+transform = Transform3D(0.37391207, 0, 0.9274641, 0, 1, 0, -0.9274641, 0, 0.37391207, 4098.021, 418.49, 874.852)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0066" unique_id=1757156156]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_SEDAN_0067" type="Node3D" parent="." unique_id=1897185542]
+transform = Transform3D(0.05502241, 0, 0.99848515, 0, 1, 0, -0.99848515, 0, 0.05502241, 4102.231, 418.49, 874.677)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0067" unique_id=317977157]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0068" type="Node3D" parent="." unique_id=1823502756]
+transform = Transform3D(0.25389203, 0, 0.9672326, 0, 1, 0, -0.9672326, 0, 0.25389203, 4107.623, 418.49, 874.291)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0068" unique_id=787684673]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0069" type="Node3D" parent="." unique_id=1141212795]
+transform = Transform3D(0.10429048, 0, 0.9945469, 0, 1, 0, -0.9945469, 0, 0.10429048, 4112.333, 418.49, 876.757)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0069" unique_id=906992920]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_POLICE_0070" type="Node3D" parent="." unique_id=496864232]
+transform = Transform3D(0.21034932, 0, 0.97762626, 0, 1, 0, -0.97762626, 0, 0.21034932, 4101.104, 418.49, 858.998)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0070" unique_id=882967810]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_SEDAN_0071" type="Node3D" parent="." unique_id=1919653836]
+transform = Transform3D(0.32430962, 0, 0.945951, 0, 1, 0, -0.945951, 0, 0.32430962, 4105.252, 418.49, 859.133)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0071" unique_id=575018613]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0072" type="Node3D" parent="." unique_id=1919768466]
+transform = Transform3D(0.13782544, 0, 0.9904565, 0, 1, 0, -0.9904565, 0, 0.13782544, 4115.96, 418.49, 861.118)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0072" unique_id=1636635684]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0073" type="Node3D" parent="." unique_id=1847346578]
+transform = Transform3D(0.355437, 0, 0.93470025, 0, 1, 0, -0.93470025, 0, 0.355437, 4103.345, 418.49, 845.827)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0073" unique_id=711340559]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0074" type="Node3D" parent="." unique_id=1375507340]
+transform = Transform3D(0.21080475, 0, 0.9775282, 0, 1, 0, -0.9775282, 0, 0.21080475, 4118.512, 418.49, 847.695)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0074" unique_id=1460764691]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0075" type="Node3D" parent="." unique_id=1011427289]
+transform = Transform3D(0.16069114, 0, 0.98700476, 0, 1, 0, -0.98700476, 0, 0.16069114, 4105.353, 418.49, 832.994)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0075" unique_id=302097772]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0076" type="Node3D" parent="." unique_id=1051315195]
+transform = Transform3D(0.124346934, 0, 0.9922388, 0, 1, 0, -0.9922388, 0, 0.124346934, 4109.999, 418.49, 833.836)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0076" unique_id=1429413004]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0077" type="Node3D" parent="." unique_id=1461909922]
+transform = Transform3D(0.20579585, 0, 0.97859496, 0, 1, 0, -0.97859496, 0, 0.20579585, 4108.908, 418.49, 817.97)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0077" unique_id=1481332081]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0078" type="Node3D" parent="." unique_id=1486270245]
+transform = Transform3D(0.11388912, 0, 0.99349344, 0, 1, 0, -0.99349344, 0, 0.11388912, 4112.794, 418.49, 820.261)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0078" unique_id=1686616792]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0079" type="Node3D" parent="." unique_id=150264709]
+transform = Transform3D(0.15695676, 0, 0.98760545, 0, 1, 0, -0.98760545, 0, 0.15695676, 4118.491, 418.49, 820.435)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0079" unique_id=2117455843]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0080" type="Node3D" parent="." unique_id=975303555]
+transform = Transform3D(0.09802604, 0, 0.9951838, 0, 1, 0, -0.9951838, 0, 0.09802604, 4123.049, 418.49, 821.095)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0080" unique_id=606191287]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0081" type="Node3D" parent="." unique_id=1182129074]
+transform = Transform3D(0.08198569, 0, 0.9966335, 0, 1, 0, -0.9966335, 0, 0.08198569, 4111.49, 418.49, 802.986)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0081" unique_id=1678453540]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0082" type="Node3D" parent="." unique_id=1674096830]
+transform = Transform3D(-0.019397516, 0, 0.9998118, 0, 1, 0, -0.9998118, 0, -0.019397516, 4115.487, 418.49, 805.215)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0082" unique_id=24655336]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0083" type="Node3D" parent="." unique_id=1523420098]
+transform = Transform3D(0.24033403, 0, 0.97069025, 0, 1, 0, -0.97069025, 0, 0.24033403, 4120.755, 418.49, 805.608)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0083" unique_id=1156365730]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0084" type="Node3D" parent="." unique_id=1682197713]
+transform = Transform3D(0.14559849, 0, 0.98934376, 0, 1, 0, -0.98934376, 0, 0.14559849, 4125.503, 418.49, 807.431)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0084" unique_id=1791843703]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0085" type="Node3D" parent="." unique_id=564549699]
+transform = Transform3D(0.16652966, 0, 0.9860364, 0, 1, 0, -0.9860364, 0, 0.16652966, 4114.257, 418.49, 789.332)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0085" unique_id=1563959048]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0086" type="Node3D" parent="." unique_id=1154237212]
+transform = Transform3D(0.08011907, 0, 0.9967853, 0, 1, 0, -0.9967853, 0, 0.08011907, 4118.463, 418.49, 789.893)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0086" unique_id=2061413152]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0087" type="Node3D" parent="." unique_id=904093900]
+transform = Transform3D(0.34441838, 0, 0.93881625, 0, 1, 0, -0.93881625, 0, 0.34441838, 4123.299, 418.49, 793.942)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0087" unique_id=1237825630]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0088" type="Node3D" parent="." unique_id=1282500360]
+transform = Transform3D(0.35464287, 0, 0.93500185, 0, 1, 0, -0.93500185, 0, 0.35464287, 4116.031, 418.49, 777.336)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0088" unique_id=864929931]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0089" type="Node3D" parent="." unique_id=670100360]
+transform = Transform3D(0.035049368, 0, 0.9993856, 0, 1, 0, -0.9993856, 0, 0.035049368, 4121.438, 418.49, 775.84)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0089" unique_id=1281160978]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0090" type="Node3D" parent="." unique_id=1211299497]
+transform = Transform3D(0.37267467, 0, 0.92796206, 0, 1, 0, -0.92796206, 0, 0.37267467, 4126.011, 418.49, 780.395)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0090" unique_id=1190582155]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0091" type="Node3D" parent="." unique_id=1837082766]
+transform = Transform3D(0.03232877, 0, 0.99947727, 0, 1, 0, -0.99947727, 0, 0.03232877, 4119.103, 418.49, 762.977)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0091" unique_id=1412700308]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0092" type="Node3D" parent="." unique_id=1404252234]
+transform = Transform3D(0.18902244, 0, 0.98197275, 0, 1, 0, -0.98197275, 0, 0.18902244, 4123.414, 418.49, 763.136)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0092" unique_id=1338238526]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0093" type="Node3D" parent="." unique_id=1158780315]
+transform = Transform3D(0.09001116, 0, 0.99594074, 0, 1, 0, -0.99594074, 0, 0.09001116, 4129.044, 418.49, 764.917)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0093" unique_id=578454962]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0094" type="Node3D" parent="." unique_id=2088673020]
+transform = Transform3D(-0.0129601145, 0, 0.999916, 0, 1, 0, -0.999916, 0, -0.0129601145, 4121.466, 418.49, 751.074)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0094" unique_id=1706159812]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0095" type="Node3D" parent="." unique_id=732185428]
+transform = Transform3D(0.3835042, 0, 0.9235391, 0, 1, 0, -0.9235391, 0, 0.3835042, 4125.815, 418.49, 749.871)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0095" unique_id=86220400]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0096" type="Node3D" parent="." unique_id=1022244747]
+transform = Transform3D(0.07029711, 0, 0.9975261, 0, 1, 0, -0.9975261, 0, 0.07029711, 4130.683, 418.49, 752.511)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0096" unique_id=530603109]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0097" type="Node3D" parent="." unique_id=332212719]
+transform = Transform3D(0.015043125, 0, 0.9998869, 0, 1, 0, -0.9998869, 0, 0.015043125, 4123.953, 418.49, 734.488)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0097" unique_id=836202502]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0098" type="Node3D" parent="." unique_id=138226037]
+transform = Transform3D(0.14455736, 0, 0.9894964, 0, 1, 0, -0.9894964, 0, 0.14455736, 4127.835, 418.49, 737.384)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0098" unique_id=1436391722]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0099" type="Node3D" parent="." unique_id=1521256516]
+transform = Transform3D(0.31392863, 0, 0.94944656, 0, 1, 0, -0.94944656, 0, 0.31392863, 4133.771, 418.49, 738.297)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0099" unique_id=1825818460]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0100" type="Node3D" parent="." unique_id=640827946]
+transform = Transform3D(0.27600372, 0, 0.96115655, 0, 1, 0, -0.96115655, 0, 0.27600372, 4138.775, 418.49, 737.256)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0100" unique_id=1777258285]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0101" type="Node3D" parent="." unique_id=1788147892]
+transform = Transform3D(-0.011315148, 0, 0.999936, 0, 1, 0, -0.999936, 0, -0.011315148, 4136.751, 418.49, 725.132)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0101" unique_id=1194227161]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0102" type="Node3D" parent="." unique_id=373942496]
+transform = Transform3D(0.1638302, 0, 0.9864886, 0, 1, 0, -0.9864886, 0, 0.1638302, 4129.975, 418.49, 706.98)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0102" unique_id=1267188744]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0103" type="Node3D" parent="." unique_id=1538280081]
+transform = Transform3D(0.025456376, 0, 0.9996759, 0, 1, 0, -0.9996759, 0, 0.025456376, 4133.502, 418.49, 709.524)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0103" unique_id=1271031571]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0104" type="Node3D" parent="." unique_id=1074403643]
+transform = Transform3D(0.18967596, 0, 0.98184675, 0, 1, 0, -0.98184675, 0, 0.18967596, 4138.713, 418.49, 709.93)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0104" unique_id=382965972]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0105" type="Node3D" parent="." unique_id=182342815]
+transform = Transform3D(0.38156915, 0, 0.9243403, 0, 1, 0, -0.9243403, 0, 0.38156915, 4143.794, 418.49, 712.032)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0105" unique_id=1889514194]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0106" type="Node3D" parent="." unique_id=862316781]
+transform = Transform3D(0.07440083, 0, 0.99722844, 0, 1, 0, -0.99722844, 0, 0.07440083, 4131.232, 418.49, 695.756)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0106" unique_id=782113096]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_POLICE_0107" type="Node3D" parent="." unique_id=411822418]
+transform = Transform3D(0.07430311, 0, 0.9972357, 0, 1, 0, -0.9972357, 0, 0.07430311, 4146.164, 418.49, 697.815)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0107" unique_id=938990103]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_SEDAN_0108" type="Node3D" parent="." unique_id=1721992337]
+transform = Transform3D(0.08590203, 0, 0.9963036, 0, 1, 0, -0.9963036, 0, 0.08590203, 4134.488, 418.49, 680.118)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0108" unique_id=337584769]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0109" type="Node3D" parent="." unique_id=733071549]
+transform = Transform3D(0.057026383, 0, 0.9983727, 0, 1, 0, -0.9983727, 0, 0.057026383, 4138.789, 418.49, 682.776)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0109" unique_id=1807447284]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0110" type="Node3D" parent="." unique_id=501202457]
+transform = Transform3D(0.024256786, 0, 0.99970573, 0, 1, 0, -0.99970573, 0, 0.024256786, 4145.032, 418.49, 680.859)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0110" unique_id=939731008]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0111" type="Node3D" parent="." unique_id=2094843594]
+transform = Transform3D(0.32350457, 0, 0.9462266, 0, 1, 0, -0.9462266, 0, 0.32350457, 4149.579, 418.49, 682.842)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0111" unique_id=1481721558]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0112" type="Node3D" parent="." unique_id=669785702]
+transform = Transform3D(0.31290302, 0, 0.9497851, 0, 1, 0, -0.9497851, 0, 0.31290302, 4141.799, 418.49, 666.939)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0112" unique_id=1310646070]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0113" type="Node3D" parent="." unique_id=621547069]
+transform = Transform3D(-0.031167628, 0, 0.99951416, 0, 1, 0, -0.99951416, 0, -0.031167628, 4146.873, 418.49, 667.696)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0113" unique_id=1262956679]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0114" type="Node3D" parent="." unique_id=636686015]
+transform = Transform3D(0.35750854, 0, 0.9339099, 0, 1, 0, -0.9339099, 0, 0.35750854, 4152.008, 418.49, 667.692)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0114" unique_id=431759102]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0115" type="Node3D" parent="." unique_id=1979050440]
+transform = Transform3D(0.026518887, 0, 0.99964833, 0, 1, 0, -0.99964833, 0, 0.026518887, 4139.713, 418.49, 653.308)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0115" unique_id=689610446]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0116" type="Node3D" parent="." unique_id=538953249]
+transform = Transform3D(-0.0039683916, 0, 0.99999213, 0, 1, 0, -0.99999213, 0, -0.0039683916, 4144.212, 418.49, 654.87)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0116" unique_id=1337953266]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_SEDAN_0117" type="Node3D" parent="." unique_id=152761070]
+transform = Transform3D(0.04099527, 0, 0.99915934, 0, 1, 0, -0.99915934, 0, 0.04099527, 4149.681, 418.49, 654.113)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SEDAN_0117" unique_id=950004302]
+lod_bias = 0.65
+mesh = ExtResource("2_747t6")
+
+[node name="Airport_POLICE_0118" type="Node3D" parent="." unique_id=173264634]
+transform = Transform3D(0.22744471, 0, 0.973791, 0, 1, 0, -0.973791, 0, 0.22744471, 4154.585, 418.49, 657.286)
+metadata/source_asset = "POLICE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_POLICE_0118" unique_id=1522757131]
+lod_bias = 0.65
+mesh = ExtResource("3_f13q0")
+
+[node name="Airport_SUITCASE_0119" type="Node3D" parent="." unique_id=1880646777]
+transform = Transform3D(0.068975784, 0, -0.9976183, 0, 1, 0, 0.9976183, 0, 0.068975784, 4115.053, 418.5, 851.592)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0119" unique_id=1917939271]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0120" type="Node3D" parent="." unique_id=1546674046]
+transform = Transform3D(-0.90765464, 0, -0.41971788, 0, 1, 0, 0.41971788, 0, -0.90765464, 4121.891, 418.5, 801.03)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0120" unique_id=1340940921]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0121" type="Node3D" parent="." unique_id=1515398624]
+transform = Transform3D(-0.32030892, 0, -0.94731313, 0, 1, 0, 0.94731313, 0, -0.32030892, 4114.251, 418.5, 851.941)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0121" unique_id=21426925]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0122" type="Node3D" parent="." unique_id=211525228]
+transform = Transform3D(0.6826756, 0, 0.7307216, 0, 1, 0, -0.7307216, 0, 0.6826756, 4123.386, 418.5, 826.778)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0122" unique_id=317011167]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0123" type="Node3D" parent="." unique_id=1778575220]
+transform = Transform3D(-0.6437573, 0, 0.76522976, 0, 1, 0, -0.76522976, 0, -0.6437573, 4119.774, 418.5, 823.801)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0123" unique_id=329937500]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0124" type="Node3D" parent="." unique_id=2120944911]
+transform = Transform3D(0.9353226, 0, -0.35379612, 0, 1, 0, 0.35379612, 0, 0.9353226, 4109.033, 418.5, 881.545)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0124" unique_id=12380027]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0125" type="Node3D" parent="." unique_id=1473289702]
+transform = Transform3D(-0.99954414, 0, 0.030191688, 0, 1, 0, -0.030191688, 0, -0.99954414, 4112.92, 418.5, 845.832)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0125" unique_id=770943859]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0126" type="Node3D" parent="." unique_id=1549933724]
+transform = Transform3D(0.4706328, 0, -0.88232917, 0, 1, 0, 0.88232917, 0, 0.4706328, 4104.068, 418.5, 830.872)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0126" unique_id=435147746]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0127" type="Node3D" parent="." unique_id=2075320549]
+transform = Transform3D(0.8022977, 0, 0.59692407, 0, 1, 0, -0.59692407, 0, 0.8022977, 4099.471, 418.5, 841.17)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0127" unique_id=1296373422]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0128" type="Node3D" parent="." unique_id=654888780]
+transform = Transform3D(-0.7633129, 0, -0.646029, 0, 1, 0, 0.646029, 0, -0.7633129, 4119.283, 418.5, 829.369)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0128" unique_id=164190064]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0129" type="Node3D" parent="." unique_id=1107517223]
+transform = Transform3D(-0.6784132, 0, -0.73468053, 0, 1, 0, 0.73468053, 0, -0.6784132, 4099.464, 418.5, 852.924)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0129" unique_id=1147943078]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_SUITCASE_0130" type="Node3D" parent="." unique_id=661516192]
+transform = Transform3D(-0.651308, 0, -0.7588135, 0, 1, 0, 0.7588135, 0, -0.651308, 4117.438, 418.5, 854.439)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Airport_SUITCASE_0130" unique_id=1626165794]
+lod_bias = 0.65
+mesh = ExtResource("4_lhs4b")
+
+[node name="Airport_BARRIER_0131" type="Node3D" parent="." unique_id=677336089]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4092.678, 418.5, 852.805)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0131" unique_id=813071956]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_BARRIER_0132" type="Node3D" parent="." unique_id=2020013805]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4093.984, 418.5, 845.928)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0132" unique_id=892611626]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_BARRIER_0133" type="Node3D" parent="." unique_id=415704118]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4095.29, 418.5, 839.051)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0133" unique_id=1997221359]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_BARRIER_0134" type="Node3D" parent="." unique_id=212736210]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4124.116, 418.5, 858.776)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0134" unique_id=1374689581]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_BARRIER_0135" type="Node3D" parent="." unique_id=1957328943]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4125.422, 418.5, 851.899)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0135" unique_id=417803991]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_BARRIER_0136" type="Node3D" parent="." unique_id=1618031742]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4126.728, 418.5, 845.022)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BARRIER_0136" unique_id=341172935]
+lod_bias = 0.65
+mesh = ExtResource("5_5ewp0")
+
+[node name="Airport_AIR01_0137" type="Node3D" parent="." unique_id=1980908525]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4405.321, 424.327, 632.27)
+metadata/source_asset = "AIR01"
+
+[node name="lod1" type="MeshInstance3D" parent="Airport_AIR01_0137" unique_id=952131133]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 468.00397
+visibility_range_end_margin = 12.0
+mesh = ExtResource("6_5kspy")
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR01_0137" unique_id=1514756522]
+lod_bias = 0.65
+visibility_range_begin = 468.00397
+visibility_range_begin_margin = 12.0
+visibility_range_end = 1560.0132
+visibility_range_end_margin = 12.0
+mesh = ExtResource("7_csap6")
+
+[node name="hlod" type="MeshInstance3D" parent="Airport_AIR01_0137" unique_id=725548987]
+lod_bias = 0.65
+visibility_range_begin = 1560.0132
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("8_by0jp")
+
+[node name="Airport_AIR02_0138" type="Node3D" parent="." unique_id=1632874879]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4374.971, 420.304, 738.472)
+metadata/source_asset = "AIR02"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR02_0138" unique_id=523912617]
+lod_bias = 0.65
+mesh = ExtResource("9_nl0la")
+
+[node name="Airport_AIR03_0139" type="Node3D" parent="." unique_id=1721550290]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4422.488, 423.401, 541.886)
+metadata/source_asset = "AIR03"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR03_0139" unique_id=221902663]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 648.24
+visibility_range_end_margin = 12.0
+mesh = ExtResource("10_4raaa")
+
+[node name="hlod" type="MeshInstance3D" parent="Airport_AIR03_0139" unique_id=1681155854]
+lod_bias = 0.65
+visibility_range_begin = 648.24
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("11_qkdxd")
+
+[node name="Airport_AIR04_0140" type="Node3D" parent="." unique_id=1020628205]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4571.785, 427.394, 506.117)
+metadata/source_asset = "AIR04"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR04_0140" unique_id=495509968]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("12_ihoml")
+
+[node name="hlod" type="MeshInstance3D" parent="Airport_AIR04_0140" unique_id=1048283987]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("13_rohul")
+
+[node name="Airport_AIR08_0141" type="Node3D" parent="." unique_id=683018164]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4024.531, 418.3, 600.66)
+metadata/source_asset = "AIR08"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR08_0141" unique_id=436581896]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("14_54sfr")
+
+[node name="hlod" type="MeshInstance3D" parent="Airport_AIR08_0141" unique_id=1224660229]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("15_acpp8")
+
+[node name="Airport_AIR10_0142" type="Node3D" parent="." unique_id=1581581244]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4066.739, 418.3, 807.163)
+metadata/source_asset = "AIR10"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR10_0142" unique_id=947879208]
+lod_bias = 0.65
+mesh = ExtResource("16_16ibd")
+
+[node name="Airport_AIR11_0143" type="Node3D" parent="." unique_id=1293171385]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4080.428, 418.3, 863.71)
+metadata/source_asset = "AIR11"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR11_0143" unique_id=647357979]
+lod_bias = 0.65
+mesh = ExtResource("17_3xkg4")
+
+[node name="Airport_AIR11_0144" type="Node3D" parent="." unique_id=1451051555]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4070.604, 418.3, 861.844)
+metadata/source_asset = "AIR11"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR11_0144" unique_id=960985147]
+lod_bias = 0.65
+mesh = ExtResource("17_3xkg4")
+
+[node name="Airport_AIR11_0145" type="Node3D" parent="." unique_id=138528534]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4060.779, 418.3, 859.978)
+metadata/source_asset = "AIR11"
+
+[node name="lod2" type="MeshInstance3D" parent="Airport_AIR11_0145" unique_id=228494320]
+lod_bias = 0.65
+mesh = ExtResource("17_3xkg4")
+
+[node name="Airport_BUS_0146" type="Node3D" parent="." unique_id=60067120]
+transform = Transform3D(0.18660001, 0, 0.98243594, 0, 1, 0, -0.98243594, 0, 0.18660001, 4119.89, 418.5, 827.437)
+metadata/source_asset = "BUS"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BUS_0146" unique_id=1940421893]
+lod_bias = 0.65
+mesh = ExtResource("18_2tg6y")
+
+[node name="Airport_AMBULANCE_0147" type="Node3D" parent="." unique_id=502765228]
+transform = Transform3D(0.18660001, 0, 0.98243594, 0, 1, 0, -0.98243594, 0, 0.18660001, 4090.96, 418.5, 877.925)
+metadata/source_asset = "AMBULANCE"
+
+[node name="single" type="MeshInstance3D" parent="Airport_AMBULANCE_0147" unique_id=2050519234]
+lod_bias = 0.65
+mesh = ExtResource("19_wfoo8")
+
+[node name="Airport_BUS_0148" type="Node3D" parent="." unique_id=1716609981]
+transform = Transform3D(0.18660001, 0, 0.98243594, 0, 1, 0, -0.98243594, 0, 0.18660001, 4135.476, 418.5, 756.092)
+metadata/source_asset = "BUS"
+
+[node name="local" type="MeshInstance3D" parent="Airport_BUS_0148" unique_id=2142307049]
+lod_bias = 0.65
+mesh = ExtResource("18_2tg6y")
+
+[node name="ViaductSupport" type="MeshInstance3D" parent="." unique_id=43760453]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4100, 402.0445, 900)
+material_override = SubResource("StandardMaterial3D_rqpft")
+mesh = SubResource("BoxMesh_mo4j4")
+
+[node name="@MeshInstance3D@2" type="MeshInstance3D" parent="." unique_id=2005467893]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4109.33, 402.2807, 850.8782)
+material_override = SubResource("StandardMaterial3D_tf2fn")
+mesh = SubResource("BoxMesh_huu6h")
+
+[node name="@MeshInstance3D@3" type="MeshInstance3D" parent="." unique_id=1426895451]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4118.66, 402.5832, 801.7564)
+material_override = SubResource("StandardMaterial3D_hubk2")
+mesh = SubResource("BoxMesh_la0p8")
+
+[node name="@MeshInstance3D@4" type="MeshInstance3D" parent="." unique_id=818972540]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4127.99, 402.9762, 752.6346)
+material_override = SubResource("StandardMaterial3D_wt6ex")
+mesh = SubResource("BoxMesh_h8r3l")
+
+[node name="@MeshInstance3D@5" type="MeshInstance3D" parent="." unique_id=135342020]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4137.32, 403.462, 703.5128)
+material_override = SubResource("StandardMaterial3D_db8ny")
+mesh = SubResource("BoxMesh_uvtdy")
+
+[node name="@MeshInstance3D@6" type="MeshInstance3D" parent="." unique_id=1118492735]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4146.65, 404.05084, 654.391)
+material_override = SubResource("StandardMaterial3D_etuc0")
+mesh = SubResource("BoxMesh_dww1u")
+
+[node name="@MeshInstance3D@7" type="MeshInstance3D" parent="." unique_id=681547037]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4155.98, 404.70956, 605.2692)
+material_override = SubResource("StandardMaterial3D_862ia")
+mesh = SubResource("BoxMesh_ksnrc")
+
+[node name="@MeshInstance3D@8" type="MeshInstance3D" parent="." unique_id=1034727691]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4165.31, 405.44467, 556.1474)
+material_override = SubResource("StandardMaterial3D_16bfa")
+mesh = SubResource("BoxMesh_t0ahe")
+
+[node name="@MeshInstance3D@9" type="MeshInstance3D" parent="." unique_id=226329788]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4174.64, 406.24237, 507.0256)
+material_override = SubResource("StandardMaterial3D_6oh7w")
+mesh = SubResource("BoxMesh_xcxi1")
+
+[node name="@MeshInstance3D@10" type="MeshInstance3D" parent="." unique_id=1545358627]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4183.97, 407.10132, 457.9038)
+material_override = SubResource("StandardMaterial3D_fjtg4")
+mesh = SubResource("BoxMesh_qr2op")
+
+[node name="@MeshInstance3D@11" type="MeshInstance3D" parent="." unique_id=181171025]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4193.3, 408.0121, 408.782)
+material_override = SubResource("StandardMaterial3D_vga3r")
+mesh = SubResource("BoxMesh_gg347")
+
+[node name="@MeshInstance3D@12" type="MeshInstance3D" parent="." unique_id=1423490570]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4202.63, 408.9682, 359.66022)
+material_override = SubResource("StandardMaterial3D_a51l0")
+mesh = SubResource("BoxMesh_vkaey")
+
+[node name="@MeshInstance3D@13" type="MeshInstance3D" parent="." unique_id=1215952175]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4211.96, 409.96356, 310.53842)
+material_override = SubResource("StandardMaterial3D_mthwg")
+mesh = SubResource("BoxMesh_7465t")
+
+[node name="AIR01_Foundation" type="MeshInstance3D" parent="." unique_id=1474672996]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4405.321, 417.45654, 632.2705)
+material_override = SubResource("StandardMaterial3D_lcv4d")
+mesh = SubResource("BoxMesh_ax0t1")
+
+[node name="AIR02_Foundation" type="MeshInstance3D" parent="." unique_id=1182968450]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4374.9707, 415.55988, 738.4724)
+material_override = SubResource("StandardMaterial3D_wxt0k")
+mesh = SubResource("BoxMesh_iu11u")
+
+[node name="AIR03_Foundation" type="MeshInstance3D" parent="." unique_id=258684028]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4422.4883, 418.98807, 541.88635)
+material_override = SubResource("StandardMaterial3D_j6lhc")
+mesh = SubResource("BoxMesh_3ltgc")
+
+[node name="AIR04_Foundation" type="MeshInstance3D" parent="." unique_id=951762893]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4571.785, 426.60925, 506.1169)
+material_override = SubResource("StandardMaterial3D_ieq2c")
+mesh = SubResource("BoxMesh_3vin4")
+
+[node name="AIR08_Foundation" type="MeshInstance3D" parent="." unique_id=812324964]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4024.5313, 407.02454, 600.6599)
+material_override = SubResource("StandardMaterial3D_1cjjv")
+mesh = SubResource("BoxMesh_lre33")
+
+[node name="AIR10_Foundation" type="MeshInstance3D" parent="." unique_id=848136528]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4066.7393, 408.60458, 807.16296)
+material_override = SubResource("StandardMaterial3D_4p7pb")
+mesh = SubResource("BoxMesh_6dblm")
+
+[node name="TerminalApron" type="MeshInstance3D" parent="." unique_id=638973776]
+transform = Transform3D(0.982436, 0, -0.18659998, 0, 1, 0, 0.18659998, 0, 0.982436, 4403.455, 418.01, 642.09485)
+material_override = SubResource("StandardMaterial3D_8i0k4")
+mesh = SubResource("BoxMesh_omey4")

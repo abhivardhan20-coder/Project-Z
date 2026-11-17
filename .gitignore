@@ -2,3 +2,19 @@ node_modules/
 dist/
 *.log
 .DS_Store
+
+# Archives & retired folders
+*.zip
+_merged_mountains_retire/
+
+# Build caches & Godot artifacts
+.godot/
+builds/
+*.pck
+*.exe
+*.tmp
+*.TMP
+
+# Wi-Fi configuration & local network scripts
+Fix-WiFi-Power.bat
+Wi-Fi*.xml

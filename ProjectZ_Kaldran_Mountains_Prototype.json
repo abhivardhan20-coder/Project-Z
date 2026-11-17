@@ -1,0 +1,10 @@
+{
+  "archive": "ProjectZ_Kaldran_Mountains_Prototype.zip",
+  "files": 6896,
+  "bytes": 1120751069,
+  "sha256": "68af85d6bce44b5b1077f9204832643fbda644f6a2eebc16b5e3276bd4eee567",
+  "crc_check": "passed",
+  "scope": "standalone Windows Godot project, editable sources, QA and documentation; existing city integration requires adjacent project_z game",
+  "selected_asset_families": 56,
+  "optimized_user_glbs": 79
+}

@@ -1,0 +1,803 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://assets/Baked/ROAD_local.res" id="1_1kc1i"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SEDAN_local.res" id="2_d7coy"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/SUITCASE_local.res" id="3_q07xd"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BARRIER_local.res" id="4_othmq"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL01_lod1.res" id="5_4tg26"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL01_lod2.res" id="6_yiclb"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL01_hlod.res" id="7_bsppy"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL02_lod2.res" id="8_m8ybd"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL02_hlod.res" id="9_i5emq"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL03_lod2.res" id="10_jrgcx"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL03_hlod.res" id="11_qb375"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL04_lod2.res" id="12_aqo1e"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL06_lod2.res" id="13_us6ri"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL06_hlod.res" id="14_nfhcc"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL08_lod2.res" id="15_eta5v"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL08_hlod.res" id="16_ojblx"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL09_lod2.res" id="17_cclfo"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL10_lod2.res" id="18_y51rn"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/RAIL10_hlod.res" id="19_pi3dc"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/TRAIN_local.res" id="20_10rjb"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BUS_local.res" id="21_j44ue"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/AMBULANCE_single.res" id="22_ob7uo"]
+[ext_resource type="ArrayMesh" path="res://assets/Baked/BENCH_local.res" id="23_cwy8q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0srlt"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_w52os"]
+size = Vector3(159.65, 3.015143, 258.24002)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eac04"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_bvkxp"]
+size = Vector3(133.23999, 1.8726867, 69.37751)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1kh6s"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_uohwb"]
+size = Vector3(208.06754, 3.5694337, 29.012)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n52hq"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_4oa27"]
+size = Vector3(51.060005, 1.0510315, 25.751)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yr36a"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_ww8fp"]
+size = Vector3(18.699999, 1.9646972, 4.6150002)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qrgon"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_ve3ud"]
+size = Vector3(81.57, 3.0841432, 10.049999)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1exfe"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_vbvl8"]
+size = Vector3(84.05, 1.3191284, 40.905)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o7gqc"]
+albedo_color = Color(0.4117647, 0.42745098, 0.40784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_62inb"]
+size = Vector3(30.56, 3.0972352, 18.785002)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vyngf"]
+albedo_color = Color(0.1882353, 0.20784314, 0.20784314, 1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="BoxMesh_oc33l"]
+size = Vector3(250, 0.18, 170)
+
+[node name="Railway" type="Node3D" unique_id=745510835]
+
+[node name="Railway_ROAD_0149" type="Node3D" parent="." unique_id=2122925856]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1700, 322.15, 900)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0149" unique_id=1353474655]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0150" type="Node3D" parent="." unique_id=733577353]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1698.141, 322.15, 890.174)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0150" unique_id=1343679080]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0151" type="Node3D" parent="." unique_id=1022713582]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1696.283, 322.15, 880.348)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0151" unique_id=577919726]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0152" type="Node3D" parent="." unique_id=1555143215]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1694.424, 322.15, 870.523)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0152" unique_id=1916082861]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0153" type="Node3D" parent="." unique_id=1978416299]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1692.566, 322.15, 860.697)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0153" unique_id=342970869]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0154" type="Node3D" parent="." unique_id=1640520747]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1690.707, 322.15, 850.871)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0154" unique_id=1750144974]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0155" type="Node3D" parent="." unique_id=2030897717]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1688.849, 322.15, 841.045)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0155" unique_id=326223732]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0156" type="Node3D" parent="." unique_id=1807281808]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1686.99, 322.15, 831.22)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0156" unique_id=961072845]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0157" type="Node3D" parent="." unique_id=187357568]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1685.132, 322.15, 821.394)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0157" unique_id=1484283737]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0158" type="Node3D" parent="." unique_id=1749192225]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1683.273, 322.15, 811.568)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0158" unique_id=966601023]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0159" type="Node3D" parent="." unique_id=911191473]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1681.415, 322.15, 801.742)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0159" unique_id=348028938]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0160" type="Node3D" parent="." unique_id=1446533632]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1679.556, 322.15, 791.916)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0160" unique_id=1496032116]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0161" type="Node3D" parent="." unique_id=534150937]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1677.698, 322.15, 782.091)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0161" unique_id=1170018958]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0162" type="Node3D" parent="." unique_id=10410014]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1675.839, 322.15, 772.265)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0162" unique_id=2138184544]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0163" type="Node3D" parent="." unique_id=1816557931]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1673.981, 322.15, 762.439)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0163" unique_id=1616109889]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0164" type="Node3D" parent="." unique_id=1344905391]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1672.122, 322.15, 752.613)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0164" unique_id=1261732709]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0165" type="Node3D" parent="." unique_id=1854047280]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1670.263, 322.15, 742.788)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0165" unique_id=1300474748]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0166" type="Node3D" parent="." unique_id=404732365]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1668.405, 322.15, 732.962)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0166" unique_id=1407089824]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0167" type="Node3D" parent="." unique_id=1089802813]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1666.546, 322.15, 723.136)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0167" unique_id=1850229996]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0168" type="Node3D" parent="." unique_id=788671032]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1664.688, 322.15, 713.31)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0168" unique_id=1553784420]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0169" type="Node3D" parent="." unique_id=527916336]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1662.829, 322.15, 703.485)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0169" unique_id=2055759645]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0170" type="Node3D" parent="." unique_id=654464764]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1660.971, 322.15, 693.659)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0170" unique_id=1038031836]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0171" type="Node3D" parent="." unique_id=1309669]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1659.112, 322.15, 683.833)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0171" unique_id=1636640942]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_ROAD_0172" type="Node3D" parent="." unique_id=516701370]
+transform = Transform3D(-0.18622515, 0, 2.6202068, 0, 1, 0, -0.9845426, 0, -0.49560916, 1657.254, 322.15, 674.007)
+metadata/source_asset = "ROAD"
+
+[node name="local" type="MeshInstance3D" parent="Railway_ROAD_0172" unique_id=1993385573]
+lod_bias = 0.65
+mesh = ExtResource("1_1kc1i")
+
+[node name="Railway_SEDAN_0173" type="Node3D" parent="." unique_id=13325358]
+transform = Transform3D(-0.38512564, 0, 0.92286414, 0, 1, 0, -0.92286414, 0, -0.38512564, 1706.277, 322.34, 888.266)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0173" unique_id=1130657352]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0174" type="Node3D" parent="." unique_id=168773058]
+transform = Transform3D(-0.38661888, 0, 0.9222396, 0, 1, 0, -0.9222396, 0, -0.38661888, 1687.884, 322.34, 875.106)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0174" unique_id=1631832342]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0175" type="Node3D" parent="." unique_id=1570356048]
+transform = Transform3D(-0.113537215, 0, 0.99353373, 0, 1, 0, -0.99353373, 0, -0.113537215, 1692.853, 322.34, 876.321)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0175" unique_id=11682870]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0176" type="Node3D" parent="." unique_id=1337139329]
+transform = Transform3D(-0.33786207, 0, 0.9411956, 0, 1, 0, -0.9411956, 0, -0.33786207, 1694.857, 322.34, 858.722)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0176" unique_id=1409540919]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0177" type="Node3D" parent="." unique_id=1617079803]
+transform = Transform3D(-0.37037522, 0, 0.92888224, 0, 1, 0, -0.92888224, 0, -0.37037522, 1699.817, 322.34, 857.895)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0177" unique_id=438638668]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0178" type="Node3D" parent="." unique_id=703200121]
+transform = Transform3D(-0.33582792, 0, 0.9419234, 0, 1, 0, -0.9419234, 0, -0.33582792, 1680.715, 322.34, 836.255)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0178" unique_id=1800711378]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0179" type="Node3D" parent="." unique_id=1735639252]
+transform = Transform3D(-0.2219984, 0, 0.97504705, 0, 1, 0, -0.97504705, 0, -0.2219984, 1694.928, 322.34, 829.926)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0179" unique_id=296752106]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SEDAN_0180" type="Node3D" parent="." unique_id=1239904963]
+transform = Transform3D(-0.16997923, 0, 0.98544765, 0, 1, 0, -0.98544765, 0, -0.16997923, 1687.764, 322.34, 820.772)
+metadata/source_asset = "SEDAN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SEDAN_0180" unique_id=1605981550]
+lod_bias = 0.65
+mesh = ExtResource("2_d7coy")
+
+[node name="Railway_SUITCASE_0181" type="Node3D" parent="." unique_id=726256026]
+transform = Transform3D(0.034056827, 0, -0.9994199, 0, 1, 0, 0.9994199, 0, 0.034056827, 1698.932, 322.35, 849.182)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0181" unique_id=289403505]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0182" type="Node3D" parent="." unique_id=932385000]
+transform = Transform3D(0.1055521, 0, -0.9944138, 0, 1, 0, 0.9944138, 0, 0.1055521, 1699.038, 322.35, 890.311)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0182" unique_id=922687271]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0183" type="Node3D" parent="." unique_id=361082393]
+transform = Transform3D(0.9510095, 0, 0.30916163, 0, 1, 0, -0.30916163, 0, 0.9510095, 1689.59, 322.35, 820.848)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0183" unique_id=2045389263]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0184" type="Node3D" parent="." unique_id=1847672502]
+transform = Transform3D(-0.99515104, 0, 0.09835876, 0, 1, 0, -0.09835876, 0, -0.99515104, 1680.823, 322.35, 827.991)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0184" unique_id=1915061113]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0185" type="Node3D" parent="." unique_id=504602267]
+transform = Transform3D(0.84314656, 0, 0.53768384, 0, 1, 0, -0.53768384, 0, 0.84314656, 1687.835, 322.35, 829.493)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0185" unique_id=1754886643]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0186" type="Node3D" parent="." unique_id=1274334242]
+transform = Transform3D(0.98870754, 0, 0.14985801, 0, 1, 0, -0.14985801, 0, 0.98870754, 1684.665, 322.35, 850.627)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0186" unique_id=2038642174]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0187" type="Node3D" parent="." unique_id=1135134605]
+transform = Transform3D(-0.84936494, 0, 0.52780604, 0, 1, 0, -0.52780604, 0, -0.84936494, 1706.959, 322.35, 885.346)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0187" unique_id=772262844]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0188" type="Node3D" parent="." unique_id=1508036130]
+transform = Transform3D(-0.41681877, 0, -0.9089896, 0, 1, 0, 0.9089896, 0, -0.41681877, 1692.043, 322.35, 831.166)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0188" unique_id=2013133686]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0189" type="Node3D" parent="." unique_id=1819392536]
+transform = Transform3D(-0.9558327, 0, 0.29391116, 0, 1, 0, -0.29391116, 0, -0.9558327, 1697.75, 322.35, 882.819)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0189" unique_id=615813767]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0190" type="Node3D" parent="." unique_id=1575042909]
+transform = Transform3D(0.9996399, 0, 0.026833119, 0, 1, 0, -0.026833119, 0, 0.9996399, 1692.082, 322.35, 795.572)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0190" unique_id=1828294149]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0191" type="Node3D" parent="." unique_id=2013828140]
+transform = Transform3D(0.9978625, 0, -0.065348, 0, 1, 0, 0.065348, 0, 0.9978625, 1678.284, 322.35, 811.038)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0191" unique_id=2147362090]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_SUITCASE_0192" type="Node3D" parent="." unique_id=1540810621]
+transform = Transform3D(-0.6084022, 0, 0.7936289, 0, 1, 0, -0.7936289, 0, -0.6084022, 1690.086, 322.35, 838.409)
+metadata/source_asset = "SUITCASE"
+
+[node name="local" type="MeshInstance3D" parent="Railway_SUITCASE_0192" unique_id=159816234]
+lod_bias = 0.65
+mesh = ExtResource("3_q07xd")
+
+[node name="Railway_BARRIER_0193" type="Node3D" parent="." unique_id=1336979681]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1675.915, 322.35, 858.758)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0193" unique_id=1189911073]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_BARRIER_0194" type="Node3D" parent="." unique_id=1358268008]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1674.614, 322.35, 851.88)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0194" unique_id=1674484934]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_BARRIER_0195" type="Node3D" parent="." unique_id=414693173]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1673.313, 322.35, 845.002)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0195" unique_id=1308127040]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_BARRIER_0196" type="Node3D" parent="." unique_id=1781482878]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1707.358, 322.35, 852.81)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0196" unique_id=581117917]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_BARRIER_0197" type="Node3D" parent="." unique_id=1852339651]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1706.057, 322.35, 845.932)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0197" unique_id=1107030545]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_BARRIER_0198" type="Node3D" parent="." unique_id=820655688]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1704.756, 322.35, 839.054)
+metadata/source_asset = "BARRIER"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BARRIER_0198" unique_id=453280751]
+lod_bias = 0.65
+mesh = ExtResource("4_othmq")
+
+[node name="Railway_RAIL01_0199" type="Node3D" parent="." unique_id=1450888486]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1681.582, 322, 598.164)
+metadata/source_asset = "RAIL01"
+
+[node name="lod1" type="MeshInstance3D" parent="Railway_RAIL01_0199" unique_id=2030421763]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 464.11206
+visibility_range_end_margin = 12.0
+mesh = ExtResource("5_4tg26")
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL01_0199" unique_id=1096335837]
+lod_bias = 0.65
+visibility_range_begin = 464.11206
+visibility_range_begin_margin = 12.0
+visibility_range_end = 1547.0402
+visibility_range_end_margin = 12.0
+mesh = ExtResource("6_yiclb")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL01_0199" unique_id=542994468]
+lod_bias = 0.65
+visibility_range_begin = 1547.0402
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("7_bsppy")
+
+[node name="Railway_RAIL02_0200" type="Node3D" parent="." unique_id=168678206]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1562.317, 322, 656.344)
+metadata/source_asset = "RAIL02"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL02_0200" unique_id=786494547]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 531.36
+visibility_range_end_margin = 12.0
+mesh = ExtResource("8_m8ybd")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL02_0200" unique_id=1190027843]
+lod_bias = 0.65
+visibility_range_begin = 531.36
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("9_i5emq")
+
+[node name="Railway_RAIL03_0201" type="Node3D" parent="." unique_id=691800987]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1779.284, 322, 538.975)
+metadata/source_asset = "RAIL03"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL03_0201" unique_id=244750145]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 830.67017
+visibility_range_end_margin = 12.0
+mesh = ExtResource("10_jrgcx")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL03_0201" unique_id=797072535]
+lod_bias = 0.65
+visibility_range_begin = 830.67017
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("11_qb375")
+
+[node name="Railway_RAIL04_0202" type="Node3D" parent="." unique_id=976119718]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1486.475, 322, 594.359)
+metadata/source_asset = "RAIL04"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL04_0202" unique_id=829305285]
+lod_bias = 0.65
+mesh = ExtResource("12_aqo1e")
+
+[node name="Railway_RAIL06_0203" type="Node3D" parent="." unique_id=890133116]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1631.463, 322, 795.925)
+metadata/source_asset = "RAIL06"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL06_0203" unique_id=1793267365]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("13_us6ri")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL06_0203" unique_id=1975918271]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("14_nfhcc")
+
+[node name="Railway_RAIL08_0204" type="Node3D" parent="." unique_id=122793179]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1728.418, 322, 808.118)
+metadata/source_asset = "RAIL08"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL08_0204" unique_id=1663823079]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("15_eta5v")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL08_0204" unique_id=914226217]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("16_ojblx")
+
+[node name="Railway_RAIL09_0205" type="Node3D" parent="." unique_id=1654896072]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1509.464, 322, 834.267)
+metadata/source_asset = "RAIL09"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL09_0205" unique_id=1427930559]
+lod_bias = 0.65
+mesh = ExtResource("17_cclfo")
+
+[node name="Railway_RAIL10_0206" type="Node3D" parent="." unique_id=947585556]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1755.375, 322, 762.31)
+metadata/source_asset = "RAIL10"
+
+[node name="lod2" type="MeshInstance3D" parent="Railway_RAIL10_0206" unique_id=199047757]
+lod_bias = 0.65
+visibility_range_begin_margin = 12.0
+visibility_range_end = 450.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("18_y51rn")
+
+[node name="hlod" type="MeshInstance3D" parent="Railway_RAIL10_0206" unique_id=1684781674]
+lod_bias = 0.65
+visibility_range_begin = 450.0
+visibility_range_begin_margin = 12.0
+visibility_range_end_margin = 12.0
+mesh = ExtResource("19_pi3dc")
+
+[node name="Railway_TRAIN_0207" type="Node3D" parent="." unique_id=1012319793]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1788.599, 323.2, 679.695)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0207" unique_id=392928712]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0208" type="Node3D" parent="." unique_id=1736232588]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1784.325, 323.2, 657.096)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0208" unique_id=1549400486]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0209" type="Node3D" parent="." unique_id=882333961]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1780.05, 323.2, 634.497)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0209" unique_id=5844716]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0210" type="Node3D" parent="." unique_id=397053997]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1775.775, 323.2, 611.897)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0210" unique_id=252678781]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0211" type="Node3D" parent="." unique_id=1170940836]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1798.425, 323.2, 677.837)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0211" unique_id=2057696577]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0212" type="Node3D" parent="." unique_id=1863513338]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1794.15, 323.2, 655.237)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0212" unique_id=1998489348]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0213" type="Node3D" parent="." unique_id=1291663887]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1789.876, 323.2, 632.638)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0213" unique_id=278835763]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0214" type="Node3D" parent="." unique_id=1074502712]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1785.601, 323.2, 610.039)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0214" unique_id=425548401]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0215" type="Node3D" parent="." unique_id=790977299]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1808.251, 323.2, 675.978)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0215" unique_id=17874856]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0216" type="Node3D" parent="." unique_id=1844927039]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1803.976, 323.2, 653.379)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0216" unique_id=1169136385]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0217" type="Node3D" parent="." unique_id=1391887957]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1799.702, 323.2, 630.78)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0217" unique_id=1797746972]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_TRAIN_0218" type="Node3D" parent="." unique_id=1136623819]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1795.427, 323.2, 608.18)
+metadata/source_asset = "TRAIN"
+
+[node name="local" type="MeshInstance3D" parent="Railway_TRAIN_0218" unique_id=135958697]
+lod_bias = 0.65
+mesh = ExtResource("20_10rjb")
+
+[node name="Railway_BUS_0219" type="Node3D" parent="." unique_id=1715184923]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1683.218, 322.35, 854.323)
+metadata/source_asset = "BUS"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BUS_0219" unique_id=1120206658]
+lod_bias = 0.65
+mesh = ExtResource("21_j44ue")
+
+[node name="Railway_BUS_0220" type="Node3D" parent="." unique_id=1870902880]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1657.594, 322.35, 810.319)
+metadata/source_asset = "BUS"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BUS_0220" unique_id=1959983931]
+lod_bias = 0.65
+mesh = ExtResource("21_j44ue")
+
+[node name="Railway_AMBULANCE_0221" type="Node3D" parent="." unique_id=492625552]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1720.104, 322.35, 871.772)
+metadata/source_asset = "AMBULANCE"
+
+[node name="single" type="MeshInstance3D" parent="Railway_AMBULANCE_0221" unique_id=180954458]
+lod_bias = 0.65
+mesh = ExtResource("22_ob7uo")
+
+[node name="Railway_BENCH_0222" type="Node3D" parent="." unique_id=719096695]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1681.544, 322.35, 883.136)
+metadata/source_asset = "BENCH"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BENCH_0222" unique_id=2063048615]
+lod_bias = 0.65
+mesh = ExtResource("23_cwy8q")
+
+[node name="Railway_BENCH_0223" type="Node3D" parent="." unique_id=342257550]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1708.394, 322.35, 847.526)
+metadata/source_asset = "BENCH"
+
+[node name="local" type="MeshInstance3D" parent="Railway_BENCH_0223" unique_id=231312513]
+lod_bias = 0.65
+mesh = ExtResource("23_cwy8q")
+
+[node name="RAIL01_Foundation" type="MeshInstance3D" parent="." unique_id=478972027]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1681.5819, 320.49243, 598.1643)
+material_override = SubResource("StandardMaterial3D_0srlt")
+mesh = SubResource("BoxMesh_w52os")
+
+[node name="RAIL02_Foundation" type="MeshInstance3D" parent="." unique_id=1935787474]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1562.3169, 321.06366, 656.3438)
+material_override = SubResource("StandardMaterial3D_eac04")
+mesh = SubResource("BoxMesh_bvkxp")
+
+[node name="RAIL03_Foundation" type="MeshInstance3D" parent="." unique_id=1580306702]
+transform = Transform3D(-0.18585344, 0, 0.9825775, 0, 1, 0, -0.9825775, 0, -0.18585344, 1779.2836, 320.21527, 538.9749)
+material_override = SubResource("StandardMaterial3D_1kh6s")
+mesh = SubResource("BoxMesh_uohwb")
+
+[node name="RAIL04_Foundation" type="MeshInstance3D" parent="." unique_id=1876175820]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1486.4755, 321.4745, 594.35925)
+material_override = SubResource("StandardMaterial3D_n52hq")
+mesh = SubResource("BoxMesh_4oa27")
+
+[node name="RAIL06_Foundation" type="MeshInstance3D" parent="." unique_id=1677691165]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1631.4631, 321.01764, 795.92456)
+material_override = SubResource("StandardMaterial3D_yr36a")
+mesh = SubResource("BoxMesh_ww8fp")
+
+[node name="RAIL08_Foundation" type="MeshInstance3D" parent="." unique_id=1957327023]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1728.4185, 320.45792, 808.1175)
+material_override = SubResource("StandardMaterial3D_qrgon")
+mesh = SubResource("BoxMesh_ve3ud")
+
+[node name="RAIL09_Foundation" type="MeshInstance3D" parent="." unique_id=1430407332]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1509.4636, 321.34042, 834.2666)
+material_override = SubResource("StandardMaterial3D_1exfe")
+mesh = SubResource("BoxMesh_vbvl8")
+
+[node name="RAIL10_Foundation" type="MeshInstance3D" parent="." unique_id=1339399105]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1755.3745, 320.4514, 762.3095)
+material_override = SubResource("StandardMaterial3D_o7gqc")
+mesh = SubResource("BoxMesh_62inb")
+
+[node name="StationForecourt" type="MeshInstance3D" parent="." unique_id=1624387822]
+transform = Transform3D(0.98257744, 0, 0.18585348, 0, 1, 0, -0.18585348, 0, 0.98257744, 1689.915, 321.96, 739.07056)
+material_override = SubResource("StandardMaterial3D_vyngf")
+mesh = SubResource("BoxMesh_oc33l")

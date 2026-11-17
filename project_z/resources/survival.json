@@ -1,0 +1,26 @@
+{
+  "items": {
+    "water": ["Bottled water", 0.55, "Restores thirst."],
+    "food": ["Tinned food", 0.35, "Restores hunger."],
+    "bandage": ["Field dressing", 0.10, "Restores health."],
+    "medication": ["Clinic medication", 0.10, "Reduces exposure."],
+    "scrap": ["Scrap metal", 0.60, "Used for repairs."],
+    "electronics": ["Electrical components", 0.24, "Used for the generator repair kit."],
+    "cloth": ["Cloth", 0.12, "Used for dressings, filtration and reinforcement."],
+    "fuel": ["Fuel can", 1.10, "Starts the repaired generator."],
+    "filter_parts": ["Filter assembly", 0.85, "Recovered from the pumping station."],
+    "ammo": ["Pistol ammunition", 0.015, "Spare ammunition for the sidearm."],
+    "crowbar": ["Crowbar", 1.15, "Close-range weapon."],
+    "pistol": ["Service pistol", 0.95, "Ranged weapon. Reload from spare ammunition."],
+    "radio_parts": ["Radio receiver", 0.45, "Recovered from the Civic Police Annex."],
+    "barricade": ["Reinforcement kit", 1.25, "Secures the Hillview entrance."],
+    "repair": ["Generator repair kit", 0.70, "Restores power to the safehouse."],
+    "filter": ["Water filter", 0.90, "Restores clean water to the safehouse."]
+  },
+  "recipes": {
+    "bandage": {"cloth": 2},
+    "barricade": {"scrap": 2, "cloth": 1},
+    "repair": {"scrap": 1, "electronics": 2},
+    "filter": {"filter_parts": 1, "cloth": 1}
+  }
+}

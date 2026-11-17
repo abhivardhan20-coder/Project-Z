@@ -1,0 +1,47 @@
+; Engine configuration file.
+; Edit this file through the Godot Project Settings UI.
+
+config_version=5
+
+[application]
+
+config/name="Project Z - Kaldran City"
+run/main_scene="res://scenes/world/kaldran_city.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[shader_globals]
+
+pz_weather={
+"type": "vec4",
+"value": Vector4(0, 0, 0.28, 0)
+}
+pz_wind={
+"type": "vec4",
+"value": Vector4(0.8, 0.6, 0.32, 0.6)
+}
+pz_quality={
+"type": "int",
+"value": 1
+}
+
+[navigation]
+
+3d/default_edge_connection_margin=0.55
+3d/merge_rasterizer_cell_scale=0.03125
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")

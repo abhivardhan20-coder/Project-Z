@@ -1,0 +1,30 @@
+[gd_resource type="Terrain3DMaterial" format=3]
+
+[ext_resource type="Texture2D" path="res://materials/Textures/granite_albedo.png" id="1_84xpm"]
+[ext_resource type="Texture2D" path="res://materials/Textures/granite_normal_roughness.png" id="2_8th6p"]
+[ext_resource type="Texture2D" path="res://materials/Textures/grass_albedo.png" id="3_r0on5"]
+[ext_resource type="Texture2D" path="res://Data/Sector/blend.png" id="4_7emhr"]
+[ext_resource type="Texture2D" path="res://Data/terrain_aux.png" id="5_oc4x4"]
+[ext_resource type="Shader" path="res://Shaders/native_alpine.gdshader" id="6_33fhf"]
+
+[resource]
+_shader_parameters = {
+&"clay": null,
+&"elevation_datum": null,
+&"flat_terrain_normals": null,
+&"general_uniforms": null,
+&"grass_albedo": ExtResource("3_r0on5"),
+&"ground_blend": ExtResource("4_7emhr"),
+&"private": null,
+&"rock_albedo": ExtResource("1_84xpm"),
+&"rock_normal": ExtResource("2_8th6p"),
+&"season": null,
+&"sector_rect": null,
+&"silhouette": null,
+&"snow_line": null,
+&"terrain_aux": ExtResource("5_oc4x4"),
+&"wetness": null
+}
+world_background = 0
+shader_override_enabled = true
+shader_override = ExtResource("6_33fhf")

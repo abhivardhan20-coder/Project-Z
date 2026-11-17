@@ -1,0 +1,10 @@
+[
+  {"name":"Clear morning","sun":[-28,-48,0],"energy":1.35,"sun_color":"fff0d8","ambient":"adbed2","ambient_energy":0.48,"fog":"a0b3c1","density":0.000014,"cloud":0.2,"storm":0.0,"sunset":0.0,"wet":0.0},
+  {"name":"Golden hour","sun":[-9,-67,0],"energy":1.5,"sun_color":"ffcf94","ambient":"9faec7","ambient_energy":0.42,"fog":"b1a69a","density":0.000019,"cloud":0.48,"storm":0.0,"sunset":0.78,"wet":0.12},
+  {"name":"Overcast afternoon","sun":[-36,-35,0],"energy":0.65,"sun_color":"dce7ed","ambient":"b3c0cc","ambient_energy":0.6,"fog":"9daebc","density":0.000021,"cloud":0.74,"storm":0.48,"sunset":0.0,"wet":0.18},
+  {"name":"Stormy blue hour","sun":[-3,-76,0],"energy":0.24,"sun_color":"efb883","ambient":"6f88a8","ambient_energy":0.4,"fog":"627b98","density":0.000024,"cloud":0.9,"storm":0.9,"sunset":0.25,"wet":0.9},
+  {"name":"Moonlit night","sun":[-31,22,0],"energy":0.14,"sun_color":"a6bdda","ambient":"55708f","ambient_energy":0.24,"fog":"24354c","density":0.000015,"cloud":0.27,"storm":0.2,"sunset":0.0,"wet":0.0},
+  {"name":"Foggy sunrise","sun":[-7,72,0],"energy":0.85,"sun_color":"ffd4a1","ambient":"c0c2c4","ambient_energy":0.53,"fog":"b6c0c5","density":0.000038,"cloud":0.45,"storm":0.2,"sunset":0.6,"wet":0.3},
+  {"name":"Snowstorm","sun":[-25,4,0],"energy":0.27,"sun_color":"c2d4e4","ambient":"adbdcb","ambient_energy":0.64,"fog":"a9bccb","density":0.000055,"cloud":0.95,"storm":0.8,"sunset":0.0,"wet":0.1},
+  {"name":"Post-rain","sun":[-20,-60,0],"energy":0.85,"sun_color":"e8edf0","ambient":"a7bacb","ambient_energy":0.5,"fog":"98adbd","density":0.000025,"cloud":0.77,"storm":0.5,"sunset":0.0,"wet":0.75}
+]

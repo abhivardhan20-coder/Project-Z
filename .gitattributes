@@ -1,0 +1,2 @@
+project_z/assets/User/HIL01_lod0.glb filter=lfs diff=lfs merge=lfs -text
+project_z/assets/reference_dressing/metro_train.glb filter=lfs diff=lfs merge=lfs -text

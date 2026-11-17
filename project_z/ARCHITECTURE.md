@@ -1,0 +1,10 @@
+# Architecture
+
+- `scenes/world/kaldran_city.tscn` enters the game. The title, survival HUD, pause, journal, inventory, map, death screen and settings are constructed in `scripts/city/ui.gd`.
+- `layout.gd` computes the seed, terrain height, road curves, parcel placement, district lookups and landmark coordinates. `terrain.gd` creates the shared-edge terrain mesh and near-tile collision. `streaming.gd` schedules near detail and far representations, with a one-block retention margin. It samples collision on the main thread and requests asynchronous navigation bakes.
+- `architecture.gd` and `street_dressing.gd` build buildings, interiors, furniture, district props and instanced trees. `p06.gd` assembles the pilot around the existing imported Hillview shop and apartment. The original standalone neighborhood and pilot scenes remain available in source.
+- `player.gd` owns the capsule, movement, camera, stance and vitals. `infected.gd` uses local sight, hearing, state transitions, the navigation server and a collision-aware steering fallback. `city.gd` owns session flow, interactions, combat and actor activation. Agent budgets are 6, 10 and 14 on the three presets, with three fixed actors in the siege.
+- `state.gd` owns persistent item stacks, containers, doors, defeated actors and flags. It serializes a versioned Variant, writes a temporary file, preserves the last valid primary as a backup and then renames the temporary file into place. `mission.gd` evaluates objective conditions against this data.
+- `resources/survival.json` contains item weights, descriptions and crafting ingredients. The atmosphere and original procedural audio live in separate scripts.
+
+Regenerate the city by launching the main scene. To change generation or add a district, edit the constants and rules in `layout.gd`, update the matching ground shader if road curves change, then run the integration test. The legacy Python pilot generator is included for reference and requires its original terrain archives.

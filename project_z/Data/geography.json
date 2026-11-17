@@ -1,0 +1,733 @@
+{
+  "schema": 1,
+  "seed": 1790805,
+  "units": "metres",
+  "coordinates": "+X east, +Y elevation above sea level, -Z north; capital datum 320 m",
+  "atlas_registration": {
+    "capital_pixel": [
+      768,
+      474
+    ],
+    "metres_per_pixel_x": 104.444444,
+    "metres_per_pixel_z": 132.02934,
+    "status": "approximate hand registration; decorative atlas is not a survey"
+  },
+  "lore": {
+    "land_area_km2": 8960,
+    "north_south_km": 108,
+    "east_west_km": 94,
+    "release_area_km2": 64
+  },
+  "regions": [
+    {
+      "id": "Frostfall_Range",
+      "center": [
+        11000,
+        -44000
+      ],
+      "extent": [
+        30000,
+        17000
+      ],
+      "peak_m": 3742,
+      "identity": "glaciated alpine horns, north-draining cirques",
+      "state": "master plan"
+    },
+    {
+      "id": "Kaldran_Mountain_Spine",
+      "center": [
+        0,
+        -25000
+      ],
+      "extent": [
+        33000,
+        30000
+      ],
+      "peak_m": 3415,
+      "identity": "branching alpine massifs, south-facing capital skyline",
+      "state": "prototype"
+    },
+    {
+      "id": "Highvale_Plateau",
+      "center": [
+        21500,
+        -35000
+      ],
+      "extent": [
+        15000,
+        15000
+      ],
+      "peak_m": 1850,
+      "identity": "upland grassland and eroded escarpments",
+      "state": "master plan"
+    },
+    {
+      "id": "Southern_Highlands",
+      "center": [
+        -1000,
+        15000
+      ],
+      "extent": [
+        28000,
+        16000
+      ],
+      "peak_m": 1670,
+      "identity": "weathered broad ridges",
+      "state": "master plan"
+    },
+    {
+      "id": "Mount_Veylor",
+      "center": [
+        2600,
+        31700
+      ],
+      "extent": [
+        21000,
+        17000
+      ],
+      "peak_m": 2816,
+      "identity": "basalt stratovolcano with breached crater",
+      "state": "master plan"
+    }
+  ],
+  "summits": [
+    [
+      "Westwatch",
+      -17600,
+      -23800,
+      2520
+    ],
+    [
+      "Mercy Horn",
+      -13600,
+      -20600,
+      2820
+    ],
+    [
+      "Twin West",
+      -10400,
+      -22200,
+      3090
+    ],
+    [
+      "Grey Sentinel",
+      -7600,
+      -18000,
+      3130
+    ],
+    [
+      "North Bastion",
+      -3900,
+      -25300,
+      3296
+    ],
+    [
+      "Crown Shoulder",
+      -2900,
+      -19400,
+      2940
+    ],
+    [
+      "Kaldran Crown",
+      2400,
+      -20800,
+      3415
+    ],
+    [
+      "Split Tooth",
+      5500,
+      -18000,
+      3030
+    ],
+    [
+      "Ice Gate",
+      9100,
+      -23900,
+      3300
+    ],
+    [
+      "East Rampart",
+      12800,
+      -21500,
+      2870
+    ],
+    [
+      "Highvale Wall",
+      16900,
+      -26400,
+      2770
+    ],
+    [
+      "Spine North",
+      3000,
+      -33000,
+      3330
+    ],
+    [
+      "Spine Middle",
+      -300,
+      -28700,
+      3170
+    ],
+    [
+      "Frostfall Peak",
+      13790,
+      -44230,
+      3742
+    ]
+  ],
+  "ridge_chains": [
+    {
+      "name": "capital crown",
+      "width": 7200,
+      "points": [
+        [
+          -17600,
+          -23800,
+          2520
+        ],
+        [
+          -15400,
+          -22000,
+          1960
+        ],
+        [
+          -13600,
+          -20600,
+          2820
+        ],
+        [
+          -11900,
+          -21300,
+          2390
+        ],
+        [
+          -10400,
+          -22200,
+          3090
+        ],
+        [
+          -8800,
+          -20000,
+          2520
+        ],
+        [
+          -7600,
+          -18000,
+          3130
+        ],
+        [
+          -5400,
+          -20300,
+          2260
+        ],
+        [
+          -2900,
+          -19400,
+          2940
+        ],
+        [
+          -700,
+          -21800,
+          2580
+        ],
+        [
+          2400,
+          -20800,
+          3415
+        ],
+        [
+          3900,
+          -19200,
+          2640
+        ],
+        [
+          5500,
+          -18000,
+          3030
+        ],
+        [
+          7300,
+          -21000,
+          2290
+        ],
+        [
+          9100,
+          -23900,
+          3300
+        ],
+        [
+          11000,
+          -22700,
+          2450
+        ],
+        [
+          12800,
+          -21500,
+          2870
+        ],
+        [
+          14400,
+          -24400,
+          2060
+        ],
+        [
+          16900,
+          -26400,
+          2770
+        ]
+      ]
+    },
+    {
+      "name": "central watershed",
+      "width": 8500,
+      "points": [
+        [
+          -2900,
+          -19400,
+          2940
+        ],
+        [
+          -3900,
+          -25300,
+          3296
+        ],
+        [
+          -300,
+          -28700,
+          3170
+        ],
+        [
+          3000,
+          -33000,
+          3330
+        ],
+        [
+          6900,
+          -37600,
+          3140
+        ],
+        [
+          13790,
+          -44230,
+          3742
+        ]
+      ]
+    },
+    {
+      "name": "west glacial spur",
+      "width": 4400,
+      "points": [
+        [
+          -7600,
+          -18000,
+          3130
+        ],
+        [
+          -6900,
+          -15800,
+          2590
+        ],
+        [
+          -9000,
+          -13800,
+          1820
+        ],
+        [
+          -11900,
+          -11500,
+          980
+        ],
+        [
+          -13600,
+          -8200,
+          540
+        ]
+      ]
+    },
+    {
+      "name": "crown arete",
+      "width": 4000,
+      "points": [
+        [
+          2400,
+          -20800,
+          3415
+        ],
+        [
+          500,
+          -18400,
+          2920
+        ],
+        [
+          900,
+          -16200,
+          2300
+        ],
+        [
+          -700,
+          -14700,
+          1860
+        ],
+        [
+          -1300,
+          -11900,
+          1190
+        ],
+        [
+          -2400,
+          -8400,
+          670
+        ],
+        [
+          -1900,
+          -5200,
+          390
+        ]
+      ]
+    },
+    {
+      "name": "east glacial spur",
+      "width": 4600,
+      "points": [
+        [
+          5500,
+          -18000,
+          3030
+        ],
+        [
+          6800,
+          -15500,
+          2330
+        ],
+        [
+          5900,
+          -12600,
+          1420
+        ],
+        [
+          7900,
+          -10100,
+          810
+        ],
+        [
+          9500,
+          -7200,
+          480
+        ]
+      ]
+    },
+    {
+      "name": "mercy buttress",
+      "width": 4700,
+      "points": [
+        [
+          -13600,
+          -20600,
+          2820
+        ],
+        [
+          -15000,
+          -17600,
+          2290
+        ],
+        [
+          -13500,
+          -15000,
+          1630
+        ],
+        [
+          -15200,
+          -12200,
+          890
+        ]
+      ]
+    },
+    {
+      "name": "eastern watershed",
+      "width": 5300,
+      "points": [
+        [
+          9100,
+          -23900,
+          3300
+        ],
+        [
+          11100,
+          -19000,
+          2220
+        ],
+        [
+          14600,
+          -16100,
+          1480
+        ],
+        [
+          16500,
+          -12000,
+          790
+        ]
+      ]
+    }
+  ],
+  "valleys": [
+    {
+      "name": "Crown glacial trough",
+      "width": 1200,
+      "depth": 420,
+      "kind": "U",
+      "points": [
+        [
+          -3600,
+          -22500
+        ],
+        [
+          -3600,
+          -18700
+        ],
+        [
+          -4400,
+          -15200
+        ],
+        [
+          -4400,
+          -12000
+        ],
+        [
+          -5300,
+          -8500
+        ],
+        [
+          -5200,
+          -4500
+        ],
+        [
+          -7200,
+          2000
+        ]
+      ]
+    },
+    {
+      "name": "Eastreach headwater",
+      "width": 1000,
+      "depth": 360,
+      "kind": "U",
+      "points": [
+        [
+          8900,
+          -26800
+        ],
+        [
+          8000,
+          -22800
+        ],
+        [
+          7900,
+          -18900
+        ],
+        [
+          10500,
+          -15900
+        ],
+        [
+          12800,
+          -13000
+        ],
+        [
+          17000,
+          -11000
+        ],
+        [
+          23000,
+          -14000
+        ]
+      ]
+    },
+    {
+      "name": "Mercy meltwater",
+      "width": 780,
+      "depth": 330,
+      "kind": "V",
+      "points": [
+        [
+          -11100,
+          -24100
+        ],
+        [
+          -10700,
+          -20700
+        ],
+        [
+          -10900,
+          -17500
+        ],
+        [
+          -11500,
+          -14300
+        ],
+        [
+          -10300,
+          -10300
+        ],
+        [
+          -13400,
+          -7300
+        ],
+        [
+          -15900,
+          -7600
+        ]
+      ]
+    }
+  ],
+  "lakes": [
+    [
+      "Lake Mercy",
+      -14600,
+      -9000
+    ],
+    [
+      "Lake Lostre",
+      -4800,
+      -9000
+    ],
+    [
+      "Clearwater Lake",
+      16500,
+      -6700
+    ],
+    [
+      "Lake Harrow",
+      -14600,
+      -25000
+    ]
+  ],
+  "rivers": [
+    [
+      "Northwind",
+      0,
+      -38000,
+      -12000,
+      -51000
+    ],
+    [
+      "Westflow",
+      -14000,
+      -17000,
+      -35000,
+      -18000
+    ],
+    [
+      "Eastreach",
+      15000,
+      -17000,
+      41000,
+      -16000
+    ],
+    [
+      "Southguard",
+      18000,
+      8000,
+      28000,
+      26000
+    ]
+  ],
+  "capital_domain": {
+    "west": -24576,
+    "north": -40960,
+    "size": 49152,
+    "spacing": 32,
+    "tile_size": 4096
+  },
+  "sector": {
+    "name": "Crown Approach",
+    "west": -2048,
+    "north": -12288,
+    "size": 1024,
+    "spacing": 2,
+    "halo": 1024,
+    "trail_elevation": 1040
+  },
+  "cameras": [
+    {
+      "id": "Airport",
+      "position": [
+        4100,
+        420,
+        900
+      ],
+      "target": [
+        100,
+        2200,
+        -22500
+      ],
+      "fov": 49,
+      "weather": 3,
+      "ref": "Apocalyptic Airport Evacuation Highway.png"
+    },
+    {
+      "id": "Hillside",
+      "position": [
+        -3100,
+        515,
+        2100
+      ],
+      "target": [
+        -1000,
+        2050,
+        -20500
+      ],
+      "fov": 44,
+      "weather": 1,
+      "ref": "Golden Hour on the Abandoned Hillside.png"
+    },
+    {
+      "id": "Railway",
+      "position": [
+        1700,
+        348,
+        900
+      ],
+      "target": [
+        -1900,
+        2200,
+        -22400
+      ],
+      "fov": 48,
+      "weather": 1,
+      "ref": "Evacuated Station Beneath Snowy Peaks.png"
+    },
+    {
+      "id": "Capitol",
+      "position": [
+        0,
+        324,
+        1600
+      ],
+      "target": [
+        100,
+        2250,
+        -21500
+      ],
+      "fov": 44,
+      "weather": 7,
+      "ref": "Rain-Soaked Capitol Lockdown.png"
+    },
+    {
+      "id": "Panorama",
+      "position": [
+        -3400,
+        1180,
+        6600
+      ],
+      "target": [
+        500,
+        1900,
+        -21600
+      ],
+      "fov": 51,
+      "weather": 2,
+      "ref": "Abandoned Capital Beneath Snowy Peaks.png"
+    }
+  ]
+}
